@@ -1,0 +1,106 @@
+[
+  {
+    "id": "seed-hoodie-1",
+    "retailerId": "local-seed",
+    "sourceId": "local-json",
+    "name": "Heavyweight Fleece Hoodie",
+    "brand": "Common Threads",
+    "description": "A soft brushed fleece hoodie with a relaxed fit.",
+    "productUrl": "https://example.com/hoodie",
+    "imageUrl": "https://example.com/images/hoodie.jpg",
+    "price": 78,
+    "currency": "USD",
+    "gender": "mens",
+    "categoryPath": "Men > Hoodies & Sweatshirts",
+    "colors": ["Black", "Oatmeal"],
+    "sizes": ["S", "M", "L", "XL"],
+    "tags": ["seed", "fleece", "layering"],
+    "inStock": true,
+    "variants": [
+      {
+        "id": "seed-hoodie-1-black-m",
+        "sku": "CT-HOOD-BLK-M",
+        "size": "M",
+        "color": "Black",
+        "price": 78,
+        "currency": "USD",
+        "inStock": true
+      },
+      {
+        "id": "seed-hoodie-1-oat-l",
+        "sku": "CT-HOOD-OAT-L",
+        "size": "L",
+        "color": "Oatmeal",
+        "price": 78,
+        "currency": "USD",
+        "inStock": true
+      }
+    ]
+  },
+  {
+    "id": "seed-denim-1",
+    "retailerId": "local-seed",
+    "sourceId": "local-json",
+    "name": "Tapered Selvedge Denim",
+    "brand": "Foundry",
+    "description": "Midweight Japanese selvedge denim with a modern taper.",
+    "productUrl": "https://example.com/denim",
+    "imageUrl": "https://example.com/images/denim.jpg",
+    "price": 128,
+    "originalPrice": 148,
+    "currency": "USD",
+    "gender": "mens",
+    "categoryPath": "Men > Jeans",
+    "colors": ["Indigo"],
+    "sizes": ["29", "30", "31", "32", "33", "34"],
+    "tags": ["selvedge", "raw", "seed"],
+    "inStock": true
+  },
+  {
+    "id": "seed-dress-1",
+    "retailerId": "local-seed",
+    "sourceId": "local-json",
+    "name": "Silk Midi Slip Dress",
+    "brand": "Studio East",
+    "description": "Bias-cut silk slip dress with adjustable straps.",
+    "productUrl": "https://example.com/slip-dress",
+    "imageUrl": "https://example.com/images/slip-dress.jpg",
+    "price": 220,
+    "currency": "USD",
+    "gender": "womens",
+    "categoryPath": "Women > Dresses",
+    "colors": ["Emerald", "Champagne"],
+    "sizes": ["2", "4", "6", "8", "10"],
+    "tags": ["occasion", "silk", "seed"],
+    "inStock": false
+  },
+  {
+    "id": "seed-sneaker-1",
+    "retailerId": "local-seed",
+    "sourceId": "local-json",
+    "name": "Everyday Court Sneaker",
+    "brand": "Atlas",
+    "description": "Low-profile leather court sneaker with gum sole.",
+    "productUrl": "https://example.com/sneaker",
+    "imageUrl": "https://example.com/images/sneaker.jpg",
+    "price": 98,
+    "currency": "USD",
+    "gender": "unisex",
+    "categoryPath": "Shoes > Sneakers",
+    "colors": ["White", "Gum"],
+    "sizes": ["8", "9", "10", "11"],
+    "tags": ["leather", "minimal", "seed"],
+    "inStock": true,
+    "variants": [
+      {
+        "id": "seed-sneaker-1-wht-9",
+        "sku": "AT-SNK-WHT-9",
+        "size": "9",
+        "color": "White",
+        "price": 98,
+        "currency": "USD",
+        "inStock": true
+      }
+    ]
+  }
+]

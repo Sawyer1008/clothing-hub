@@ -1,0 +1,4 @@
+sourceProductId,title,productUrl,imageUrl,price,currency,brand,description,categoryPath,additionalImageUrls,availability
+csv-hoodie-1,Heavyweight Fleece Hoodie,https://example.com/hoodie,https://example.com/images/hoodie-main.jpg,78,USD,Common Threads,"A soft brushed fleece hoodie with a relaxed fit.","Men > Hoodies & Sweatshirts","https://example.com/images/hoodie-alt1.jpg|https://example.com/images/hoodie-alt2.jpg",true
+csv-denim-1,Tapered Selvedge Denim,https://example.com/denim,https://example.com/images/denim-main.jpg,128,USD,Foundry,"Midweight Japanese selvedge denim with a modern taper.","Men > Jeans","https://example.com/images/denim-alt1.jpg",true
+csv-dress-1,Silk Midi Slip Dress,https://example.com/slip-dress,https://example.com/images/slip-dress-main.jpg,"220 USD",,Studio East,"Bias-cut silk slip dress with adjustable straps.","Women > Dresses","https://example.com/images/slip-dress-alt1.jpg",false

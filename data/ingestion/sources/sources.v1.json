@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "type": "local_json",
+      "retailerId": "local-seed",
+      "sourceId": "local-json",
+      "filePath": "data/ingestion/sources/local-seed.json",
+      "enabled": true
+    }
+  ]
+}

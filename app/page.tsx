@@ -1,65 +1,531 @@
-import Image from "next/image";
+import Link from "next/link";
+import type { Product } from "@/types/product";
+import { getAllProducts } from "@/lib/catalog/catalog.server";
+import { formatPrice } from "@/utils/formatPrice";
 
-export default function Home() {
+type CatalogPreviewState = "loading" | "ready" | "empty" | "error";
+
+function getSampleProducts(): Product[] {
+  const all = getAllProducts();
+  return all.slice(0, 4);
+}
+
+function getCatalogPreview(): { state: CatalogPreviewState; products: Product[] } {
+  const simulateLoading =
+    process.env.CH_PREVIEW_LOADING === "1" ||
+    process.env.CH_PREVIEW_LOADING === "true";
+
+  if (simulateLoading) {
+    return { state: "loading", products: [] };
+  }
+
+  let state: CatalogPreviewState = "loading";
+  let products: Product[] = [];
+
+  try {
+    products = getSampleProducts();
+    state = products.length > 0 ? "ready" : "empty";
+  } catch (error) {
+    state = "error";
+  }
+
+  return { state, products };
+}
+
+export default function HomePage() {
+  const { state: previewState, products: sampleProducts } = getCatalogPreview();
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <main className="min-h-screen bg-slate-950 text-slate-100 fade-in-up">
+      {/* Top hero section */}
+      <section className="border-b border-slate-800 bg-gradient-to-b from-slate-950 to-slate-900">
+        <div className="mx-auto flex max-w-6xl flex-col gap-10 px-4 py-16 md:flex-row md:items-center">
+          {/* Left: text */}
+          <div className="flex-1 space-y-6">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
+              Clothing Hub · AI shopping OS
+            </p>
+            <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl md:text-5xl">
+              Discover outfits here, checkout on retailer sites.
+            </h1>
+            <p className="max-w-xl text-base text-slate-300">
+              Clothing Hub organizes products across brands, layers on AI styling, and keeps your cart
+              and saved lists clean. When you&apos;re ready to buy, we route you to each store to finish
+              checkout there.
+            </p>
+
+            {/* Primary CTAs */}
+            <div className="flex flex-wrap gap-3">
+              <Link
+                href="/catalog"
+                className="inline-flex items-center justify-center rounded-full bg-slate-100 px-5 py-2 text-sm font-medium text-slate-950 transition hover:bg-slate-200"
+              >
+                Browse catalog
+              </Link>
+              <Link
+                href="/assistant"
+                className="inline-flex items-center justify-center rounded-full border border-slate-600 px-5 py-2 text-sm font-medium text-slate-100 transition hover:border-slate-300 hover:bg-slate-900"
+              >
+                Ask the AI stylist
+              </Link>
+            </div>
+
+            <div className="grid gap-3 text-xs sm:grid-cols-3">
+              <div className="rounded-xl border border-slate-800 bg-slate-950/70 p-3 shadow-sm">
+                <p className="text-sm font-semibold text-slate-50">Discover across brands</p>
+                <p className="mt-1 text-slate-400">
+                  Unified catalog entries keep brand details, sizes, and prices together.
+                </p>
+              </div>
+              <div className="rounded-xl border border-slate-800 bg-slate-950/70 p-3 shadow-sm">
+                <p className="text-sm font-semibold text-slate-50">Stylist built-in</p>
+                <p className="mt-1 text-slate-400">
+                  Outfit ideas mapped to real product IDs and budgets you set.
+                </p>
+              </div>
+              <div className="rounded-xl border border-slate-800 bg-slate-950/70 p-3 shadow-sm">
+                <p className="text-sm font-semibold text-slate-50">Checkout honesty</p>
+                <p className="mt-1 text-slate-400">
+                  We send you to each retailer to pay. Returns and shipping are handled by the store.
+                </p>
+              </div>
+            </div>
+
+            {/* Quick category nav row */}
+            <div className="mt-4 flex flex-wrap gap-2 text-xs">
+              <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-slate-500">
+                Quick start
+              </span>
+              <Link
+                href="/catalog?gender=mens"
+                className="rounded-full bg-slate-900 px-3 py-1 text-xs text-slate-100 hover:bg-slate-800"
+              >
+                Shop men
+              </Link>
+              <Link
+                href="/catalog?gender=womens"
+                className="rounded-full bg-slate-900 px-3 py-1 text-xs text-slate-100 hover:bg-slate-800"
+              >
+                Shop women
+              </Link>
+              <Link
+                href="/catalog?sort=new"
+                className="rounded-full bg-slate-900 px-3 py-1 text-xs text-slate-100 hover:bg-slate-800"
+              >
+                New arrivals
+              </Link>
+              <Link
+                href="/catalog?style=streetwear"
+                className="rounded-full bg-slate-900 px-3 py-1 text-xs text-slate-100 hover:bg-slate-800"
+              >
+                Streetwear picks
+              </Link>
+              <Link
+                href="/catalog?budget=under-75"
+                className="rounded-full bg-slate-900 px-3 py-1 text-xs text-slate-100 hover:bg-slate-800"
+              >
+                Under $75
+              </Link>
+            </div>
+          </div>
+
+          {/* Right: simple “category navigation” tiles */}
+          <div className="flex-1">
+            <div className="grid gap-3 sm:grid-cols-2">
+              {/* Men tile */}
+              <Link
+                href="/catalog?gender=mens"
+                className="group flex flex-col justify-between rounded-2xl border border-slate-800 bg-slate-950/80 p-4 transition hover:border-slate-500 hover:bg-slate-900"
+              >
+                <div>
+                  <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-400">
+                    Shop men
+                  </p>
+                  <h2 className="mt-1 text-sm font-semibold">
+                    Hoodies, cargos, sneakers
+                  </h2>
+                  <p className="mt-1 text-xs text-slate-400">
+                    Streetwear basics and everyday fits from multiple brands.
+                  </p>
+                </div>
+                <span className="mt-3 inline-flex w-max items-center gap-1 text-[11px] text-slate-300">
+                  Browse men&apos;s catalog
+                  <span className="translate-x-0 transition group-hover:translate-x-0.5">
+                    →
+                  </span>
+                </span>
+              </Link>
+
+              {/* Women tile */}
+              <Link
+                href="/catalog?gender=womens"
+                className="group flex flex-col justify-between rounded-2xl border border-slate-800 bg-slate-950/80 p-4 transition hover:border-slate-500 hover:bg-slate-900"
+              >
+                <div>
+                  <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-400">
+                    Shop women
+                  </p>
+                  <h2 className="mt-1 text-sm font-semibold">
+                    Basics, layers, going-out tops
+                  </h2>
+                  <p className="mt-1 text-xs text-slate-400">
+                    Build everyday outfits or night-out looks across brands.
+                  </p>
+                </div>
+                <span className="mt-3 inline-flex w-max items-center gap-1 text-[11px] text-slate-300">
+                  Browse women&apos;s catalog
+                  <span className="translate-x-0 transition group-hover:translate-x-0.5">
+                    →
+                  </span>
+                </span>
+              </Link>
+
+              {/* New arrivals tile */}
+              <Link
+                href="/catalog?sort=new"
+                className="group flex flex-col justify-between rounded-2xl border border-slate-800 bg-slate-950/80 p-4 transition hover:border-slate-500 hover:bg-slate-900 sm:col-span-2"
+              >
+                <div>
+                  <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-400">
+                    New &amp; trending
+                  </p>
+                  <h2 className="mt-1 text-sm font-semibold">
+                    Fresh drops across every brand
+                  </h2>
+                  <p className="mt-1 text-xs text-slate-400">
+                    Later the agent will auto-surface trending items and new
+                    arrivals based on real data. For now, this is a stable entry
+                    point for that behavior.
+                  </p>
+                </div>
+                <span className="mt-3 inline-flex w-max items-center gap-1 text-[11px] text-slate-300">
+                  See new arrivals
+                  <span className="translate-x-0 transition group-hover:translate-x-0.5">
+                    →
+                  </span>
+                </span>
+              </Link>
+            </div>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+      </section>
+
+      {/* Core flows grid */}
+      <section className="mx-auto max-w-6xl px-4 py-10">
+        <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-slate-500">
+              Core flows
+            </p>
+            <h2 className="text-xl font-semibold tracking-tight">
+              Jump straight into the workflows shoppers use most.
+            </h2>
+          </div>
+          <Link
+            href="/catalog"
+            className="text-xs text-slate-300 underline-offset-2 hover:underline"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+            Open catalog
+          </Link>
         </div>
-      </main>
-    </div>
+
+        <div className="mt-4 grid gap-3 sm:grid-cols-2">
+          <Link
+            href="/catalog"
+            className="group rounded-2xl border border-slate-800 bg-slate-950/80 p-4 transition hover:border-slate-600 hover:bg-slate-900"
+          >
+            <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-slate-400">
+              Discover
+            </p>
+            <h3 className="mt-1 text-base font-semibold">Browse the catalog</h3>
+            <p className="mt-1 text-xs text-slate-400">
+              Search and filter across brands with real sizes, prices, and tags.
+            </p>
+            <span className="mt-3 inline-flex items-center gap-1 text-[11px] text-slate-300">
+              Go to catalog
+              <span className="translate-x-0 transition group-hover:translate-x-0.5">
+                →
+              </span>
+            </span>
+          </Link>
+
+          <Link
+            href="/assistant"
+            className="group rounded-2xl border border-slate-800 bg-slate-950/80 p-4 transition hover:border-slate-600 hover:bg-slate-900"
+          >
+            <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-slate-400">
+              Get outfit ideas
+            </p>
+            <h3 className="mt-1 text-base font-semibold">Ask the assistant</h3>
+            <p className="mt-1 text-xs text-slate-400">
+              Describe the vibe, budget, or occasion and get linked product ideas.
+            </p>
+            <span className="mt-3 inline-flex items-center gap-1 text-[11px] text-slate-300">
+              Open assistant
+              <span className="translate-x-0 transition group-hover:translate-x-0.5">
+                →
+              </span>
+            </span>
+          </Link>
+
+          <Link
+            href="/saved"
+            className="group rounded-2xl border border-slate-800 bg-slate-950/80 p-4 transition hover:border-slate-600 hover:bg-slate-900"
+          >
+            <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-slate-400">
+              Save shortlist
+            </p>
+            <h3 className="mt-1 text-base font-semibold">Save items to compare</h3>
+            <p className="mt-1 text-xs text-slate-400">
+              Keep picks in one place before deciding what to add to cart.
+            </p>
+            <span className="mt-3 inline-flex items-center gap-1 text-[11px] text-slate-300">
+              View saved items
+              <span className="translate-x-0 transition group-hover:translate-x-0.5">
+                →
+              </span>
+            </span>
+          </Link>
+
+          <Link
+            href="/cart"
+            className="group rounded-2xl border border-slate-800 bg-slate-950/80 p-4 transition hover:border-slate-600 hover:bg-slate-900"
+          >
+            <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-slate-400">
+              Review cart
+            </p>
+            <h3 className="mt-1 text-base font-semibold">Prep for checkout</h3>
+            <p className="mt-1 text-xs text-slate-400">
+              See what&apos;s ready to send to retailers and what still needs a size.
+            </p>
+            <span className="mt-3 inline-flex items-center gap-1 text-[11px] text-slate-300">
+              Go to cart
+              <span className="translate-x-0 transition group-hover:translate-x-0.5">
+                →
+              </span>
+            </span>
+          </Link>
+        </div>
+      </section>
+
+      {/* Trust + how it works */}
+      <section className="border-y border-slate-800 bg-slate-950/70">
+        <div className="mx-auto flex max-w-6xl flex-col gap-6 px-4 py-8 md:flex-row md:items-start md:justify-between">
+          <div className="flex-1 space-y-2">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-slate-500">
+              How it works
+            </p>
+            <h3 className="text-xl font-semibold tracking-tight">
+              Honest checkout: discover here, buy on each store.
+            </h3>
+            <p className="text-sm text-slate-300">
+              Clothing Hub organizes products across brands, keeps your shortlist and cart in sync, and
+              hands you off to retailers to pay. We don&apos;t process or verify payments; returns and
+              shipping stay with the store.
+            </p>
+            <ul className="mt-3 space-y-2 text-sm text-slate-200">
+              <li className="flex gap-2">
+                <span className="mt-1 h-1.5 w-1.5 rounded-full bg-slate-200" />
+                <span>Browse organized product data and sizing from multiple brands.</span>
+              </li>
+              <li className="flex gap-2">
+                <span className="mt-1 h-1.5 w-1.5 rounded-full bg-slate-200" />
+                <span>When you&apos;re ready, we send you to each retailer to finish checkout.</span>
+              </li>
+              <li className="flex gap-2">
+                <span className="mt-1 h-1.5 w-1.5 rounded-full bg-slate-200" />
+                <span>Payments, returns, and shipping are handled directly by the store.</span>
+              </li>
+            </ul>
+          </div>
+          <div className="flex-1 rounded-2xl border border-slate-800 bg-slate-950/80 p-5 shadow-sm">
+            <p className="text-sm font-semibold text-slate-50">Keep momentum</p>
+            <p className="mt-1 text-xs text-slate-400">
+              Skip dead ends with quick links into every flow you might need next.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-2">
+              <Link
+                href="/checkout"
+                className="rounded-full bg-slate-100 px-4 py-2 text-xs font-semibold text-slate-950 transition hover:bg-slate-200"
+              >
+                Continue to checkout
+              </Link>
+              <Link
+                href="/cart"
+                className="rounded-full border border-slate-700 px-4 py-2 text-xs font-semibold text-slate-100 transition hover:border-slate-400 hover:bg-slate-900"
+              >
+                View cart
+              </Link>
+              <Link
+                href="/catalog"
+                className="rounded-full border border-slate-700 px-4 py-2 text-xs font-semibold text-slate-100 transition hover:border-slate-400 hover:bg-slate-900"
+              >
+                Back to catalog
+              </Link>
+              <Link
+                href="/saved"
+                className="rounded-full border border-slate-700 px-4 py-2 text-xs font-semibold text-slate-100 transition hover:border-slate-400 hover:bg-slate-900"
+              >
+                Saved items
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Simple “sample from catalog” strip with states */}
+      <section className="mx-auto max-w-6xl px-4 py-10">
+        <div className="flex items-center justify-between gap-2">
+          <div>
+            <h2 className="text-sm font-semibold tracking-tight">
+              From the catalog
+            </h2>
+            <p className="text-xs text-slate-400">
+              A tiny preview of real products. Agents will later decide what
+              belongs here (trending, personalized, deals, etc.).
+            </p>
+          </div>
+          <Link
+            href="/catalog"
+            className="text-xs text-slate-300 underline-offset-2 hover:underline"
+          >
+            Open full catalog
+          </Link>
+        </div>
+
+        {previewState === "loading" && (
+          <div className="mt-4 grid gap-3 sm:grid-cols-2 md:grid-cols-4">
+            {Array.from({ length: 4 }).map((_, index) => (
+              <div
+                key={index}
+                className="flex flex-col rounded-2xl border border-slate-800 bg-slate-950/80 p-3 text-xs"
+              >
+                <div className="mb-2 h-32 w-full animate-pulse rounded-xl bg-slate-900" />
+                <div className="h-3 w-20 animate-pulse rounded-full bg-slate-800" />
+                <div className="mt-2 h-3 w-full animate-pulse rounded-full bg-slate-900" />
+                <div className="mt-2 h-3 w-16 animate-pulse rounded-full bg-slate-800" />
+              </div>
+            ))}
+          </div>
+        )}
+
+        {previewState === "error" && (
+          <div className="mt-4 rounded-2xl border border-amber-500/40 bg-amber-500/10 p-4">
+            <p className="text-sm font-semibold text-amber-100">
+              Couldn&apos;t load catalog preview
+            </p>
+            <p className="mt-1 text-xs text-amber-100/80">
+              Keep shopping while it reloads. You can also head straight into the catalog.
+            </p>
+            <div className="mt-3 flex flex-wrap gap-2">
+              <Link
+                href="/catalog"
+                className="rounded-full bg-amber-100 px-4 py-2 text-xs font-semibold text-amber-900 transition hover:bg-amber-200"
+              >
+                Open catalog
+              </Link>
+              <Link
+                href="/assistant"
+                className="rounded-full border border-amber-200/60 px-4 py-2 text-xs font-semibold text-amber-50 transition hover:border-amber-200 hover:bg-amber-500/10"
+              >
+                Get outfit ideas
+              </Link>
+            </div>
+          </div>
+        )}
+
+        {previewState === "empty" && (
+          <div className="mt-4 rounded-2xl border border-slate-800 bg-slate-950/80 p-4">
+            <p className="text-sm font-semibold">No products available yet</p>
+            <p className="mt-1 text-xs text-slate-400">
+              We&apos;re refreshing the catalog preview. Jump into the catalog or ask the assistant for ideas.
+            </p>
+            <div className="mt-3 flex flex-wrap gap-2">
+              <Link
+                href="/catalog"
+                className="rounded-full bg-slate-100 px-4 py-2 text-xs font-semibold text-slate-900 transition hover:bg-slate-200"
+              >
+                Go to catalog
+              </Link>
+              <Link
+                href="/assistant"
+                className="rounded-full border border-slate-700 px-4 py-2 text-xs font-semibold text-slate-100 transition hover:border-slate-400 hover:bg-slate-900"
+              >
+                Ask the AI stylist
+              </Link>
+            </div>
+          </div>
+        )}
+
+        {previewState === "ready" && (
+          <div className="mt-4 grid gap-3 sm:grid-cols-2 md:grid-cols-4">
+            {sampleProducts.map((product) => {
+              const displayPrice =
+                product?.price?.amount !== undefined
+                  ? formatPrice(product.price.amount)
+                  : "Price unavailable";
+
+              return (
+                <Link
+                  key={product.id}
+                  href={`/product/${product.id}`}
+                  className="group flex flex-col rounded-2xl border border-slate-800 bg-slate-950/80 p-3 text-xs transition hover:border-slate-500 hover:bg-slate-900"
+                >
+                  <div className="mb-2 h-32 w-full rounded-xl bg-slate-900" />
+                  <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-slate-400">
+                    {product.brand || "Brand"}
+                  </p>
+                  <p className="mt-1 line-clamp-2 text-xs text-slate-100">
+                    {product.name || "Untitled product"}
+                  </p>
+                  <p className="mt-2 text-xs font-medium text-slate-50">{displayPrice}</p>
+                </Link>
+              );
+            })}
+          </div>
+        )}
+      </section>
+
+      {/* Next steps row */}
+      <section className="border-t border-slate-800 bg-slate-950/80">
+        <div className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-6 md:flex-row md:items-center md:justify-between">
+          <div>
+            <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-slate-500">
+              Next steps
+            </p>
+            <h3 className="text-lg font-semibold tracking-tight">Jump back in</h3>
+            <p className="text-xs text-slate-400">
+              Keep exploring, compare saved picks, or review your cart before heading to checkout.
+            </p>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            <Link
+              href="/catalog"
+              className="rounded-full bg-slate-100 px-4 py-2 text-xs font-semibold text-slate-900 transition hover:bg-slate-200"
+            >
+              Catalog
+            </Link>
+            <Link
+              href="/saved"
+              className="rounded-full border border-slate-700 px-4 py-2 text-xs font-semibold text-slate-100 transition hover:border-slate-400 hover:bg-slate-900"
+            >
+              Saved
+            </Link>
+            <Link
+              href="/cart"
+              className="rounded-full border border-slate-700 px-4 py-2 text-xs font-semibold text-slate-100 transition hover:border-slate-400 hover:bg-slate-900"
+            >
+              Cart
+            </Link>
+            <Link
+              href="/checkout"
+              className="rounded-full border border-slate-700 px-4 py-2 text-xs font-semibold text-slate-100 transition hover:border-slate-400 hover:bg-slate-900"
+            >
+              Checkout
+            </Link>
+          </div>
+        </div>
+      </section>
+    </main>
   );
 }

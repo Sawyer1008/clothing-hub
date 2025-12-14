@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "ingest": "node scripts/run-ingest.js",
+    "catalog:refresh-raw": "node scripts/catalog/refresh-raw-from-json.js",
+    "catalog:validate-ids": "node scripts/catalog/validate-raw-id-stability.js"
   },
   "dependencies": {
     "next": "16.0.7",

@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "type": "local_csv",
+      "retailerId": "local-seed",
+      "sourceId": "local-csv",
+      "filePath": "data/ingestion/sources/local-seed.csv",
+      "delimiter": ",",
+      "hasHeader": true,
+      "enabled": true,
+      "columnMap": {
+        "sourceProductId": "sourceProductId",
+        "title": "title",
+        "productUrl": "productUrl",
+        "imageUrl": "imageUrl",
+        "price": "price",
+        "currency": "currency",
+        "brand": "brand",
+        "description": "description",
+        "categoryPath": "categoryPath",
+        "additionalImageUrls": "additionalImageUrls",
+        "availability": "availability"
+      }
+    }
+  ]
+}

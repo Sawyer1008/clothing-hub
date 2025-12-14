@@ -1,0 +1,195 @@
+{
+  "version": 1,
+  "generatedAt": "2025-12-13T18:46:26.292Z",
+  "sources": [
+    {
+      "sourceId": "local-json",
+      "retailerId": "local-seed"
+    }
+  ],
+  "products": [
+    {
+      "id": "p_local-seed_seed-denim-1_10bd7c79",
+      "source": "api",
+      "sourceName": "local-seed",
+      "sourceId": "seed-denim-1",
+      "name": "Tapered Selvedge Denim",
+      "brand": "Foundry",
+      "description": "Midweight Japanese selvedge denim with a modern taper.",
+      "images": [
+        {
+          "url": "https://example.com/images/denim.jpg",
+          "alt": "Tapered Selvedge Denim"
+        }
+      ],
+      "url": "https://example.com/denim",
+      "price": {
+        "amount": 128,
+        "currency": "USD",
+        "originalAmount": 148
+      },
+      "gender": "mens",
+      "category": "jeans",
+      "subcategory": "Men",
+      "colors": [
+        "Indigo"
+      ],
+      "sizes": [
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34"
+      ],
+      "tags": [
+        "selvedge",
+        "raw",
+        "seed"
+      ],
+      "inStock": true,
+      "ingestion": {
+        "retailerId": "local-seed",
+        "sourceId": "local-json",
+        "sourceProductId": "seed-denim-1",
+        "productUrl": "https://example.com/denim"
+      }
+    },
+    {
+      "id": "p_local-seed_seed-dress-1_365a920f",
+      "source": "api",
+      "sourceName": "local-seed",
+      "sourceId": "seed-dress-1",
+      "name": "Silk Midi Slip Dress",
+      "brand": "Studio East",
+      "description": "Bias-cut silk slip dress with adjustable straps.",
+      "images": [
+        {
+          "url": "https://example.com/images/slip-dress.jpg",
+          "alt": "Silk Midi Slip Dress"
+        }
+      ],
+      "url": "https://example.com/slip-dress",
+      "price": {
+        "amount": 220,
+        "currency": "USD"
+      },
+      "gender": "womens",
+      "category": "dresses",
+      "subcategory": "Women",
+      "colors": [
+        "Emerald",
+        "Champagne"
+      ],
+      "sizes": [
+        "2",
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "tags": [
+        "occasion",
+        "silk",
+        "seed"
+      ],
+      "inStock": false,
+      "ingestion": {
+        "retailerId": "local-seed",
+        "sourceId": "local-json",
+        "sourceProductId": "seed-dress-1",
+        "productUrl": "https://example.com/slip-dress"
+      }
+    },
+    {
+      "id": "p_local-seed_seed-hoodie-1_a5e7bc98",
+      "source": "api",
+      "sourceName": "local-seed",
+      "sourceId": "seed-hoodie-1",
+      "name": "Heavyweight Fleece Hoodie",
+      "brand": "Common Threads",
+      "description": "A soft brushed fleece hoodie with a relaxed fit.",
+      "images": [
+        {
+          "url": "https://example.com/images/hoodie.jpg",
+          "alt": "Heavyweight Fleece Hoodie"
+        }
+      ],
+      "url": "https://example.com/hoodie",
+      "price": {
+        "amount": 78,
+        "currency": "USD"
+      },
+      "gender": "mens",
+      "category": "hoodies & sweatshirts",
+      "subcategory": "Men",
+      "colors": [
+        "Black",
+        "Oatmeal"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "seed",
+        "fleece",
+        "layering"
+      ],
+      "inStock": true,
+      "ingestion": {
+        "retailerId": "local-seed",
+        "sourceId": "local-json",
+        "sourceProductId": "seed-hoodie-1",
+        "productUrl": "https://example.com/hoodie"
+      }
+    },
+    {
+      "id": "p_local-seed_seed-sneaker-1_87281b1f",
+      "source": "api",
+      "sourceName": "local-seed",
+      "sourceId": "seed-sneaker-1",
+      "name": "Everyday Court Sneaker",
+      "brand": "Atlas",
+      "description": "Low-profile leather court sneaker with gum sole.",
+      "images": [
+        {
+          "url": "https://example.com/images/sneaker.jpg",
+          "alt": "Everyday Court Sneaker"
+        }
+      ],
+      "url": "https://example.com/sneaker",
+      "price": {
+        "amount": 98,
+        "currency": "USD"
+      },
+      "gender": "unisex",
+      "category": "sneakers",
+      "subcategory": "Shoes",
+      "colors": [
+        "White",
+        "Gum"
+      ],
+      "sizes": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "tags": [
+        "leather",
+        "minimal",
+        "seed"
+      ],
+      "inStock": true,
+      "ingestion": {
+        "retailerId": "local-seed",
+        "sourceId": "local-json",
+        "sourceProductId": "seed-sneaker-1",
+        "productUrl": "https://example.com/sneaker"
+      }
+    }
+  ]
+}

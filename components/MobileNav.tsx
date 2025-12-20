@@ -13,7 +13,7 @@ export default function MobileNav() {
   const navItems = [
     { href: "/", label: "Home", active: pathname === "/" },
     { href: "/catalog", label: "Catalog", active: pathname.startsWith("/catalog") },
-    { href: "/assistant", label: "Assistant", active: pathname.startsWith("/assistant") },
+    { href: "/assistant", label: "Stylist", active: pathname.startsWith("/assistant") },
     {
       href: "/saved",
       label: "Saved",

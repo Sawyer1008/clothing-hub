@@ -22,6 +22,16 @@ export default function AssistantPage() {
     () => new Map(products.map((p) => [p.id, p])),
     [products]
   );
+  const stylistQuickStarts = [
+    "Streetwear outfit with cargos under $140",
+    "Minimal workwear look in black + cream",
+    "Weekend fit with a hoodie and clean sneakers",
+  ];
+  const legacyQuickStarts = [
+    "What should I wear for a casual dinner?",
+    "Build a capsule wardrobe for fall",
+    "Style a graphic tee without looking sloppy",
+  ];
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -94,10 +104,10 @@ export default function AssistantPage() {
   return (
     <div className="space-y-4 max-w-2xl fade-in-up">
       <header className="space-y-1">
-        <h1 className="text-2xl font-semibold">AI Styling Assistant</h1>
+        <h1 className="text-2xl font-semibold">AI Stylist</h1>
         <p className="text-sm text-slate-300">
-          Ask for outfit ideas, budgets, or how to style certain pieces. The AI
-          will suggest combos using Abercrombie, H&amp;M, and PacSun style items.
+          Ask the Stylist for outfit ideas, budgets, or how to style certain pieces.
+          The Stylist suggests combos using Abercrombie, H&amp;M, and PacSun style items.
         </p>
       </header>
 
@@ -129,13 +139,28 @@ export default function AssistantPage() {
       {activeTab === "v2" && (
         <section className="space-y-3">
           <div className="space-y-1">
-            <h2 className="text-xl font-semibold">Catalog Outfit (AI Stylist 2.0)</h2>
+            <h2 className="text-xl font-semibold">Catalog Outfit (Stylist v2)</h2>
             <p className="text-sm text-slate-300">
               Get outfit ideas using real products from our catalog.
             </p>
           </div>
 
           <form onSubmit={handleStylistSubmit} className="space-y-3">
+            <div className="flex flex-wrap items-center gap-2 text-xs">
+              <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-slate-500">
+                Quick starts
+              </span>
+              {stylistQuickStarts.map((text) => (
+                <button
+                  key={text}
+                  type="button"
+                  onClick={() => setStylistPrompt(text)}
+                  className="rounded-full border border-slate-800 bg-slate-900/70 px-3 py-1 text-[11px] text-slate-200 transition hover:border-slate-600 hover:bg-slate-900"
+                >
+                  {text}
+                </button>
+              ))}
+            </div>
             <textarea
               value={stylistPrompt}
               onChange={(e) => setStylistPrompt(e.target.value)}
@@ -206,6 +231,21 @@ export default function AssistantPage() {
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-3">
+            <div className="flex flex-wrap items-center gap-2 text-xs">
+              <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-slate-500">
+                Quick starts
+              </span>
+              {legacyQuickStarts.map((text) => (
+                <button
+                  key={text}
+                  type="button"
+                  onClick={() => setPrompt(text)}
+                  className="rounded-full border border-slate-800 bg-slate-900/70 px-3 py-1 text-[11px] text-slate-200 transition hover:border-slate-600 hover:bg-slate-900"
+                >
+                  {text}
+                </button>
+              ))}
+            </div>
             <textarea
               value={prompt}
               onChange={(e) => setPrompt(e.target.value)}

@@ -16,8 +16,11 @@ type ProductCardProps = {
 export default function ProductCard({ product, testMode }: ProductCardProps) {
   const { addToCart } = useCart();
   const { isSaved, toggleSaved } = useSavedProducts();
+  const saved = isSaved(product.id);
   const [justAdded, setJustAdded] = useState(false);
+  const [saveFeedback, setSaveFeedback] = useState<null | "Saved" | "Removed">(null);
   const addTimeoutRef = useRef<number | null>(null);
+  const saveTimeoutRef = useRef<number | null>(null);
   const confirmDurationMs = 800;
 
   const mainImage = product.images?.[0];
@@ -39,6 +42,9 @@ export default function ProductCard({ product, testMode }: ProductCardProps) {
     return () => {
       if (addTimeoutRef.current) {
         window.clearTimeout(addTimeoutRef.current);
+      }
+      if (saveTimeoutRef.current) {
+        window.clearTimeout(saveTimeoutRef.current);
       }
     };
   }, []);
@@ -71,13 +77,35 @@ export default function ProductCard({ product, testMode }: ProductCardProps) {
           type="button"
           onClick={(e) => {
             e.preventDefault();
+            e.stopPropagation();
+            const nextFeedback = saved ? "Removed" : "Saved";
             toggleSaved(product.id);
+            setSaveFeedback(nextFeedback);
+            if (saveTimeoutRef.current) {
+              window.clearTimeout(saveTimeoutRef.current);
+            }
+            saveTimeoutRef.current = window.setTimeout(() => {
+              setSaveFeedback(null);
+            }, 900);
           }}
-          className="absolute right-2 top-2 rounded-full bg-slate-950/80 px-2 py-1 text-xs font-semibold text-slate-100 shadow-sm hover:bg-slate-100 hover:text-slate-900"
-          aria-label={isSaved(product.id) ? "Remove from saved" : "Save item"}
+          className={`absolute right-2 top-2 rounded-full px-2 py-1 text-xs font-semibold shadow-sm transition ${
+            saved
+              ? "bg-slate-100 text-slate-900"
+              : "bg-slate-950/80 text-slate-100 hover:bg-slate-100 hover:text-slate-900"
+          } ${saveFeedback ? "scale-105 shadow-[0_0_0_6px_rgba(148,163,184,0.18)]" : ""}`}
+          aria-label="Save item"
+          aria-pressed={saved}
         >
-          {isSaved(product.id) ? "♥" : "♡"}
+          {saved ? "♥" : "♡"}
         </button>
+        <span
+          aria-live="polite"
+          className={`pointer-events-none absolute right-2 top-11 rounded-full border border-slate-800 bg-slate-950/90 px-2 py-0.5 text-[10px] font-semibold text-slate-200 transition duration-200 ${
+            saveFeedback ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-1"
+          }`}
+        >
+          {saveFeedback}
+        </span>
         {testMode && (
           <span className="absolute right-2 top-11 rounded-full border border-slate-800 bg-slate-900/90 px-2 py-0.5 text-[10px] font-semibold text-slate-200 shadow-sm">
             Test Mode

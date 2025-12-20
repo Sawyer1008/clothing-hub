@@ -10,7 +10,7 @@ import { useSavedProducts } from "@/context/SavedProductsContext";
 const navItems = [
   { href: "/", label: "Home" },
   { href: "/catalog", label: "Catalog" },
-  { href: "/assistant", label: "AI Assistant" },
+  { href: "/assistant", label: "Stylist" },
 ];
 
 export default function Navbar() {

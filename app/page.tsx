@@ -43,15 +43,13 @@ export default function HomePage() {
           {/* Left: text */}
           <div className="flex-1 space-y-6">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
-              Clothing Hub · AI shopping OS
+              Clothing Hub · Shopping OS
             </p>
             <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl md:text-5xl">
-              Discover outfits here, checkout on retailer sites.
+              Shopping OS across brands.
             </h1>
             <p className="max-w-xl text-base text-slate-300">
-              Clothing Hub organizes products across brands, layers on AI styling, and keeps your cart
-              and saved lists clean. When you&apos;re ready to buy, we route you to each store to finish
-              checkout there.
+              Save, compare, and build carts here; checkout happens on retailer sites.
             </p>
 
             {/* Primary CTAs */}
@@ -74,13 +72,13 @@ export default function HomePage() {
               <div className="rounded-xl border border-slate-800 bg-slate-950/70 p-3 shadow-sm">
                 <p className="text-sm font-semibold text-slate-50">Discover across brands</p>
                 <p className="mt-1 text-slate-400">
-                  Unified catalog entries keep brand details, sizes, and prices together.
+                  Unified catalog entries keep sizes, prices, and tags together.
                 </p>
               </div>
               <div className="rounded-xl border border-slate-800 bg-slate-950/70 p-3 shadow-sm">
                 <p className="text-sm font-semibold text-slate-50">Stylist built-in</p>
                 <p className="mt-1 text-slate-400">
-                  Outfit ideas mapped to real product IDs and budgets you set.
+                  Outfit ideas mapped to real products and budgets you set.
                 </p>
               </div>
               <div className="rounded-xl border border-slate-800 bg-slate-950/70 p-3 shadow-sm">
@@ -193,9 +191,7 @@ export default function HomePage() {
                     Fresh drops across every brand
                   </h2>
                   <p className="mt-1 text-xs text-slate-400">
-                    Later the agent will auto-surface trending items and new
-                    arrivals based on real data. For now, this is a stable entry
-                    point for that behavior.
+                    Fresh drops and standout items, hand-picked to stay current across brands.
                   </p>
                 </div>
                 <span className="mt-3 inline-flex w-max items-center gap-1 text-[11px] text-slate-300">
@@ -211,14 +207,14 @@ export default function HomePage() {
       </section>
 
       {/* Core flows grid */}
-      <section className="mx-auto max-w-6xl px-4 py-10">
+      <section className="mx-auto max-w-6xl px-4 py-12">
         <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
           <div>
             <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-slate-500">
               Core flows
             </p>
             <h2 className="text-xl font-semibold tracking-tight">
-              Jump straight into the workflows shoppers use most.
+              Start with the flows shoppers use most.
             </h2>
           </div>
           <Link
@@ -310,33 +306,53 @@ export default function HomePage() {
 
       {/* Trust + how it works */}
       <section className="border-y border-slate-800 bg-slate-950/70">
-        <div className="mx-auto flex max-w-6xl flex-col gap-6 px-4 py-8 md:flex-row md:items-start md:justify-between">
-          <div className="flex-1 space-y-2">
+        <div className="mx-auto flex max-w-6xl flex-col gap-6 px-4 py-12 lg:flex-row lg:items-start lg:justify-between">
+          <div className="flex-1 space-y-4">
             <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-slate-500">
               How it works
             </p>
             <h3 className="text-xl font-semibold tracking-tight">
-              Honest checkout: discover here, buy on each store.
+              Three steps, honest checkout.
             </h3>
-            <p className="text-sm text-slate-300">
-              Clothing Hub organizes products across brands, keeps your shortlist and cart in sync, and
-              hands you off to retailers to pay. We don&apos;t process or verify payments; returns and
-              shipping stay with the store.
+            <div className="grid gap-3 text-xs sm:grid-cols-3">
+              <div className="rounded-2xl border border-slate-800 bg-slate-950/80 p-4">
+                <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-slate-400">
+                  Discover
+                </p>
+                <p className="mt-2 text-sm font-semibold text-slate-50">
+                  Browse across brands
+                </p>
+                <p className="mt-1 text-slate-400">
+                  Search, filter, and compare products with real sizes and pricing.
+                </p>
+              </div>
+              <div className="rounded-2xl border border-slate-800 bg-slate-950/80 p-4">
+                <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-slate-400">
+                  Save/cart
+                </p>
+                <p className="mt-2 text-sm font-semibold text-slate-50">
+                  Keep your shortlist tight
+                </p>
+                <p className="mt-1 text-slate-400">
+                  Save picks, then move the best ones into your cart.
+                </p>
+              </div>
+              <div className="rounded-2xl border border-slate-800 bg-slate-950/80 p-4">
+                <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-slate-400">
+                  Checkout
+                </p>
+                <p className="mt-2 text-sm font-semibold text-slate-50">
+                  Checkout on retailer sites
+                </p>
+                <p className="mt-1 text-slate-400">
+                  We send you to each store to pay and place the order.
+                </p>
+              </div>
+            </div>
+            <p className="text-xs text-slate-400">
+              Checkout happens on retailer sites. We never process payments; returns and shipping stay
+              with the store.
             </p>
-            <ul className="mt-3 space-y-2 text-sm text-slate-200">
-              <li className="flex gap-2">
-                <span className="mt-1 h-1.5 w-1.5 rounded-full bg-slate-200" />
-                <span>Browse organized product data and sizing from multiple brands.</span>
-              </li>
-              <li className="flex gap-2">
-                <span className="mt-1 h-1.5 w-1.5 rounded-full bg-slate-200" />
-                <span>When you&apos;re ready, we send you to each retailer to finish checkout.</span>
-              </li>
-              <li className="flex gap-2">
-                <span className="mt-1 h-1.5 w-1.5 rounded-full bg-slate-200" />
-                <span>Payments, returns, and shipping are handled directly by the store.</span>
-              </li>
-            </ul>
           </div>
           <div className="flex-1 rounded-2xl border border-slate-800 bg-slate-950/80 p-5 shadow-sm">
             <p className="text-sm font-semibold text-slate-50">Keep momentum</p>
@@ -374,15 +390,14 @@ export default function HomePage() {
       </section>
 
       {/* Simple “sample from catalog” strip with states */}
-      <section className="mx-auto max-w-6xl px-4 py-10">
+      <section className="mx-auto max-w-6xl px-4 py-12">
         <div className="flex items-center justify-between gap-2">
           <div>
             <h2 className="text-sm font-semibold tracking-tight">
-              From the catalog
+              Catalog preview
             </h2>
             <p className="text-xs text-slate-400">
-              A tiny preview of real products. Agents will later decide what
-              belongs here (trending, personalized, deals, etc.).
+              A focused sample of real products to set the tone.
             </p>
           </div>
           <Link
@@ -460,6 +475,9 @@ export default function HomePage() {
         {previewState === "ready" && (
           <div className="mt-4 grid gap-3 sm:grid-cols-2 md:grid-cols-4">
             {sampleProducts.map((product) => {
+              const imageUrl = product.images?.[0]?.url;
+              const imageAlt = product.images?.[0]?.alt || product.name || "Product image";
+              const brandName = product.brand || product.sourceName || "Brand";
               const displayPrice =
                 product?.price?.amount !== undefined
                   ? formatPrice(product.price.amount)
@@ -471,9 +489,20 @@ export default function HomePage() {
                   href={`/product/${product.id}`}
                   className="group flex flex-col rounded-2xl border border-slate-800 bg-slate-950/80 p-3 text-xs transition hover:border-slate-500 hover:bg-slate-900"
                 >
-                  <div className="mb-2 h-32 w-full rounded-xl bg-slate-900" />
+                  {imageUrl ? (
+                    <img
+                      src={imageUrl}
+                      alt={imageAlt}
+                      className="mb-2 h-32 w-full rounded-xl object-cover"
+                      loading="lazy"
+                    />
+                  ) : (
+                    <div className="mb-2 flex h-32 w-full items-center justify-center rounded-xl bg-slate-900 text-[10px] font-semibold uppercase tracking-[0.2em] text-slate-500">
+                      Image unavailable
+                    </div>
+                  )}
                   <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-slate-400">
-                    {product.brand || "Brand"}
+                    {brandName}
                   </p>
                   <p className="mt-1 line-clamp-2 text-xs text-slate-100">
                     {product.name || "Untitled product"}
@@ -488,7 +517,7 @@ export default function HomePage() {
 
       {/* Next steps row */}
       <section className="border-t border-slate-800 bg-slate-950/80">
-        <div className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-6 md:flex-row md:items-center md:justify-between">
+        <div className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-12 md:flex-row md:items-center md:justify-between">
           <div>
             <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-slate-500">
               Next steps

@@ -45,10 +45,10 @@ export default function RootLayout({
               <footer className="hidden border-t border-slate-800 bg-slate-950/80 text-xs text-slate-400 md:block">
                 <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
                   <span>© {year} Clothing Hub</span>
-                  <span>Phase 2 · UX + Semantic OS</span>
+                  <span>Shopping OS across brands</span>
                 </div>
                 <div className="mx-auto max-w-6xl px-4 pb-3 text-center text-[11px] text-slate-500 sm:px-6">
-                  Clothing Hub — Sandbox Phase
+                  Checkout happens on retailer sites.
                 </div>
               </footer>
 

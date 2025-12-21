@@ -11,12 +11,15 @@ const allowedFields = new Set([
   "imageUrl",
   "productUrl",
   "price",
+  "originalPrice",
   "currency",
   "gender",
   "categoryPath",
   "colors",
   "sizes",
   "tags",
+  "imageUrls",
+  "inStock",
   "popularityScore",
 ]);
 
@@ -59,6 +62,24 @@ function validateItem(item, index) {
   }
   if (typeof item.price !== "number" || Number.isNaN(item.price)) {
     throw new Error(`Invalid price at index ${index}`);
+  }
+  if (item.originalPrice !== undefined) {
+    if (typeof item.originalPrice !== "number" || Number.isNaN(item.originalPrice)) {
+      throw new Error(`Invalid originalPrice at index ${index}`);
+    }
+  }
+  if (item.imageUrls !== undefined) {
+    if (!Array.isArray(item.imageUrls)) {
+      throw new Error(`Invalid imageUrls at index ${index}`);
+    }
+    item.imageUrls.forEach((url, urlIndex) => {
+      if (typeof url !== "string" || url.trim() === "") {
+        throw new Error(`Invalid imageUrls[${urlIndex}] at index ${index}`);
+      }
+    });
+  }
+  if (item.inStock !== undefined && typeof item.inStock !== "boolean") {
+    throw new Error(`Invalid inStock at index ${index}`);
   }
 }
 

@@ -10,9 +10,11 @@ export type RawProduct = {
   description?: string;
 
   imageUrl: string;
+  imageUrls?: string[];
   productUrl: string;
 
   price: number;                 // simple number for now
+  originalPrice?: number;        // optional sale anchor price
   currency?: string;             // e.g. "USD"
 
   gender?: string;               // e.g. "Men", "WOMENS", etc.
@@ -23,6 +25,7 @@ export type RawProduct = {
 
   tags?: string[];               // optional starting tags from source
 
+  inStock?: boolean;            // preserve items even if out of stock
   popularityScore?: number;     // optional placeholder popularity
 
 

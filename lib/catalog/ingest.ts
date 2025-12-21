@@ -81,6 +81,23 @@ export function ingestRawProducts(
     const gender = normalizeGender(normalizedRaw.gender);
     const { category, subcategory } = mapCategory(normalizedRaw.categoryPath, normalizedRaw.name);
     const colors = normalizeColors(normalizedRaw.colors);
+    const imageCandidates = [
+      normalizedRaw.imageUrl,
+      ...(normalizedRaw.imageUrls ?? []),
+    ].filter((url): url is string => typeof url === "string" && url.trim().length > 0);
+    const images: Product["images"] = [];
+    const seenImages = new Set<string>();
+    for (const url of imageCandidates) {
+      const trimmed = url.trim();
+      if (seenImages.has(trimmed)) {
+        continue;
+      }
+      seenImages.add(trimmed);
+      images.push({
+        url: trimmed,
+        alt: normalizedRaw.name,
+      });
+    }
 
     const tags = autoTagsFromRaw(normalizedRaw, category, subcategory);
 
@@ -94,17 +111,13 @@ export function ingestRawProducts(
       brand,
       description: normalizedRaw.description,
 
-      images: [
-        {
-          url: normalizedRaw.imageUrl,
-          alt: normalizedRaw.name,
-        },
-      ],
+      images,
       url: normalizedRaw.productUrl,
 
       price: {
         amount: normalizedRaw.price,
         currency: normalizedRaw.currency ?? "USD",
+        originalAmount: normalizedRaw.originalPrice,
       },
 
       gender,
@@ -115,7 +128,7 @@ export function ingestRawProducts(
       sizes: normalizedRaw.sizes ?? [],
 
       tags,
-      inStock: true, // assume in stock; real pipeline will supply this
+      inStock: normalizedRaw.inStock ?? true,
       popularityScore: normalizedRaw.popularityScore ?? 50,
       lastUpdated: now,
 

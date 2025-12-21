@@ -9,7 +9,8 @@
     "lint": "eslint",
     "ingest": "node scripts/run-ingest.js",
     "catalog:refresh-raw": "node scripts/catalog/refresh-raw-from-json.js",
-    "catalog:validate-ids": "node scripts/catalog/validate-raw-id-stability.js"
+    "catalog:validate-ids": "node scripts/catalog/validate-raw-id-stability.js",
+    "catalog:validate-source-names": "node scripts/catalog/validate-raw-source-names.js"
   },
   "dependencies": {
     "next": "16.0.7",

@@ -10,6 +10,18 @@ Quick reference for how products move through the ingestion pipeline and how to 
 - `getAllProducts` in `lib/catalog/catalog.ts` combines manual `data/products` entries with ingested products.
 - The catalog data is then consumed by `/api/search` and the `/catalog` page.
 
+## Phase 4B semi-manual ingestion (curated feeds)
+- Start with the curated registry in `data/curation/brands.v1.ts` (stable `key`, canonical `sourceName`, and status).
+- Manually select a small, high-signal set of products per brand (no scraping at scale; think best sellers/new arrivals).
+- Use AI to normalize the selection into a JSON array that matches the `RawProduct` shape expected by `scripts/catalog/refresh-raw-from-json.js` (`id`, `name`, `imageUrl`, `productUrl`, `price`, plus optional fields).
+- Generate the raw feed file: `npm run catalog:refresh-raw -- --in <brand>.json --out data/raw/<brandKey>.ts --export <exportName>`.
+- Wire the new file into `rawSources` in `lib/catalog/catalog.ts`, add overrides if needed, and validate ID stability via `npm run catalog:validate-ids`.
+
+### Optional curated fields
+- `originalPrice` for sale tracking (maps to `Product.price.originalAmount`).
+- `imageUrls` for additional product images (deduped, order preserved).
+- `inStock` to keep products in the catalog without deleting them. Prefer `inStock: false` over deletion to preserve cart/saved continuity and `Product.id` stability.
+
 ## ID stability contract
 - `Product.id` is a persisted user-state key (cart/saved items depend on it).
 - Ingested `Product.id` is derived from `${sourceName.toLowerCase()}-${rawId}`, so `rawSources[].name` is part of the ID.

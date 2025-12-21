@@ -22,6 +22,7 @@ import { uniqloRaw } from "@/data/raw/uniqlo";
 import { pacsunRaw } from "@/data/raw/pacsun";
 import { levisRaw } from "@/data/raw/levis";
 import { madewellRaw } from "@/data/raw/madewell";
+import { jcrewRaw } from "@/data/raw/jcrew";
 import { newBalanceRaw } from "@/data/raw/newBalance";
 import { reformationRaw } from "@/data/raw/reformation";
 import { buildOverrideMap, overridesBySource } from "@/data/overrides";
@@ -108,6 +109,11 @@ const rawSources = [
     name: "Madewell",
     type: "manual" as const,
     data: madewellRaw,
+  },
+  {
+    name: "J.Crew",
+    type: "manual" as const,
+    data: jcrewRaw,
   },
   {
     name: "New Balance",

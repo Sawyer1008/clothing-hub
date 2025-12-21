@@ -1,6 +1,6 @@
 // app/layout.tsx
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+
 import "./globals.css";
 
 import Navbar from "@/components/Navbar";
@@ -9,7 +9,6 @@ import MobileNav from "@/components/MobileNav";
 import { CartProvider } from "./cart/CartContext";
 import { SavedProductsProvider } from "@/context/SavedProductsContext";
 
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Clothing Hub",
@@ -25,7 +24,7 @@ export default function RootLayout({
 
   return (
     <html lang="en" className="h-full bg-slate-950">
-      <body className={`${inter.className} h-full text-slate-50`}>
+      <body className="h-full text-slate-50 font-sans">
         <CartProvider>
           <SavedProductsProvider>
             <div className="flex min-h-screen flex-col">

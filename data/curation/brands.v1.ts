@@ -117,7 +117,7 @@ export const curatedBrandsV1: CuratedBrand[] = [
   {
     key: "madewell",
     sourceName: "Madewell",
-    status: "planned",
+    status: "active",
     notes:
       "Manual curation: pick 10-20 hero items (best sellers/new arrivals), capture imageUrl/productUrl, keep SKU-based ids stable.",
   },

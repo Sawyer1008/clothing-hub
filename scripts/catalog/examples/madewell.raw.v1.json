@@ -1,0 +1,65 @@
+[
+  {
+    "id": "NJ013",
+    "name": "The 1991 Straight-Leg Jean",
+    "brand": "Madewell",
+    "imageUrl": "https://www.madewell.com/images/NJ013_DM6536_ld?wid=1200&hei=1525&fmt=jpeg&fit=crop&qlt=75",
+    "productUrl": "https://www.madewell.com/p/mens/clothing/men%E2%80%99s-jeans/straight/the-1991-straight-leg-jean/NJ013/?ccode=DM6536",
+    "price": 148,
+    "currency": "USD"
+  },
+  {
+    "id": "NR834",
+    "name": "Madewell x G.H.BASS Wallace Leather Moc",
+    "brand": "Madewell",
+    "imageUrl": "https://www.madewell.com/images/NR834_EE2985_d2?wid=1200&hei=1525&fmt=jpeg&fit=crop&qlt=75",
+    "productUrl": "https://www.madewell.com/p/madewell-x-g.h.bass-wallace-leather-moc/NR834/?ccode=EE2985",
+    "price": 245,
+    "currency": "USD"
+  },
+  {
+    "id": "NY221",
+    "name": "The McCarren Midweight Quarter-Zip Sweatshirt",
+    "brand": "Madewell",
+    "imageUrl": "https://www.madewell.com/images/NY221_GR0326_ld?wid=1200&hei=1525&fmt=jpeg&fit=crop&qlt=75",
+    "productUrl": "https://www.madewell.com/p/mens/clothing/hoodies-sweatshirts/the-mccarren-midweight-quarter-zip-sweatshirt/NY221/?ccode=GR0326",
+    "price": 128,
+    "currency": "USD"
+  },
+  {
+    "id": "NM162",
+    "name": "Garment-Dyed Allday Crewneck Tee",
+    "brand": "Madewell",
+    "imageUrl": "https://www.madewell.com/images/NM162_KH0620_ld?wid=1200&hei=1525&fmt=jpeg&fit=crop&qlt=75",
+    "productUrl": "https://www.madewell.com/p/garment-dyed-allday-crewneck-tee/NM162/?ccode=KH0620",
+    "price": 35,
+    "currency": "USD"
+  },
+  {
+    "id": "NY279",
+    "name": "Pointelle Cutaway Cardigan",
+    "brand": "Madewell",
+    "imageUrl": "https://www.madewell.com/images/NY279_HT3179_m?wid=1200&hei=1525&fmt=jpeg&fit=crop&qlt=75",
+    "productUrl": "https://www.madewell.com/p/womens/clothing/sweaters/cardigans/pointelle-cutaway-cardigan/NY279/?ccode=HT3179",
+    "price": 75,
+    "currency": "USD"
+  },
+  {
+    "id": "NY136",
+    "name": "Waffle-Knit Sweater Polo",
+    "brand": "Madewell",
+    "imageUrl": "https://www.madewell.com/images/NY136_HT3396_ld?wid=1200&hei=1525&fmt=jpeg&fit=crop&qlt=75",
+    "productUrl": "https://www.madewell.com/p/mens/clothing/sweaters/sweater-polos/waffle-knit-sweater-polo/NY136/?ccode=HT3396",
+    "price": 128,
+    "currency": "USD"
+  },
+  {
+    "id": "NY892",
+    "name": "Athletic Slim Jeans",
+    "brand": "Madewell",
+    "imageUrl": "https://www.madewell.com/images/NY892_DM9766_ld?wid=1200&hei=1525&fmt=jpeg&fit=crop&qlt=75",
+    "productUrl": "https://www.madewell.com/p/athletic-slim-jeans/NY892/?ccode=DM9766",
+    "price": 148,
+    "currency": "USD"
+  }
+]

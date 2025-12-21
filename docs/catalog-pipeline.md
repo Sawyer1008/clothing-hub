@@ -16,6 +16,7 @@ Quick reference for how products move through the ingestion pipeline and how to 
 - Use AI to normalize the selection into a JSON array that matches the `RawProduct` shape expected by `scripts/catalog/refresh-raw-from-json.js` (`id`, `name`, `imageUrl`, `productUrl`, `price`, plus optional fields).
 - Generate the raw feed file: `npm run catalog:refresh-raw -- --in <brand>.json --out data/raw/<brandKey>.ts --export <exportName>`.
 - Wire the new file into `rawSources` in `lib/catalog/catalog.ts`, add overrides if needed, and validate ID stability via `npm run catalog:validate-ids`.
+- Madewell is the first Phase 4B planned → active brand; once added, `rawSources[].name` must never be renamed.
 
 ### Optional curated fields
 - `originalPrice` for sale tracking (maps to `Product.price.originalAmount`).

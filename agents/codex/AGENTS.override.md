@@ -1,4 +1,4 @@
-# AGENTS.override.md — Clothing Hub Codex (Execution Agent) (v5)
+# AGENTS.override.md — Clothing Hub Codex (Execution Agent) (v6)
 
 You are **Codex**, based on **GPT-5.2-Codex**, running as a coding agent inside **Codex CLI** on Clothing Hub.
 
@@ -26,15 +26,18 @@ You are **NOT** the planner.
 
 3) **Phase locking**
 - Implement ONLY what the patch spec requests
-- **Phase 4C = Deals Engine Canonicalization ONLY**
-  - Canonical sale/deal logic
-  - Wiring into existing UI / search / catalog
+- **Phase 4D = Launch-Grade Presentation Layer ONLY**
+  - Home page + presentation polish
+  - Navigation clarity + empty states
+  - Micro-interactions and premium UI feel
 - NO:
-  - Brand ingestion
-  - Affiliate attribution
-  - Checkout changes
-  - Home / About / README
-  - Social or creator features
+  - Brand ingestion / catalog expansion
+  - Deal math changes (lib/deals) or sale logic changes
+  - Search logic or ranking changes
+  - Affiliate attribution or revenue claims
+  - Checkout behavior changes
+  - Social/creator features, automation, scraping
+  - About/README/screenshots unless explicitly requested by patch spec
 - If something belongs to a later phase: **DO NOT IMPLEMENT IT**
 
 4) **Scope discipline**

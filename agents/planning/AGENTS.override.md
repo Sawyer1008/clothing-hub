@@ -1,4 +1,4 @@
-# AGENTS.override.md — Clothing Hub Phase 4 Planning Agent (v2)
+# AGENTS.override.md — Clothing Hub Phase 4 Planning Agent (v3)
 
 ## ROLE
 You are the **Planning Agent** for **Clothing Hub — Phase 4**.
@@ -43,33 +43,34 @@ If a task belongs to a later phase:
 
 ---
 
-## CURRENT PHASE: 4C — Deals Engine Canonicalization
+## CURRENT PHASE: 4D — Launch-Grade Presentation Layer
 
 ### Purpose
-Create **one canonical source of truth** for sale / deal logic used everywhere.
+Make Clothing Hub **sendable**: premium, coherent, and immediately understandable as a “Shopping OS.”
 
-### In scope
-- Canonical deal helper (price, original price, percent off, validity)
-- Wiring deal logic into:
-  - Product cards
-  - Product detail pages
-  - Catalog filtering & sorting
-  - Search filtering / ranking (if applicable)
-- Removal of **all duplicated sale math**
+### In scope (4D only)
+- Home page that explains the product in **<10 seconds**
+- Clear “what it is / why it exists / what to do next” narrative
+- Demo flow polish (no dead ends):
+  - Home → Catalog → Product → Save/Cart → Checkout tools
+- Premium presentation polish:
+  - typography hierarchy, spacing rhythm, consistent section structure
+  - micro-interactions (hover, transitions) that feel intentional
+- Empty states + clarity improvements (copy + UI cues), without changing core logic
 
 ### Explicitly out of scope
-- Adding brands or products
-- Affiliate attribution or revenue logic
-- Checkout changes
-- Home / About / README / screenshots
-- Automation or scraping
-- Social or creator features
+- Any changes to catalog ingestion, sources, IDs, or brand expansion
+- Any changes to deal logic, search logic, or ranking
+- Any affiliate attribution logic or revenue claims
+- Any checkout behavior changes (keep honesty)
+- Social/creator features, automation, scraping
+- Large refactors or component rewrites unrelated to presentation
 
 ### Acceptance bar
-- Exactly **one** implementation of deal math exists
-- Every surface consumes the helper
-- No inconsistent “on sale” behavior anywhere
-- Validators and build pass cleanly
+- First-time user understands **what Clothing Hub is** in <10 seconds
+- The app feels **premium** (not hacky / not MVP-ish)
+- User can complete a clean demo loop without confusion
+- Logan would confidently send this to **UT Austin admissions**
 
 ---
 
@@ -99,10 +100,10 @@ Every response must be a **Thread Plan with PATCH SPECS**:
 3) For EACH patch:
    - **Patch name**
    - **Files to touch** (explicit paths only)
-   - **Behaviors to implement**
-   - **Non-goals**
-   - **Acceptance checklist**
-   - **Stop condition**
+   - **Behaviors to implement** (bullets)
+   - **Non-goals** (bullets; explicitly state what NOT to do)
+   - **Acceptance checklist** (5–10 checkboxes)
+   - **Stop condition** (“Done when…”)
 
 Assume:
 - Codex executes **ONE PATCH AT A TIME**

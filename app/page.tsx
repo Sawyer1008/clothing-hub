@@ -39,17 +39,18 @@ export default function HomePage() {
     <main className="min-h-screen bg-slate-950 text-slate-100 fade-in-up">
       {/* Top hero section */}
       <section className="border-b border-slate-800 bg-gradient-to-b from-slate-950 to-slate-900">
-        <div className="mx-auto flex max-w-6xl flex-col gap-10 px-4 py-16 md:flex-row md:items-center">
+        <div className="mx-auto flex max-w-6xl flex-col gap-12 px-4 py-20 md:flex-row md:items-center">
           {/* Left: text */}
-          <div className="flex-1 space-y-6">
+          <div className="flex-1 space-y-7">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
               Clothing Hub · Shopping OS
             </p>
-            <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl md:text-5xl">
-              Shopping OS across brands.
+            <h1 className="text-4xl font-semibold leading-tight tracking-tight sm:text-5xl lg:text-6xl">
+              Clothing Hub is the Shopping OS for multi-brand fashion.
             </h1>
-            <p className="max-w-xl text-base text-slate-300">
-              Save, compare, and build carts here; checkout happens on retailer sites.
+            <p className="max-w-xl text-base text-slate-300 sm:text-lg">
+              A unified catalog to save across brands and get stylist-led discovery in one place.
+              We are not a retailer; checkout happens on store sites.
             </p>
 
             {/* Primary CTAs */}
@@ -312,41 +313,63 @@ export default function HomePage() {
               How it works
             </p>
             <h3 className="text-xl font-semibold tracking-tight">
-              Three steps, honest checkout.
+              Four steps, honest checkout.
             </h3>
-            <div className="grid gap-3 text-xs sm:grid-cols-3">
+            <div className="grid gap-3 text-xs sm:grid-cols-2 lg:grid-cols-4">
               <div className="rounded-2xl border border-slate-800 bg-slate-950/80 p-4">
                 <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-slate-400">
-                  Discover
+                  Step 1
                 </p>
                 <p className="mt-2 text-sm font-semibold text-slate-50">
-                  Browse across brands
+                  Browse the unified catalog
                 </p>
                 <p className="mt-1 text-slate-400">
-                  Search, filter, and compare products with real sizes and pricing.
+                  Search and filter across brands with sizes, pricing, and tags in one place.
                 </p>
               </div>
               <div className="rounded-2xl border border-slate-800 bg-slate-950/80 p-4">
                 <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-slate-400">
-                  Save/cart
+                  Step 2
                 </p>
                 <p className="mt-2 text-sm font-semibold text-slate-50">
-                  Keep your shortlist tight
+                  Save items across brands
                 </p>
                 <p className="mt-1 text-slate-400">
-                  Save picks, then move the best ones into your cart.
+                  Keep a single shortlist and compare picks before moving to cart.
                 </p>
               </div>
               <div className="rounded-2xl border border-slate-800 bg-slate-950/80 p-4">
                 <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-slate-400">
-                  Checkout
+                  Step 3
                 </p>
                 <p className="mt-2 text-sm font-semibold text-slate-50">
-                  Checkout on retailer sites
+                  Refine picks with the stylist
                 </p>
                 <p className="mt-1 text-slate-400">
-                  We send you to each store to pay and place the order.
+                  Use the assistant to tighten the vibe, fit, or budget with linked products.
                 </p>
+              </div>
+              <div className="rounded-2xl border border-slate-800 bg-slate-950/80 p-4">
+                <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-slate-400">
+                  Step 4
+                </p>
+                <p className="mt-2 text-sm font-semibold text-slate-50">
+                  Use checkout tools
+                </p>
+                <p className="mt-1 text-slate-400">
+                  Build the cart here; we route you to retailer sites to pay.
+                </p>
+              </div>
+            </div>
+            <div className="grid gap-2 text-[11px] text-slate-400 sm:grid-cols-3">
+              <div className="rounded-full border border-slate-800 bg-slate-950/80 px-3 py-1 text-center">
+                Curated catalog (no scraping at scale)
+              </div>
+              <div className="rounded-full border border-slate-800 bg-slate-950/80 px-3 py-1 text-center">
+                Stable product IDs across views
+              </div>
+              <div className="rounded-full border border-slate-800 bg-slate-950/80 px-3 py-1 text-center">
+                Consistent sale labels across the app
               </div>
             </div>
             <p className="text-xs text-slate-400">

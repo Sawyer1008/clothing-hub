@@ -44,8 +44,8 @@ export default function CartPage() {
       <div className="mx-auto max-w-4xl space-y-4 fade-in-up">
         <h1 className="text-2xl font-semibold tracking-tight">Your cart</h1>
         <p className="text-sm text-slate-300">
-          Your cart is empty. Browse the catalog to add your first piece or check
-          your saved items.
+          Your cart is empty. Add from any product page or move saved items into
+          your cart when you&apos;re ready.
         </p>
         <div className="flex flex-wrap items-center gap-2">
           <Link

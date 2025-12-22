@@ -16,6 +16,9 @@ export default function SavedPage() {
           You haven&apos;t saved anything yet. Tap the heart icon on any product to save it here and jump
           back in later.
         </p>
+        <p className="text-xs text-slate-500">
+          Start the demo: Open Catalog → open a product → tap Save.
+        </p>
         <div className="flex flex-wrap gap-2">
           <Link
             href="/catalog"

@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useMemo, useState } from "react";
 import ProductCard from "@/components/ProductCard";
 import { getAllProducts } from "@/lib/catalog/catalog";
@@ -110,6 +111,16 @@ export default function AssistantPage() {
           The Stylist suggests combos using Abercrombie, H&amp;M, and PacSun style items.
         </p>
       </header>
+      <div className="rounded-2xl border border-slate-800 bg-slate-900/60 px-4 py-3 text-xs text-slate-300">
+        New here? The stylist builds outfits from catalog products. Try a quick start below or{" "}
+        <Link
+          href="/catalog"
+          className="font-semibold text-slate-100 underline-offset-4 hover:underline"
+        >
+          browse the catalog
+        </Link>
+        .
+      </div>
 
       <div className="flex gap-2 border-b border-slate-800">
         <button

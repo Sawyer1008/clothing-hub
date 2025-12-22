@@ -1,8 +1,10 @@
 // app/product/[id]/page.tsx
 import Link from "next/link";
 import ProductCard from "@/components/ProductCard";
+import { getDealInfo } from "@/lib/deals/deals";
 import type { Product } from "@/types/product";
 import { getAllProducts } from "@/lib/catalog/catalog";
+import { formatPrice } from "@/utils/formatPrice";
 
 type ProductPageProps = {
   params: {
@@ -75,6 +77,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
     );
   }
 
+  const deal = getDealInfo(product);
   const moreFromBrand = allProducts
     .filter((p) => p.brand === product.brand && String(p.id) !== String(product.id))
     .slice(0, 4);
@@ -112,14 +115,18 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
           <div className="flex items-baseline gap-2 text-sm">
             <span className="text-lg font-semibold text-slate-50">
-              ${product.price.amount.toFixed(2)}
+              {formatPrice(deal.amount)}
             </span>
-            {product.price.originalAmount &&
-              product.price.originalAmount > product.price.amount && (
+            {deal.isOnSale && deal.original != null && (
+              <>
                 <span className="text-xs text-slate-500 line-through">
-                  ${product.price.originalAmount.toFixed(2)}
+                  {formatPrice(deal.original)}
                 </span>
-              )}
+                <span className="rounded-full bg-emerald-400/20 px-2 py-0.5 text-[11px] font-semibold text-emerald-200 ring-1 ring-emerald-400/60">
+                  {deal.label ?? "On sale"}
+                </span>
+              </>
+            )}
           </div>
 
           {product.description && (

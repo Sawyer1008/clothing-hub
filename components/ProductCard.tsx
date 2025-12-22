@@ -6,6 +6,7 @@ import { useEffect, useRef, useState } from "react";
 import type { Product } from "@/types/product";
 import { useCart } from "@/app/cart/CartContext";
 import { useSavedProducts } from "@/context/SavedProductsContext";
+import { getDealInfo } from "@/lib/deals/deals";
 import { formatPrice } from "@/utils/formatPrice";
 
 type ProductCardProps = {
@@ -25,18 +26,7 @@ export default function ProductCard({ product, testMode }: ProductCardProps) {
 
   const mainImage = product.images?.[0];
   const imageUrl = mainImage?.url ?? "/file.svg";
-
-  const onSale =
-    product.price.originalAmount &&
-    product.price.originalAmount > product.price.amount;
-  const discountPercent =
-    onSale && product.price.originalAmount
-      ? Math.round(
-          ((product.price.originalAmount - product.price.amount) /
-            product.price.originalAmount) *
-            100
-        )
-      : null;
+  const deal = getDealInfo(product);
 
   useEffect(() => {
     return () => {
@@ -111,9 +101,9 @@ export default function ProductCard({ product, testMode }: ProductCardProps) {
             Test Mode
           </span>
         )}
-        {onSale && (
+        {deal.isOnSale && (
           <span className="absolute left-2 top-2 rounded-full bg-emerald-400/90 px-2 py-0.5 text-[10px] font-semibold text-emerald-950 shadow-sm ring-1 ring-emerald-300/80">
-            {discountPercent ? `${discountPercent}% off` : "On sale"}
+            {deal.label ?? "On sale"}
           </span>
         )}
       </Link>
@@ -140,13 +130,13 @@ export default function ProductCard({ product, testMode }: ProductCardProps) {
           <span className="rounded-full bg-slate-900/80 px-2 py-1 font-semibold text-slate-50 shadow-sm">
             {formatPrice(product.price.amount)}
           </span>
-          {onSale && product.price.originalAmount && (
+          {deal.isOnSale && deal.original != null && (
             <>
               <span className="text-xs text-slate-500 line-through">
-                {formatPrice(product.price.originalAmount)}
+                {formatPrice(deal.original)}
               </span>
               <span className="rounded-full bg-emerald-400/20 px-2 py-0.5 text-[11px] font-semibold text-emerald-200 ring-1 ring-emerald-400/60">
-                Deal
+                {deal.label ?? "On sale"}
               </span>
             </>
           )}

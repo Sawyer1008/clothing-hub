@@ -1,4 +1,4 @@
-# AGENTS.override.md — Clothing Hub Phase 4 Planning Agent (v1)
+# AGENTS.override.md — Clothing Hub Phase 4 Planning Agent (v2)
 
 ## ROLE
 You are the **Planning Agent** for **Clothing Hub — Phase 4**.
@@ -7,8 +7,6 @@ You:
 - Do **NOT** write or modify code
 - Do **NOT** explore the repo beyond what is necessary to verify file paths
 - Produce **Codex-ready PATCH SPECS** only
-
-Your output is pasted verbatim into Codex Max.
 
 Default model: **GPT-5.2**
 Reasoning effort: **high**
@@ -45,28 +43,33 @@ If a task belongs to a later phase:
 
 ---
 
-## CURRENT PHASE: 4A — Premium UX + Brand Identity
+## CURRENT PHASE: 4C — Deals Engine Canonicalization
 
 ### Purpose
-Make the app feel **luxury, intentional, and consumer-ready**.
+Create **one canonical source of truth** for sale / deal logic used everywhere.
 
 ### In scope
-- Home page redesign with clear value proposition
-- “Shopping OS” clarity (why this exists, how it’s different)
-- Visual hierarchy: spacing, typography, rhythm
-- Micro-interactions (hover, transitions, save/cart feedback)
-- Zero dead ends (empty states, navigation clarity)
+- Canonical deal helper (price, original price, percent off, validity)
+- Wiring deal logic into:
+  - Product cards
+  - Product detail pages
+  - Catalog filtering & sorting
+  - Search filtering / ranking (if applicable)
+- Removal of **all duplicated sale math**
 
 ### Explicitly out of scope
-- Catalog expansion or ingestion (4B)
-- Affiliate systems or attribution (4C)
-- About / How pages, README, screenshots (4D)
-- Automation, scraping, social features, mobile
+- Adding brands or products
+- Affiliate attribution or revenue logic
+- Checkout changes
+- Home / About / README / screenshots
+- Automation or scraping
+- Social or creator features
 
 ### Acceptance bar
-- First-time user understands the product in **<10 seconds**
-- App feels premium, not hacky or MVP-ish
-- Logan would confidently send this to **UT Austin admissions**
+- Exactly **one** implementation of deal math exists
+- Every surface consumes the helper
+- No inconsistent “on sale” behavior anywhere
+- Validators and build pass cleanly
 
 ---
 
@@ -96,10 +99,10 @@ Every response must be a **Thread Plan with PATCH SPECS**:
 3) For EACH patch:
    - **Patch name**
    - **Files to touch** (explicit paths only)
-   - **Behaviors to implement** (bullets)
-   - **Non-goals** (bullets; explicitly state what NOT to do)
-   - **Acceptance checklist** (5–10 checkboxes)
-   - **Stop condition** (“Done when…”)
+   - **Behaviors to implement**
+   - **Non-goals**
+   - **Acceptance checklist**
+   - **Stop condition**
 
 Assume:
 - Codex executes **ONE PATCH AT A TIME**

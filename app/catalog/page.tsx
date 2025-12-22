@@ -5,6 +5,7 @@ import { useEffect, useMemo, useState } from "react";
 import type { Product } from "@/types/product";
 import type { SearchFilters } from "@/types/search";
 import { getAllProducts } from "@/lib/catalog/catalog";
+import { getDealInfo } from "@/lib/deals/deals";
 import ProductCard from "@/components/ProductCard";
 
 const allProducts: Product[] = getAllProducts();
@@ -119,24 +120,13 @@ export default function CatalogPage() {
       }
 
       if (onSaleOnly) {
-        const original = p.price.originalAmount;
-        if (!original || original <= p.price.amount) return false;
+        if (!getDealInfo(p).isOnSale) return false;
       }
 
       return true;
     });
 
     const sorted = [...items];
-    const discountPercent = (product: Product) => {
-      const original = product.price.originalAmount;
-      if (!original || original <= 0) return 0;
-      return ((original - product.price.amount) / original) * 100;
-    };
-    const discountAmount = (product: Product) => {
-      const original = product.price.originalAmount;
-      if (!original) return 0;
-      return original - product.price.amount;
-    };
 
     if (sortOption === "featured" && !hasActiveQuery) {
       sorted.sort((a, b) => {
@@ -153,14 +143,12 @@ export default function CatalogPage() {
       sorted.sort((a, b) => updatedAt(b) - updatedAt(a));
     } else if (sortOption === "best-deals") {
       sorted.sort((a, b) => {
-        const hasDiscountA = discountAmount(a) > 0;
-        const hasDiscountB = discountAmount(b) > 0;
-        if (hasDiscountA !== hasDiscountB) return hasDiscountB ? 1 : -1;
-
-        const percentDiff = discountPercent(b) - discountPercent(a);
+        const dealA = getDealInfo(a);
+        const dealB = getDealInfo(b);
+        const percentDiff = dealB.percentOff - dealA.percentOff;
         if (percentDiff !== 0) return percentDiff;
 
-        const amountDiff = discountAmount(b) - discountAmount(a);
+        const amountDiff = dealB.amountOff - dealA.amountOff;
         if (amountDiff !== 0) return amountDiff;
 
         const popA = a.popularityScore ?? 0;

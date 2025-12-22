@@ -1,5 +1,6 @@
 import type { Product } from "@/types/product";
 import type { SearchFilters } from "@/types/search";
+import { getDealInfo } from "@/lib/deals/deals";
 
 // ------------------------------
 // Keyword dictionaries
@@ -293,9 +294,7 @@ export function filterProductsByFilters(
     }
 
     if (filters.onSale) {
-      const current = p.price.amount;
-      const original = p.price.originalAmount;
-      if (!original || original <= current) return false;
+      if (!getDealInfo(p).isOnSale) return false;
     }
 
     return true;

@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Clothing Hub
 
-## Getting Started
+## What Clothing Hub is
+Clothing Hub is a Shopping OS for multi-brand fashion. It brings a unified catalog, saved items, cart tools, and stylist-led discovery into one place while purchases happen on retailer sites.
 
-First, run the development server:
+## What problem it solves
+Multi-brand shopping creates friction: separate sites, scattered wishlists, and carts that do not talk to each other. Clothing Hub reduces that friction by keeping discovery, saving, and cart prep in one interface.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## How it works
+1. Browse a unified catalog across brands.
+2. Save items and build a cart in one place.
+3. Refine picks with the stylist for fit, budget, or style.
+4. Use checkout tools that route you to retailer sites to pay.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## What it is NOT
+Clothing Hub is not a retailer and does not process payments. Checkout, shipping, and returns remain with the original stores.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Demo flow
+Home → Catalog → Product → Save/Cart → Checkout tools
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Key routes
+- `/` Home
+- `/catalog` Unified catalog browsing
+- `/assistant` Stylist experience
 
-## Learn More
+## Demo Preview
+![Home](docs/screenshots/home.png)
+Home screen with the hero and entry actions.
 
-To learn more about Next.js, take a look at the following resources:
+![Catalog](docs/screenshots/catalog.png)
+Catalog view with multi-brand listings and filters.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Product](docs/screenshots/product.png)
+Product detail page with sizing, pricing, and save/cart actions.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+![Saved](docs/screenshots/saved.png)
+Saved items list used to compare picks.
 
-## Deploy on Vercel
+![Cart](docs/screenshots/cart.png)
+Cart summary with per-store breakdown and checkout tools.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![Assistant](docs/screenshots/assistant.png)
+Stylist assistant with quick starts and catalog-based recommendations.

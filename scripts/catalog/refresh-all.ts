@@ -3,7 +3,7 @@ import { createJsonFileAdapter } from "../../lib/catalog/adapters/jsonFileAdapte
 import type { CatalogAdapter } from "../../lib/catalog/adapters/types";
 import { runCatalogRefresh } from "../../lib/catalog/engine/run";
 
-const FAILURE_PROOF_MODE = true;
+const FAILURE_PROOF_MODE = false;
 
 const baseAdapters: CatalogAdapter[] = [
   createJsonFileAdapter({

@@ -3,12 +3,28 @@ import { createJsonFileAdapter } from "../../lib/catalog/adapters/jsonFileAdapte
 import type { CatalogAdapter } from "../../lib/catalog/adapters/types";
 import { runCatalogRefresh } from "../../lib/catalog/engine/run";
 
-const adapters: CatalogAdapter[] = [
+const FAILURE_PROOF_MODE = true;
+
+const baseAdapters: CatalogAdapter[] = [
   createJsonFileAdapter({
     sourceName: "Mock Retailer",
     sourceSlug: "mockRetailer.sample",
   }),
+  createJsonFileAdapter({
+    sourceName: "Mock Retailer 2",
+    sourceSlug: "mockRetailer2.sample",
+  }),
 ];
+
+const adapters: CatalogAdapter[] = FAILURE_PROOF_MODE
+  ? [
+      createJsonFileAdapter({
+        sourceName: "Mock Retailer 2 Invalid",
+        sourceSlug: "mockRetailer2.invalid.sample",
+      }),
+      ...baseAdapters,
+    ]
+  : baseAdapters;
 
 type AdapterResult = {
   adapter: CatalogAdapter;

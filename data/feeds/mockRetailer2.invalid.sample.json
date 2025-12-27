@@ -1,0 +1,59 @@
+[
+  {
+    "externalId": "mr2-invalid-3001",
+    "title": "Pine Ridge Flannel",
+    "brand": "Pine Ridge",
+    "description": "Brushed flannel shirt with double chest pockets.",
+    "productUrl": "https://mockretailer2.invalid/products/mr2-invalid-3001",
+    "imageUrl": "https://mockretailer2.invalid/images/mr2-invalid-3001-main.jpg",
+    "imageUrls": [
+      "https://mockretailer2.invalid/images/mr2-invalid-3001-main.jpg",
+      "https://mockretailer2.invalid/images/mr2-invalid-3001-alt1.jpg"
+    ],
+    "price": 54,
+    "currency": "USD",
+    "categoryPath": "Men > Shirts",
+    "colors": ["Crimson", "Black"],
+    "sizes": ["S", "M", "L", "XL"],
+    "tags": ["flannel", "layering"],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "mr2-invalid-3002",
+    "title": "Harborline Parka",
+    "brand": "Harborline",
+    "description": "Insulated parka with a removable hood.",
+    "productUrl": "ftp://mockretailer2.invalid/products/mr2-invalid-3002",
+    "imageUrl": "https://mockretailer2.invalid/images/mr2-invalid-3002-main.jpg",
+    "imageUrls": [
+      "https://mockretailer2.invalid/images/mr2-invalid-3002-main.jpg",
+      "https://mockretailer2.invalid/images/mr2-invalid-3002-alt1.jpg"
+    ],
+    "price": 165,
+    "originalPrice": 190,
+    "currency": "USD",
+    "categoryPath": "Women > Outerwear",
+    "colors": ["Navy"],
+    "sizes": ["S", "M", "L"],
+    "tags": ["parka", "winter"],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "mr2-invalid-3003",
+    "title": "Canyon Trail Boot",
+    "brand": "Canyon",
+    "description": "Suede hiking boot with a lug sole.",
+    "productUrl": "https://mockretailer2.invalid/products/mr2-invalid-3003",
+    "imageUrl": "https://mockretailer2.invalid/images/mr2-invalid-3003-main.jpg",
+    "price": 142,
+    "currency": "USD",
+    "categoryPath": "Men > Shoes",
+    "colors": ["Brown"],
+    "sizes": ["8", "9", "10", "11"],
+    "tags": ["hiking", "suede"],
+    "gender": "Men",
+    "inStock": true
+  }
+]

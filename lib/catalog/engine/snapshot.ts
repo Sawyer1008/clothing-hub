@@ -29,8 +29,8 @@ export function slugSourceName(sourceName: string): string {
 
 export function formatSnapshotTimestamp(date: Date): string {
   const iso = date.toISOString();
-  const noMillis = iso.replace(/\.\d{3}Z$/, "Z");
-  return noMillis.replace(/:/g, "-");
+  const withMillis = iso.replace(/\.([0-9]{3})Z$/, "-$1Z");
+  return withMillis.replace(/:/g, "-");
 }
 
 export function getSnapshotDir(sourceSlug: string): string {
@@ -47,12 +47,28 @@ export async function writeSnapshot(
   const snapshotDir = getSnapshotDir(payload.sourceSlug);
   await fs.mkdir(snapshotDir, { recursive: true });
 
-  const snapshotFile = `${formatSnapshotTimestamp(new Date(payload.generatedAt))}.json`;
-  const snapshotPath = path.join(snapshotDir, snapshotFile);
   const latestPath = path.join(snapshotDir, "latest.json");
   const serialized = `${JSON.stringify(payload, null, 2)}\n`;
 
-  await fs.writeFile(snapshotPath, serialized, "utf8");
+  const baseName = formatSnapshotTimestamp(new Date(payload.generatedAt));
+  let snapshotPath = "";
+
+  for (let attempt = 1; ; attempt += 1) {
+    const suffix = attempt === 1 ? "" : `-${attempt}`;
+    const snapshotFile = `${baseName}${suffix}.json`;
+    snapshotPath = path.join(snapshotDir, snapshotFile);
+    try {
+      await fs.writeFile(snapshotPath, serialized, { encoding: "utf8", flag: "wx" });
+      break;
+    } catch (error) {
+      const err = error as NodeJS.ErrnoException;
+      if (err && err.code === "EEXIST") {
+        continue;
+      }
+      throw error;
+    }
+  }
+
   await fs.writeFile(latestPath, serialized, "utf8");
 
   return { snapshotPath, latestPath };

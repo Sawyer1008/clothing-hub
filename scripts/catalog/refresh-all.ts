@@ -14,6 +14,10 @@ const baseAdapters: CatalogAdapter[] = [
     sourceName: "Mock Retailer 2",
     sourceSlug: "mockRetailer2.sample",
   }),
+  createJsonFileAdapter({
+    sourceName: "Cedar Loom",
+    sourceSlug: "cedarLoom.sample",
+  }),
 ];
 
 const adapters: CatalogAdapter[] = FAILURE_PROOF_MODE

@@ -27,10 +27,11 @@ import { newBalanceRaw } from "@/data/raw/newBalance";
 import { reformationRaw } from "@/data/raw/reformation";
 import mockRetailerSnapshot from "@/data/snapshots/mock-retailer/latest.json";
 import mockRetailer2Snapshot from "@/data/snapshots/mock-retailer-2/latest.json";
+import cedarLoomSnapshot from "@/data/snapshots/cedar-loom/latest.json";
 import { buildOverrideMap, overridesBySource } from "@/data/overrides";
 import { ingestRawProducts } from "./ingest";
 
-const SNAPSHOT_SOURCES = ["mock-retailer", "mock-retailer-2"] as const;
+const SNAPSHOT_SOURCES = ["mock-retailer", "mock-retailer-2", "cedar-loom"] as const;
 type SnapshotSourceSlug = (typeof SNAPSHOT_SOURCES)[number];
 
 type SnapshotPayload = {
@@ -41,6 +42,7 @@ type SnapshotPayload = {
 const SNAPSHOT_PAYLOADS: Record<SnapshotSourceSlug, unknown> = {
   "mock-retailer": mockRetailerSnapshot,
   "mock-retailer-2": mockRetailer2Snapshot,
+  "cedar-loom": cedarLoomSnapshot,
 };
 
 // Define all raw sources here so it's easy to add new brands later.

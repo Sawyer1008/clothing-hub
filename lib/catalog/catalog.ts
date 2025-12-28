@@ -25,8 +25,23 @@ import { madewellRaw } from "@/data/raw/madewell";
 import { jcrewRaw } from "@/data/raw/jcrew";
 import { newBalanceRaw } from "@/data/raw/newBalance";
 import { reformationRaw } from "@/data/raw/reformation";
+import mockRetailerSnapshot from "@/data/snapshots/mock-retailer/latest.json";
+import mockRetailer2Snapshot from "@/data/snapshots/mock-retailer-2/latest.json";
 import { buildOverrideMap, overridesBySource } from "@/data/overrides";
 import { ingestRawProducts } from "./ingest";
+
+const SNAPSHOT_SOURCES = ["mock-retailer", "mock-retailer-2"] as const;
+type SnapshotSourceSlug = (typeof SNAPSHOT_SOURCES)[number];
+
+type SnapshotPayload = {
+  sourceName?: string;
+  raw?: RawProduct[];
+};
+
+const SNAPSHOT_PAYLOADS: Record<SnapshotSourceSlug, unknown> = {
+  "mock-retailer": mockRetailerSnapshot,
+  "mock-retailer-2": mockRetailer2Snapshot,
+};
 
 // Define all raw sources here so it's easy to add new brands later.
 const rawSources = [
@@ -127,6 +142,45 @@ const rawSources = [
   },
 ];
 
+function loadSnapshotSources(): Array<{
+  name: string;
+  type: "manual";
+  data: RawProduct[];
+}> {
+  const sources: Array<{ name: string; type: "manual"; data: RawProduct[] }> = [];
+
+  for (const slug of SNAPSHOT_SOURCES) {
+    const snapshotPath = `data/snapshots/${slug}/latest.json`;
+    try {
+      const payload = SNAPSHOT_PAYLOADS[slug];
+      if (!payload || typeof payload !== "object") {
+        throw new Error("Snapshot payload is empty.");
+      }
+
+      const { sourceName, raw } = payload as SnapshotPayload;
+      if (!sourceName || typeof sourceName !== "string") {
+        throw new Error("Snapshot payload is missing sourceName.");
+      }
+      if (!Array.isArray(raw)) {
+        throw new Error("Snapshot payload is missing raw array.");
+      }
+
+      sources.push({
+        name: sourceName,
+        type: "manual",
+        data: raw,
+      });
+    } catch (error) {
+      console.warn(
+        `[catalog] Failed to load snapshot source "${slug}" from ${snapshotPath}.`,
+        error
+      );
+    }
+  }
+
+  return sources;
+}
+
 // Merge per-brand overrides onto raw items before sending them through ingest.
 function applyOverridesToSource(
   rawProducts: RawProduct[],
@@ -154,11 +208,14 @@ function applyOverridesToSource(
 }
 
 // Ingest all raw sources into normalized Products.
-const ingestedProducts: Product[] = rawSources.flatMap((source) => {
-  const withOverrides = applyOverridesToSource(source.data, source.name);
+const snapshotSources = loadSnapshotSources();
+const ingestedProducts: Product[] = [...rawSources, ...snapshotSources].flatMap(
+  (source) => {
+    const withOverrides = applyOverridesToSource(source.data, source.name);
 
-  return ingestRawProducts(withOverrides, source.name, source.type);
-});
+    return ingestRawProducts(withOverrides, source.name, source.type);
+  }
+);
 
 // Our full catalog is: manual items + ingested items.
 // Later this will also include DB rows, more brands, etc.

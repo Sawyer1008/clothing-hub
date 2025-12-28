@@ -1,0 +1,76 @@
+[
+  {
+    "externalId": "mr2-2001",
+    "title": "Cedar Trail Jacket",
+    "brand": "Cedar Trail",
+    "description": "Utility jacket with a water-resistant shell and snap pockets.",
+    "productUrl": "https://mockretailer2.example/products/mr2-2001",
+    "imageUrl": "https://mockretailer2.example/images/mr2-2001-main.jpg",
+    "imageUrls": [
+      "https://mockretailer2.example/images/mr2-2001-main.jpg",
+      "https://mockretailer2.example/images/mr2-2001-alt1.jpg"
+    ],
+    "price": 118,
+    "originalPrice": 140,
+    "currency": "USD",
+    "categoryPath": "Women > Jackets",
+    "colors": ["Olive", "Black"],
+    "sizes": ["XS", "S", "M", "L"],
+    "tags": ["utility", "fall"],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "mr2-2002",
+    "title": "Summit Knit Jogger",
+    "brand": "Summit",
+    "description": "Soft knit jogger with tapered legs and rib cuffs.",
+    "productUrl": "https://shop.mockretailer2.example/items/mr2-2002",
+    "imageUrl": "https://cdn.mockretailer2.example/images/mr2-2002-main.jpg",
+    "imageUrls": [
+      "https://cdn.mockretailer2.example/images/mr2-2002-main.jpg",
+      "https://cdn.mockretailer2.example/images/mr2-2002-alt1.jpg"
+    ],
+    "price": 64,
+    "currency": "USD",
+    "categoryPath": "Men > Pants",
+    "colors": ["Navy"],
+    "sizes": ["S", "M", "L", "XL"],
+    "tags": ["knit", "lounge"],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "mr2-2003",
+    "title": "Marina Slip Dress",
+    "brand": "Marina",
+    "description": "Bias-cut slip dress with adjustable straps.",
+    "productUrl": "https://mockretailer2.example/products/mr2-2003",
+    "imageUrl": "https://mockretailer2.example/images/mr2-2003-main.jpg",
+    "price": 89,
+    "originalPrice": 99,
+    "currency": "USD",
+    "categoryPath": "Women > Dresses",
+    "colors": ["Seafoam"],
+    "sizes": ["XS", "S", "M", "L"],
+    "tags": ["spring", "evening"],
+    "gender": "Women",
+    "inStock": false
+  },
+  {
+    "externalId": "mr2-2004",
+    "title": "Tide Canvas Sneaker",
+    "brand": "Tide",
+    "description": "Low-profile canvas sneaker with rubber toe cap.",
+    "productUrl": "https://mockretailer2.example/products/mr2-2004",
+    "imageUrl": "https://mockretailer2.example/images/mr2-2004-main.jpg",
+    "price": 74,
+    "currency": "USD",
+    "categoryPath": "Unisex > Shoes",
+    "colors": ["White", "Sand"],
+    "sizes": ["7", "8", "9", "10", "11"],
+    "tags": ["canvas", "casual"],
+    "gender": "Unisex",
+    "inStock": true
+  }
+]

@@ -44,5 +44,6 @@ next-env.d.ts
 *.zip
 /clothinghub
 # Catalog snapshot outputs (runtime artifacts)
-data/snapshots/**/latest.json
+data/snapshots/**
+!data/snapshots/**/latest.json
 data/snapshots/**/[0-9]*.json

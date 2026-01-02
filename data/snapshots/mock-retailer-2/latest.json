@@ -1,0 +1,141 @@
+{
+  "sourceName": "Mock Retailer 2",
+  "sourceSlug": "mock-retailer-2",
+  "generatedAt": "2026-01-02T16:58:25.719Z",
+  "counts": {
+    "total": 4,
+    "added": 0,
+    "updated": 0,
+    "missing": 0
+  },
+  "diffSummary": {
+    "counts": {
+      "total": 4,
+      "added": 0,
+      "updated": 0,
+      "missing": 0
+    },
+    "addedIds": [],
+    "updatedIds": [],
+    "missingIds": []
+  },
+  "raw": [
+    {
+      "id": "mr2-2001",
+      "name": "Cedar Trail Jacket",
+      "brand": "Cedar Trail",
+      "description": "Utility jacket with a water-resistant shell and snap pockets.",
+      "imageUrl": "https://mockretailer2.example/images/mr2-2001-main.jpg",
+      "imageUrls": [
+        "https://mockretailer2.example/images/mr2-2001-main.jpg",
+        "https://mockretailer2.example/images/mr2-2001-alt1.jpg"
+      ],
+      "productUrl": "https://mockretailer2.example/products/mr2-2001",
+      "price": 118,
+      "originalPrice": 140,
+      "currency": "USD",
+      "categoryPath": "Women > Jackets",
+      "colors": [
+        "Olive",
+        "Black"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "utility",
+        "fall"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "mr2-2002",
+      "name": "Summit Knit Jogger",
+      "brand": "Summit",
+      "description": "Soft knit jogger with tapered legs and rib cuffs.",
+      "imageUrl": "https://cdn.mockretailer2.example/images/mr2-2002-main.jpg",
+      "imageUrls": [
+        "https://cdn.mockretailer2.example/images/mr2-2002-main.jpg",
+        "https://cdn.mockretailer2.example/images/mr2-2002-alt1.jpg"
+      ],
+      "productUrl": "https://shop.mockretailer2.example/items/mr2-2002",
+      "price": 64,
+      "currency": "USD",
+      "categoryPath": "Men > Pants",
+      "colors": [
+        "Navy"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "knit",
+        "lounge"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "mr2-2003",
+      "name": "Marina Slip Dress",
+      "brand": "Marina",
+      "description": "Bias-cut slip dress with adjustable straps.",
+      "imageUrl": "https://mockretailer2.example/images/mr2-2003-main.jpg",
+      "productUrl": "https://mockretailer2.example/products/mr2-2003",
+      "price": 89,
+      "originalPrice": 99,
+      "currency": "USD",
+      "categoryPath": "Women > Dresses",
+      "colors": [
+        "Seafoam"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "spring",
+        "evening"
+      ],
+      "gender": "Women",
+      "inStock": false
+    },
+    {
+      "id": "mr2-2004",
+      "name": "Tide Canvas Sneaker",
+      "brand": "Tide",
+      "description": "Low-profile canvas sneaker with rubber toe cap.",
+      "imageUrl": "https://mockretailer2.example/images/mr2-2004-main.jpg",
+      "productUrl": "https://mockretailer2.example/products/mr2-2004",
+      "price": 74,
+      "currency": "USD",
+      "categoryPath": "Unisex > Shoes",
+      "colors": [
+        "White",
+        "Sand"
+      ],
+      "sizes": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "tags": [
+        "canvas",
+        "casual"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    }
+  ]
+}

@@ -1,0 +1,7643 @@
+{
+  "sourceName": "Driftwood Denim",
+  "sourceSlug": "driftwood-denim",
+  "generatedAt": "2026-01-02T16:58:25.728Z",
+  "counts": {
+    "total": 260,
+    "added": 0,
+    "updated": 0,
+    "missing": 0
+  },
+  "diffSummary": {
+    "counts": {
+      "total": 260,
+      "added": 0,
+      "updated": 0,
+      "missing": 0
+    },
+    "addedIds": [],
+    "updatedIds": [],
+    "missingIds": []
+  },
+  "raw": [
+    {
+      "id": "dd-0001",
+      "name": "Drift Ranger Baggy Jean",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed denim jean built for everyday wear. Colorway in Indigo / Stone.",
+      "imageUrl": "https://driftwood.example/images/dd-0001-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0001-main.jpg",
+        "https://driftwood.example/images/dd-0001-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0001",
+      "price": 180,
+      "originalPrice": 204,
+      "currency": "USD",
+      "categoryPath": "Men > Baggy Jeans",
+      "colors": [
+        "Indigo",
+        "Stone"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "baggy",
+        "jean",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": false
+    },
+    {
+      "id": "dd-0002",
+      "name": "Harbor Harbor Slim Jean",
+      "brand": "Driftwood Denim",
+      "description": "Slim-fit denim with a clean, tailored line. Colorway in Washed Black / Ink.",
+      "imageUrl": "https://driftwood.example/images/dd-0002-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0002",
+      "price": 84,
+      "currency": "USD",
+      "categoryPath": "Women > Slim Jeans",
+      "colors": [
+        "Washed Black",
+        "Ink"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "slim",
+        "jean"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0003",
+      "name": "Foundry Dock Cargo Pant",
+      "brand": "Driftwood Denim",
+      "description": "Cargo pant with reinforced seams and roomy pockets. Colorway in Midnight / Steel.",
+      "imageUrl": "https://driftwood.example/images/dd-0003-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0003",
+      "price": 94,
+      "currency": "USD",
+      "categoryPath": "Men > Cargo Pants",
+      "colors": [
+        "Midnight",
+        "Steel"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "tags": [
+        "cargo",
+        "utility"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0004",
+      "name": "Dock Foundry Utility Pant",
+      "brand": "Driftwood Denim",
+      "description": "Utility pant with durable twill and tool pockets. Colorway in Sand / Ecru.",
+      "imageUrl": "https://driftwood.example/images/dd-0004-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0004",
+      "price": 101,
+      "currency": "USD",
+      "categoryPath": "Men > Utility Pants",
+      "colors": [
+        "Sand",
+        "Ecru"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "utility",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0005",
+      "name": "Ridge Ridge Carpenter Pant",
+      "brand": "Driftwood Denim",
+      "description": "Carpenter pant with relaxed legs and hammer loop. Colorway in Olive / Sable.",
+      "imageUrl": "https://driftwood.example/images/dd-0005-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0005",
+      "price": 92,
+      "currency": "USD",
+      "categoryPath": "Women > Carpenter Pants",
+      "colors": [
+        "Olive",
+        "Sable"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "carpenter",
+        "utility"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0006",
+      "name": "Canyon Selvage Straight Jean",
+      "brand": "Driftwood Denim",
+      "description": "Rigid selvage denim with a straight-leg cut. Colorway in Clay / Natural.",
+      "imageUrl": "https://driftwood.example/images/dd-0006-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0006-main.jpg",
+        "https://driftwood.example/images/dd-0006-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0006",
+      "price": 110,
+      "currency": "USD",
+      "categoryPath": "Men > Jeans",
+      "colors": [
+        "Clay",
+        "Natural"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "jean",
+        "selvage"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0007",
+      "name": "Wells Trail Work Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Fleece hoodie with brushed interior and sturdy feel. Colorway in Rust / Bone.",
+      "imageUrl": "https://driftwood.example/images/dd-0007-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0007",
+      "price": 72,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Rust",
+        "Bone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "workwear"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0008",
+      "name": "Trail Workshop Graphic Tee",
+      "brand": "Driftwood Denim",
+      "description": "Graphic tee with soft ring-spun cotton. Colorway in Slate / Fog.",
+      "imageUrl": "https://driftwood.example/images/dd-0008-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0008",
+      "price": 49,
+      "currency": "USD",
+      "categoryPath": "Men > Graphic Tee",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "graphic",
+        "tee"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0009",
+      "name": "Cove Loft Oversized Tee",
+      "brand": "Driftwood Denim",
+      "description": "Oversized tee with a drapey, relaxed fit. Colorway in Cedar / Navy.",
+      "imageUrl": "https://driftwood.example/images/dd-0009-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0009",
+      "price": 54,
+      "originalPrice": 64,
+      "currency": "USD",
+      "categoryPath": "Unisex > Oversized Tee",
+      "colors": [
+        "Cedar",
+        "Navy"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0010",
+      "name": "Summit Cove Denim Jacket",
+      "brand": "Driftwood Denim",
+      "description": "Denim jacket with brushed hardware and sturdy cuffs. Colorway in Black / Heather Grey.",
+      "imageUrl": "https://driftwood.example/images/dd-0010-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0010",
+      "price": 132,
+      "originalPrice": 152,
+      "currency": "USD",
+      "categoryPath": "Men > Jackets",
+      "colors": [
+        "Black",
+        "Heather Grey"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "denim",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": false
+    },
+    {
+      "id": "dd-0011",
+      "name": "Field Harbor Relaxed Tee",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed tee with a broken-in hand feel. Colorway in Indigo / Stone.",
+      "imageUrl": "https://driftwood.example/images/dd-0011-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0011-main.jpg",
+        "https://driftwood.example/images/dd-0011-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0011",
+      "price": 50,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Indigo",
+        "Stone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "basic"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0012",
+      "name": "Range Granite Crew Sweatshirt",
+      "brand": "Driftwood Denim",
+      "description": "Crew sweatshirt with clean lines and heavy fleece. Colorway in Washed Black / Ink.",
+      "imageUrl": "https://driftwood.example/images/dd-0012-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0012",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Sweatshirt",
+      "colors": [
+        "Washed Black",
+        "Ink"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0013",
+      "name": "Drift Ranger Baggy Jean",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed denim jean built for everyday wear. Colorway in Midnight / Steel.",
+      "imageUrl": "https://driftwood.example/images/dd-0013-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0013",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Baggy Jeans",
+      "colors": [
+        "Midnight",
+        "Steel"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "baggy",
+        "jean",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0014",
+      "name": "Harbor Harbor Slim Jean",
+      "brand": "Driftwood Denim",
+      "description": "Slim-fit denim with a clean, tailored line. Colorway in Sand / Ecru.",
+      "imageUrl": "https://driftwood.example/images/dd-0014-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0014",
+      "price": 84,
+      "currency": "USD",
+      "categoryPath": "Women > Slim Jeans",
+      "colors": [
+        "Sand",
+        "Ecru"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "slim",
+        "jean"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0015",
+      "name": "Foundry Dock Cargo Pant",
+      "brand": "Driftwood Denim",
+      "description": "Cargo pant with reinforced seams and roomy pockets. Colorway in Olive / Sable.",
+      "imageUrl": "https://driftwood.example/images/dd-0015-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0015",
+      "price": 94,
+      "currency": "USD",
+      "categoryPath": "Men > Cargo Pants",
+      "colors": [
+        "Olive",
+        "Sable"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "tags": [
+        "cargo",
+        "utility"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0016",
+      "name": "Dock Foundry Utility Pant",
+      "brand": "Driftwood Denim",
+      "description": "Utility pant with durable twill and tool pockets. Colorway in Clay / Natural.",
+      "imageUrl": "https://driftwood.example/images/dd-0016-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0016-main.jpg",
+        "https://driftwood.example/images/dd-0016-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0016",
+      "price": 101,
+      "currency": "USD",
+      "categoryPath": "Men > Utility Pants",
+      "colors": [
+        "Clay",
+        "Natural"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "utility",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0017",
+      "name": "Ridge Ridge Carpenter Pant",
+      "brand": "Driftwood Denim",
+      "description": "Carpenter pant with relaxed legs and hammer loop. Colorway in Rust / Bone.",
+      "imageUrl": "https://driftwood.example/images/dd-0017-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0017",
+      "price": 92,
+      "currency": "USD",
+      "categoryPath": "Women > Carpenter Pants",
+      "colors": [
+        "Rust",
+        "Bone"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "carpenter",
+        "utility"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0018",
+      "name": "Canyon Selvage Straight Jean",
+      "brand": "Driftwood Denim",
+      "description": "Rigid selvage denim with a straight-leg cut. Colorway in Slate / Fog.",
+      "imageUrl": "https://driftwood.example/images/dd-0018-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0018",
+      "price": 228,
+      "currency": "USD",
+      "categoryPath": "Men > Jeans",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "jean",
+        "selvage"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0019",
+      "name": "Wells Trail Work Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Fleece hoodie with brushed interior and sturdy feel. Colorway in Cedar / Navy.",
+      "imageUrl": "https://driftwood.example/images/dd-0019-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0019",
+      "price": 72,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Cedar",
+        "Navy"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "workwear"
+      ],
+      "gender": "Unisex",
+      "inStock": false
+    },
+    {
+      "id": "dd-0020",
+      "name": "Trail Workshop Graphic Tee",
+      "brand": "Driftwood Denim",
+      "description": "Graphic tee with soft ring-spun cotton. Colorway in Black / Heather Grey.",
+      "imageUrl": "https://driftwood.example/images/dd-0020-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0020",
+      "price": 49,
+      "currency": "USD",
+      "categoryPath": "Men > Graphic Tee",
+      "colors": [
+        "Black",
+        "Heather Grey"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "graphic",
+        "tee"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0021",
+      "name": "Cove Loft Oversized Tee",
+      "brand": "Driftwood Denim",
+      "description": "Oversized tee with a drapey, relaxed fit. Colorway in Indigo / Stone.",
+      "imageUrl": "https://driftwood.example/images/dd-0021-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0021-main.jpg",
+        "https://driftwood.example/images/dd-0021-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0021",
+      "price": 54,
+      "currency": "USD",
+      "categoryPath": "Unisex > Oversized Tee",
+      "colors": [
+        "Indigo",
+        "Stone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0022",
+      "name": "Summit Cove Denim Jacket",
+      "brand": "Driftwood Denim",
+      "description": "Denim jacket with brushed hardware and sturdy cuffs. Colorway in Washed Black / Ink.",
+      "imageUrl": "https://driftwood.example/images/dd-0022-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0022",
+      "price": 132,
+      "currency": "USD",
+      "categoryPath": "Men > Jackets",
+      "colors": [
+        "Washed Black",
+        "Ink"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "denim",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0023",
+      "name": "Field Harbor Relaxed Tee",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed tee with a broken-in hand feel. Colorway in Midnight / Steel.",
+      "imageUrl": "https://driftwood.example/images/dd-0023-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0023",
+      "price": 50,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Midnight",
+        "Steel"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "basic"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0024",
+      "name": "Range Granite Crew Sweatshirt",
+      "brand": "Driftwood Denim",
+      "description": "Crew sweatshirt with clean lines and heavy fleece. Colorway in Sand / Ecru.",
+      "imageUrl": "https://driftwood.example/images/dd-0024-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0024",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Sweatshirt",
+      "colors": [
+        "Sand",
+        "Ecru"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0025",
+      "name": "Drift Ranger Baggy Jean",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed denim jean built for everyday wear. Colorway in Olive / Sable.",
+      "imageUrl": "https://driftwood.example/images/dd-0025-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0025",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Baggy Jeans",
+      "colors": [
+        "Olive",
+        "Sable"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "baggy",
+        "jean",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0026",
+      "name": "Harbor Harbor Slim Jean",
+      "brand": "Driftwood Denim",
+      "description": "Slim-fit denim with a clean, tailored line. Colorway in Clay / Natural.",
+      "imageUrl": "https://driftwood.example/images/dd-0026-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0026-main.jpg",
+        "https://driftwood.example/images/dd-0026-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0026",
+      "price": 84,
+      "currency": "USD",
+      "categoryPath": "Women > Slim Jeans",
+      "colors": [
+        "Clay",
+        "Natural"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "slim",
+        "jean"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0027",
+      "name": "Foundry Dock Cargo Pant",
+      "brand": "Driftwood Denim",
+      "description": "Cargo pant with reinforced seams and roomy pockets. Colorway in Rust / Bone.",
+      "imageUrl": "https://driftwood.example/images/dd-0027-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0027",
+      "price": 94,
+      "currency": "USD",
+      "categoryPath": "Men > Cargo Pants",
+      "colors": [
+        "Rust",
+        "Bone"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "tags": [
+        "cargo",
+        "utility"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0028",
+      "name": "Dock Foundry Utility Pant",
+      "brand": "Driftwood Denim",
+      "description": "Utility pant with durable twill and tool pockets. Colorway in Slate / Fog.",
+      "imageUrl": "https://driftwood.example/images/dd-0028-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0028",
+      "price": 101,
+      "originalPrice": 119,
+      "currency": "USD",
+      "categoryPath": "Men > Utility Pants",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "utility",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": false
+    },
+    {
+      "id": "dd-0029",
+      "name": "Ridge Ridge Carpenter Pant",
+      "brand": "Driftwood Denim",
+      "description": "Carpenter pant with relaxed legs and hammer loop. Colorway in Cedar / Navy.",
+      "imageUrl": "https://driftwood.example/images/dd-0029-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0029",
+      "price": 92,
+      "currency": "USD",
+      "categoryPath": "Women > Carpenter Pants",
+      "colors": [
+        "Cedar",
+        "Navy"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "carpenter",
+        "utility"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0030",
+      "name": "Canyon Selvage Straight Jean",
+      "brand": "Driftwood Denim",
+      "description": "Rigid selvage denim with a straight-leg cut. Colorway in Black / Heather Grey.",
+      "imageUrl": "https://driftwood.example/images/dd-0030-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0030",
+      "price": 126,
+      "currency": "USD",
+      "categoryPath": "Men > Jeans",
+      "colors": [
+        "Black",
+        "Heather Grey"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "jean",
+        "selvage"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0031",
+      "name": "Wells Trail Work Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Fleece hoodie with brushed interior and sturdy feel. Colorway in Indigo / Stone.",
+      "imageUrl": "https://driftwood.example/images/dd-0031-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0031-main.jpg",
+        "https://driftwood.example/images/dd-0031-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0031",
+      "price": 72,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Indigo",
+        "Stone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "workwear"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0032",
+      "name": "Trail Workshop Graphic Tee",
+      "brand": "Driftwood Denim",
+      "description": "Graphic tee with soft ring-spun cotton. Colorway in Washed Black / Ink.",
+      "imageUrl": "https://driftwood.example/images/dd-0032-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0032",
+      "price": 49,
+      "currency": "USD",
+      "categoryPath": "Men > Graphic Tee",
+      "colors": [
+        "Washed Black",
+        "Ink"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "graphic",
+        "tee"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0033",
+      "name": "Cove Loft Oversized Tee",
+      "brand": "Driftwood Denim",
+      "description": "Oversized tee with a drapey, relaxed fit. Colorway in Midnight / Steel.",
+      "imageUrl": "https://driftwood.example/images/dd-0033-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0033",
+      "price": 54,
+      "originalPrice": 64,
+      "currency": "USD",
+      "categoryPath": "Unisex > Oversized Tee",
+      "colors": [
+        "Midnight",
+        "Steel"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0034",
+      "name": "Summit Cove Denim Jacket",
+      "brand": "Driftwood Denim",
+      "description": "Denim jacket with brushed hardware and sturdy cuffs. Colorway in Sand / Ecru.",
+      "imageUrl": "https://driftwood.example/images/dd-0034-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0034",
+      "price": 132,
+      "currency": "USD",
+      "categoryPath": "Men > Jackets",
+      "colors": [
+        "Sand",
+        "Ecru"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "denim",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0035",
+      "name": "Field Harbor Relaxed Tee",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed tee with a broken-in hand feel. Colorway in Olive / Sable.",
+      "imageUrl": "https://driftwood.example/images/dd-0035-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0035",
+      "price": 50,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Olive",
+        "Sable"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "basic"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0036",
+      "name": "Range Granite Crew Sweatshirt",
+      "brand": "Driftwood Denim",
+      "description": "Crew sweatshirt with clean lines and heavy fleece. Colorway in Clay / Natural.",
+      "imageUrl": "https://driftwood.example/images/dd-0036-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0036-main.jpg",
+        "https://driftwood.example/images/dd-0036-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0036",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Sweatshirt",
+      "colors": [
+        "Clay",
+        "Natural"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0037",
+      "name": "Drift Ranger Baggy Jean",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed denim jean built for everyday wear. Colorway in Rust / Bone.",
+      "imageUrl": "https://driftwood.example/images/dd-0037-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0037",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Baggy Jeans",
+      "colors": [
+        "Rust",
+        "Bone"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "baggy",
+        "jean",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": false
+    },
+    {
+      "id": "dd-0038",
+      "name": "Harbor Harbor Slim Jean",
+      "brand": "Driftwood Denim",
+      "description": "Slim-fit denim with a clean, tailored line. Colorway in Slate / Fog.",
+      "imageUrl": "https://driftwood.example/images/dd-0038-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0038",
+      "price": 84,
+      "currency": "USD",
+      "categoryPath": "Women > Slim Jeans",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "slim",
+        "jean"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0039",
+      "name": "Foundry Dock Cargo Pant",
+      "brand": "Driftwood Denim",
+      "description": "Cargo pant with reinforced seams and roomy pockets. Colorway in Cedar / Navy.",
+      "imageUrl": "https://driftwood.example/images/dd-0039-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0039",
+      "price": 94,
+      "currency": "USD",
+      "categoryPath": "Men > Cargo Pants",
+      "colors": [
+        "Cedar",
+        "Navy"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "tags": [
+        "cargo",
+        "utility"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0040",
+      "name": "Dock Foundry Utility Pant",
+      "brand": "Driftwood Denim",
+      "description": "Utility pant with durable twill and tool pockets. Colorway in Black / Heather Grey.",
+      "imageUrl": "https://driftwood.example/images/dd-0040-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0040",
+      "price": 101,
+      "currency": "USD",
+      "categoryPath": "Men > Utility Pants",
+      "colors": [
+        "Black",
+        "Heather Grey"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "utility",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0041",
+      "name": "Ridge Ridge Carpenter Pant",
+      "brand": "Driftwood Denim",
+      "description": "Carpenter pant with relaxed legs and hammer loop. Colorway in Indigo / Stone.",
+      "imageUrl": "https://driftwood.example/images/dd-0041-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0041-main.jpg",
+        "https://driftwood.example/images/dd-0041-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0041",
+      "price": 92,
+      "originalPrice": 110,
+      "currency": "USD",
+      "categoryPath": "Women > Carpenter Pants",
+      "colors": [
+        "Indigo",
+        "Stone"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "carpenter",
+        "utility"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0042",
+      "name": "Canyon Selvage Straight Jean",
+      "brand": "Driftwood Denim",
+      "description": "Rigid selvage denim with a straight-leg cut. Colorway in Washed Black / Ink.",
+      "imageUrl": "https://driftwood.example/images/dd-0042-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0042",
+      "price": 114,
+      "currency": "USD",
+      "categoryPath": "Men > Jeans",
+      "colors": [
+        "Washed Black",
+        "Ink"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "jean",
+        "selvage"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0043",
+      "name": "Wells Trail Work Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Fleece hoodie with brushed interior and sturdy feel. Colorway in Midnight / Steel.",
+      "imageUrl": "https://driftwood.example/images/dd-0043-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0043",
+      "price": 72,
+      "originalPrice": 88,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Midnight",
+        "Steel"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "workwear"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0044",
+      "name": "Trail Workshop Graphic Tee",
+      "brand": "Driftwood Denim",
+      "description": "Graphic tee with soft ring-spun cotton. Colorway in Sand / Ecru.",
+      "imageUrl": "https://driftwood.example/images/dd-0044-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0044",
+      "price": 49,
+      "currency": "USD",
+      "categoryPath": "Men > Graphic Tee",
+      "colors": [
+        "Sand",
+        "Ecru"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "graphic",
+        "tee"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0045",
+      "name": "Cove Loft Oversized Tee",
+      "brand": "Driftwood Denim",
+      "description": "Oversized tee with a drapey, relaxed fit. Colorway in Olive / Sable.",
+      "imageUrl": "https://driftwood.example/images/dd-0045-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0045",
+      "price": 54,
+      "currency": "USD",
+      "categoryPath": "Unisex > Oversized Tee",
+      "colors": [
+        "Olive",
+        "Sable"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0046",
+      "name": "Summit Cove Denim Jacket",
+      "brand": "Driftwood Denim",
+      "description": "Denim jacket with brushed hardware and sturdy cuffs. Colorway in Clay / Natural.",
+      "imageUrl": "https://driftwood.example/images/dd-0046-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0046-main.jpg",
+        "https://driftwood.example/images/dd-0046-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0046",
+      "price": 132,
+      "originalPrice": 152,
+      "currency": "USD",
+      "categoryPath": "Men > Jackets",
+      "colors": [
+        "Clay",
+        "Natural"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "denim",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": false
+    },
+    {
+      "id": "dd-0047",
+      "name": "Field Harbor Relaxed Tee",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed tee with a broken-in hand feel. Colorway in Rust / Bone.",
+      "imageUrl": "https://driftwood.example/images/dd-0047-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0047",
+      "price": 50,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Rust",
+        "Bone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "basic"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0048",
+      "name": "Range Granite Crew Sweatshirt",
+      "brand": "Driftwood Denim",
+      "description": "Crew sweatshirt with clean lines and heavy fleece. Colorway in Slate / Fog.",
+      "imageUrl": "https://driftwood.example/images/dd-0048-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0048",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Sweatshirt",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0049",
+      "name": "Drift Ranger Baggy Jean",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed denim jean built for everyday wear. Colorway in Cedar / Navy.",
+      "imageUrl": "https://driftwood.example/images/dd-0049-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0049",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Baggy Jeans",
+      "colors": [
+        "Cedar",
+        "Navy"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "baggy",
+        "jean",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0050",
+      "name": "Harbor Harbor Slim Jean",
+      "brand": "Driftwood Denim",
+      "description": "Slim-fit denim with a clean, tailored line. Colorway in Black / Heather Grey.",
+      "imageUrl": "https://driftwood.example/images/dd-0050-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0050",
+      "price": 84,
+      "currency": "USD",
+      "categoryPath": "Women > Slim Jeans",
+      "colors": [
+        "Black",
+        "Heather Grey"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "slim",
+        "jean"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0051",
+      "name": "Foundry Dock Cargo Pant",
+      "brand": "Driftwood Denim",
+      "description": "Cargo pant with reinforced seams and roomy pockets. Colorway in Indigo / Stone.",
+      "imageUrl": "https://driftwood.example/images/dd-0051-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0051-main.jpg",
+        "https://driftwood.example/images/dd-0051-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0051",
+      "price": 94,
+      "currency": "USD",
+      "categoryPath": "Men > Cargo Pants",
+      "colors": [
+        "Indigo",
+        "Stone"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "tags": [
+        "cargo",
+        "utility"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0052",
+      "name": "Dock Foundry Utility Pant",
+      "brand": "Driftwood Denim",
+      "description": "Utility pant with durable twill and tool pockets. Colorway in Washed Black / Ink.",
+      "imageUrl": "https://driftwood.example/images/dd-0052-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0052",
+      "price": 101,
+      "currency": "USD",
+      "categoryPath": "Men > Utility Pants",
+      "colors": [
+        "Washed Black",
+        "Ink"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "utility",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0053",
+      "name": "Ridge Ridge Carpenter Pant",
+      "brand": "Driftwood Denim",
+      "description": "Carpenter pant with relaxed legs and hammer loop. Colorway in Midnight / Steel.",
+      "imageUrl": "https://driftwood.example/images/dd-0053-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0053",
+      "price": 92,
+      "currency": "USD",
+      "categoryPath": "Women > Carpenter Pants",
+      "colors": [
+        "Midnight",
+        "Steel"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "carpenter",
+        "utility"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0054",
+      "name": "Canyon Selvage Straight Jean",
+      "brand": "Driftwood Denim",
+      "description": "Rigid selvage denim with a straight-leg cut. Colorway in Sand / Ecru.",
+      "imageUrl": "https://driftwood.example/images/dd-0054-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0054",
+      "price": 122,
+      "currency": "USD",
+      "categoryPath": "Men > Jeans",
+      "colors": [
+        "Sand",
+        "Ecru"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "jean",
+        "selvage"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0055",
+      "name": "Wells Trail Work Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Fleece hoodie with brushed interior and sturdy feel. Colorway in Olive / Sable.",
+      "imageUrl": "https://driftwood.example/images/dd-0055-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0055",
+      "price": 72,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Olive",
+        "Sable"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "workwear"
+      ],
+      "gender": "Unisex",
+      "inStock": false
+    },
+    {
+      "id": "dd-0056",
+      "name": "Trail Workshop Graphic Tee",
+      "brand": "Driftwood Denim",
+      "description": "Graphic tee with soft ring-spun cotton. Colorway in Clay / Natural.",
+      "imageUrl": "https://driftwood.example/images/dd-0056-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0056-main.jpg",
+        "https://driftwood.example/images/dd-0056-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0056",
+      "price": 49,
+      "currency": "USD",
+      "categoryPath": "Men > Graphic Tee",
+      "colors": [
+        "Clay",
+        "Natural"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "graphic",
+        "tee"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0057",
+      "name": "Cove Loft Oversized Tee",
+      "brand": "Driftwood Denim",
+      "description": "Oversized tee with a drapey, relaxed fit. Colorway in Rust / Bone.",
+      "imageUrl": "https://driftwood.example/images/dd-0057-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0057",
+      "price": 54,
+      "originalPrice": 64,
+      "currency": "USD",
+      "categoryPath": "Unisex > Oversized Tee",
+      "colors": [
+        "Rust",
+        "Bone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0058",
+      "name": "Summit Cove Denim Jacket",
+      "brand": "Driftwood Denim",
+      "description": "Denim jacket with brushed hardware and sturdy cuffs. Colorway in Slate / Fog.",
+      "imageUrl": "https://driftwood.example/images/dd-0058-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0058",
+      "price": 132,
+      "currency": "USD",
+      "categoryPath": "Men > Jackets",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "denim",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0059",
+      "name": "Field Harbor Relaxed Tee",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed tee with a broken-in hand feel. Colorway in Cedar / Navy.",
+      "imageUrl": "https://driftwood.example/images/dd-0059-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0059",
+      "price": 50,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Cedar",
+        "Navy"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "basic"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0060",
+      "name": "Range Granite Crew Sweatshirt",
+      "brand": "Driftwood Denim",
+      "description": "Crew sweatshirt with clean lines and heavy fleece. Colorway in Black / Heather Grey.",
+      "imageUrl": "https://driftwood.example/images/dd-0060-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0060",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Sweatshirt",
+      "colors": [
+        "Black",
+        "Heather Grey"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0061",
+      "name": "Drift Ranger Baggy Jean",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed denim jean built for everyday wear. Colorway in Indigo / Stone.",
+      "imageUrl": "https://driftwood.example/images/dd-0061-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0061-main.jpg",
+        "https://driftwood.example/images/dd-0061-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0061",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Baggy Jeans",
+      "colors": [
+        "Indigo",
+        "Stone"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "baggy",
+        "jean",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0062",
+      "name": "Harbor Harbor Slim Jean",
+      "brand": "Driftwood Denim",
+      "description": "Slim-fit denim with a clean, tailored line. Colorway in Washed Black / Ink.",
+      "imageUrl": "https://driftwood.example/images/dd-0062-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0062",
+      "price": 84,
+      "currency": "USD",
+      "categoryPath": "Women > Slim Jeans",
+      "colors": [
+        "Washed Black",
+        "Ink"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "slim",
+        "jean"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0063",
+      "name": "Foundry Dock Cargo Pant",
+      "brand": "Driftwood Denim",
+      "description": "Cargo pant with reinforced seams and roomy pockets. Colorway in Midnight / Steel.",
+      "imageUrl": "https://driftwood.example/images/dd-0063-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0063",
+      "price": 94,
+      "currency": "USD",
+      "categoryPath": "Men > Cargo Pants",
+      "colors": [
+        "Midnight",
+        "Steel"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "tags": [
+        "cargo",
+        "utility"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0064",
+      "name": "Dock Foundry Utility Pant",
+      "brand": "Driftwood Denim",
+      "description": "Utility pant with durable twill and tool pockets. Colorway in Sand / Ecru.",
+      "imageUrl": "https://driftwood.example/images/dd-0064-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0064",
+      "price": 101,
+      "originalPrice": 119,
+      "currency": "USD",
+      "categoryPath": "Men > Utility Pants",
+      "colors": [
+        "Sand",
+        "Ecru"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "utility",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": false
+    },
+    {
+      "id": "dd-0065",
+      "name": "Ridge Ridge Carpenter Pant",
+      "brand": "Driftwood Denim",
+      "description": "Carpenter pant with relaxed legs and hammer loop. Colorway in Olive / Sable.",
+      "imageUrl": "https://driftwood.example/images/dd-0065-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0065",
+      "price": 92,
+      "currency": "USD",
+      "categoryPath": "Women > Carpenter Pants",
+      "colors": [
+        "Olive",
+        "Sable"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "carpenter",
+        "utility"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0066",
+      "name": "Canyon Selvage Straight Jean",
+      "brand": "Driftwood Denim",
+      "description": "Rigid selvage denim with a straight-leg cut. Colorway in Clay / Natural.",
+      "imageUrl": "https://driftwood.example/images/dd-0066-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0066-main.jpg",
+        "https://driftwood.example/images/dd-0066-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0066",
+      "price": 110,
+      "currency": "USD",
+      "categoryPath": "Men > Jeans",
+      "colors": [
+        "Clay",
+        "Natural"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "jean",
+        "selvage"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0067",
+      "name": "Wells Trail Work Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Fleece hoodie with brushed interior and sturdy feel. Colorway in Rust / Bone.",
+      "imageUrl": "https://driftwood.example/images/dd-0067-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0067",
+      "price": 72,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Rust",
+        "Bone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "workwear"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0068",
+      "name": "Trail Workshop Graphic Tee",
+      "brand": "Driftwood Denim",
+      "description": "Graphic tee with soft ring-spun cotton. Colorway in Slate / Fog.",
+      "imageUrl": "https://driftwood.example/images/dd-0068-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0068",
+      "price": 49,
+      "currency": "USD",
+      "categoryPath": "Men > Graphic Tee",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "graphic",
+        "tee"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0069",
+      "name": "Cove Loft Oversized Tee",
+      "brand": "Driftwood Denim",
+      "description": "Oversized tee with a drapey, relaxed fit. Colorway in Cedar / Navy.",
+      "imageUrl": "https://driftwood.example/images/dd-0069-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0069",
+      "price": 54,
+      "currency": "USD",
+      "categoryPath": "Unisex > Oversized Tee",
+      "colors": [
+        "Cedar",
+        "Navy"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0070",
+      "name": "Summit Cove Denim Jacket",
+      "brand": "Driftwood Denim",
+      "description": "Denim jacket with brushed hardware and sturdy cuffs. Colorway in Black / Heather Grey.",
+      "imageUrl": "https://driftwood.example/images/dd-0070-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0070",
+      "price": 210,
+      "currency": "USD",
+      "categoryPath": "Men > Jackets",
+      "colors": [
+        "Black",
+        "Heather Grey"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "denim",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0071",
+      "name": "Field Harbor Relaxed Tee",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed tee with a broken-in hand feel. Colorway in Indigo / Stone.",
+      "imageUrl": "https://driftwood.example/images/dd-0071-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0071-main.jpg",
+        "https://driftwood.example/images/dd-0071-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0071",
+      "price": 50,
+      "originalPrice": 60,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Indigo",
+        "Stone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "basic"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0072",
+      "name": "Range Granite Crew Sweatshirt",
+      "brand": "Driftwood Denim",
+      "description": "Crew sweatshirt with clean lines and heavy fleece. Colorway in Washed Black / Ink.",
+      "imageUrl": "https://driftwood.example/images/dd-0072-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0072",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Sweatshirt",
+      "colors": [
+        "Washed Black",
+        "Ink"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0073",
+      "name": "Drift Ranger Baggy Jean",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed denim jean built for everyday wear. Colorway in Midnight / Steel.",
+      "imageUrl": "https://driftwood.example/images/dd-0073-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0073",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Baggy Jeans",
+      "colors": [
+        "Midnight",
+        "Steel"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "baggy",
+        "jean",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": false
+    },
+    {
+      "id": "dd-0074",
+      "name": "Harbor Harbor Slim Jean",
+      "brand": "Driftwood Denim",
+      "description": "Slim-fit denim with a clean, tailored line. Colorway in Sand / Ecru.",
+      "imageUrl": "https://driftwood.example/images/dd-0074-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0074",
+      "price": 84,
+      "currency": "USD",
+      "categoryPath": "Women > Slim Jeans",
+      "colors": [
+        "Sand",
+        "Ecru"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "slim",
+        "jean"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0075",
+      "name": "Foundry Dock Cargo Pant",
+      "brand": "Driftwood Denim",
+      "description": "Cargo pant with reinforced seams and roomy pockets. Colorway in Olive / Sable.",
+      "imageUrl": "https://driftwood.example/images/dd-0075-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0075",
+      "price": 166,
+      "currency": "USD",
+      "categoryPath": "Men > Cargo Pants",
+      "colors": [
+        "Olive",
+        "Sable"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "tags": [
+        "cargo",
+        "utility"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0076",
+      "name": "Dock Foundry Utility Pant",
+      "brand": "Driftwood Denim",
+      "description": "Utility pant with durable twill and tool pockets. Colorway in Clay / Natural.",
+      "imageUrl": "https://driftwood.example/images/dd-0076-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0076-main.jpg",
+        "https://driftwood.example/images/dd-0076-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0076",
+      "price": 101,
+      "currency": "USD",
+      "categoryPath": "Men > Utility Pants",
+      "colors": [
+        "Clay",
+        "Natural"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "utility",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0077",
+      "name": "Ridge Ridge Carpenter Pant",
+      "brand": "Driftwood Denim",
+      "description": "Carpenter pant with relaxed legs and hammer loop. Colorway in Rust / Bone.",
+      "imageUrl": "https://driftwood.example/images/dd-0077-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0077",
+      "price": 92,
+      "currency": "USD",
+      "categoryPath": "Women > Carpenter Pants",
+      "colors": [
+        "Rust",
+        "Bone"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "carpenter",
+        "utility"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0078",
+      "name": "Canyon Selvage Straight Jean",
+      "brand": "Driftwood Denim",
+      "description": "Rigid selvage denim with a straight-leg cut. Colorway in Slate / Fog.",
+      "imageUrl": "https://driftwood.example/images/dd-0078-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0078",
+      "price": 118,
+      "originalPrice": 144,
+      "currency": "USD",
+      "categoryPath": "Men > Jeans",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "jean",
+        "selvage"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0079",
+      "name": "Wells Trail Work Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Fleece hoodie with brushed interior and sturdy feel. Colorway in Cedar / Navy.",
+      "imageUrl": "https://driftwood.example/images/dd-0079-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0079",
+      "price": 72,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Cedar",
+        "Navy"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "workwear"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0080",
+      "name": "Trail Workshop Graphic Tee",
+      "brand": "Driftwood Denim",
+      "description": "Graphic tee with soft ring-spun cotton. Colorway in Black / Heather Grey.",
+      "imageUrl": "https://driftwood.example/images/dd-0080-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0080",
+      "price": 49,
+      "currency": "USD",
+      "categoryPath": "Men > Graphic Tee",
+      "colors": [
+        "Black",
+        "Heather Grey"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "graphic",
+        "tee"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0081",
+      "name": "Cove Loft Oversized Tee",
+      "brand": "Driftwood Denim",
+      "description": "Oversized tee with a drapey, relaxed fit. Colorway in Indigo / Stone.",
+      "imageUrl": "https://driftwood.example/images/dd-0081-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0081-main.jpg",
+        "https://driftwood.example/images/dd-0081-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0081",
+      "price": 54,
+      "originalPrice": 64,
+      "currency": "USD",
+      "categoryPath": "Unisex > Oversized Tee",
+      "colors": [
+        "Indigo",
+        "Stone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0082",
+      "name": "Summit Cove Denim Jacket",
+      "brand": "Driftwood Denim",
+      "description": "Denim jacket with brushed hardware and sturdy cuffs. Colorway in Washed Black / Ink.",
+      "imageUrl": "https://driftwood.example/images/dd-0082-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0082",
+      "price": 132,
+      "originalPrice": 152,
+      "currency": "USD",
+      "categoryPath": "Men > Jackets",
+      "colors": [
+        "Washed Black",
+        "Ink"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "denim",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": false
+    },
+    {
+      "id": "dd-0083",
+      "name": "Field Harbor Relaxed Tee",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed tee with a broken-in hand feel. Colorway in Midnight / Steel.",
+      "imageUrl": "https://driftwood.example/images/dd-0083-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0083",
+      "price": 50,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Midnight",
+        "Steel"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "basic"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0084",
+      "name": "Range Granite Crew Sweatshirt",
+      "brand": "Driftwood Denim",
+      "description": "Crew sweatshirt with clean lines and heavy fleece. Colorway in Sand / Ecru.",
+      "imageUrl": "https://driftwood.example/images/dd-0084-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0084",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Sweatshirt",
+      "colors": [
+        "Sand",
+        "Ecru"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0085",
+      "name": "Drift Ranger Baggy Jean",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed denim jean built for everyday wear. Colorway in Olive / Sable.",
+      "imageUrl": "https://driftwood.example/images/dd-0085-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0085",
+      "price": 78,
+      "originalPrice": 102,
+      "currency": "USD",
+      "categoryPath": "Men > Baggy Jeans",
+      "colors": [
+        "Olive",
+        "Sable"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "baggy",
+        "jean",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0086",
+      "name": "Harbor Harbor Slim Jean",
+      "brand": "Driftwood Denim",
+      "description": "Slim-fit denim with a clean, tailored line. Colorway in Clay / Natural.",
+      "imageUrl": "https://driftwood.example/images/dd-0086-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0086-main.jpg",
+        "https://driftwood.example/images/dd-0086-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0086",
+      "price": 84,
+      "currency": "USD",
+      "categoryPath": "Women > Slim Jeans",
+      "colors": [
+        "Clay",
+        "Natural"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "slim",
+        "jean"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0087",
+      "name": "Foundry Dock Cargo Pant",
+      "brand": "Driftwood Denim",
+      "description": "Cargo pant with reinforced seams and roomy pockets. Colorway in Rust / Bone.",
+      "imageUrl": "https://driftwood.example/images/dd-0087-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0087",
+      "price": 94,
+      "currency": "USD",
+      "categoryPath": "Men > Cargo Pants",
+      "colors": [
+        "Rust",
+        "Bone"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "tags": [
+        "cargo",
+        "utility"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0088",
+      "name": "Dock Foundry Utility Pant",
+      "brand": "Driftwood Denim",
+      "description": "Utility pant with durable twill and tool pockets. Colorway in Slate / Fog.",
+      "imageUrl": "https://driftwood.example/images/dd-0088-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0088",
+      "price": 101,
+      "currency": "USD",
+      "categoryPath": "Men > Utility Pants",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "utility",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0089",
+      "name": "Ridge Ridge Carpenter Pant",
+      "brand": "Driftwood Denim",
+      "description": "Carpenter pant with relaxed legs and hammer loop. Colorway in Cedar / Navy.",
+      "imageUrl": "https://driftwood.example/images/dd-0089-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0089",
+      "price": 92,
+      "currency": "USD",
+      "categoryPath": "Women > Carpenter Pants",
+      "colors": [
+        "Cedar",
+        "Navy"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "carpenter",
+        "utility"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0090",
+      "name": "Canyon Selvage Straight Jean",
+      "brand": "Driftwood Denim",
+      "description": "Rigid selvage denim with a straight-leg cut. Colorway in Black / Heather Grey.",
+      "imageUrl": "https://driftwood.example/images/dd-0090-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0090",
+      "price": 126,
+      "currency": "USD",
+      "categoryPath": "Men > Jeans",
+      "colors": [
+        "Black",
+        "Heather Grey"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "jean",
+        "selvage"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0091",
+      "name": "Wells Trail Work Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Fleece hoodie with brushed interior and sturdy feel. Colorway in Indigo / Stone.",
+      "imageUrl": "https://driftwood.example/images/dd-0091-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0091-main.jpg",
+        "https://driftwood.example/images/dd-0091-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0091",
+      "price": 72,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Indigo",
+        "Stone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "workwear"
+      ],
+      "gender": "Unisex",
+      "inStock": false
+    },
+    {
+      "id": "dd-0092",
+      "name": "Trail Workshop Graphic Tee",
+      "brand": "Driftwood Denim",
+      "description": "Graphic tee with soft ring-spun cotton. Colorway in Washed Black / Ink.",
+      "imageUrl": "https://driftwood.example/images/dd-0092-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0092",
+      "price": 49,
+      "currency": "USD",
+      "categoryPath": "Men > Graphic Tee",
+      "colors": [
+        "Washed Black",
+        "Ink"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "graphic",
+        "tee"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0093",
+      "name": "Cove Loft Oversized Tee",
+      "brand": "Driftwood Denim",
+      "description": "Oversized tee with a drapey, relaxed fit. Colorway in Midnight / Steel.",
+      "imageUrl": "https://driftwood.example/images/dd-0093-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0093",
+      "price": 54,
+      "currency": "USD",
+      "categoryPath": "Unisex > Oversized Tee",
+      "colors": [
+        "Midnight",
+        "Steel"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0094",
+      "name": "Summit Cove Denim Jacket",
+      "brand": "Driftwood Denim",
+      "description": "Denim jacket with brushed hardware and sturdy cuffs. Colorway in Sand / Ecru.",
+      "imageUrl": "https://driftwood.example/images/dd-0094-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0094",
+      "price": 132,
+      "currency": "USD",
+      "categoryPath": "Men > Jackets",
+      "colors": [
+        "Sand",
+        "Ecru"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "denim",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0095",
+      "name": "Field Harbor Relaxed Tee",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed tee with a broken-in hand feel. Colorway in Olive / Sable.",
+      "imageUrl": "https://driftwood.example/images/dd-0095-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0095",
+      "price": 50,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Olive",
+        "Sable"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "basic"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0096",
+      "name": "Range Granite Crew Sweatshirt",
+      "brand": "Driftwood Denim",
+      "description": "Crew sweatshirt with clean lines and heavy fleece. Colorway in Clay / Natural.",
+      "imageUrl": "https://driftwood.example/images/dd-0096-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0096-main.jpg",
+        "https://driftwood.example/images/dd-0096-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0096",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Sweatshirt",
+      "colors": [
+        "Clay",
+        "Natural"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0097",
+      "name": "Drift Ranger Baggy Jean",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed denim jean built for everyday wear. Colorway in Rust / Bone.",
+      "imageUrl": "https://driftwood.example/images/dd-0097-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0097",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Baggy Jeans",
+      "colors": [
+        "Rust",
+        "Bone"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "baggy",
+        "jean",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0098",
+      "name": "Harbor Harbor Slim Jean",
+      "brand": "Driftwood Denim",
+      "description": "Slim-fit denim with a clean, tailored line. Colorway in Slate / Fog.",
+      "imageUrl": "https://driftwood.example/images/dd-0098-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0098",
+      "price": 84,
+      "currency": "USD",
+      "categoryPath": "Women > Slim Jeans",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "slim",
+        "jean"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0099",
+      "name": "Foundry Dock Cargo Pant",
+      "brand": "Driftwood Denim",
+      "description": "Cargo pant with reinforced seams and roomy pockets. Colorway in Cedar / Navy.",
+      "imageUrl": "https://driftwood.example/images/dd-0099-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0099",
+      "price": 94,
+      "currency": "USD",
+      "categoryPath": "Men > Cargo Pants",
+      "colors": [
+        "Cedar",
+        "Navy"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "tags": [
+        "cargo",
+        "utility"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0100",
+      "name": "Dock Foundry Utility Pant",
+      "brand": "Driftwood Denim",
+      "description": "Utility pant with durable twill and tool pockets. Colorway in Black / Heather Grey.",
+      "imageUrl": "https://driftwood.example/images/dd-0100-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0100",
+      "price": 101,
+      "originalPrice": 119,
+      "currency": "USD",
+      "categoryPath": "Men > Utility Pants",
+      "colors": [
+        "Black",
+        "Heather Grey"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "utility",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": false
+    },
+    {
+      "id": "dd-0101",
+      "name": "Ridge Ridge Carpenter Pant Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Carpenter pant with relaxed legs and hammer loop. Colorway in Indigo / Stone.",
+      "imageUrl": "https://driftwood.example/images/dd-0101-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0101-main.jpg",
+        "https://driftwood.example/images/dd-0101-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0101",
+      "price": 92,
+      "originalPrice": 110,
+      "currency": "USD",
+      "categoryPath": "Men > Tops > Hoodies",
+      "colors": [
+        "Indigo",
+        "Stone"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "carpenter",
+        "utility"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0102",
+      "name": "Canyon Selvage Straight Jean Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Rigid selvage denim with a straight-leg cut. Colorway in Washed Black / Ink.",
+      "imageUrl": "https://driftwood.example/images/dd-0102-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0102",
+      "price": 114,
+      "currency": "USD",
+      "categoryPath": "Unisex > Tops > Hoodies",
+      "colors": [
+        "Washed Black",
+        "Ink"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "jean",
+        "selvage"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0103",
+      "name": "Wells Trail Work Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Fleece hoodie with brushed interior and sturdy feel. Colorway in Midnight / Steel.",
+      "imageUrl": "https://driftwood.example/images/dd-0103-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0103",
+      "price": 72,
+      "currency": "USD",
+      "categoryPath": "Men > Tops > Hoodies",
+      "colors": [
+        "Midnight",
+        "Steel"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "workwear"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0104",
+      "name": "Trail Workshop Graphic Tee Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Graphic tee with soft ring-spun cotton. Colorway in Sand / Ecru.",
+      "imageUrl": "https://driftwood.example/images/dd-0104-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0104",
+      "price": 49,
+      "currency": "USD",
+      "categoryPath": "Unisex > Tops > Hoodies",
+      "colors": [
+        "Sand",
+        "Ecru"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "graphic",
+        "tee"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0105",
+      "name": "Cove Loft Oversized Tee Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Oversized tee with a drapey, relaxed fit. Colorway in Olive / Sable.",
+      "imageUrl": "https://driftwood.example/images/dd-0105-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0105",
+      "price": 54,
+      "originalPrice": 64,
+      "currency": "USD",
+      "categoryPath": "Men > Tops > Hoodies",
+      "colors": [
+        "Olive",
+        "Sable"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0106",
+      "name": "Summit Cove Denim Jacket Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Denim jacket with brushed hardware and sturdy cuffs. Colorway in Clay / Natural.",
+      "imageUrl": "https://driftwood.example/images/dd-0106-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0106-main.jpg",
+        "https://driftwood.example/images/dd-0106-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0106",
+      "price": 132,
+      "currency": "USD",
+      "categoryPath": "Unisex > Tops > Hoodies",
+      "colors": [
+        "Clay",
+        "Natural"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "denim",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0107",
+      "name": "Field Harbor Relaxed Tee Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed tee with a broken-in hand feel. Colorway in Rust / Bone.",
+      "imageUrl": "https://driftwood.example/images/dd-0107-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0107",
+      "price": 50,
+      "currency": "USD",
+      "categoryPath": "Men > Tops > Hoodies",
+      "colors": [
+        "Rust",
+        "Bone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "basic"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0108",
+      "name": "Range Granite Crew Sweatshirt Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Crew sweatshirt with clean lines and heavy fleece. Colorway in Slate / Fog.",
+      "imageUrl": "https://driftwood.example/images/dd-0108-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0108",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Unisex > Tops > Hoodies",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0109",
+      "name": "Drift Ranger Baggy Jean Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed denim jean built for everyday wear. Colorway in Cedar / Navy.",
+      "imageUrl": "https://driftwood.example/images/dd-0109-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0109",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Tops > Hoodies",
+      "colors": [
+        "Cedar",
+        "Navy"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "baggy",
+        "jean",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": false
+    },
+    {
+      "id": "dd-0110",
+      "name": "Harbor Harbor Slim Jean Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Slim-fit denim with a clean, tailored line. Colorway in Black / Heather Grey.",
+      "imageUrl": "https://driftwood.example/images/dd-0110-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0110",
+      "price": 84,
+      "currency": "USD",
+      "categoryPath": "Unisex > Tops > Hoodies",
+      "colors": [
+        "Black",
+        "Heather Grey"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "slim",
+        "jean"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0111",
+      "name": "Foundry Dock Cargo Pant Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Cargo pant with reinforced seams and roomy pockets. Colorway in Indigo / Stone.",
+      "imageUrl": "https://driftwood.example/images/dd-0111-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0111-main.jpg",
+        "https://driftwood.example/images/dd-0111-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0111",
+      "price": 94,
+      "currency": "USD",
+      "categoryPath": "Men > Tops > Hoodies",
+      "colors": [
+        "Indigo",
+        "Stone"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "tags": [
+        "cargo",
+        "utility"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0112",
+      "name": "Dock Foundry Utility Pant Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Utility pant with durable twill and tool pockets. Colorway in Washed Black / Ink.",
+      "imageUrl": "https://driftwood.example/images/dd-0112-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0112",
+      "price": 101,
+      "currency": "USD",
+      "categoryPath": "Unisex > Tops > Hoodies",
+      "colors": [
+        "Washed Black",
+        "Ink"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "utility",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0113",
+      "name": "Ridge Ridge Carpenter Pant Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Carpenter pant with relaxed legs and hammer loop. Colorway in Midnight / Steel.",
+      "imageUrl": "https://driftwood.example/images/dd-0113-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0113",
+      "price": 92,
+      "currency": "USD",
+      "categoryPath": "Men > Tops > Hoodies",
+      "colors": [
+        "Midnight",
+        "Steel"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "carpenter",
+        "utility"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0114",
+      "name": "Canyon Selvage Straight Jean Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Rigid selvage denim with a straight-leg cut. Colorway in Sand / Ecru.",
+      "imageUrl": "https://driftwood.example/images/dd-0114-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0114",
+      "price": 122,
+      "currency": "USD",
+      "categoryPath": "Unisex > Tops > Hoodies",
+      "colors": [
+        "Sand",
+        "Ecru"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "jean",
+        "selvage"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0115",
+      "name": "Wells Trail Work Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Fleece hoodie with brushed interior and sturdy feel. Colorway in Olive / Sable.",
+      "imageUrl": "https://driftwood.example/images/dd-0115-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0115",
+      "price": 72,
+      "currency": "USD",
+      "categoryPath": "Men > Tops > Hoodies",
+      "colors": [
+        "Olive",
+        "Sable"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "workwear"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0116",
+      "name": "Trail Workshop Graphic Tee",
+      "brand": "Driftwood Denim",
+      "description": "Graphic tee with soft ring-spun cotton. Colorway in Clay / Natural.",
+      "imageUrl": "https://driftwood.example/images/dd-0116-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0116-main.jpg",
+        "https://driftwood.example/images/dd-0116-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0116",
+      "price": 49,
+      "currency": "USD",
+      "categoryPath": "Men > Graphic Tee",
+      "colors": [
+        "Clay",
+        "Natural"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "graphic",
+        "tee"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0117",
+      "name": "Cove Loft Oversized Tee",
+      "brand": "Driftwood Denim",
+      "description": "Oversized tee with a drapey, relaxed fit. Colorway in Rust / Bone.",
+      "imageUrl": "https://driftwood.example/images/dd-0117-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0117",
+      "price": 54,
+      "currency": "USD",
+      "categoryPath": "Unisex > Oversized Tee",
+      "colors": [
+        "Rust",
+        "Bone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0118",
+      "name": "Summit Cove Denim Jacket",
+      "brand": "Driftwood Denim",
+      "description": "Denim jacket with brushed hardware and sturdy cuffs. Colorway in Slate / Fog.",
+      "imageUrl": "https://driftwood.example/images/dd-0118-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0118",
+      "price": 132,
+      "originalPrice": 152,
+      "currency": "USD",
+      "categoryPath": "Men > Jackets",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "denim",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": false
+    },
+    {
+      "id": "dd-0119",
+      "name": "Field Harbor Relaxed Tee",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed tee with a broken-in hand feel. Colorway in Cedar / Navy.",
+      "imageUrl": "https://driftwood.example/images/dd-0119-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0119",
+      "price": 50,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Cedar",
+        "Navy"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "basic"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0120",
+      "name": "Range Granite Crew Sweatshirt",
+      "brand": "Driftwood Denim",
+      "description": "Crew sweatshirt with clean lines and heavy fleece. Colorway in Black / Heather Grey.",
+      "imageUrl": "https://driftwood.example/images/dd-0120-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0120",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Sweatshirt",
+      "colors": [
+        "Black",
+        "Heather Grey"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0121",
+      "name": "Drift Ranger Baggy Jean",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed denim jean built for everyday wear. Colorway in Indigo / Stone.",
+      "imageUrl": "https://driftwood.example/images/dd-0121-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0121-main.jpg",
+        "https://driftwood.example/images/dd-0121-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0121",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Baggy Jeans",
+      "colors": [
+        "Indigo",
+        "Stone"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "baggy",
+        "jean",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0122",
+      "name": "Harbor Harbor Slim Jean",
+      "brand": "Driftwood Denim",
+      "description": "Slim-fit denim with a clean, tailored line. Colorway in Washed Black / Ink.",
+      "imageUrl": "https://driftwood.example/images/dd-0122-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0122",
+      "price": 84,
+      "currency": "USD",
+      "categoryPath": "Women > Slim Jeans",
+      "colors": [
+        "Washed Black",
+        "Ink"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "slim",
+        "jean"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0123",
+      "name": "Foundry Dock Cargo Pant",
+      "brand": "Driftwood Denim",
+      "description": "Cargo pant with reinforced seams and roomy pockets. Colorway in Midnight / Steel.",
+      "imageUrl": "https://driftwood.example/images/dd-0123-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0123",
+      "price": 94,
+      "currency": "USD",
+      "categoryPath": "Men > Cargo Pants",
+      "colors": [
+        "Midnight",
+        "Steel"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "tags": [
+        "cargo",
+        "utility"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0124",
+      "name": "Dock Foundry Utility Pant",
+      "brand": "Driftwood Denim",
+      "description": "Utility pant with durable twill and tool pockets. Colorway in Sand / Ecru.",
+      "imageUrl": "https://driftwood.example/images/dd-0124-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0124",
+      "price": 170,
+      "currency": "USD",
+      "categoryPath": "Men > Utility Pants",
+      "colors": [
+        "Sand",
+        "Ecru"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "utility",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0125",
+      "name": "Ridge Ridge Carpenter Pant",
+      "brand": "Driftwood Denim",
+      "description": "Carpenter pant with relaxed legs and hammer loop. Colorway in Olive / Sable.",
+      "imageUrl": "https://driftwood.example/images/dd-0125-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0125",
+      "price": 92,
+      "currency": "USD",
+      "categoryPath": "Women > Carpenter Pants",
+      "colors": [
+        "Olive",
+        "Sable"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "carpenter",
+        "utility"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0126",
+      "name": "Canyon Selvage Straight Jean",
+      "brand": "Driftwood Denim",
+      "description": "Rigid selvage denim with a straight-leg cut. Colorway in Clay / Natural.",
+      "imageUrl": "https://driftwood.example/images/dd-0126-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0126-main.jpg",
+        "https://driftwood.example/images/dd-0126-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0126",
+      "price": 110,
+      "currency": "USD",
+      "categoryPath": "Men > Jeans",
+      "colors": [
+        "Clay",
+        "Natural"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "jean",
+        "selvage"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0127",
+      "name": "Wells Trail Work Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Fleece hoodie with brushed interior and sturdy feel. Colorway in Rust / Bone.",
+      "imageUrl": "https://driftwood.example/images/dd-0127-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0127",
+      "price": 72,
+      "originalPrice": 88,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Rust",
+        "Bone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "workwear"
+      ],
+      "gender": "Unisex",
+      "inStock": false
+    },
+    {
+      "id": "dd-0128",
+      "name": "Trail Workshop Graphic Tee",
+      "brand": "Driftwood Denim",
+      "description": "Graphic tee with soft ring-spun cotton. Colorway in Slate / Fog.",
+      "imageUrl": "https://driftwood.example/images/dd-0128-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0128",
+      "price": 49,
+      "currency": "USD",
+      "categoryPath": "Men > Graphic Tee",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "graphic",
+        "tee"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0129",
+      "name": "Cove Loft Oversized Tee",
+      "brand": "Driftwood Denim",
+      "description": "Oversized tee with a drapey, relaxed fit. Colorway in Cedar / Navy.",
+      "imageUrl": "https://driftwood.example/images/dd-0129-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0129",
+      "price": 54,
+      "originalPrice": 64,
+      "currency": "USD",
+      "categoryPath": "Unisex > Oversized Tee",
+      "colors": [
+        "Cedar",
+        "Navy"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0130",
+      "name": "Summit Cove Denim Jacket",
+      "brand": "Driftwood Denim",
+      "description": "Denim jacket with brushed hardware and sturdy cuffs. Colorway in Black / Heather Grey.",
+      "imageUrl": "https://driftwood.example/images/dd-0130-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0130",
+      "price": 132,
+      "currency": "USD",
+      "categoryPath": "Men > Jackets",
+      "colors": [
+        "Black",
+        "Heather Grey"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "denim",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0131",
+      "name": "Field Harbor Relaxed Tee",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed tee with a broken-in hand feel. Colorway in Indigo / Stone.",
+      "imageUrl": "https://driftwood.example/images/dd-0131-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0131-main.jpg",
+        "https://driftwood.example/images/dd-0131-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0131",
+      "price": 50,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Indigo",
+        "Stone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "basic"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0132",
+      "name": "Range Granite Crew Sweatshirt",
+      "brand": "Driftwood Denim",
+      "description": "Crew sweatshirt with clean lines and heavy fleece. Colorway in Washed Black / Ink.",
+      "imageUrl": "https://driftwood.example/images/dd-0132-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0132",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Sweatshirt",
+      "colors": [
+        "Washed Black",
+        "Ink"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0133",
+      "name": "Drift Ranger Baggy Jean",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed denim jean built for everyday wear. Colorway in Midnight / Steel.",
+      "imageUrl": "https://driftwood.example/images/dd-0133-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0133",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Baggy Jeans",
+      "colors": [
+        "Midnight",
+        "Steel"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "baggy",
+        "jean",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0134",
+      "name": "Harbor Harbor Slim Jean",
+      "brand": "Driftwood Denim",
+      "description": "Slim-fit denim with a clean, tailored line. Colorway in Sand / Ecru.",
+      "imageUrl": "https://driftwood.example/images/dd-0134-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0134",
+      "price": 84,
+      "currency": "USD",
+      "categoryPath": "Women > Slim Jeans",
+      "colors": [
+        "Sand",
+        "Ecru"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "slim",
+        "jean"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0135",
+      "name": "Foundry Dock Cargo Pant",
+      "brand": "Driftwood Denim",
+      "description": "Cargo pant with reinforced seams and roomy pockets. Colorway in Olive / Sable.",
+      "imageUrl": "https://driftwood.example/images/dd-0135-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0135",
+      "price": 94,
+      "currency": "USD",
+      "categoryPath": "Men > Cargo Pants",
+      "colors": [
+        "Olive",
+        "Sable"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "tags": [
+        "cargo",
+        "utility"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0136",
+      "name": "Dock Foundry Utility Pant",
+      "brand": "Driftwood Denim",
+      "description": "Utility pant with durable twill and tool pockets. Colorway in Clay / Natural.",
+      "imageUrl": "https://driftwood.example/images/dd-0136-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0136-main.jpg",
+        "https://driftwood.example/images/dd-0136-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0136",
+      "price": 101,
+      "originalPrice": 119,
+      "currency": "USD",
+      "categoryPath": "Men > Utility Pants",
+      "colors": [
+        "Clay",
+        "Natural"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "utility",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": false
+    },
+    {
+      "id": "dd-0137",
+      "name": "Ridge Ridge Carpenter Pant",
+      "brand": "Driftwood Denim",
+      "description": "Carpenter pant with relaxed legs and hammer loop. Colorway in Rust / Bone.",
+      "imageUrl": "https://driftwood.example/images/dd-0137-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0137",
+      "price": 92,
+      "currency": "USD",
+      "categoryPath": "Women > Carpenter Pants",
+      "colors": [
+        "Rust",
+        "Bone"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "carpenter",
+        "utility"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0138",
+      "name": "Canyon Selvage Straight Jean",
+      "brand": "Driftwood Denim",
+      "description": "Rigid selvage denim with a straight-leg cut. Colorway in Slate / Fog.",
+      "imageUrl": "https://driftwood.example/images/dd-0138-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0138",
+      "price": 118,
+      "currency": "USD",
+      "categoryPath": "Men > Jeans",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "jean",
+        "selvage"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0139",
+      "name": "Wells Trail Work Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Fleece hoodie with brushed interior and sturdy feel. Colorway in Cedar / Navy.",
+      "imageUrl": "https://driftwood.example/images/dd-0139-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0139",
+      "price": 72,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Cedar",
+        "Navy"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "workwear"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0140",
+      "name": "Trail Workshop Graphic Tee",
+      "brand": "Driftwood Denim",
+      "description": "Graphic tee with soft ring-spun cotton. Colorway in Black / Heather Grey.",
+      "imageUrl": "https://driftwood.example/images/dd-0140-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0140",
+      "price": 49,
+      "currency": "USD",
+      "categoryPath": "Men > Graphic Tee",
+      "colors": [
+        "Black",
+        "Heather Grey"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "graphic",
+        "tee"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0141",
+      "name": "Cove Loft Oversized Tee",
+      "brand": "Driftwood Denim",
+      "description": "Oversized tee with a drapey, relaxed fit. Colorway in Indigo / Stone.",
+      "imageUrl": "https://driftwood.example/images/dd-0141-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0141-main.jpg",
+        "https://driftwood.example/images/dd-0141-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0141",
+      "price": 54,
+      "currency": "USD",
+      "categoryPath": "Unisex > Oversized Tee",
+      "colors": [
+        "Indigo",
+        "Stone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0142",
+      "name": "Summit Cove Denim Jacket",
+      "brand": "Driftwood Denim",
+      "description": "Denim jacket with brushed hardware and sturdy cuffs. Colorway in Washed Black / Ink.",
+      "imageUrl": "https://driftwood.example/images/dd-0142-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0142",
+      "price": 132,
+      "currency": "USD",
+      "categoryPath": "Men > Jackets",
+      "colors": [
+        "Washed Black",
+        "Ink"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "denim",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0143",
+      "name": "Field Harbor Relaxed Tee",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed tee with a broken-in hand feel. Colorway in Midnight / Steel.",
+      "imageUrl": "https://driftwood.example/images/dd-0143-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0143",
+      "price": 50,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Midnight",
+        "Steel"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "basic"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0144",
+      "name": "Range Granite Crew Sweatshirt",
+      "brand": "Driftwood Denim",
+      "description": "Crew sweatshirt with clean lines and heavy fleece. Colorway in Sand / Ecru.",
+      "imageUrl": "https://driftwood.example/images/dd-0144-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0144",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Sweatshirt",
+      "colors": [
+        "Sand",
+        "Ecru"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0145",
+      "name": "Drift Ranger Baggy Jean",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed denim jean built for everyday wear. Colorway in Olive / Sable.",
+      "imageUrl": "https://driftwood.example/images/dd-0145-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0145",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Baggy Jeans",
+      "colors": [
+        "Olive",
+        "Sable"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "baggy",
+        "jean",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": false
+    },
+    {
+      "id": "dd-0146",
+      "name": "Harbor Harbor Slim Jean",
+      "brand": "Driftwood Denim",
+      "description": "Slim-fit denim with a clean, tailored line. Colorway in Clay / Natural.",
+      "imageUrl": "https://driftwood.example/images/dd-0146-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0146-main.jpg",
+        "https://driftwood.example/images/dd-0146-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0146",
+      "price": 84,
+      "currency": "USD",
+      "categoryPath": "Women > Slim Jeans",
+      "colors": [
+        "Clay",
+        "Natural"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "slim",
+        "jean"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0147",
+      "name": "Foundry Dock Cargo Pant",
+      "brand": "Driftwood Denim",
+      "description": "Cargo pant with reinforced seams and roomy pockets. Colorway in Rust / Bone.",
+      "imageUrl": "https://driftwood.example/images/dd-0147-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0147",
+      "price": 94,
+      "currency": "USD",
+      "categoryPath": "Men > Cargo Pants",
+      "colors": [
+        "Rust",
+        "Bone"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "tags": [
+        "cargo",
+        "utility"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0148",
+      "name": "Dock Foundry Utility Pant",
+      "brand": "Driftwood Denim",
+      "description": "Utility pant with durable twill and tool pockets. Colorway in Slate / Fog.",
+      "imageUrl": "https://driftwood.example/images/dd-0148-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0148",
+      "price": 101,
+      "currency": "USD",
+      "categoryPath": "Men > Utility Pants",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "utility",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0149",
+      "name": "Ridge Ridge Carpenter Pant",
+      "brand": "Driftwood Denim",
+      "description": "Carpenter pant with relaxed legs and hammer loop. Colorway in Cedar / Navy.",
+      "imageUrl": "https://driftwood.example/images/dd-0149-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0149",
+      "price": 92,
+      "currency": "USD",
+      "categoryPath": "Women > Carpenter Pants",
+      "colors": [
+        "Cedar",
+        "Navy"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "carpenter",
+        "utility"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0150",
+      "name": "Canyon Selvage Straight Jean",
+      "brand": "Driftwood Denim",
+      "description": "Rigid selvage denim with a straight-leg cut. Colorway in Black / Heather Grey.",
+      "imageUrl": "https://driftwood.example/images/dd-0150-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0150",
+      "price": 126,
+      "currency": "USD",
+      "categoryPath": "Men > Jeans",
+      "colors": [
+        "Black",
+        "Heather Grey"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "jean",
+        "selvage"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0151",
+      "name": "Wells Trail Work Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Fleece hoodie with brushed interior and sturdy feel. Colorway in Indigo / Stone.",
+      "imageUrl": "https://driftwood.example/images/dd-0151-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0151-main.jpg",
+        "https://driftwood.example/images/dd-0151-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0151",
+      "price": 72,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Indigo",
+        "Stone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "workwear"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0152",
+      "name": "Trail Workshop Graphic Tee",
+      "brand": "Driftwood Denim",
+      "description": "Graphic tee with soft ring-spun cotton. Colorway in Washed Black / Ink.",
+      "imageUrl": "https://driftwood.example/images/dd-0152-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0152",
+      "price": 49,
+      "currency": "USD",
+      "categoryPath": "Men > Graphic Tee",
+      "colors": [
+        "Washed Black",
+        "Ink"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "graphic",
+        "tee"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0153",
+      "name": "Cove Loft Oversized Tee",
+      "brand": "Driftwood Denim",
+      "description": "Oversized tee with a drapey, relaxed fit. Colorway in Midnight / Steel.",
+      "imageUrl": "https://driftwood.example/images/dd-0153-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0153",
+      "price": 54,
+      "originalPrice": 64,
+      "currency": "USD",
+      "categoryPath": "Unisex > Oversized Tee",
+      "colors": [
+        "Midnight",
+        "Steel"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0154",
+      "name": "Summit Cove Denim Jacket",
+      "brand": "Driftwood Denim",
+      "description": "Denim jacket with brushed hardware and sturdy cuffs. Colorway in Sand / Ecru.",
+      "imageUrl": "https://driftwood.example/images/dd-0154-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0154",
+      "price": 132,
+      "originalPrice": 152,
+      "currency": "USD",
+      "categoryPath": "Men > Jackets",
+      "colors": [
+        "Sand",
+        "Ecru"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "denim",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": false
+    },
+    {
+      "id": "dd-0155",
+      "name": "Field Harbor Relaxed Tee",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed tee with a broken-in hand feel. Colorway in Olive / Sable.",
+      "imageUrl": "https://driftwood.example/images/dd-0155-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0155",
+      "price": 50,
+      "originalPrice": 60,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Olive",
+        "Sable"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "basic"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0156",
+      "name": "Range Granite Crew Sweatshirt",
+      "brand": "Driftwood Denim",
+      "description": "Crew sweatshirt with clean lines and heavy fleece. Colorway in Clay / Natural.",
+      "imageUrl": "https://driftwood.example/images/dd-0156-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0156-main.jpg",
+        "https://driftwood.example/images/dd-0156-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0156",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Sweatshirt",
+      "colors": [
+        "Clay",
+        "Natural"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0157",
+      "name": "Drift Ranger Baggy Jean",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed denim jean built for everyday wear. Colorway in Rust / Bone.",
+      "imageUrl": "https://driftwood.example/images/dd-0157-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0157",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Baggy Jeans",
+      "colors": [
+        "Rust",
+        "Bone"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "baggy",
+        "jean",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0158",
+      "name": "Harbor Harbor Slim Jean",
+      "brand": "Driftwood Denim",
+      "description": "Slim-fit denim with a clean, tailored line. Colorway in Slate / Fog.",
+      "imageUrl": "https://driftwood.example/images/dd-0158-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0158",
+      "price": 84,
+      "currency": "USD",
+      "categoryPath": "Women > Slim Jeans",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "slim",
+        "jean"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0159",
+      "name": "Foundry Dock Cargo Pant",
+      "brand": "Driftwood Denim",
+      "description": "Cargo pant with reinforced seams and roomy pockets. Colorway in Cedar / Navy.",
+      "imageUrl": "https://driftwood.example/images/dd-0159-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0159",
+      "price": 94,
+      "currency": "USD",
+      "categoryPath": "Men > Cargo Pants",
+      "colors": [
+        "Cedar",
+        "Navy"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "tags": [
+        "cargo",
+        "utility"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0160",
+      "name": "Dock Foundry Utility Pant",
+      "brand": "Driftwood Denim",
+      "description": "Utility pant with durable twill and tool pockets. Colorway in Black / Heather Grey.",
+      "imageUrl": "https://driftwood.example/images/dd-0160-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0160",
+      "price": 101,
+      "currency": "USD",
+      "categoryPath": "Men > Utility Pants",
+      "colors": [
+        "Black",
+        "Heather Grey"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "utility",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0161",
+      "name": "Ridge Ridge Carpenter Pant",
+      "brand": "Driftwood Denim",
+      "description": "Carpenter pant with relaxed legs and hammer loop. Colorway in Indigo / Stone.",
+      "imageUrl": "https://driftwood.example/images/dd-0161-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0161-main.jpg",
+        "https://driftwood.example/images/dd-0161-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0161",
+      "price": 92,
+      "originalPrice": 110,
+      "currency": "USD",
+      "categoryPath": "Women > Carpenter Pants",
+      "colors": [
+        "Indigo",
+        "Stone"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "carpenter",
+        "utility"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0162",
+      "name": "Canyon Selvage Straight Jean",
+      "brand": "Driftwood Denim",
+      "description": "Rigid selvage denim with a straight-leg cut. Colorway in Washed Black / Ink.",
+      "imageUrl": "https://driftwood.example/images/dd-0162-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0162",
+      "price": 114,
+      "currency": "USD",
+      "categoryPath": "Men > Jeans",
+      "colors": [
+        "Washed Black",
+        "Ink"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "jean",
+        "selvage"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0163",
+      "name": "Wells Trail Work Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Fleece hoodie with brushed interior and sturdy feel. Colorway in Midnight / Steel.",
+      "imageUrl": "https://driftwood.example/images/dd-0163-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0163",
+      "price": 72,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Midnight",
+        "Steel"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "workwear"
+      ],
+      "gender": "Unisex",
+      "inStock": false
+    },
+    {
+      "id": "dd-0164",
+      "name": "Trail Workshop Graphic Tee",
+      "brand": "Driftwood Denim",
+      "description": "Graphic tee with soft ring-spun cotton. Colorway in Sand / Ecru.",
+      "imageUrl": "https://driftwood.example/images/dd-0164-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0164",
+      "price": 49,
+      "currency": "USD",
+      "categoryPath": "Men > Graphic Tee",
+      "colors": [
+        "Sand",
+        "Ecru"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "graphic",
+        "tee"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0165",
+      "name": "Cove Loft Oversized Tee",
+      "brand": "Driftwood Denim",
+      "description": "Oversized tee with a drapey, relaxed fit. Colorway in Olive / Sable.",
+      "imageUrl": "https://driftwood.example/images/dd-0165-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0165",
+      "price": 54,
+      "currency": "USD",
+      "categoryPath": "Unisex > Oversized Tee",
+      "colors": [
+        "Olive",
+        "Sable"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0166",
+      "name": "Summit Cove Denim Jacket",
+      "brand": "Driftwood Denim",
+      "description": "Denim jacket with brushed hardware and sturdy cuffs. Colorway in Clay / Natural.",
+      "imageUrl": "https://driftwood.example/images/dd-0166-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0166-main.jpg",
+        "https://driftwood.example/images/dd-0166-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0166",
+      "price": 132,
+      "currency": "USD",
+      "categoryPath": "Men > Jackets",
+      "colors": [
+        "Clay",
+        "Natural"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "denim",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0167",
+      "name": "Field Harbor Relaxed Tee",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed tee with a broken-in hand feel. Colorway in Rust / Bone.",
+      "imageUrl": "https://driftwood.example/images/dd-0167-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0167",
+      "price": 50,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Rust",
+        "Bone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "basic"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0168",
+      "name": "Range Granite Crew Sweatshirt",
+      "brand": "Driftwood Denim",
+      "description": "Crew sweatshirt with clean lines and heavy fleece. Colorway in Slate / Fog.",
+      "imageUrl": "https://driftwood.example/images/dd-0168-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0168",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Sweatshirt",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0169",
+      "name": "Drift Ranger Baggy Jean",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed denim jean built for everyday wear. Colorway in Cedar / Navy.",
+      "imageUrl": "https://driftwood.example/images/dd-0169-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0169",
+      "price": 78,
+      "originalPrice": 102,
+      "currency": "USD",
+      "categoryPath": "Men > Baggy Jeans",
+      "colors": [
+        "Cedar",
+        "Navy"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "baggy",
+        "jean",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0170",
+      "name": "Harbor Harbor Slim Jean",
+      "brand": "Driftwood Denim",
+      "description": "Slim-fit denim with a clean, tailored line. Colorway in Black / Heather Grey.",
+      "imageUrl": "https://driftwood.example/images/dd-0170-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0170",
+      "price": 84,
+      "currency": "USD",
+      "categoryPath": "Women > Slim Jeans",
+      "colors": [
+        "Black",
+        "Heather Grey"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "slim",
+        "jean"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0171",
+      "name": "Foundry Dock Cargo Pant",
+      "brand": "Driftwood Denim",
+      "description": "Cargo pant with reinforced seams and roomy pockets. Colorway in Indigo / Stone.",
+      "imageUrl": "https://driftwood.example/images/dd-0171-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0171-main.jpg",
+        "https://driftwood.example/images/dd-0171-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0171",
+      "price": 94,
+      "currency": "USD",
+      "categoryPath": "Men > Cargo Pants",
+      "colors": [
+        "Indigo",
+        "Stone"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "tags": [
+        "cargo",
+        "utility"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0172",
+      "name": "Dock Foundry Utility Pant",
+      "brand": "Driftwood Denim",
+      "description": "Utility pant with durable twill and tool pockets. Colorway in Washed Black / Ink.",
+      "imageUrl": "https://driftwood.example/images/dd-0172-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0172",
+      "price": 101,
+      "originalPrice": 119,
+      "currency": "USD",
+      "categoryPath": "Men > Utility Pants",
+      "colors": [
+        "Washed Black",
+        "Ink"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "utility",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": false
+    },
+    {
+      "id": "dd-0173",
+      "name": "Ridge Ridge Carpenter Pant",
+      "brand": "Driftwood Denim",
+      "description": "Carpenter pant with relaxed legs and hammer loop. Colorway in Midnight / Steel.",
+      "imageUrl": "https://driftwood.example/images/dd-0173-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0173",
+      "price": 157,
+      "currency": "USD",
+      "categoryPath": "Women > Carpenter Pants",
+      "colors": [
+        "Midnight",
+        "Steel"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "carpenter",
+        "utility"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0174",
+      "name": "Canyon Selvage Straight Jean",
+      "brand": "Driftwood Denim",
+      "description": "Rigid selvage denim with a straight-leg cut. Colorway in Sand / Ecru.",
+      "imageUrl": "https://driftwood.example/images/dd-0174-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0174",
+      "price": 122,
+      "currency": "USD",
+      "categoryPath": "Men > Jeans",
+      "colors": [
+        "Sand",
+        "Ecru"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "jean",
+        "selvage"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0175",
+      "name": "Wells Trail Work Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Fleece hoodie with brushed interior and sturdy feel. Colorway in Olive / Sable.",
+      "imageUrl": "https://driftwood.example/images/dd-0175-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0175",
+      "price": 72,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Olive",
+        "Sable"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "workwear"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0176",
+      "name": "Trail Workshop Graphic Tee",
+      "brand": "Driftwood Denim",
+      "description": "Graphic tee with soft ring-spun cotton. Colorway in Clay / Natural.",
+      "imageUrl": "https://driftwood.example/images/dd-0176-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0176-main.jpg",
+        "https://driftwood.example/images/dd-0176-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0176",
+      "price": 49,
+      "currency": "USD",
+      "categoryPath": "Men > Graphic Tee",
+      "colors": [
+        "Clay",
+        "Natural"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "graphic",
+        "tee"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0177",
+      "name": "Cove Loft Oversized Tee",
+      "brand": "Driftwood Denim",
+      "description": "Oversized tee with a drapey, relaxed fit. Colorway in Rust / Bone.",
+      "imageUrl": "https://driftwood.example/images/dd-0177-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0177",
+      "price": 54,
+      "originalPrice": 64,
+      "currency": "USD",
+      "categoryPath": "Unisex > Oversized Tee",
+      "colors": [
+        "Rust",
+        "Bone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0178",
+      "name": "Summit Cove Denim Jacket",
+      "brand": "Driftwood Denim",
+      "description": "Denim jacket with brushed hardware and sturdy cuffs. Colorway in Slate / Fog.",
+      "imageUrl": "https://driftwood.example/images/dd-0178-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0178",
+      "price": 132,
+      "currency": "USD",
+      "categoryPath": "Men > Jackets",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "denim",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0179",
+      "name": "Field Harbor Relaxed Tee",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed tee with a broken-in hand feel. Colorway in Cedar / Navy.",
+      "imageUrl": "https://driftwood.example/images/dd-0179-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0179",
+      "price": 50,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Cedar",
+        "Navy"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "basic"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0180",
+      "name": "Range Granite Crew Sweatshirt",
+      "brand": "Driftwood Denim",
+      "description": "Crew sweatshirt with clean lines and heavy fleece. Colorway in Black / Heather Grey.",
+      "imageUrl": "https://driftwood.example/images/dd-0180-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0180",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Sweatshirt",
+      "colors": [
+        "Black",
+        "Heather Grey"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0181",
+      "name": "Drift Ranger Baggy Jean",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed denim jean built for everyday wear. Colorway in Indigo / Stone.",
+      "imageUrl": "https://driftwood.example/images/dd-0181-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0181-main.jpg",
+        "https://driftwood.example/images/dd-0181-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0181",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Baggy Jeans",
+      "colors": [
+        "Indigo",
+        "Stone"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "baggy",
+        "jean",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": false
+    },
+    {
+      "id": "dd-0182",
+      "name": "Harbor Harbor Slim Jean",
+      "brand": "Driftwood Denim",
+      "description": "Slim-fit denim with a clean, tailored line. Colorway in Washed Black / Ink.",
+      "imageUrl": "https://driftwood.example/images/dd-0182-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0182",
+      "price": 84,
+      "currency": "USD",
+      "categoryPath": "Women > Slim Jeans",
+      "colors": [
+        "Washed Black",
+        "Ink"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "slim",
+        "jean"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0183",
+      "name": "Foundry Dock Cargo Pant",
+      "brand": "Driftwood Denim",
+      "description": "Cargo pant with reinforced seams and roomy pockets. Colorway in Midnight / Steel.",
+      "imageUrl": "https://driftwood.example/images/dd-0183-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0183",
+      "price": 94,
+      "currency": "USD",
+      "categoryPath": "Men > Cargo Pants",
+      "colors": [
+        "Midnight",
+        "Steel"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "tags": [
+        "cargo",
+        "utility"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0184",
+      "name": "Dock Foundry Utility Pant",
+      "brand": "Driftwood Denim",
+      "description": "Utility pant with durable twill and tool pockets. Colorway in Sand / Ecru.",
+      "imageUrl": "https://driftwood.example/images/dd-0184-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0184",
+      "price": 101,
+      "currency": "USD",
+      "categoryPath": "Men > Utility Pants",
+      "colors": [
+        "Sand",
+        "Ecru"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "utility",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0185",
+      "name": "Ridge Ridge Carpenter Pant",
+      "brand": "Driftwood Denim",
+      "description": "Carpenter pant with relaxed legs and hammer loop. Colorway in Olive / Sable.",
+      "imageUrl": "https://driftwood.example/images/dd-0185-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0185",
+      "price": 92,
+      "currency": "USD",
+      "categoryPath": "Women > Carpenter Pants",
+      "colors": [
+        "Olive",
+        "Sable"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "carpenter",
+        "utility"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0186",
+      "name": "Canyon Selvage Straight Jean",
+      "brand": "Driftwood Denim",
+      "description": "Rigid selvage denim with a straight-leg cut. Colorway in Clay / Natural.",
+      "imageUrl": "https://driftwood.example/images/dd-0186-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0186-main.jpg",
+        "https://driftwood.example/images/dd-0186-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0186",
+      "price": 110,
+      "currency": "USD",
+      "categoryPath": "Men > Jeans",
+      "colors": [
+        "Clay",
+        "Natural"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "jean",
+        "selvage"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0187",
+      "name": "Wells Trail Work Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Fleece hoodie with brushed interior and sturdy feel. Colorway in Rust / Bone.",
+      "imageUrl": "https://driftwood.example/images/dd-0187-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0187",
+      "price": 72,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Rust",
+        "Bone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "workwear"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0188",
+      "name": "Trail Workshop Graphic Tee",
+      "brand": "Driftwood Denim",
+      "description": "Graphic tee with soft ring-spun cotton. Colorway in Slate / Fog.",
+      "imageUrl": "https://driftwood.example/images/dd-0188-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0188",
+      "price": 49,
+      "currency": "USD",
+      "categoryPath": "Men > Graphic Tee",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "graphic",
+        "tee"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0189",
+      "name": "Cove Loft Oversized Tee",
+      "brand": "Driftwood Denim",
+      "description": "Oversized tee with a drapey, relaxed fit. Colorway in Cedar / Navy.",
+      "imageUrl": "https://driftwood.example/images/dd-0189-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0189",
+      "price": 54,
+      "currency": "USD",
+      "categoryPath": "Unisex > Oversized Tee",
+      "colors": [
+        "Cedar",
+        "Navy"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0190",
+      "name": "Summit Cove Denim Jacket",
+      "brand": "Driftwood Denim",
+      "description": "Denim jacket with brushed hardware and sturdy cuffs. Colorway in Black / Heather Grey.",
+      "imageUrl": "https://driftwood.example/images/dd-0190-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0190",
+      "price": 132,
+      "originalPrice": 152,
+      "currency": "USD",
+      "categoryPath": "Men > Jackets",
+      "colors": [
+        "Black",
+        "Heather Grey"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "denim",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": false
+    },
+    {
+      "id": "dd-0191",
+      "name": "Field Harbor Relaxed Tee",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed tee with a broken-in hand feel. Colorway in Indigo / Stone.",
+      "imageUrl": "https://driftwood.example/images/dd-0191-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0191-main.jpg",
+        "https://driftwood.example/images/dd-0191-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0191",
+      "price": 50,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Indigo",
+        "Stone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "basic"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0192",
+      "name": "Range Granite Crew Sweatshirt",
+      "brand": "Driftwood Denim",
+      "description": "Crew sweatshirt with clean lines and heavy fleece. Colorway in Washed Black / Ink.",
+      "imageUrl": "https://driftwood.example/images/dd-0192-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0192",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Sweatshirt",
+      "colors": [
+        "Washed Black",
+        "Ink"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0193",
+      "name": "Drift Ranger Baggy Jean",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed denim jean built for everyday wear. Colorway in Midnight / Steel.",
+      "imageUrl": "https://driftwood.example/images/dd-0193-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0193",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Baggy Jeans",
+      "colors": [
+        "Midnight",
+        "Steel"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "baggy",
+        "jean",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0194",
+      "name": "Harbor Harbor Slim Jean",
+      "brand": "Driftwood Denim",
+      "description": "Slim-fit denim with a clean, tailored line. Colorway in Sand / Ecru.",
+      "imageUrl": "https://driftwood.example/images/dd-0194-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0194",
+      "price": 84,
+      "currency": "USD",
+      "categoryPath": "Women > Slim Jeans",
+      "colors": [
+        "Sand",
+        "Ecru"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "slim",
+        "jean"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0195",
+      "name": "Foundry Dock Cargo Pant",
+      "brand": "Driftwood Denim",
+      "description": "Cargo pant with reinforced seams and roomy pockets. Colorway in Olive / Sable.",
+      "imageUrl": "https://driftwood.example/images/dd-0195-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0195",
+      "price": 94,
+      "currency": "USD",
+      "categoryPath": "Men > Cargo Pants",
+      "colors": [
+        "Olive",
+        "Sable"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "tags": [
+        "cargo",
+        "utility"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0196",
+      "name": "Dock Foundry Utility Pant",
+      "brand": "Driftwood Denim",
+      "description": "Utility pant with durable twill and tool pockets. Colorway in Clay / Natural.",
+      "imageUrl": "https://driftwood.example/images/dd-0196-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0196-main.jpg",
+        "https://driftwood.example/images/dd-0196-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0196",
+      "price": 101,
+      "currency": "USD",
+      "categoryPath": "Men > Utility Pants",
+      "colors": [
+        "Clay",
+        "Natural"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "utility",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0197",
+      "name": "Ridge Ridge Carpenter Pant",
+      "brand": "Driftwood Denim",
+      "description": "Carpenter pant with relaxed legs and hammer loop. Colorway in Rust / Bone.",
+      "imageUrl": "https://driftwood.example/images/dd-0197-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0197",
+      "price": 92,
+      "currency": "USD",
+      "categoryPath": "Women > Carpenter Pants",
+      "colors": [
+        "Rust",
+        "Bone"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "carpenter",
+        "utility"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0198",
+      "name": "Canyon Selvage Straight Jean",
+      "brand": "Driftwood Denim",
+      "description": "Rigid selvage denim with a straight-leg cut. Colorway in Slate / Fog.",
+      "imageUrl": "https://driftwood.example/images/dd-0198-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0198",
+      "price": 118,
+      "currency": "USD",
+      "categoryPath": "Men > Jeans",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "jean",
+        "selvage"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0199",
+      "name": "Wells Trail Work Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Fleece hoodie with brushed interior and sturdy feel. Colorway in Cedar / Navy.",
+      "imageUrl": "https://driftwood.example/images/dd-0199-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0199",
+      "price": 72,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Cedar",
+        "Navy"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "workwear"
+      ],
+      "gender": "Unisex",
+      "inStock": false
+    },
+    {
+      "id": "dd-0200",
+      "name": "Trail Workshop Graphic Tee",
+      "brand": "Driftwood Denim",
+      "description": "Graphic tee with soft ring-spun cotton. Colorway in Black / Heather Grey.",
+      "imageUrl": "https://driftwood.example/images/dd-0200-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0200",
+      "price": 49,
+      "currency": "USD",
+      "categoryPath": "Men > Graphic Tee",
+      "colors": [
+        "Black",
+        "Heather Grey"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "graphic",
+        "tee"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0201",
+      "name": "Cove Loft Oversized Tee",
+      "brand": "Driftwood Denim",
+      "description": "Oversized tee with a drapey, relaxed fit. Colorway in Indigo / Stone.",
+      "imageUrl": "https://driftwood.example/images/dd-0201-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0201-main.jpg",
+        "https://driftwood.example/images/dd-0201-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0201",
+      "price": 54,
+      "originalPrice": 64,
+      "currency": "USD",
+      "categoryPath": "Unisex > Oversized Tee",
+      "colors": [
+        "Indigo",
+        "Stone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0202",
+      "name": "Summit Cove Denim Jacket",
+      "brand": "Driftwood Denim",
+      "description": "Denim jacket with brushed hardware and sturdy cuffs. Colorway in Washed Black / Ink.",
+      "imageUrl": "https://driftwood.example/images/dd-0202-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0202",
+      "price": 132,
+      "currency": "USD",
+      "categoryPath": "Men > Jackets",
+      "colors": [
+        "Washed Black",
+        "Ink"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "denim",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0203",
+      "name": "Field Harbor Relaxed Tee",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed tee with a broken-in hand feel. Colorway in Midnight / Steel.",
+      "imageUrl": "https://driftwood.example/images/dd-0203-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0203",
+      "price": 50,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Midnight",
+        "Steel"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "basic"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0204",
+      "name": "Range Granite Crew Sweatshirt",
+      "brand": "Driftwood Denim",
+      "description": "Crew sweatshirt with clean lines and heavy fleece. Colorway in Sand / Ecru.",
+      "imageUrl": "https://driftwood.example/images/dd-0204-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0204",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Sweatshirt",
+      "colors": [
+        "Sand",
+        "Ecru"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0205",
+      "name": "Drift Ranger Baggy Jean",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed denim jean built for everyday wear. Colorway in Olive / Sable.",
+      "imageUrl": "https://driftwood.example/images/dd-0205-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0205",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Baggy Jeans",
+      "colors": [
+        "Olive",
+        "Sable"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "baggy",
+        "jean",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0206",
+      "name": "Harbor Harbor Slim Jean",
+      "brand": "Driftwood Denim",
+      "description": "Slim-fit denim with a clean, tailored line. Colorway in Clay / Natural.",
+      "imageUrl": "https://driftwood.example/images/dd-0206-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0206-main.jpg",
+        "https://driftwood.example/images/dd-0206-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0206",
+      "price": 84,
+      "currency": "USD",
+      "categoryPath": "Women > Slim Jeans",
+      "colors": [
+        "Clay",
+        "Natural"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "slim",
+        "jean"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0207",
+      "name": "Foundry Dock Cargo Pant",
+      "brand": "Driftwood Denim",
+      "description": "Cargo pant with reinforced seams and roomy pockets. Colorway in Rust / Bone.",
+      "imageUrl": "https://driftwood.example/images/dd-0207-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0207",
+      "price": 94,
+      "currency": "USD",
+      "categoryPath": "Men > Cargo Pants",
+      "colors": [
+        "Rust",
+        "Bone"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "tags": [
+        "cargo",
+        "utility"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0208",
+      "name": "Dock Foundry Utility Pant",
+      "brand": "Driftwood Denim",
+      "description": "Utility pant with durable twill and tool pockets. Colorway in Slate / Fog.",
+      "imageUrl": "https://driftwood.example/images/dd-0208-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0208",
+      "price": 101,
+      "originalPrice": 119,
+      "currency": "USD",
+      "categoryPath": "Men > Utility Pants",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "utility",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": false
+    },
+    {
+      "id": "dd-0209",
+      "name": "Ridge Ridge Carpenter Pant",
+      "brand": "Driftwood Denim",
+      "description": "Carpenter pant with relaxed legs and hammer loop. Colorway in Cedar / Navy.",
+      "imageUrl": "https://driftwood.example/images/dd-0209-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0209",
+      "price": 92,
+      "currency": "USD",
+      "categoryPath": "Women > Carpenter Pants",
+      "colors": [
+        "Cedar",
+        "Navy"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "carpenter",
+        "utility"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0210",
+      "name": "Canyon Selvage Straight Jean",
+      "brand": "Driftwood Denim",
+      "description": "Rigid selvage denim with a straight-leg cut. Colorway in Black / Heather Grey.",
+      "imageUrl": "https://driftwood.example/images/dd-0210-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0210",
+      "price": 126,
+      "originalPrice": 152,
+      "currency": "USD",
+      "categoryPath": "Men > Jeans",
+      "colors": [
+        "Black",
+        "Heather Grey"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "jean",
+        "selvage"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0211",
+      "name": "Wells Trail Work Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Fleece hoodie with brushed interior and sturdy feel. Colorway in Indigo / Stone.",
+      "imageUrl": "https://driftwood.example/images/dd-0211-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0211-main.jpg",
+        "https://driftwood.example/images/dd-0211-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0211",
+      "price": 72,
+      "originalPrice": 88,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Indigo",
+        "Stone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "workwear"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0212",
+      "name": "Trail Workshop Graphic Tee",
+      "brand": "Driftwood Denim",
+      "description": "Graphic tee with soft ring-spun cotton. Colorway in Washed Black / Ink.",
+      "imageUrl": "https://driftwood.example/images/dd-0212-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0212",
+      "price": 49,
+      "currency": "USD",
+      "categoryPath": "Men > Graphic Tee",
+      "colors": [
+        "Washed Black",
+        "Ink"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "graphic",
+        "tee"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0213",
+      "name": "Cove Loft Oversized Tee",
+      "brand": "Driftwood Denim",
+      "description": "Oversized tee with a drapey, relaxed fit. Colorway in Midnight / Steel.",
+      "imageUrl": "https://driftwood.example/images/dd-0213-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0213",
+      "price": 54,
+      "currency": "USD",
+      "categoryPath": "Unisex > Oversized Tee",
+      "colors": [
+        "Midnight",
+        "Steel"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0214",
+      "name": "Summit Cove Denim Jacket",
+      "brand": "Driftwood Denim",
+      "description": "Denim jacket with brushed hardware and sturdy cuffs. Colorway in Sand / Ecru.",
+      "imageUrl": "https://driftwood.example/images/dd-0214-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0214",
+      "price": 132,
+      "currency": "USD",
+      "categoryPath": "Men > Jackets",
+      "colors": [
+        "Sand",
+        "Ecru"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "denim",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0215",
+      "name": "Field Harbor Relaxed Tee",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed tee with a broken-in hand feel. Colorway in Olive / Sable.",
+      "imageUrl": "https://driftwood.example/images/dd-0215-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0215",
+      "price": 50,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Olive",
+        "Sable"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "basic"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0216",
+      "name": "Range Granite Crew Sweatshirt",
+      "brand": "Driftwood Denim",
+      "description": "Crew sweatshirt with clean lines and heavy fleece. Colorway in Clay / Natural.",
+      "imageUrl": "https://driftwood.example/images/dd-0216-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0216-main.jpg",
+        "https://driftwood.example/images/dd-0216-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0216",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Sweatshirt",
+      "colors": [
+        "Clay",
+        "Natural"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0217",
+      "name": "Drift Ranger Baggy Jean",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed denim jean built for everyday wear. Colorway in Rust / Bone.",
+      "imageUrl": "https://driftwood.example/images/dd-0217-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0217",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Baggy Jeans",
+      "colors": [
+        "Rust",
+        "Bone"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "baggy",
+        "jean",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": false
+    },
+    {
+      "id": "dd-0218",
+      "name": "Harbor Harbor Slim Jean",
+      "brand": "Driftwood Denim",
+      "description": "Slim-fit denim with a clean, tailored line. Colorway in Slate / Fog.",
+      "imageUrl": "https://driftwood.example/images/dd-0218-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0218",
+      "price": 192,
+      "currency": "USD",
+      "categoryPath": "Women > Slim Jeans",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "slim",
+        "jean"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0219",
+      "name": "Foundry Dock Cargo Pant",
+      "brand": "Driftwood Denim",
+      "description": "Cargo pant with reinforced seams and roomy pockets. Colorway in Cedar / Navy.",
+      "imageUrl": "https://driftwood.example/images/dd-0219-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0219",
+      "price": 94,
+      "currency": "USD",
+      "categoryPath": "Men > Cargo Pants",
+      "colors": [
+        "Cedar",
+        "Navy"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "tags": [
+        "cargo",
+        "utility"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0220",
+      "name": "Dock Foundry Utility Pant",
+      "brand": "Driftwood Denim",
+      "description": "Utility pant with durable twill and tool pockets. Colorway in Black / Heather Grey.",
+      "imageUrl": "https://driftwood.example/images/dd-0220-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0220",
+      "price": 101,
+      "currency": "USD",
+      "categoryPath": "Men > Utility Pants",
+      "colors": [
+        "Black",
+        "Heather Grey"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "utility",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0221",
+      "name": "Ridge Ridge Carpenter Pant",
+      "brand": "Driftwood Denim",
+      "description": "Carpenter pant with relaxed legs and hammer loop. Colorway in Indigo / Stone.",
+      "imageUrl": "https://driftwood.example/images/dd-0221-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0221-main.jpg",
+        "https://driftwood.example/images/dd-0221-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0221",
+      "price": 92,
+      "originalPrice": 110,
+      "currency": "USD",
+      "categoryPath": "Women > Carpenter Pants",
+      "colors": [
+        "Indigo",
+        "Stone"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "carpenter",
+        "utility"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0222",
+      "name": "Canyon Selvage Straight Jean",
+      "brand": "Driftwood Denim",
+      "description": "Rigid selvage denim with a straight-leg cut. Colorway in Washed Black / Ink.",
+      "imageUrl": "https://driftwood.example/images/dd-0222-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0222",
+      "price": 228,
+      "currency": "USD",
+      "categoryPath": "Men > Jeans",
+      "colors": [
+        "Washed Black",
+        "Ink"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "jean",
+        "selvage"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0223",
+      "name": "Wells Trail Work Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Fleece hoodie with brushed interior and sturdy feel. Colorway in Midnight / Steel.",
+      "imageUrl": "https://driftwood.example/images/dd-0223-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0223",
+      "price": 72,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Midnight",
+        "Steel"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "workwear"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0224",
+      "name": "Trail Workshop Graphic Tee",
+      "brand": "Driftwood Denim",
+      "description": "Graphic tee with soft ring-spun cotton. Colorway in Sand / Ecru.",
+      "imageUrl": "https://driftwood.example/images/dd-0224-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0224",
+      "price": 49,
+      "currency": "USD",
+      "categoryPath": "Men > Graphic Tee",
+      "colors": [
+        "Sand",
+        "Ecru"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "graphic",
+        "tee"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0225",
+      "name": "Cove Loft Oversized Tee",
+      "brand": "Driftwood Denim",
+      "description": "Oversized tee with a drapey, relaxed fit. Colorway in Olive / Sable.",
+      "imageUrl": "https://driftwood.example/images/dd-0225-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0225",
+      "price": 54,
+      "originalPrice": 64,
+      "currency": "USD",
+      "categoryPath": "Unisex > Oversized Tee",
+      "colors": [
+        "Olive",
+        "Sable"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0226",
+      "name": "Summit Cove Denim Jacket",
+      "brand": "Driftwood Denim",
+      "description": "Denim jacket with brushed hardware and sturdy cuffs. Colorway in Clay / Natural.",
+      "imageUrl": "https://driftwood.example/images/dd-0226-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0226-main.jpg",
+        "https://driftwood.example/images/dd-0226-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0226",
+      "price": 132,
+      "originalPrice": 152,
+      "currency": "USD",
+      "categoryPath": "Men > Jackets",
+      "colors": [
+        "Clay",
+        "Natural"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "denim",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": false
+    },
+    {
+      "id": "dd-0227",
+      "name": "Field Harbor Relaxed Tee",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed tee with a broken-in hand feel. Colorway in Rust / Bone.",
+      "imageUrl": "https://driftwood.example/images/dd-0227-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0227",
+      "price": 50,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Rust",
+        "Bone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "basic"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0228",
+      "name": "Range Granite Crew Sweatshirt",
+      "brand": "Driftwood Denim",
+      "description": "Crew sweatshirt with clean lines and heavy fleece. Colorway in Slate / Fog.",
+      "imageUrl": "https://driftwood.example/images/dd-0228-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0228",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Sweatshirt",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0229",
+      "name": "Drift Ranger Baggy Jean",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed denim jean built for everyday wear. Colorway in Cedar / Navy.",
+      "imageUrl": "https://driftwood.example/images/dd-0229-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0229",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Baggy Jeans",
+      "colors": [
+        "Cedar",
+        "Navy"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "baggy",
+        "jean",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0230",
+      "name": "Harbor Harbor Slim Jean",
+      "brand": "Driftwood Denim",
+      "description": "Slim-fit denim with a clean, tailored line. Colorway in Black / Heather Grey.",
+      "imageUrl": "https://driftwood.example/images/dd-0230-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0230",
+      "price": 84,
+      "currency": "USD",
+      "categoryPath": "Women > Slim Jeans",
+      "colors": [
+        "Black",
+        "Heather Grey"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "slim",
+        "jean"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0231",
+      "name": "Foundry Dock Cargo Pant",
+      "brand": "Driftwood Denim",
+      "description": "Cargo pant with reinforced seams and roomy pockets. Colorway in Indigo / Stone.",
+      "imageUrl": "https://driftwood.example/images/dd-0231-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0231-main.jpg",
+        "https://driftwood.example/images/dd-0231-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0231",
+      "price": 94,
+      "currency": "USD",
+      "categoryPath": "Men > Cargo Pants",
+      "colors": [
+        "Indigo",
+        "Stone"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "tags": [
+        "cargo",
+        "utility"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0232",
+      "name": "Dock Foundry Utility Pant",
+      "brand": "Driftwood Denim",
+      "description": "Utility pant with durable twill and tool pockets. Colorway in Washed Black / Ink.",
+      "imageUrl": "https://driftwood.example/images/dd-0232-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0232",
+      "price": 101,
+      "currency": "USD",
+      "categoryPath": "Men > Utility Pants",
+      "colors": [
+        "Washed Black",
+        "Ink"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "utility",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0233",
+      "name": "Ridge Ridge Carpenter Pant",
+      "brand": "Driftwood Denim",
+      "description": "Carpenter pant with relaxed legs and hammer loop. Colorway in Midnight / Steel.",
+      "imageUrl": "https://driftwood.example/images/dd-0233-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0233",
+      "price": 92,
+      "currency": "USD",
+      "categoryPath": "Women > Carpenter Pants",
+      "colors": [
+        "Midnight",
+        "Steel"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "carpenter",
+        "utility"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0234",
+      "name": "Canyon Selvage Straight Jean",
+      "brand": "Driftwood Denim",
+      "description": "Rigid selvage denim with a straight-leg cut. Colorway in Sand / Ecru.",
+      "imageUrl": "https://driftwood.example/images/dd-0234-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0234",
+      "price": 122,
+      "currency": "USD",
+      "categoryPath": "Men > Jeans",
+      "colors": [
+        "Sand",
+        "Ecru"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "jean",
+        "selvage"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0235",
+      "name": "Wells Trail Work Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Fleece hoodie with brushed interior and sturdy feel. Colorway in Olive / Sable.",
+      "imageUrl": "https://driftwood.example/images/dd-0235-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0235",
+      "price": 72,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Olive",
+        "Sable"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "workwear"
+      ],
+      "gender": "Unisex",
+      "inStock": false
+    },
+    {
+      "id": "dd-0236",
+      "name": "Trail Workshop Graphic Tee",
+      "brand": "Driftwood Denim",
+      "description": "Graphic tee with soft ring-spun cotton. Colorway in Clay / Natural.",
+      "imageUrl": "https://driftwood.example/images/dd-0236-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0236-main.jpg",
+        "https://driftwood.example/images/dd-0236-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0236",
+      "price": 49,
+      "currency": "USD",
+      "categoryPath": "Men > Graphic Tee",
+      "colors": [
+        "Clay",
+        "Natural"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "graphic",
+        "tee"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0237",
+      "name": "Cove Loft Oversized Tee",
+      "brand": "Driftwood Denim",
+      "description": "Oversized tee with a drapey, relaxed fit. Colorway in Rust / Bone.",
+      "imageUrl": "https://driftwood.example/images/dd-0237-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0237",
+      "price": 54,
+      "currency": "USD",
+      "categoryPath": "Unisex > Oversized Tee",
+      "colors": [
+        "Rust",
+        "Bone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0238",
+      "name": "Summit Cove Denim Jacket",
+      "brand": "Driftwood Denim",
+      "description": "Denim jacket with brushed hardware and sturdy cuffs. Colorway in Slate / Fog.",
+      "imageUrl": "https://driftwood.example/images/dd-0238-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0238",
+      "price": 132,
+      "currency": "USD",
+      "categoryPath": "Men > Jackets",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "denim",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0239",
+      "name": "Field Harbor Relaxed Tee",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed tee with a broken-in hand feel. Colorway in Cedar / Navy.",
+      "imageUrl": "https://driftwood.example/images/dd-0239-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0239",
+      "price": 50,
+      "originalPrice": 60,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Cedar",
+        "Navy"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "basic"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0240",
+      "name": "Range Granite Crew Sweatshirt",
+      "brand": "Driftwood Denim",
+      "description": "Crew sweatshirt with clean lines and heavy fleece. Colorway in Black / Heather Grey.",
+      "imageUrl": "https://driftwood.example/images/dd-0240-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0240",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Sweatshirt",
+      "colors": [
+        "Black",
+        "Heather Grey"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0241",
+      "name": "Drift Ranger Baggy Jean",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed denim jean built for everyday wear. Colorway in Indigo / Stone.",
+      "imageUrl": "https://driftwood.example/images/dd-0241-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0241-main.jpg",
+        "https://driftwood.example/images/dd-0241-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0241",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Baggy Jeans",
+      "colors": [
+        "Indigo",
+        "Stone"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "baggy",
+        "jean",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0242",
+      "name": "Harbor Harbor Slim Jean",
+      "brand": "Driftwood Denim",
+      "description": "Slim-fit denim with a clean, tailored line. Colorway in Washed Black / Ink.",
+      "imageUrl": "https://driftwood.example/images/dd-0242-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0242",
+      "price": 84,
+      "currency": "USD",
+      "categoryPath": "Women > Slim Jeans",
+      "colors": [
+        "Washed Black",
+        "Ink"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "slim",
+        "jean"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0243",
+      "name": "Foundry Dock Cargo Pant",
+      "brand": "Driftwood Denim",
+      "description": "Cargo pant with reinforced seams and roomy pockets. Colorway in Midnight / Steel.",
+      "imageUrl": "https://driftwood.example/images/dd-0243-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0243",
+      "price": 94,
+      "currency": "USD",
+      "categoryPath": "Men > Cargo Pants",
+      "colors": [
+        "Midnight",
+        "Steel"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "tags": [
+        "cargo",
+        "utility"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0244",
+      "name": "Dock Foundry Utility Pant",
+      "brand": "Driftwood Denim",
+      "description": "Utility pant with durable twill and tool pockets. Colorway in Sand / Ecru.",
+      "imageUrl": "https://driftwood.example/images/dd-0244-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0244",
+      "price": 101,
+      "originalPrice": 119,
+      "currency": "USD",
+      "categoryPath": "Men > Utility Pants",
+      "colors": [
+        "Sand",
+        "Ecru"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "utility",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": false
+    },
+    {
+      "id": "dd-0245",
+      "name": "Ridge Ridge Carpenter Pant",
+      "brand": "Driftwood Denim",
+      "description": "Carpenter pant with relaxed legs and hammer loop. Colorway in Olive / Sable.",
+      "imageUrl": "https://driftwood.example/images/dd-0245-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0245",
+      "price": 92,
+      "currency": "USD",
+      "categoryPath": "Women > Carpenter Pants",
+      "colors": [
+        "Olive",
+        "Sable"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "carpenter",
+        "utility"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0246",
+      "name": "Canyon Selvage Straight Jean",
+      "brand": "Driftwood Denim",
+      "description": "Rigid selvage denim with a straight-leg cut. Colorway in Clay / Natural.",
+      "imageUrl": "https://driftwood.example/images/dd-0246-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0246-main.jpg",
+        "https://driftwood.example/images/dd-0246-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0246",
+      "price": 110,
+      "currency": "USD",
+      "categoryPath": "Men > Jeans",
+      "colors": [
+        "Clay",
+        "Natural"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "jean",
+        "selvage"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0247",
+      "name": "Wells Trail Work Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Fleece hoodie with brushed interior and sturdy feel. Colorway in Rust / Bone.",
+      "imageUrl": "https://driftwood.example/images/dd-0247-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0247",
+      "price": 72,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Rust",
+        "Bone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "workwear"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0248",
+      "name": "Trail Workshop Graphic Tee",
+      "brand": "Driftwood Denim",
+      "description": "Graphic tee with soft ring-spun cotton. Colorway in Slate / Fog.",
+      "imageUrl": "https://driftwood.example/images/dd-0248-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0248",
+      "price": 49,
+      "currency": "USD",
+      "categoryPath": "Men > Graphic Tee",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "graphic",
+        "tee"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0249",
+      "name": "Cove Loft Oversized Tee",
+      "brand": "Driftwood Denim",
+      "description": "Oversized tee with a drapey, relaxed fit. Colorway in Cedar / Navy.",
+      "imageUrl": "https://driftwood.example/images/dd-0249-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0249",
+      "price": 54,
+      "originalPrice": 64,
+      "currency": "USD",
+      "categoryPath": "Unisex > Oversized Tee",
+      "colors": [
+        "Cedar",
+        "Navy"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0250",
+      "name": "Summit Cove Denim Jacket",
+      "brand": "Driftwood Denim",
+      "description": "Denim jacket with brushed hardware and sturdy cuffs. Colorway in Black / Heather Grey.",
+      "imageUrl": "https://driftwood.example/images/dd-0250-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0250",
+      "price": 132,
+      "currency": "USD",
+      "categoryPath": "Men > Jackets",
+      "colors": [
+        "Black",
+        "Heather Grey"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "denim",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0251",
+      "name": "Field Harbor Relaxed Tee",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed tee with a broken-in hand feel. Colorway in Indigo / Stone.",
+      "imageUrl": "https://driftwood.example/images/dd-0251-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0251-main.jpg",
+        "https://driftwood.example/images/dd-0251-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0251",
+      "price": 50,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Indigo",
+        "Stone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "basic"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0252",
+      "name": "Range Granite Crew Sweatshirt",
+      "brand": "Driftwood Denim",
+      "description": "Crew sweatshirt with clean lines and heavy fleece. Colorway in Washed Black / Ink.",
+      "imageUrl": "https://driftwood.example/images/dd-0252-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0252",
+      "price": 78,
+      "currency": "USD",
+      "categoryPath": "Men > Sweatshirt",
+      "colors": [
+        "Washed Black",
+        "Ink"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0253",
+      "name": "Drift Ranger Baggy Jean",
+      "brand": "Driftwood Denim",
+      "description": "Relaxed denim jean built for everyday wear. Colorway in Midnight / Steel.",
+      "imageUrl": "https://driftwood.example/images/dd-0253-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0253",
+      "price": 78,
+      "originalPrice": 102,
+      "currency": "USD",
+      "categoryPath": "Men > Baggy Jeans",
+      "colors": [
+        "Midnight",
+        "Steel"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "baggy",
+        "jean",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": false
+    },
+    {
+      "id": "dd-0254",
+      "name": "Harbor Harbor Slim Jean",
+      "brand": "Driftwood Denim",
+      "description": "Slim-fit denim with a clean, tailored line. Colorway in Sand / Ecru.",
+      "imageUrl": "https://driftwood.example/images/dd-0254-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0254",
+      "price": 84,
+      "currency": "USD",
+      "categoryPath": "Women > Slim Jeans",
+      "colors": [
+        "Sand",
+        "Ecru"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "slim",
+        "jean"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0255",
+      "name": "Foundry Dock Cargo Pant",
+      "brand": "Driftwood Denim",
+      "description": "Cargo pant with reinforced seams and roomy pockets. Colorway in Olive / Sable.",
+      "imageUrl": "https://driftwood.example/images/dd-0255-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0255",
+      "price": 94,
+      "currency": "USD",
+      "categoryPath": "Men > Cargo Pants",
+      "colors": [
+        "Olive",
+        "Sable"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "tags": [
+        "cargo",
+        "utility"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0256",
+      "name": "Dock Foundry Utility Pant",
+      "brand": "Driftwood Denim",
+      "description": "Utility pant with durable twill and tool pockets. Colorway in Clay / Natural.",
+      "imageUrl": "https://driftwood.example/images/dd-0256-main.jpg",
+      "imageUrls": [
+        "https://driftwood.example/images/dd-0256-main.jpg",
+        "https://driftwood.example/images/dd-0256-alt1.jpg"
+      ],
+      "productUrl": "https://driftwood.example/products/dd-0256",
+      "price": 101,
+      "currency": "USD",
+      "categoryPath": "Men > Utility Pants",
+      "colors": [
+        "Clay",
+        "Natural"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "utility",
+        "workwear"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0257",
+      "name": "Ridge Ridge Carpenter Pant",
+      "brand": "Driftwood Denim",
+      "description": "Carpenter pant with relaxed legs and hammer loop. Colorway in Rust / Bone.",
+      "imageUrl": "https://driftwood.example/images/dd-0257-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0257",
+      "price": 92,
+      "currency": "USD",
+      "categoryPath": "Women > Carpenter Pants",
+      "colors": [
+        "Rust",
+        "Bone"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "carpenter",
+        "utility"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "dd-0258",
+      "name": "Canyon Selvage Straight Jean",
+      "brand": "Driftwood Denim",
+      "description": "Rigid selvage denim with a straight-leg cut. Colorway in Slate / Fog.",
+      "imageUrl": "https://driftwood.example/images/dd-0258-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0258",
+      "price": 118,
+      "currency": "USD",
+      "categoryPath": "Men > Jeans",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "jean",
+        "selvage"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "dd-0259",
+      "name": "Wells Trail Work Hoodie",
+      "brand": "Driftwood Denim",
+      "description": "Fleece hoodie with brushed interior and sturdy feel. Colorway in Cedar / Navy.",
+      "imageUrl": "https://driftwood.example/images/dd-0259-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0259",
+      "price": 72,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Cedar",
+        "Navy"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "workwear"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "dd-0260",
+      "name": "Trail Workshop Graphic Tee",
+      "brand": "Driftwood Denim",
+      "description": "Graphic tee with soft ring-spun cotton. Colorway in Black / Heather Grey.",
+      "imageUrl": "https://driftwood.example/images/dd-0260-main.jpg",
+      "productUrl": "https://driftwood.example/products/dd-0260",
+      "price": 49,
+      "currency": "USD",
+      "categoryPath": "Men > Graphic Tee",
+      "colors": [
+        "Black",
+        "Heather Grey"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "graphic",
+        "tee"
+      ],
+      "gender": "Men",
+      "inStock": true
+    }
+  ]
+}

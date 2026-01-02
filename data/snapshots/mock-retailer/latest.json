@@ -1,0 +1,330 @@
+{
+  "sourceName": "Mock Retailer",
+  "sourceSlug": "mock-retailer",
+  "generatedAt": "2026-01-02T16:58:25.712Z",
+  "counts": {
+    "total": 12,
+    "added": 0,
+    "updated": 0,
+    "missing": 0
+  },
+  "diffSummary": {
+    "counts": {
+      "total": 12,
+      "added": 0,
+      "updated": 0,
+      "missing": 0
+    },
+    "addedIds": [],
+    "updatedIds": [],
+    "missingIds": []
+  },
+  "raw": [
+    {
+      "id": "mr-1001",
+      "name": "Harbor Linen Shirt",
+      "brand": "Harbor",
+      "description": "Lightweight linen button-up for warm days.",
+      "imageUrl": "https://mockretailer.example/images/mr-1001-main.jpg",
+      "imageUrls": [
+        "https://mockretailer.example/images/mr-1001-main.jpg",
+        "https://mockretailer.example/images/mr-1001-alt1.jpg"
+      ],
+      "productUrl": "https://mockretailer.example/products/mr-1001",
+      "price": 58,
+      "currency": "USD",
+      "categoryPath": "Men > Shirts",
+      "colors": [
+        "Sky Blue",
+        "Sand"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "linen",
+        "summer"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "mr-1002",
+      "name": "Ridge Fleece Hoodie",
+      "brand": "Ridge",
+      "description": "Heavyweight fleece hoodie with brushed interior.",
+      "imageUrl": "https://mockretailer.example/images/mr-1002-main.jpg",
+      "productUrl": "https://mockretailer.example/products/mr-1002",
+      "price": 72,
+      "originalPrice": 88,
+      "currency": "USD",
+      "categoryPath": "Men > Hoodies & Sweatshirts",
+      "colors": [
+        "Charcoal"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "fleece",
+        "winter"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "mr-1003",
+      "name": "Studio Ribbed Tank",
+      "brand": "Studio",
+      "description": "Stretch rib tank built for layering.",
+      "imageUrl": "https://mockretailer.example/images/mr-1003-main.jpg",
+      "productUrl": "https://mockretailer.example/products/mr-1003",
+      "price": 24,
+      "currency": "USD",
+      "categoryPath": "Women > Tops",
+      "colors": [
+        "Ivory",
+        "Black"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "ribbed"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "mr-1004",
+      "name": "Civic Chino Pant",
+      "brand": "Civic",
+      "description": "Slim chino with stretch waistband.",
+      "imageUrl": "https://mockretailer.example/images/mr-1004-main.jpg",
+      "productUrl": "https://mockretailer.example/products/mr-1004",
+      "price": 64,
+      "currency": "USD",
+      "categoryPath": "Men > Pants",
+      "colors": [
+        "Stone",
+        "Navy"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "chino"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "mr-1005",
+      "name": "Trail Runner Sneaker",
+      "brand": "Atlas",
+      "description": "All-terrain sneaker with grippy outsole.",
+      "imageUrl": "https://mockretailer.example/images/mr-1005-main.jpg",
+      "productUrl": "https://mockretailer.example/products/mr-1005",
+      "price": 110,
+      "currency": "USD",
+      "categoryPath": "Men > Shoes",
+      "colors": [
+        "Granite"
+      ],
+      "sizes": [
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "tags": [
+        "trail"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "mr-1006",
+      "name": "Metro Denim Jacket",
+      "brand": "Metro",
+      "description": "Classic denim jacket with brushed hardware.",
+      "imageUrl": "https://mockretailer.example/images/mr-1006-main.jpg",
+      "productUrl": "https://mockretailer.example/products/mr-1006",
+      "price": 96,
+      "currency": "USD",
+      "categoryPath": "Women > Jackets & Coats",
+      "colors": [
+        "Indigo"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "denim"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "mr-1007",
+      "name": "Cove Midi Dress",
+      "brand": "Cove",
+      "description": "Flowing midi dress with soft drape.",
+      "imageUrl": "https://mockretailer.example/images/mr-1007-main.jpg",
+      "productUrl": "https://mockretailer.example/products/mr-1007",
+      "price": 84,
+      "currency": "USD",
+      "categoryPath": "Women > Dresses",
+      "colors": [
+        "Coral",
+        "Navy"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "midi"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "mr-1008",
+      "name": "Summit Puffer Vest",
+      "brand": "Summit",
+      "description": "Insulated vest with packable design.",
+      "imageUrl": "https://mockretailer.example/images/mr-1008-main.jpg",
+      "productUrl": "https://mockretailer.example/products/mr-1008",
+      "price": 98,
+      "currency": "USD",
+      "categoryPath": "Men > Jackets & Coats",
+      "colors": [
+        "Forest"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "puffer"
+      ],
+      "gender": "Men",
+      "inStock": true
+    },
+    {
+      "id": "mr-1009",
+      "name": "Orbit Graphic Tee",
+      "brand": "Orbit",
+      "description": "Soft cotton tee with printed graphic.",
+      "imageUrl": "https://mockretailer.example/images/mr-1009-main.jpg",
+      "productUrl": "https://mockretailer.example/products/mr-1009",
+      "price": 28,
+      "currency": "USD",
+      "categoryPath": "Unisex > Tees",
+      "colors": [
+        "White"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "graphic"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "mr-1010",
+      "name": "Weekender Tote",
+      "brand": "Weekender",
+      "description": "Canvas tote with reinforced handles.",
+      "imageUrl": "https://mockretailer.example/images/mr-1010-main.jpg",
+      "productUrl": "https://mockretailer.example/products/mr-1010",
+      "price": 46,
+      "currency": "USD",
+      "categoryPath": "Accessories > Bags",
+      "colors": [
+        "Canvas"
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "tags": [
+        "tote"
+      ],
+      "inStock": true
+    },
+    {
+      "id": "mr-1011",
+      "name": "Vista Beanie",
+      "brand": "Vista",
+      "description": "Rib-knit beanie with soft stretch.",
+      "imageUrl": "https://mockretailer.example/images/mr-1011-main.jpg",
+      "productUrl": "https://mockretailer.example/products/mr-1011",
+      "price": 22,
+      "currency": "USD",
+      "categoryPath": "Accessories > Hats",
+      "colors": [
+        "Black",
+        "Olive"
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "tags": [
+        "beanie"
+      ],
+      "inStock": true
+    },
+    {
+      "id": "mr-1012",
+      "name": "Drift Swim Short",
+      "brand": "Drift",
+      "description": "Quick-dry swim short with mesh liner.",
+      "imageUrl": "https://mockretailer.example/images/mr-1012-main.jpg",
+      "productUrl": "https://mockretailer.example/products/mr-1012",
+      "price": 38,
+      "currency": "USD",
+      "categoryPath": "Men > Swim",
+      "colors": [
+        "Aqua",
+        "Navy"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "swim"
+      ],
+      "gender": "Men",
+      "inStock": true
+    }
+  ]
+}

@@ -1,0 +1,6323 @@
+{
+  "sourceName": "Rue Atelier",
+  "sourceSlug": "rue-atelier",
+  "generatedAt": "2026-01-02T16:58:25.736Z",
+  "counts": {
+    "total": 220,
+    "added": 0,
+    "updated": 0,
+    "missing": 0
+  },
+  "diffSummary": {
+    "counts": {
+      "total": 220,
+      "added": 0,
+      "updated": 0,
+      "missing": 0
+    },
+    "addedIds": [],
+    "updatedIds": [],
+    "missingIds": []
+  },
+  "raw": [
+    {
+      "id": "ra-0001",
+      "name": "Rue Atelier Oversized Tee",
+      "brand": "Rue Atelier",
+      "description": "Oversized tee with a clean, sculpted drape. Colorway in Black / Ivory.",
+      "imageUrl": "https://rueatelier.example/images/ra-0001-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0001-main.jpg",
+        "https://rueatelier.example/images/ra-0001-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0001",
+      "price": 98,
+      "originalPrice": 110,
+      "currency": "USD",
+      "categoryPath": "Women > Oversized Tee",
+      "colors": [
+        "Black",
+        "Ivory"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Women",
+      "inStock": false
+    },
+    {
+      "id": "ra-0002",
+      "name": "Atelier Studio Minimal Tee",
+      "brand": "Rue Atelier",
+      "description": "Minimal tee with a smooth, elevated hand feel. Colorway in Bone / Oat.",
+      "imageUrl": "https://rueatelier.example/images/ra-0002-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0002",
+      "price": 90,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Bone",
+        "Oat"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0003",
+      "name": "Maison Gallery Boxy Tee",
+      "brand": "Rue Atelier",
+      "description": "Boxy tee with crisp seams and a premium finish. Colorway in Slate / Fog.",
+      "imageUrl": "https://rueatelier.example/images/ra-0003-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0003",
+      "price": 96,
+      "currency": "USD",
+      "categoryPath": "Unisex > Tee",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "boxy"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0004",
+      "name": "Studio Contour Hoodie",
+      "brand": "Rue Atelier",
+      "description": "Minimal hoodie with a structured silhouette. Colorway in Taupe / Sand.",
+      "imageUrl": "https://rueatelier.example/images/ra-0004-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0004",
+      "price": 179,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Taupe",
+        "Sand"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0005",
+      "name": "Gallery Harbor Zip Hoodie",
+      "brand": "Rue Atelier",
+      "description": "Zip hoodie with a streamlined, premium finish. Colorway in Moss / Stone.",
+      "imageUrl": "https://rueatelier.example/images/ra-0005-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0005",
+      "price": 192,
+      "currency": "USD",
+      "categoryPath": "Women > Zip Hoodie",
+      "colors": [
+        "Moss",
+        "Stone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "zip",
+        "hoodie"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0006",
+      "name": "Linea Marin Sweatshirt",
+      "brand": "Rue Atelier",
+      "description": "Crew sweatshirt with a soft, refined texture. Colorway in Cedar / Linen.",
+      "imageUrl": "https://rueatelier.example/images/ra-0006-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0006",
+      "price": 165,
+      "currency": "USD",
+      "categoryPath": "Women > Sweatshirt",
+      "colors": [
+        "Cedar",
+        "Linen"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0007",
+      "name": "Arc Linea Sweatshirt",
+      "brand": "Rue Atelier",
+      "description": "Minimal sweatshirt with a modern, clean line. Colorway in Ink / Steel.",
+      "imageUrl": "https://rueatelier.example/images/ra-0007-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0007-main.jpg",
+        "https://rueatelier.example/images/ra-0007-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0007",
+      "price": 160,
+      "currency": "USD",
+      "categoryPath": "Unisex > Sweatshirt",
+      "colors": [
+        "Ink",
+        "Steel"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0008",
+      "name": "Vale Lineage Trouser",
+      "brand": "Rue Atelier",
+      "description": "Tailored trouser with sharp pleats and soft drape. Colorway in Clay / Driftwood.",
+      "imageUrl": "https://rueatelier.example/images/ra-0008-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0008",
+      "price": 228,
+      "currency": "USD",
+      "categoryPath": "Women > Trousers",
+      "colors": [
+        "Clay",
+        "Driftwood"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "trouser",
+        "tailored"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0009",
+      "name": "Marin Loft Tailored Pant",
+      "brand": "Rue Atelier",
+      "description": "Tailored pant with a relaxed, premium drape. Colorway in Ecru / Graphite.",
+      "imageUrl": "https://rueatelier.example/images/ra-0009-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0009",
+      "price": 222,
+      "currency": "USD",
+      "categoryPath": "Unisex > Pants",
+      "colors": [
+        "Ecru",
+        "Graphite"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "pant",
+        "tailored"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0010",
+      "name": "Noir Arc Wool Coat",
+      "brand": "Rue Atelier",
+      "description": "Wool coat with a sharp, minimalist profile. Colorway in Sable / Pearl.",
+      "imageUrl": "https://rueatelier.example/images/ra-0010-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0010",
+      "price": 326,
+      "currency": "USD",
+      "categoryPath": "Women > Coat",
+      "colors": [
+        "Sable",
+        "Pearl"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "wool"
+      ],
+      "gender": "Women",
+      "inStock": false
+    },
+    {
+      "id": "ra-0011",
+      "name": "Cusp Vale Long Coat",
+      "brand": "Rue Atelier",
+      "description": "Long coat with a flowing, elevated silhouette. Colorway in Black / Ivory.",
+      "imageUrl": "https://rueatelier.example/images/ra-0011-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0011",
+      "price": 352,
+      "currency": "USD",
+      "categoryPath": "Unisex > Coat",
+      "colors": [
+        "Black",
+        "Ivory"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "long"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0012",
+      "name": "Lumen Studio Minimal Jacket",
+      "brand": "Rue Atelier",
+      "description": "Minimal jacket with refined structure and clean lines. Colorway in Bone / Oat.",
+      "imageUrl": "https://rueatelier.example/images/ra-0012-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0012",
+      "price": 295,
+      "currency": "USD",
+      "categoryPath": "Women > Jacket",
+      "colors": [
+        "Bone",
+        "Oat"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0013",
+      "name": "Rue Field Utility Jacket",
+      "brand": "Rue Atelier",
+      "description": "Utility jacket with a sleek, modern finish. Colorway in Slate / Fog.",
+      "imageUrl": "https://rueatelier.example/images/ra-0013-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0013-main.jpg",
+        "https://rueatelier.example/images/ra-0013-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0013",
+      "price": 260,
+      "currency": "USD",
+      "categoryPath": "Unisex > Jacket",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "utility"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0014",
+      "name": "Atelier Atelier Oversized Tee",
+      "brand": "Rue Atelier",
+      "description": "Oversized tee with a clean, sculpted drape. Colorway in Taupe / Sand.",
+      "imageUrl": "https://rueatelier.example/images/ra-0014-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0014",
+      "price": 100,
+      "currency": "USD",
+      "categoryPath": "Women > Oversized Tee",
+      "colors": [
+        "Taupe",
+        "Sand"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0015",
+      "name": "Maison Studio Minimal Tee",
+      "brand": "Rue Atelier",
+      "description": "Minimal tee with a smooth, elevated hand feel. Colorway in Moss / Stone.",
+      "imageUrl": "https://rueatelier.example/images/ra-0015-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0015",
+      "price": 92,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Moss",
+        "Stone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0016",
+      "name": "Studio Gallery Boxy Tee",
+      "brand": "Rue Atelier",
+      "description": "Boxy tee with crisp seams and a premium finish. Colorway in Cedar / Linen.",
+      "imageUrl": "https://rueatelier.example/images/ra-0016-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0016",
+      "price": 98,
+      "currency": "USD",
+      "categoryPath": "Unisex > Tee",
+      "colors": [
+        "Cedar",
+        "Linen"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "boxy"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0017",
+      "name": "Gallery Contour Hoodie",
+      "brand": "Rue Atelier",
+      "description": "Minimal hoodie with a structured silhouette. Colorway in Ink / Steel.",
+      "imageUrl": "https://rueatelier.example/images/ra-0017-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0017",
+      "price": 182,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Ink",
+        "Steel"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0018",
+      "name": "Linea Harbor Zip Hoodie",
+      "brand": "Rue Atelier",
+      "description": "Zip hoodie with a streamlined, premium finish. Colorway in Clay / Driftwood.",
+      "imageUrl": "https://rueatelier.example/images/ra-0018-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0018",
+      "price": 195,
+      "currency": "USD",
+      "categoryPath": "Women > Zip Hoodie",
+      "colors": [
+        "Clay",
+        "Driftwood"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "zip",
+        "hoodie"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0019",
+      "name": "Arc Marin Sweatshirt",
+      "brand": "Rue Atelier",
+      "description": "Crew sweatshirt with a soft, refined texture. Colorway in Ecru / Graphite.",
+      "imageUrl": "https://rueatelier.example/images/ra-0019-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0019-main.jpg",
+        "https://rueatelier.example/images/ra-0019-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0019",
+      "price": 150,
+      "currency": "USD",
+      "categoryPath": "Women > Sweatshirt",
+      "colors": [
+        "Ecru",
+        "Graphite"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Women",
+      "inStock": false
+    },
+    {
+      "id": "ra-0020",
+      "name": "Vale Linea Sweatshirt",
+      "brand": "Rue Atelier",
+      "description": "Minimal sweatshirt with a modern, clean line. Colorway in Sable / Pearl.",
+      "imageUrl": "https://rueatelier.example/images/ra-0020-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0020",
+      "price": 163,
+      "currency": "USD",
+      "categoryPath": "Unisex > Sweatshirt",
+      "colors": [
+        "Sable",
+        "Pearl"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0021",
+      "name": "Marin Lineage Trouser",
+      "brand": "Rue Atelier",
+      "description": "Tailored trouser with sharp pleats and soft drape. Colorway in Black / Ivory.",
+      "imageUrl": "https://rueatelier.example/images/ra-0021-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0021",
+      "price": 220,
+      "currency": "USD",
+      "categoryPath": "Women > Trousers",
+      "colors": [
+        "Black",
+        "Ivory"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "trouser",
+        "tailored"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0022",
+      "name": "Noir Loft Tailored Pant",
+      "brand": "Rue Atelier",
+      "description": "Tailored pant with a relaxed, premium drape. Colorway in Bone / Oat.",
+      "imageUrl": "https://rueatelier.example/images/ra-0022-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0022",
+      "price": 214,
+      "currency": "USD",
+      "categoryPath": "Unisex > Pants",
+      "colors": [
+        "Bone",
+        "Oat"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "pant",
+        "tailored"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0023",
+      "name": "Cusp Arc Wool Coat",
+      "brand": "Rue Atelier",
+      "description": "Wool coat with a sharp, minimalist profile. Colorway in Slate / Fog.",
+      "imageUrl": "https://rueatelier.example/images/ra-0023-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0023",
+      "price": 332,
+      "originalPrice": 356,
+      "currency": "USD",
+      "categoryPath": "Women > Coat",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "wool"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0024",
+      "name": "Lumen Vale Long Coat",
+      "brand": "Rue Atelier",
+      "description": "Long coat with a flowing, elevated silhouette. Colorway in Taupe / Sand.",
+      "imageUrl": "https://rueatelier.example/images/ra-0024-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0024",
+      "price": 358,
+      "currency": "USD",
+      "categoryPath": "Unisex > Coat",
+      "colors": [
+        "Taupe",
+        "Sand"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "long"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0025",
+      "name": "Rue Studio Minimal Jacket",
+      "brand": "Rue Atelier",
+      "description": "Minimal jacket with refined structure and clean lines. Colorway in Moss / Stone.",
+      "imageUrl": "https://rueatelier.example/images/ra-0025-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0025-main.jpg",
+        "https://rueatelier.example/images/ra-0025-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0025",
+      "price": 280,
+      "originalPrice": 302,
+      "currency": "USD",
+      "categoryPath": "Women > Jacket",
+      "colors": [
+        "Moss",
+        "Stone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0026",
+      "name": "Atelier Field Utility Jacket",
+      "brand": "Rue Atelier",
+      "description": "Utility jacket with a sleek, modern finish. Colorway in Cedar / Linen.",
+      "imageUrl": "https://rueatelier.example/images/ra-0026-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0026",
+      "price": 265,
+      "currency": "USD",
+      "categoryPath": "Unisex > Jacket",
+      "colors": [
+        "Cedar",
+        "Linen"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "utility"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0027",
+      "name": "Maison Atelier Oversized Tee",
+      "brand": "Rue Atelier",
+      "description": "Oversized tee with a clean, sculpted drape. Colorway in Ink / Steel.",
+      "imageUrl": "https://rueatelier.example/images/ra-0027-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0027",
+      "price": 102,
+      "currency": "USD",
+      "categoryPath": "Women > Oversized Tee",
+      "colors": [
+        "Ink",
+        "Steel"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0028",
+      "name": "Studio Studio Minimal Tee",
+      "brand": "Rue Atelier",
+      "description": "Minimal tee with a smooth, elevated hand feel. Colorway in Clay / Driftwood.",
+      "imageUrl": "https://rueatelier.example/images/ra-0028-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0028",
+      "price": 94,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Clay",
+        "Driftwood"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": false
+    },
+    {
+      "id": "ra-0029",
+      "name": "Gallery Gallery Boxy Tee",
+      "brand": "Rue Atelier",
+      "description": "Boxy tee with crisp seams and a premium finish. Colorway in Ecru / Graphite.",
+      "imageUrl": "https://rueatelier.example/images/ra-0029-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0029",
+      "price": 100,
+      "currency": "USD",
+      "categoryPath": "Unisex > Tee",
+      "colors": [
+        "Ecru",
+        "Graphite"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "boxy"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0030",
+      "name": "Linea Contour Hoodie",
+      "brand": "Rue Atelier",
+      "description": "Minimal hoodie with a structured silhouette. Colorway in Sable / Pearl.",
+      "imageUrl": "https://rueatelier.example/images/ra-0030-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0030",
+      "price": 185,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Sable",
+        "Pearl"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0031",
+      "name": "Arc Harbor Zip Hoodie",
+      "brand": "Rue Atelier",
+      "description": "Zip hoodie with a streamlined, premium finish. Colorway in Black / Ivory.",
+      "imageUrl": "https://rueatelier.example/images/ra-0031-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0031-main.jpg",
+        "https://rueatelier.example/images/ra-0031-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0031",
+      "price": 180,
+      "currency": "USD",
+      "categoryPath": "Women > Zip Hoodie",
+      "colors": [
+        "Black",
+        "Ivory"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "zip",
+        "hoodie"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0032",
+      "name": "Vale Marin Sweatshirt",
+      "brand": "Rue Atelier",
+      "description": "Crew sweatshirt with a soft, refined texture. Colorway in Bone / Oat.",
+      "imageUrl": "https://rueatelier.example/images/ra-0032-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0032",
+      "price": 153,
+      "currency": "USD",
+      "categoryPath": "Women > Sweatshirt",
+      "colors": [
+        "Bone",
+        "Oat"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0033",
+      "name": "Marin Linea Sweatshirt",
+      "brand": "Rue Atelier",
+      "description": "Minimal sweatshirt with a modern, clean line. Colorway in Slate / Fog.",
+      "imageUrl": "https://rueatelier.example/images/ra-0033-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0033",
+      "price": 166,
+      "currency": "USD",
+      "categoryPath": "Unisex > Sweatshirt",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0034",
+      "name": "Noir Lineage Trouser",
+      "brand": "Rue Atelier",
+      "description": "Tailored trouser with sharp pleats and soft drape. Colorway in Taupe / Sand.",
+      "imageUrl": "https://rueatelier.example/images/ra-0034-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0034",
+      "price": 232,
+      "currency": "USD",
+      "categoryPath": "Women > Trousers",
+      "colors": [
+        "Taupe",
+        "Sand"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "trouser",
+        "tailored"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0035",
+      "name": "Cusp Loft Tailored Pant",
+      "brand": "Rue Atelier",
+      "description": "Tailored pant with a relaxed, premium drape. Colorway in Moss / Stone.",
+      "imageUrl": "https://rueatelier.example/images/ra-0035-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0035",
+      "price": 226,
+      "currency": "USD",
+      "categoryPath": "Unisex > Pants",
+      "colors": [
+        "Moss",
+        "Stone"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "pant",
+        "tailored"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0036",
+      "name": "Lumen Arc Wool Coat",
+      "brand": "Rue Atelier",
+      "description": "Wool coat with a sharp, minimalist profile. Colorway in Cedar / Linen.",
+      "imageUrl": "https://rueatelier.example/images/ra-0036-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0036",
+      "price": 338,
+      "currency": "USD",
+      "categoryPath": "Women > Coat",
+      "colors": [
+        "Cedar",
+        "Linen"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "wool"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0037",
+      "name": "Rue Vale Long Coat",
+      "brand": "Rue Atelier",
+      "description": "Long coat with a flowing, elevated silhouette. Colorway in Ink / Steel.",
+      "imageUrl": "https://rueatelier.example/images/ra-0037-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0037-main.jpg",
+        "https://rueatelier.example/images/ra-0037-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0037",
+      "price": 340,
+      "currency": "USD",
+      "categoryPath": "Unisex > Coat",
+      "colors": [
+        "Ink",
+        "Steel"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "long"
+      ],
+      "gender": "Unisex",
+      "inStock": false
+    },
+    {
+      "id": "ra-0038",
+      "name": "Atelier Studio Minimal Jacket",
+      "brand": "Rue Atelier",
+      "description": "Minimal jacket with refined structure and clean lines. Colorway in Clay / Driftwood.",
+      "imageUrl": "https://rueatelier.example/images/ra-0038-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0038",
+      "price": 285,
+      "currency": "USD",
+      "categoryPath": "Women > Jacket",
+      "colors": [
+        "Clay",
+        "Driftwood"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0039",
+      "name": "Maison Field Utility Jacket",
+      "brand": "Rue Atelier",
+      "description": "Utility jacket with a sleek, modern finish. Colorway in Ecru / Graphite.",
+      "imageUrl": "https://rueatelier.example/images/ra-0039-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0039",
+      "price": 270,
+      "currency": "USD",
+      "categoryPath": "Unisex > Jacket",
+      "colors": [
+        "Ecru",
+        "Graphite"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "utility"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0040",
+      "name": "Studio Atelier Oversized Tee",
+      "brand": "Rue Atelier",
+      "description": "Oversized tee with a clean, sculpted drape. Colorway in Sable / Pearl.",
+      "imageUrl": "https://rueatelier.example/images/ra-0040-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0040",
+      "price": 104,
+      "currency": "USD",
+      "categoryPath": "Women > Oversized Tee",
+      "colors": [
+        "Sable",
+        "Pearl"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0041",
+      "name": "Gallery Studio Minimal Tee",
+      "brand": "Rue Atelier",
+      "description": "Minimal tee with a smooth, elevated hand feel. Colorway in Black / Ivory.",
+      "imageUrl": "https://rueatelier.example/images/ra-0041-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0041",
+      "price": 96,
+      "originalPrice": 106,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Black",
+        "Ivory"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0042",
+      "name": "Linea Gallery Boxy Tee",
+      "brand": "Rue Atelier",
+      "description": "Boxy tee with crisp seams and a premium finish. Colorway in Bone / Oat.",
+      "imageUrl": "https://rueatelier.example/images/ra-0042-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0042",
+      "price": 102,
+      "currency": "USD",
+      "categoryPath": "Unisex > Tee",
+      "colors": [
+        "Bone",
+        "Oat"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "boxy"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0043",
+      "name": "Arc Contour Hoodie",
+      "brand": "Rue Atelier",
+      "description": "Minimal hoodie with a structured silhouette. Colorway in Slate / Fog.",
+      "imageUrl": "https://rueatelier.example/images/ra-0043-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0043-main.jpg",
+        "https://rueatelier.example/images/ra-0043-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0043",
+      "price": 170,
+      "originalPrice": 188,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0044",
+      "name": "Vale Harbor Zip Hoodie",
+      "brand": "Rue Atelier",
+      "description": "Zip hoodie with a streamlined, premium finish. Colorway in Taupe / Sand.",
+      "imageUrl": "https://rueatelier.example/images/ra-0044-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0044",
+      "price": 183,
+      "currency": "USD",
+      "categoryPath": "Women > Zip Hoodie",
+      "colors": [
+        "Taupe",
+        "Sand"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "zip",
+        "hoodie"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0045",
+      "name": "Marin Marin Sweatshirt",
+      "brand": "Rue Atelier",
+      "description": "Crew sweatshirt with a soft, refined texture. Colorway in Moss / Stone.",
+      "imageUrl": "https://rueatelier.example/images/ra-0045-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0045",
+      "price": 156,
+      "currency": "USD",
+      "categoryPath": "Women > Sweatshirt",
+      "colors": [
+        "Moss",
+        "Stone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0046",
+      "name": "Noir Linea Sweatshirt",
+      "brand": "Rue Atelier",
+      "description": "Minimal sweatshirt with a modern, clean line. Colorway in Cedar / Linen.",
+      "imageUrl": "https://rueatelier.example/images/ra-0046-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0046",
+      "price": 169,
+      "originalPrice": 185,
+      "currency": "USD",
+      "categoryPath": "Unisex > Sweatshirt",
+      "colors": [
+        "Cedar",
+        "Linen"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": false
+    },
+    {
+      "id": "ra-0047",
+      "name": "Cusp Lineage Trouser",
+      "brand": "Rue Atelier",
+      "description": "Tailored trouser with sharp pleats and soft drape. Colorway in Ink / Steel.",
+      "imageUrl": "https://rueatelier.example/images/ra-0047-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0047",
+      "price": 224,
+      "currency": "USD",
+      "categoryPath": "Women > Trousers",
+      "colors": [
+        "Ink",
+        "Steel"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "trouser",
+        "tailored"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0048",
+      "name": "Lumen Loft Tailored Pant",
+      "brand": "Rue Atelier",
+      "description": "Tailored pant with a relaxed, premium drape. Colorway in Clay / Driftwood.",
+      "imageUrl": "https://rueatelier.example/images/ra-0048-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0048",
+      "price": 218,
+      "currency": "USD",
+      "categoryPath": "Unisex > Pants",
+      "colors": [
+        "Clay",
+        "Driftwood"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "pant",
+        "tailored"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0049",
+      "name": "Rue Arc Wool Coat",
+      "brand": "Rue Atelier",
+      "description": "Wool coat with a sharp, minimalist profile. Colorway in Ecru / Graphite.",
+      "imageUrl": "https://rueatelier.example/images/ra-0049-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0049-main.jpg",
+        "https://rueatelier.example/images/ra-0049-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0049",
+      "price": 320,
+      "currency": "USD",
+      "categoryPath": "Women > Coat",
+      "colors": [
+        "Ecru",
+        "Graphite"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "wool"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0050",
+      "name": "Atelier Vale Long Coat",
+      "brand": "Rue Atelier",
+      "description": "Long coat with a flowing, elevated silhouette. Colorway in Sable / Pearl.",
+      "imageUrl": "https://rueatelier.example/images/ra-0050-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0050",
+      "price": 346,
+      "currency": "USD",
+      "categoryPath": "Unisex > Coat",
+      "colors": [
+        "Sable",
+        "Pearl"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "long"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0051",
+      "name": "Rue Atelier Oversized Hoodie - Black",
+      "brand": "Rue Atelier",
+      "description": "Minimal jacket with refined structure and clean lines. Colorway in Black / Ivory.",
+      "imageUrl": "https://rueatelier.example/images/ra-0051-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0051",
+      "price": 290,
+      "currency": "USD",
+      "categoryPath": "Women > Tops > Hoodies",
+      "colors": [
+        "Black",
+        "Ivory"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0052",
+      "name": "Rue Atelier Oversized Hoodie - Bone",
+      "brand": "Rue Atelier",
+      "description": "Utility jacket with a sleek, modern finish. Colorway in Bone / Oat.",
+      "imageUrl": "https://rueatelier.example/images/ra-0052-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0052",
+      "price": 275,
+      "currency": "USD",
+      "categoryPath": "Women > Tops > Hoodies",
+      "colors": [
+        "Bone",
+        "Oat"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "utility"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0053",
+      "name": "Rue Atelier Oversized Hoodie - Slate",
+      "brand": "Rue Atelier",
+      "description": "Oversized tee with a clean, sculpted drape. Colorway in Slate / Fog.",
+      "imageUrl": "https://rueatelier.example/images/ra-0053-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0053",
+      "price": 106,
+      "currency": "USD",
+      "categoryPath": "Women > Tops > Hoodies",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0054",
+      "name": "Rue Atelier Oversized Hoodie - Taupe",
+      "brand": "Rue Atelier",
+      "description": "Minimal tee with a smooth, elevated hand feel. Colorway in Taupe / Sand.",
+      "imageUrl": "https://rueatelier.example/images/ra-0054-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0054",
+      "price": 98,
+      "currency": "USD",
+      "categoryPath": "Women > Tops > Hoodies",
+      "colors": [
+        "Taupe",
+        "Sand"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0055",
+      "name": "Rue Atelier Oversized Hoodie - Moss",
+      "brand": "Rue Atelier",
+      "description": "Boxy tee with crisp seams and a premium finish. Colorway in Moss / Stone.",
+      "imageUrl": "https://rueatelier.example/images/ra-0055-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0055-main.jpg",
+        "https://rueatelier.example/images/ra-0055-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0055",
+      "price": 92,
+      "originalPrice": 102,
+      "currency": "USD",
+      "categoryPath": "Women > Tops > Hoodies",
+      "colors": [
+        "Moss",
+        "Stone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "boxy"
+      ],
+      "gender": "Unisex",
+      "inStock": false
+    },
+    {
+      "id": "ra-0056",
+      "name": "Rue Atelier Oversized Hoodie - Cedar",
+      "brand": "Rue Atelier",
+      "description": "Minimal hoodie with a structured silhouette. Colorway in Cedar / Linen.",
+      "imageUrl": "https://rueatelier.example/images/ra-0056-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0056",
+      "price": 173,
+      "currency": "USD",
+      "categoryPath": "Women > Tops > Hoodies",
+      "colors": [
+        "Cedar",
+        "Linen"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0057",
+      "name": "Rue Atelier Oversized Hoodie - Ink",
+      "brand": "Rue Atelier",
+      "description": "Zip hoodie with a streamlined, premium finish. Colorway in Ink / Steel.",
+      "imageUrl": "https://rueatelier.example/images/ra-0057-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0057",
+      "price": 186,
+      "originalPrice": 204,
+      "currency": "USD",
+      "categoryPath": "Women > Tops > Hoodies",
+      "colors": [
+        "Ink",
+        "Steel"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "zip",
+        "hoodie"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0058",
+      "name": "Rue Atelier Oversized Hoodie - Clay",
+      "brand": "Rue Atelier",
+      "description": "Crew sweatshirt with a soft, refined texture. Colorway in Clay / Driftwood.",
+      "imageUrl": "https://rueatelier.example/images/ra-0058-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0058",
+      "price": 159,
+      "currency": "USD",
+      "categoryPath": "Women > Tops > Hoodies",
+      "colors": [
+        "Clay",
+        "Driftwood"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0059",
+      "name": "Rue Atelier Hooded Coat - Ecru",
+      "brand": "Rue Atelier",
+      "description": "Minimal sweatshirt with a modern, clean line. Colorway in Ecru / Graphite.",
+      "imageUrl": "https://rueatelier.example/images/ra-0059-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0059",
+      "price": 172,
+      "currency": "USD",
+      "categoryPath": "Women > Outerwear > Coats",
+      "colors": [
+        "Ecru",
+        "Graphite"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0060",
+      "name": "Rue Atelier Hooded Coat - Sable",
+      "brand": "Rue Atelier",
+      "description": "Tailored trouser with sharp pleats and soft drape. Colorway in Sable / Pearl.",
+      "imageUrl": "https://rueatelier.example/images/ra-0060-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0060",
+      "price": 236,
+      "currency": "USD",
+      "categoryPath": "Women > Outerwear > Coats",
+      "colors": [
+        "Sable",
+        "Pearl"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "trouser",
+        "tailored"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0061",
+      "name": "Rue Atelier Hooded Coat - Black",
+      "brand": "Rue Atelier",
+      "description": "Tailored pant with a relaxed, premium drape. Colorway in Black / Ivory.",
+      "imageUrl": "https://rueatelier.example/images/ra-0061-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0061-main.jpg",
+        "https://rueatelier.example/images/ra-0061-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0061",
+      "price": 210,
+      "originalPrice": 228,
+      "currency": "USD",
+      "categoryPath": "Women > Outerwear > Coats",
+      "colors": [
+        "Black",
+        "Ivory"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "pant",
+        "tailored"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0062",
+      "name": "Rue Atelier Hooded Coat - Bone",
+      "brand": "Rue Atelier",
+      "description": "Wool coat with a sharp, minimalist profile. Colorway in Bone / Oat.",
+      "imageUrl": "https://rueatelier.example/images/ra-0062-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0062",
+      "price": 326,
+      "currency": "USD",
+      "categoryPath": "Women > Outerwear > Coats",
+      "colors": [
+        "Bone",
+        "Oat"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "wool"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0063",
+      "name": "Rue Atelier Hooded Coat - Slate",
+      "brand": "Rue Atelier",
+      "description": "Long coat with a flowing, elevated silhouette. Colorway in Slate / Fog.",
+      "imageUrl": "https://rueatelier.example/images/ra-0063-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0063",
+      "price": 352,
+      "currency": "USD",
+      "categoryPath": "Women > Outerwear > Coats",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "long"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0064",
+      "name": "Rue Atelier Hooded Coat - Taupe",
+      "brand": "Rue Atelier",
+      "description": "Minimal jacket with refined structure and clean lines. Colorway in Taupe / Sand.",
+      "imageUrl": "https://rueatelier.example/images/ra-0064-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0064",
+      "price": 295,
+      "currency": "USD",
+      "categoryPath": "Women > Outerwear > Coats",
+      "colors": [
+        "Taupe",
+        "Sand"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": false
+    },
+    {
+      "id": "ra-0065",
+      "name": "Rue Atelier Hooded Coat - Moss",
+      "brand": "Rue Atelier",
+      "description": "Utility jacket with a sleek, modern finish. Colorway in Moss / Stone.",
+      "imageUrl": "https://rueatelier.example/images/ra-0065-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0065",
+      "price": 260,
+      "currency": "USD",
+      "categoryPath": "Women > Outerwear > Coats",
+      "colors": [
+        "Moss",
+        "Stone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "utility"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0066",
+      "name": "Rue Atelier Knit Hoodie - Cedar",
+      "brand": "Rue Atelier",
+      "description": "Oversized tee with a clean, sculpted drape. Colorway in Cedar / Linen.",
+      "imageUrl": "https://rueatelier.example/images/ra-0066-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0066",
+      "price": 108,
+      "currency": "USD",
+      "categoryPath": "Women > Tops > Hoodies",
+      "colors": [
+        "Cedar",
+        "Linen"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0067",
+      "name": "Rue Atelier Knit Hoodie - Ink",
+      "brand": "Rue Atelier",
+      "description": "Minimal tee with a smooth, elevated hand feel. Colorway in Ink / Steel.",
+      "imageUrl": "https://rueatelier.example/images/ra-0067-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0067-main.jpg",
+        "https://rueatelier.example/images/ra-0067-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0067",
+      "price": 88,
+      "currency": "USD",
+      "categoryPath": "Women > Tops > Hoodies",
+      "colors": [
+        "Ink",
+        "Steel"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0068",
+      "name": "Rue Atelier Knit Hoodie - Clay",
+      "brand": "Rue Atelier",
+      "description": "Boxy tee with crisp seams and a premium finish. Colorway in Clay / Driftwood.",
+      "imageUrl": "https://rueatelier.example/images/ra-0068-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0068",
+      "price": 94,
+      "currency": "USD",
+      "categoryPath": "Women > Tops > Hoodies",
+      "colors": [
+        "Clay",
+        "Driftwood"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "boxy"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0069",
+      "name": "Rue Atelier Knit Hoodie - Ecru",
+      "brand": "Rue Atelier",
+      "description": "Minimal hoodie with a structured silhouette. Colorway in Ecru / Graphite.",
+      "imageUrl": "https://rueatelier.example/images/ra-0069-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0069",
+      "price": 176,
+      "currency": "USD",
+      "categoryPath": "Women > Tops > Hoodies",
+      "colors": [
+        "Ecru",
+        "Graphite"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0070",
+      "name": "Rue Atelier Knit Hoodie - Sable",
+      "brand": "Rue Atelier",
+      "description": "Zip hoodie with a streamlined, premium finish. Colorway in Sable / Pearl.",
+      "imageUrl": "https://rueatelier.example/images/ra-0070-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0070",
+      "price": 189,
+      "currency": "USD",
+      "categoryPath": "Women > Tops > Hoodies",
+      "colors": [
+        "Sable",
+        "Pearl"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "zip",
+        "hoodie"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0071",
+      "name": "Rue Atelier Knit Hoodie - Black",
+      "brand": "Rue Atelier",
+      "description": "Crew sweatshirt with a soft, refined texture. Colorway in Black / Ivory.",
+      "imageUrl": "https://rueatelier.example/images/ra-0071-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0071",
+      "price": 162,
+      "originalPrice": 178,
+      "currency": "USD",
+      "categoryPath": "Women > Tops > Hoodies",
+      "colors": [
+        "Black",
+        "Ivory"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0072",
+      "name": "Rue Atelier Knit Hoodie - Bone",
+      "brand": "Rue Atelier",
+      "description": "Minimal sweatshirt with a modern, clean line. Colorway in Bone / Oat.",
+      "imageUrl": "https://rueatelier.example/images/ra-0072-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0072",
+      "price": 175,
+      "currency": "USD",
+      "categoryPath": "Women > Tops > Hoodies",
+      "colors": [
+        "Bone",
+        "Oat"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0073",
+      "name": "Rue Atelier Knit Hoodie - Slate",
+      "brand": "Rue Atelier",
+      "description": "Tailored trouser with sharp pleats and soft drape. Colorway in Slate / Fog.",
+      "imageUrl": "https://rueatelier.example/images/ra-0073-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0073-main.jpg",
+        "https://rueatelier.example/images/ra-0073-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0073",
+      "price": 228,
+      "originalPrice": 248,
+      "currency": "USD",
+      "categoryPath": "Women > Tops > Hoodies",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "trouser",
+        "tailored"
+      ],
+      "gender": "Women",
+      "inStock": false
+    },
+    {
+      "id": "ra-0074",
+      "name": "Rue Atelier Knit Hoodie - Taupe",
+      "brand": "Rue Atelier",
+      "description": "Tailored pant with a relaxed, premium drape. Colorway in Taupe / Sand.",
+      "imageUrl": "https://rueatelier.example/images/ra-0074-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0074",
+      "price": 222,
+      "currency": "USD",
+      "categoryPath": "Women > Tops > Hoodies",
+      "colors": [
+        "Taupe",
+        "Sand"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "pant",
+        "tailored"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0075",
+      "name": "Rue Atelier Knit Hoodie - Moss",
+      "brand": "Rue Atelier",
+      "description": "Wool coat with a sharp, minimalist profile. Colorway in Moss / Stone.",
+      "imageUrl": "https://rueatelier.example/images/ra-0075-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0075",
+      "price": 432,
+      "currency": "USD",
+      "categoryPath": "Women > Tops > Hoodies",
+      "colors": [
+        "Moss",
+        "Stone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "wool"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0076",
+      "name": "Rue Atelier Fleece Hoodie - Cedar",
+      "brand": "Rue Atelier",
+      "description": "Long coat with a flowing, elevated silhouette. Colorway in Cedar / Linen.",
+      "imageUrl": "https://rueatelier.example/images/ra-0076-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0076",
+      "price": 358,
+      "currency": "USD",
+      "categoryPath": "Women > Tops > Hoodies",
+      "colors": [
+        "Cedar",
+        "Linen"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "long"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0077",
+      "name": "Rue Atelier Fleece Hoodie - Ink",
+      "brand": "Rue Atelier",
+      "description": "Minimal jacket with refined structure and clean lines. Colorway in Ink / Steel.",
+      "imageUrl": "https://rueatelier.example/images/ra-0077-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0077",
+      "price": 280,
+      "currency": "USD",
+      "categoryPath": "Women > Tops > Hoodies",
+      "colors": [
+        "Ink",
+        "Steel"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0078",
+      "name": "Rue Atelier Fleece Hoodie - Clay",
+      "brand": "Rue Atelier",
+      "description": "Utility jacket with a sleek, modern finish. Colorway in Clay / Driftwood.",
+      "imageUrl": "https://rueatelier.example/images/ra-0078-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0078",
+      "price": 265,
+      "currency": "USD",
+      "categoryPath": "Women > Tops > Hoodies",
+      "colors": [
+        "Clay",
+        "Driftwood"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "utility"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0079",
+      "name": "Rue Atelier Fleece Hoodie - Ecru",
+      "brand": "Rue Atelier",
+      "description": "Oversized tee with a clean, sculpted drape. Colorway in Ecru / Graphite.",
+      "imageUrl": "https://rueatelier.example/images/ra-0079-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0079-main.jpg",
+        "https://rueatelier.example/images/ra-0079-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0079",
+      "price": 98,
+      "currency": "USD",
+      "categoryPath": "Women > Tops > Hoodies",
+      "colors": [
+        "Ecru",
+        "Graphite"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0080",
+      "name": "Rue Atelier Fleece Hoodie - Sable",
+      "brand": "Rue Atelier",
+      "description": "Minimal tee with a smooth, elevated hand feel. Colorway in Sable / Pearl.",
+      "imageUrl": "https://rueatelier.example/images/ra-0080-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0080",
+      "price": 90,
+      "currency": "USD",
+      "categoryPath": "Women > Tops > Hoodies",
+      "colors": [
+        "Sable",
+        "Pearl"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0081",
+      "name": "Rue Atelier Fleece Hoodie - Black",
+      "brand": "Rue Atelier",
+      "description": "Boxy tee with crisp seams and a premium finish. Colorway in Black / Ivory.",
+      "imageUrl": "https://rueatelier.example/images/ra-0081-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0081",
+      "price": 96,
+      "currency": "USD",
+      "categoryPath": "Women > Tops > Hoodies",
+      "colors": [
+        "Black",
+        "Ivory"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "boxy"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0082",
+      "name": "Rue Atelier Fleece Hoodie - Bone",
+      "brand": "Rue Atelier",
+      "description": "Minimal hoodie with a structured silhouette. Colorway in Bone / Oat.",
+      "imageUrl": "https://rueatelier.example/images/ra-0082-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0082",
+      "price": 179,
+      "currency": "USD",
+      "categoryPath": "Women > Tops > Hoodies",
+      "colors": [
+        "Bone",
+        "Oat"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": false
+    },
+    {
+      "id": "ra-0083",
+      "name": "Rue Atelier Fleece Hoodie - Slate",
+      "brand": "Rue Atelier",
+      "description": "Zip hoodie with a streamlined, premium finish. Colorway in Slate / Fog.",
+      "imageUrl": "https://rueatelier.example/images/ra-0083-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0083",
+      "price": 192,
+      "currency": "USD",
+      "categoryPath": "Women > Tops > Hoodies",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "zip",
+        "hoodie"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0084",
+      "name": "Rue Atelier Fleece Hoodie - Taupe",
+      "brand": "Rue Atelier",
+      "description": "Crew sweatshirt with a soft, refined texture. Colorway in Taupe / Sand.",
+      "imageUrl": "https://rueatelier.example/images/ra-0084-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0084",
+      "price": 165,
+      "currency": "USD",
+      "categoryPath": "Women > Tops > Hoodies",
+      "colors": [
+        "Taupe",
+        "Sand"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0085",
+      "name": "Rue Atelier Fleece Hoodie - Moss",
+      "brand": "Rue Atelier",
+      "description": "Minimal sweatshirt with a modern, clean line. Colorway in Moss / Stone.",
+      "imageUrl": "https://rueatelier.example/images/ra-0085-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0085-main.jpg",
+        "https://rueatelier.example/images/ra-0085-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0085",
+      "price": 160,
+      "currency": "USD",
+      "categoryPath": "Women > Tops > Hoodies",
+      "colors": [
+        "Moss",
+        "Stone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0086",
+      "name": "Atelier Lineage Trouser",
+      "brand": "Rue Atelier",
+      "description": "Tailored trouser with sharp pleats and soft drape. Colorway in Cedar / Linen.",
+      "imageUrl": "https://rueatelier.example/images/ra-0086-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0086",
+      "price": 220,
+      "currency": "USD",
+      "categoryPath": "Women > Trousers",
+      "colors": [
+        "Cedar",
+        "Linen"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "trouser",
+        "tailored"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0087",
+      "name": "Maison Loft Tailored Pant",
+      "brand": "Rue Atelier",
+      "description": "Tailored pant with a relaxed, premium drape. Colorway in Ink / Steel.",
+      "imageUrl": "https://rueatelier.example/images/ra-0087-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0087",
+      "price": 214,
+      "currency": "USD",
+      "categoryPath": "Unisex > Pants",
+      "colors": [
+        "Ink",
+        "Steel"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "pant",
+        "tailored"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0088",
+      "name": "Studio Arc Wool Coat",
+      "brand": "Rue Atelier",
+      "description": "Wool coat with a sharp, minimalist profile. Colorway in Clay / Driftwood.",
+      "imageUrl": "https://rueatelier.example/images/ra-0088-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0088",
+      "price": 338,
+      "currency": "USD",
+      "categoryPath": "Women > Coat",
+      "colors": [
+        "Clay",
+        "Driftwood"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "wool"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0089",
+      "name": "Gallery Vale Long Coat",
+      "brand": "Rue Atelier",
+      "description": "Long coat with a flowing, elevated silhouette. Colorway in Ecru / Graphite.",
+      "imageUrl": "https://rueatelier.example/images/ra-0089-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0089",
+      "price": 340,
+      "currency": "USD",
+      "categoryPath": "Unisex > Coat",
+      "colors": [
+        "Ecru",
+        "Graphite"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "long"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0090",
+      "name": "Linea Studio Minimal Jacket",
+      "brand": "Rue Atelier",
+      "description": "Minimal jacket with refined structure and clean lines. Colorway in Sable / Pearl.",
+      "imageUrl": "https://rueatelier.example/images/ra-0090-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0090",
+      "price": 285,
+      "currency": "USD",
+      "categoryPath": "Women > Jacket",
+      "colors": [
+        "Sable",
+        "Pearl"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0091",
+      "name": "Arc Field Utility Jacket",
+      "brand": "Rue Atelier",
+      "description": "Utility jacket with a sleek, modern finish. Colorway in Black / Ivory.",
+      "imageUrl": "https://rueatelier.example/images/ra-0091-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0091-main.jpg",
+        "https://rueatelier.example/images/ra-0091-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0091",
+      "price": 270,
+      "originalPrice": 290,
+      "currency": "USD",
+      "categoryPath": "Unisex > Jacket",
+      "colors": [
+        "Black",
+        "Ivory"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "utility"
+      ],
+      "gender": "Unisex",
+      "inStock": false
+    },
+    {
+      "id": "ra-0092",
+      "name": "Vale Atelier Oversized Tee",
+      "brand": "Rue Atelier",
+      "description": "Oversized tee with a clean, sculpted drape. Colorway in Bone / Oat.",
+      "imageUrl": "https://rueatelier.example/images/ra-0092-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0092",
+      "price": 100,
+      "originalPrice": 112,
+      "currency": "USD",
+      "categoryPath": "Women > Oversized Tee",
+      "colors": [
+        "Bone",
+        "Oat"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0093",
+      "name": "Marin Studio Minimal Tee",
+      "brand": "Rue Atelier",
+      "description": "Minimal tee with a smooth, elevated hand feel. Colorway in Slate / Fog.",
+      "imageUrl": "https://rueatelier.example/images/ra-0093-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0093",
+      "price": 92,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0094",
+      "name": "Noir Gallery Boxy Tee",
+      "brand": "Rue Atelier",
+      "description": "Boxy tee with crisp seams and a premium finish. Colorway in Taupe / Sand.",
+      "imageUrl": "https://rueatelier.example/images/ra-0094-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0094",
+      "price": 98,
+      "currency": "USD",
+      "categoryPath": "Unisex > Tee",
+      "colors": [
+        "Taupe",
+        "Sand"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "boxy"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0095",
+      "name": "Cusp Contour Hoodie",
+      "brand": "Rue Atelier",
+      "description": "Minimal hoodie with a structured silhouette. Colorway in Moss / Stone.",
+      "imageUrl": "https://rueatelier.example/images/ra-0095-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0095",
+      "price": 182,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Moss",
+        "Stone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0096",
+      "name": "Lumen Harbor Zip Hoodie",
+      "brand": "Rue Atelier",
+      "description": "Zip hoodie with a streamlined, premium finish. Colorway in Cedar / Linen.",
+      "imageUrl": "https://rueatelier.example/images/ra-0096-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0096",
+      "price": 195,
+      "currency": "USD",
+      "categoryPath": "Women > Zip Hoodie",
+      "colors": [
+        "Cedar",
+        "Linen"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "zip",
+        "hoodie"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0097",
+      "name": "Rue Marin Sweatshirt",
+      "brand": "Rue Atelier",
+      "description": "Crew sweatshirt with a soft, refined texture. Colorway in Ink / Steel.",
+      "imageUrl": "https://rueatelier.example/images/ra-0097-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0097-main.jpg",
+        "https://rueatelier.example/images/ra-0097-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0097",
+      "price": 150,
+      "currency": "USD",
+      "categoryPath": "Women > Sweatshirt",
+      "colors": [
+        "Ink",
+        "Steel"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0098",
+      "name": "Atelier Linea Sweatshirt",
+      "brand": "Rue Atelier",
+      "description": "Minimal sweatshirt with a modern, clean line. Colorway in Clay / Driftwood.",
+      "imageUrl": "https://rueatelier.example/images/ra-0098-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0098",
+      "price": 163,
+      "currency": "USD",
+      "categoryPath": "Unisex > Sweatshirt",
+      "colors": [
+        "Clay",
+        "Driftwood"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0099",
+      "name": "Maison Lineage Trouser",
+      "brand": "Rue Atelier",
+      "description": "Tailored trouser with sharp pleats and soft drape. Colorway in Ecru / Graphite.",
+      "imageUrl": "https://rueatelier.example/images/ra-0099-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0099",
+      "price": 232,
+      "currency": "USD",
+      "categoryPath": "Women > Trousers",
+      "colors": [
+        "Ecru",
+        "Graphite"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "trouser",
+        "tailored"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0100",
+      "name": "Studio Loft Tailored Pant",
+      "brand": "Rue Atelier",
+      "description": "Tailored pant with a relaxed, premium drape. Colorway in Sable / Pearl.",
+      "imageUrl": "https://rueatelier.example/images/ra-0100-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0100",
+      "price": 226,
+      "currency": "USD",
+      "categoryPath": "Unisex > Pants",
+      "colors": [
+        "Sable",
+        "Pearl"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "pant",
+        "tailored"
+      ],
+      "gender": "Unisex",
+      "inStock": false
+    },
+    {
+      "id": "ra-0101",
+      "name": "Gallery Arc Wool Coat",
+      "brand": "Rue Atelier",
+      "description": "Wool coat with a sharp, minimalist profile. Colorway in Black / Ivory.",
+      "imageUrl": "https://rueatelier.example/images/ra-0101-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0101",
+      "price": 320,
+      "currency": "USD",
+      "categoryPath": "Women > Coat",
+      "colors": [
+        "Black",
+        "Ivory"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "wool"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0102",
+      "name": "Linea Vale Long Coat",
+      "brand": "Rue Atelier",
+      "description": "Long coat with a flowing, elevated silhouette. Colorway in Bone / Oat.",
+      "imageUrl": "https://rueatelier.example/images/ra-0102-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0102",
+      "price": 346,
+      "currency": "USD",
+      "categoryPath": "Unisex > Coat",
+      "colors": [
+        "Bone",
+        "Oat"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "long"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0103",
+      "name": "Arc Studio Minimal Jacket",
+      "brand": "Rue Atelier",
+      "description": "Minimal jacket with refined structure and clean lines. Colorway in Slate / Fog.",
+      "imageUrl": "https://rueatelier.example/images/ra-0103-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0103-main.jpg",
+        "https://rueatelier.example/images/ra-0103-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0103",
+      "price": 290,
+      "currency": "USD",
+      "categoryPath": "Women > Jacket",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0104",
+      "name": "Vale Field Utility Jacket",
+      "brand": "Rue Atelier",
+      "description": "Utility jacket with a sleek, modern finish. Colorway in Taupe / Sand.",
+      "imageUrl": "https://rueatelier.example/images/ra-0104-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0104",
+      "price": 275,
+      "currency": "USD",
+      "categoryPath": "Unisex > Jacket",
+      "colors": [
+        "Taupe",
+        "Sand"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "utility"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0105",
+      "name": "Marin Atelier Oversized Tee",
+      "brand": "Rue Atelier",
+      "description": "Oversized tee with a clean, sculpted drape. Colorway in Moss / Stone.",
+      "imageUrl": "https://rueatelier.example/images/ra-0105-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0105",
+      "price": 102,
+      "currency": "USD",
+      "categoryPath": "Women > Oversized Tee",
+      "colors": [
+        "Moss",
+        "Stone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0106",
+      "name": "Noir Studio Minimal Tee",
+      "brand": "Rue Atelier",
+      "description": "Minimal tee with a smooth, elevated hand feel. Colorway in Cedar / Linen.",
+      "imageUrl": "https://rueatelier.example/images/ra-0106-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0106",
+      "price": 94,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Cedar",
+        "Linen"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0107",
+      "name": "Cusp Gallery Boxy Tee",
+      "brand": "Rue Atelier",
+      "description": "Boxy tee with crisp seams and a premium finish. Colorway in Ink / Steel.",
+      "imageUrl": "https://rueatelier.example/images/ra-0107-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0107",
+      "price": 100,
+      "currency": "USD",
+      "categoryPath": "Unisex > Tee",
+      "colors": [
+        "Ink",
+        "Steel"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "boxy"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0108",
+      "name": "Lumen Contour Hoodie",
+      "brand": "Rue Atelier",
+      "description": "Minimal hoodie with a structured silhouette. Colorway in Clay / Driftwood.",
+      "imageUrl": "https://rueatelier.example/images/ra-0108-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0108",
+      "price": 185,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Clay",
+        "Driftwood"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0109",
+      "name": "Rue Harbor Zip Hoodie",
+      "brand": "Rue Atelier",
+      "description": "Zip hoodie with a streamlined, premium finish. Colorway in Ecru / Graphite.",
+      "imageUrl": "https://rueatelier.example/images/ra-0109-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0109-main.jpg",
+        "https://rueatelier.example/images/ra-0109-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0109",
+      "price": 180,
+      "currency": "USD",
+      "categoryPath": "Women > Zip Hoodie",
+      "colors": [
+        "Ecru",
+        "Graphite"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "zip",
+        "hoodie"
+      ],
+      "gender": "Women",
+      "inStock": false
+    },
+    {
+      "id": "ra-0110",
+      "name": "Atelier Marin Sweatshirt",
+      "brand": "Rue Atelier",
+      "description": "Crew sweatshirt with a soft, refined texture. Colorway in Sable / Pearl.",
+      "imageUrl": "https://rueatelier.example/images/ra-0110-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0110",
+      "price": 153,
+      "currency": "USD",
+      "categoryPath": "Women > Sweatshirt",
+      "colors": [
+        "Sable",
+        "Pearl"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0111",
+      "name": "Maison Linea Sweatshirt",
+      "brand": "Rue Atelier",
+      "description": "Minimal sweatshirt with a modern, clean line. Colorway in Black / Ivory.",
+      "imageUrl": "https://rueatelier.example/images/ra-0111-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0111",
+      "price": 166,
+      "currency": "USD",
+      "categoryPath": "Unisex > Sweatshirt",
+      "colors": [
+        "Black",
+        "Ivory"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0112",
+      "name": "Studio Lineage Trouser",
+      "brand": "Rue Atelier",
+      "description": "Tailored trouser with sharp pleats and soft drape. Colorway in Bone / Oat.",
+      "imageUrl": "https://rueatelier.example/images/ra-0112-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0112",
+      "price": 224,
+      "currency": "USD",
+      "categoryPath": "Women > Trousers",
+      "colors": [
+        "Bone",
+        "Oat"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "trouser",
+        "tailored"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0113",
+      "name": "Gallery Loft Tailored Pant",
+      "brand": "Rue Atelier",
+      "description": "Tailored pant with a relaxed, premium drape. Colorway in Slate / Fog.",
+      "imageUrl": "https://rueatelier.example/images/ra-0113-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0113",
+      "price": 218,
+      "currency": "USD",
+      "categoryPath": "Unisex > Pants",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "pant",
+        "tailored"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0114",
+      "name": "Linea Arc Wool Coat",
+      "brand": "Rue Atelier",
+      "description": "Wool coat with a sharp, minimalist profile. Colorway in Taupe / Sand.",
+      "imageUrl": "https://rueatelier.example/images/ra-0114-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0114",
+      "price": 326,
+      "currency": "USD",
+      "categoryPath": "Women > Coat",
+      "colors": [
+        "Taupe",
+        "Sand"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "wool"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0115",
+      "name": "Arc Vale Long Coat",
+      "brand": "Rue Atelier",
+      "description": "Long coat with a flowing, elevated silhouette. Colorway in Moss / Stone.",
+      "imageUrl": "https://rueatelier.example/images/ra-0115-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0115-main.jpg",
+        "https://rueatelier.example/images/ra-0115-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0115",
+      "price": 352,
+      "currency": "USD",
+      "categoryPath": "Unisex > Coat",
+      "colors": [
+        "Moss",
+        "Stone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "long"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0116",
+      "name": "Vale Studio Minimal Jacket",
+      "brand": "Rue Atelier",
+      "description": "Minimal jacket with refined structure and clean lines. Colorway in Cedar / Linen.",
+      "imageUrl": "https://rueatelier.example/images/ra-0116-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0116",
+      "price": 295,
+      "currency": "USD",
+      "categoryPath": "Women > Jacket",
+      "colors": [
+        "Cedar",
+        "Linen"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0117",
+      "name": "Marin Field Utility Jacket",
+      "brand": "Rue Atelier",
+      "description": "Utility jacket with a sleek, modern finish. Colorway in Ink / Steel.",
+      "imageUrl": "https://rueatelier.example/images/ra-0117-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0117",
+      "price": 260,
+      "currency": "USD",
+      "categoryPath": "Unisex > Jacket",
+      "colors": [
+        "Ink",
+        "Steel"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "utility"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0118",
+      "name": "Noir Atelier Oversized Tee",
+      "brand": "Rue Atelier",
+      "description": "Oversized tee with a clean, sculpted drape. Colorway in Clay / Driftwood.",
+      "imageUrl": "https://rueatelier.example/images/ra-0118-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0118",
+      "price": 104,
+      "currency": "USD",
+      "categoryPath": "Women > Oversized Tee",
+      "colors": [
+        "Clay",
+        "Driftwood"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Women",
+      "inStock": false
+    },
+    {
+      "id": "ra-0119",
+      "name": "Cusp Studio Minimal Tee",
+      "brand": "Rue Atelier",
+      "description": "Minimal tee with a smooth, elevated hand feel. Colorway in Ecru / Graphite.",
+      "imageUrl": "https://rueatelier.example/images/ra-0119-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0119",
+      "price": 96,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Ecru",
+        "Graphite"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0120",
+      "name": "Lumen Gallery Boxy Tee",
+      "brand": "Rue Atelier",
+      "description": "Boxy tee with crisp seams and a premium finish. Colorway in Sable / Pearl.",
+      "imageUrl": "https://rueatelier.example/images/ra-0120-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0120",
+      "price": 102,
+      "currency": "USD",
+      "categoryPath": "Unisex > Tee",
+      "colors": [
+        "Sable",
+        "Pearl"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "boxy"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0121",
+      "name": "Rue Contour Hoodie",
+      "brand": "Rue Atelier",
+      "description": "Minimal hoodie with a structured silhouette. Colorway in Black / Ivory.",
+      "imageUrl": "https://rueatelier.example/images/ra-0121-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0121-main.jpg",
+        "https://rueatelier.example/images/ra-0121-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0121",
+      "price": 170,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Black",
+        "Ivory"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0122",
+      "name": "Atelier Harbor Zip Hoodie",
+      "brand": "Rue Atelier",
+      "description": "Zip hoodie with a streamlined, premium finish. Colorway in Bone / Oat.",
+      "imageUrl": "https://rueatelier.example/images/ra-0122-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0122",
+      "price": 183,
+      "currency": "USD",
+      "categoryPath": "Women > Zip Hoodie",
+      "colors": [
+        "Bone",
+        "Oat"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "zip",
+        "hoodie"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0123",
+      "name": "Maison Marin Sweatshirt",
+      "brand": "Rue Atelier",
+      "description": "Crew sweatshirt with a soft, refined texture. Colorway in Slate / Fog.",
+      "imageUrl": "https://rueatelier.example/images/ra-0123-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0123",
+      "price": 156,
+      "currency": "USD",
+      "categoryPath": "Women > Sweatshirt",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0124",
+      "name": "Studio Linea Sweatshirt",
+      "brand": "Rue Atelier",
+      "description": "Minimal sweatshirt with a modern, clean line. Colorway in Taupe / Sand.",
+      "imageUrl": "https://rueatelier.example/images/ra-0124-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0124",
+      "price": 169,
+      "currency": "USD",
+      "categoryPath": "Unisex > Sweatshirt",
+      "colors": [
+        "Taupe",
+        "Sand"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0125",
+      "name": "Gallery Lineage Trouser",
+      "brand": "Rue Atelier",
+      "description": "Tailored trouser with sharp pleats and soft drape. Colorway in Moss / Stone.",
+      "imageUrl": "https://rueatelier.example/images/ra-0125-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0125",
+      "price": 236,
+      "currency": "USD",
+      "categoryPath": "Women > Trousers",
+      "colors": [
+        "Moss",
+        "Stone"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "trouser",
+        "tailored"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0126",
+      "name": "Linea Loft Tailored Pant",
+      "brand": "Rue Atelier",
+      "description": "Tailored pant with a relaxed, premium drape. Colorway in Cedar / Linen.",
+      "imageUrl": "https://rueatelier.example/images/ra-0126-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0126",
+      "price": 210,
+      "currency": "USD",
+      "categoryPath": "Unisex > Pants",
+      "colors": [
+        "Cedar",
+        "Linen"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "pant",
+        "tailored"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0127",
+      "name": "Arc Arc Wool Coat",
+      "brand": "Rue Atelier",
+      "description": "Wool coat with a sharp, minimalist profile. Colorway in Ink / Steel.",
+      "imageUrl": "https://rueatelier.example/images/ra-0127-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0127-main.jpg",
+        "https://rueatelier.example/images/ra-0127-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0127",
+      "price": 332,
+      "currency": "USD",
+      "categoryPath": "Women > Coat",
+      "colors": [
+        "Ink",
+        "Steel"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "wool"
+      ],
+      "gender": "Women",
+      "inStock": false
+    },
+    {
+      "id": "ra-0128",
+      "name": "Vale Vale Long Coat",
+      "brand": "Rue Atelier",
+      "description": "Long coat with a flowing, elevated silhouette. Colorway in Clay / Driftwood.",
+      "imageUrl": "https://rueatelier.example/images/ra-0128-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0128",
+      "price": 358,
+      "currency": "USD",
+      "categoryPath": "Unisex > Coat",
+      "colors": [
+        "Clay",
+        "Driftwood"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "long"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0129",
+      "name": "Marin Studio Minimal Jacket",
+      "brand": "Rue Atelier",
+      "description": "Minimal jacket with refined structure and clean lines. Colorway in Ecru / Graphite.",
+      "imageUrl": "https://rueatelier.example/images/ra-0129-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0129",
+      "price": 280,
+      "currency": "USD",
+      "categoryPath": "Women > Jacket",
+      "colors": [
+        "Ecru",
+        "Graphite"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0130",
+      "name": "Noir Field Utility Jacket",
+      "brand": "Rue Atelier",
+      "description": "Utility jacket with a sleek, modern finish. Colorway in Sable / Pearl.",
+      "imageUrl": "https://rueatelier.example/images/ra-0130-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0130",
+      "price": 265,
+      "currency": "USD",
+      "categoryPath": "Unisex > Jacket",
+      "colors": [
+        "Sable",
+        "Pearl"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "utility"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0131",
+      "name": "Cusp Atelier Oversized Tee",
+      "brand": "Rue Atelier",
+      "description": "Oversized tee with a clean, sculpted drape. Colorway in Black / Ivory.",
+      "imageUrl": "https://rueatelier.example/images/ra-0131-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0131",
+      "price": 106,
+      "currency": "USD",
+      "categoryPath": "Women > Oversized Tee",
+      "colors": [
+        "Black",
+        "Ivory"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0132",
+      "name": "Lumen Studio Minimal Tee",
+      "brand": "Rue Atelier",
+      "description": "Minimal tee with a smooth, elevated hand feel. Colorway in Bone / Oat.",
+      "imageUrl": "https://rueatelier.example/images/ra-0132-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0132",
+      "price": 98,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Bone",
+        "Oat"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0133",
+      "name": "Rue Gallery Boxy Tee",
+      "brand": "Rue Atelier",
+      "description": "Boxy tee with crisp seams and a premium finish. Colorway in Slate / Fog.",
+      "imageUrl": "https://rueatelier.example/images/ra-0133-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0133-main.jpg",
+        "https://rueatelier.example/images/ra-0133-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0133",
+      "price": 92,
+      "currency": "USD",
+      "categoryPath": "Unisex > Tee",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "boxy"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0134",
+      "name": "Atelier Contour Hoodie",
+      "brand": "Rue Atelier",
+      "description": "Minimal hoodie with a structured silhouette. Colorway in Taupe / Sand.",
+      "imageUrl": "https://rueatelier.example/images/ra-0134-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0134",
+      "price": 173,
+      "originalPrice": 191,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Taupe",
+        "Sand"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0135",
+      "name": "Maison Harbor Zip Hoodie",
+      "brand": "Rue Atelier",
+      "description": "Zip hoodie with a streamlined, premium finish. Colorway in Moss / Stone.",
+      "imageUrl": "https://rueatelier.example/images/ra-0135-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0135",
+      "price": 186,
+      "currency": "USD",
+      "categoryPath": "Women > Zip Hoodie",
+      "colors": [
+        "Moss",
+        "Stone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "zip",
+        "hoodie"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0136",
+      "name": "Studio Marin Sweatshirt",
+      "brand": "Rue Atelier",
+      "description": "Crew sweatshirt with a soft, refined texture. Colorway in Cedar / Linen.",
+      "imageUrl": "https://rueatelier.example/images/ra-0136-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0136",
+      "price": 159,
+      "currency": "USD",
+      "categoryPath": "Women > Sweatshirt",
+      "colors": [
+        "Cedar",
+        "Linen"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Women",
+      "inStock": false
+    },
+    {
+      "id": "ra-0137",
+      "name": "Gallery Linea Sweatshirt",
+      "brand": "Rue Atelier",
+      "description": "Minimal sweatshirt with a modern, clean line. Colorway in Ink / Steel.",
+      "imageUrl": "https://rueatelier.example/images/ra-0137-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0137",
+      "price": 172,
+      "currency": "USD",
+      "categoryPath": "Unisex > Sweatshirt",
+      "colors": [
+        "Ink",
+        "Steel"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0138",
+      "name": "Linea Lineage Trouser",
+      "brand": "Rue Atelier",
+      "description": "Tailored trouser with sharp pleats and soft drape. Colorway in Clay / Driftwood.",
+      "imageUrl": "https://rueatelier.example/images/ra-0138-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0138",
+      "price": 228,
+      "currency": "USD",
+      "categoryPath": "Women > Trousers",
+      "colors": [
+        "Clay",
+        "Driftwood"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "trouser",
+        "tailored"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0139",
+      "name": "Arc Loft Tailored Pant",
+      "brand": "Rue Atelier",
+      "description": "Tailored pant with a relaxed, premium drape. Colorway in Ecru / Graphite.",
+      "imageUrl": "https://rueatelier.example/images/ra-0139-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0139-main.jpg",
+        "https://rueatelier.example/images/ra-0139-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0139",
+      "price": 222,
+      "currency": "USD",
+      "categoryPath": "Unisex > Pants",
+      "colors": [
+        "Ecru",
+        "Graphite"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "pant",
+        "tailored"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0140",
+      "name": "Vale Arc Wool Coat",
+      "brand": "Rue Atelier",
+      "description": "Wool coat with a sharp, minimalist profile. Colorway in Sable / Pearl.",
+      "imageUrl": "https://rueatelier.example/images/ra-0140-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0140",
+      "price": 338,
+      "currency": "USD",
+      "categoryPath": "Women > Coat",
+      "colors": [
+        "Sable",
+        "Pearl"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "wool"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0141",
+      "name": "Marin Vale Long Coat",
+      "brand": "Rue Atelier",
+      "description": "Long coat with a flowing, elevated silhouette. Colorway in Black / Ivory.",
+      "imageUrl": "https://rueatelier.example/images/ra-0141-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0141",
+      "price": 340,
+      "currency": "USD",
+      "categoryPath": "Unisex > Coat",
+      "colors": [
+        "Black",
+        "Ivory"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "long"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0142",
+      "name": "Noir Studio Minimal Jacket",
+      "brand": "Rue Atelier",
+      "description": "Minimal jacket with refined structure and clean lines. Colorway in Bone / Oat.",
+      "imageUrl": "https://rueatelier.example/images/ra-0142-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0142",
+      "price": 285,
+      "currency": "USD",
+      "categoryPath": "Women > Jacket",
+      "colors": [
+        "Bone",
+        "Oat"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0143",
+      "name": "Cusp Field Utility Jacket",
+      "brand": "Rue Atelier",
+      "description": "Utility jacket with a sleek, modern finish. Colorway in Slate / Fog.",
+      "imageUrl": "https://rueatelier.example/images/ra-0143-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0143",
+      "price": 270,
+      "currency": "USD",
+      "categoryPath": "Unisex > Jacket",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "utility"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0144",
+      "name": "Lumen Atelier Oversized Tee",
+      "brand": "Rue Atelier",
+      "description": "Oversized tee with a clean, sculpted drape. Colorway in Taupe / Sand.",
+      "imageUrl": "https://rueatelier.example/images/ra-0144-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0144",
+      "price": 108,
+      "currency": "USD",
+      "categoryPath": "Women > Oversized Tee",
+      "colors": [
+        "Taupe",
+        "Sand"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0145",
+      "name": "Rue Studio Minimal Tee",
+      "brand": "Rue Atelier",
+      "description": "Minimal tee with a smooth, elevated hand feel. Colorway in Moss / Stone.",
+      "imageUrl": "https://rueatelier.example/images/ra-0145-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0145-main.jpg",
+        "https://rueatelier.example/images/ra-0145-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0145",
+      "price": 88,
+      "originalPrice": 98,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Moss",
+        "Stone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": false
+    },
+    {
+      "id": "ra-0146",
+      "name": "Atelier Gallery Boxy Tee",
+      "brand": "Rue Atelier",
+      "description": "Boxy tee with crisp seams and a premium finish. Colorway in Cedar / Linen.",
+      "imageUrl": "https://rueatelier.example/images/ra-0146-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0146",
+      "price": 94,
+      "currency": "USD",
+      "categoryPath": "Unisex > Tee",
+      "colors": [
+        "Cedar",
+        "Linen"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "boxy"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0147",
+      "name": "Maison Contour Hoodie",
+      "brand": "Rue Atelier",
+      "description": "Minimal hoodie with a structured silhouette. Colorway in Ink / Steel.",
+      "imageUrl": "https://rueatelier.example/images/ra-0147-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0147",
+      "price": 176,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Ink",
+        "Steel"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0148",
+      "name": "Studio Harbor Zip Hoodie",
+      "brand": "Rue Atelier",
+      "description": "Zip hoodie with a streamlined, premium finish. Colorway in Clay / Driftwood.",
+      "imageUrl": "https://rueatelier.example/images/ra-0148-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0148",
+      "price": 189,
+      "currency": "USD",
+      "categoryPath": "Women > Zip Hoodie",
+      "colors": [
+        "Clay",
+        "Driftwood"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "zip",
+        "hoodie"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0149",
+      "name": "Gallery Marin Sweatshirt",
+      "brand": "Rue Atelier",
+      "description": "Crew sweatshirt with a soft, refined texture. Colorway in Ecru / Graphite.",
+      "imageUrl": "https://rueatelier.example/images/ra-0149-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0149",
+      "price": 162,
+      "currency": "USD",
+      "categoryPath": "Women > Sweatshirt",
+      "colors": [
+        "Ecru",
+        "Graphite"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0150",
+      "name": "Linea Linea Sweatshirt",
+      "brand": "Rue Atelier",
+      "description": "Minimal sweatshirt with a modern, clean line. Colorway in Sable / Pearl.",
+      "imageUrl": "https://rueatelier.example/images/ra-0150-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0150",
+      "price": 175,
+      "currency": "USD",
+      "categoryPath": "Unisex > Sweatshirt",
+      "colors": [
+        "Sable",
+        "Pearl"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0151",
+      "name": "Arc Lineage Trouser",
+      "brand": "Rue Atelier",
+      "description": "Tailored trouser with sharp pleats and soft drape. Colorway in Black / Ivory.",
+      "imageUrl": "https://rueatelier.example/images/ra-0151-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0151-main.jpg",
+        "https://rueatelier.example/images/ra-0151-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0151",
+      "price": 220,
+      "currency": "USD",
+      "categoryPath": "Women > Trousers",
+      "colors": [
+        "Black",
+        "Ivory"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "trouser",
+        "tailored"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0152",
+      "name": "Vale Loft Tailored Pant",
+      "brand": "Rue Atelier",
+      "description": "Tailored pant with a relaxed, premium drape. Colorway in Bone / Oat.",
+      "imageUrl": "https://rueatelier.example/images/ra-0152-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0152",
+      "price": 214,
+      "currency": "USD",
+      "categoryPath": "Unisex > Pants",
+      "colors": [
+        "Bone",
+        "Oat"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "pant",
+        "tailored"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0153",
+      "name": "Marin Arc Wool Coat",
+      "brand": "Rue Atelier",
+      "description": "Wool coat with a sharp, minimalist profile. Colorway in Slate / Fog.",
+      "imageUrl": "https://rueatelier.example/images/ra-0153-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0153",
+      "price": 320,
+      "currency": "USD",
+      "categoryPath": "Women > Coat",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "wool"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0154",
+      "name": "Noir Vale Long Coat",
+      "brand": "Rue Atelier",
+      "description": "Long coat with a flowing, elevated silhouette. Colorway in Taupe / Sand.",
+      "imageUrl": "https://rueatelier.example/images/ra-0154-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0154",
+      "price": 346,
+      "currency": "USD",
+      "categoryPath": "Unisex > Coat",
+      "colors": [
+        "Taupe",
+        "Sand"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "long"
+      ],
+      "gender": "Unisex",
+      "inStock": false
+    },
+    {
+      "id": "ra-0155",
+      "name": "Cusp Studio Minimal Jacket",
+      "brand": "Rue Atelier",
+      "description": "Minimal jacket with refined structure and clean lines. Colorway in Moss / Stone.",
+      "imageUrl": "https://rueatelier.example/images/ra-0155-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0155",
+      "price": 290,
+      "currency": "USD",
+      "categoryPath": "Women > Jacket",
+      "colors": [
+        "Moss",
+        "Stone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0156",
+      "name": "Lumen Field Utility Jacket",
+      "brand": "Rue Atelier",
+      "description": "Utility jacket with a sleek, modern finish. Colorway in Cedar / Linen.",
+      "imageUrl": "https://rueatelier.example/images/ra-0156-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0156",
+      "price": 370,
+      "currency": "USD",
+      "categoryPath": "Unisex > Jacket",
+      "colors": [
+        "Cedar",
+        "Linen"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "utility"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0157",
+      "name": "Rue Atelier Oversized Tee",
+      "brand": "Rue Atelier",
+      "description": "Oversized tee with a clean, sculpted drape. Colorway in Ink / Steel.",
+      "imageUrl": "https://rueatelier.example/images/ra-0157-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0157-main.jpg",
+        "https://rueatelier.example/images/ra-0157-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0157",
+      "price": 98,
+      "currency": "USD",
+      "categoryPath": "Women > Oversized Tee",
+      "colors": [
+        "Ink",
+        "Steel"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0158",
+      "name": "Atelier Studio Minimal Tee",
+      "brand": "Rue Atelier",
+      "description": "Minimal tee with a smooth, elevated hand feel. Colorway in Clay / Driftwood.",
+      "imageUrl": "https://rueatelier.example/images/ra-0158-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0158",
+      "price": 90,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Clay",
+        "Driftwood"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0159",
+      "name": "Maison Gallery Boxy Tee",
+      "brand": "Rue Atelier",
+      "description": "Boxy tee with crisp seams and a premium finish. Colorway in Ecru / Graphite.",
+      "imageUrl": "https://rueatelier.example/images/ra-0159-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0159",
+      "price": 96,
+      "currency": "USD",
+      "categoryPath": "Unisex > Tee",
+      "colors": [
+        "Ecru",
+        "Graphite"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "boxy"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0160",
+      "name": "Studio Contour Hoodie",
+      "brand": "Rue Atelier",
+      "description": "Minimal hoodie with a structured silhouette. Colorway in Sable / Pearl.",
+      "imageUrl": "https://rueatelier.example/images/ra-0160-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0160",
+      "price": 179,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Sable",
+        "Pearl"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0161",
+      "name": "Gallery Harbor Zip Hoodie",
+      "brand": "Rue Atelier",
+      "description": "Zip hoodie with a streamlined, premium finish. Colorway in Black / Ivory.",
+      "imageUrl": "https://rueatelier.example/images/ra-0161-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0161",
+      "price": 192,
+      "originalPrice": 210,
+      "currency": "USD",
+      "categoryPath": "Women > Zip Hoodie",
+      "colors": [
+        "Black",
+        "Ivory"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "zip",
+        "hoodie"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0162",
+      "name": "Linea Marin Sweatshirt",
+      "brand": "Rue Atelier",
+      "description": "Crew sweatshirt with a soft, refined texture. Colorway in Bone / Oat.",
+      "imageUrl": "https://rueatelier.example/images/ra-0162-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0162",
+      "price": 165,
+      "originalPrice": 181,
+      "currency": "USD",
+      "categoryPath": "Women > Sweatshirt",
+      "colors": [
+        "Bone",
+        "Oat"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0163",
+      "name": "Arc Linea Sweatshirt",
+      "brand": "Rue Atelier",
+      "description": "Minimal sweatshirt with a modern, clean line. Colorway in Slate / Fog.",
+      "imageUrl": "https://rueatelier.example/images/ra-0163-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0163-main.jpg",
+        "https://rueatelier.example/images/ra-0163-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0163",
+      "price": 160,
+      "originalPrice": 176,
+      "currency": "USD",
+      "categoryPath": "Unisex > Sweatshirt",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": false
+    },
+    {
+      "id": "ra-0164",
+      "name": "Vale Lineage Trouser",
+      "brand": "Rue Atelier",
+      "description": "Tailored trouser with sharp pleats and soft drape. Colorway in Taupe / Sand.",
+      "imageUrl": "https://rueatelier.example/images/ra-0164-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0164",
+      "price": 232,
+      "currency": "USD",
+      "categoryPath": "Women > Trousers",
+      "colors": [
+        "Taupe",
+        "Sand"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "trouser",
+        "tailored"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0165",
+      "name": "Marin Loft Tailored Pant",
+      "brand": "Rue Atelier",
+      "description": "Tailored pant with a relaxed, premium drape. Colorway in Moss / Stone.",
+      "imageUrl": "https://rueatelier.example/images/ra-0165-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0165",
+      "price": 226,
+      "currency": "USD",
+      "categoryPath": "Unisex > Pants",
+      "colors": [
+        "Moss",
+        "Stone"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "pant",
+        "tailored"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0166",
+      "name": "Noir Arc Wool Coat",
+      "brand": "Rue Atelier",
+      "description": "Wool coat with a sharp, minimalist profile. Colorway in Cedar / Linen.",
+      "imageUrl": "https://rueatelier.example/images/ra-0166-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0166",
+      "price": 326,
+      "originalPrice": 350,
+      "currency": "USD",
+      "categoryPath": "Women > Coat",
+      "colors": [
+        "Cedar",
+        "Linen"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "wool"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0167",
+      "name": "Cusp Vale Long Coat",
+      "brand": "Rue Atelier",
+      "description": "Long coat with a flowing, elevated silhouette. Colorway in Ink / Steel.",
+      "imageUrl": "https://rueatelier.example/images/ra-0167-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0167",
+      "price": 352,
+      "currency": "USD",
+      "categoryPath": "Unisex > Coat",
+      "colors": [
+        "Ink",
+        "Steel"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "long"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0168",
+      "name": "Lumen Studio Minimal Jacket",
+      "brand": "Rue Atelier",
+      "description": "Minimal jacket with refined structure and clean lines. Colorway in Clay / Driftwood.",
+      "imageUrl": "https://rueatelier.example/images/ra-0168-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0168",
+      "price": 295,
+      "currency": "USD",
+      "categoryPath": "Women > Jacket",
+      "colors": [
+        "Clay",
+        "Driftwood"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0169",
+      "name": "Rue Field Utility Jacket",
+      "brand": "Rue Atelier",
+      "description": "Utility jacket with a sleek, modern finish. Colorway in Ecru / Graphite.",
+      "imageUrl": "https://rueatelier.example/images/ra-0169-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0169-main.jpg",
+        "https://rueatelier.example/images/ra-0169-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0169",
+      "price": 260,
+      "currency": "USD",
+      "categoryPath": "Unisex > Jacket",
+      "colors": [
+        "Ecru",
+        "Graphite"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "utility"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0170",
+      "name": "Atelier Atelier Oversized Tee",
+      "brand": "Rue Atelier",
+      "description": "Oversized tee with a clean, sculpted drape. Colorway in Sable / Pearl.",
+      "imageUrl": "https://rueatelier.example/images/ra-0170-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0170",
+      "price": 100,
+      "currency": "USD",
+      "categoryPath": "Women > Oversized Tee",
+      "colors": [
+        "Sable",
+        "Pearl"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0171",
+      "name": "Maison Studio Minimal Tee",
+      "brand": "Rue Atelier",
+      "description": "Minimal tee with a smooth, elevated hand feel. Colorway in Black / Ivory.",
+      "imageUrl": "https://rueatelier.example/images/ra-0171-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0171",
+      "price": 92,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Black",
+        "Ivory"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0172",
+      "name": "Studio Gallery Boxy Tee",
+      "brand": "Rue Atelier",
+      "description": "Boxy tee with crisp seams and a premium finish. Colorway in Bone / Oat.",
+      "imageUrl": "https://rueatelier.example/images/ra-0172-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0172",
+      "price": 98,
+      "originalPrice": 108,
+      "currency": "USD",
+      "categoryPath": "Unisex > Tee",
+      "colors": [
+        "Bone",
+        "Oat"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "boxy"
+      ],
+      "gender": "Unisex",
+      "inStock": false
+    },
+    {
+      "id": "ra-0173",
+      "name": "Gallery Contour Hoodie",
+      "brand": "Rue Atelier",
+      "description": "Minimal hoodie with a structured silhouette. Colorway in Slate / Fog.",
+      "imageUrl": "https://rueatelier.example/images/ra-0173-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0173",
+      "price": 182,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0174",
+      "name": "Linea Harbor Zip Hoodie",
+      "brand": "Rue Atelier",
+      "description": "Zip hoodie with a streamlined, premium finish. Colorway in Taupe / Sand.",
+      "imageUrl": "https://rueatelier.example/images/ra-0174-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0174",
+      "price": 195,
+      "currency": "USD",
+      "categoryPath": "Women > Zip Hoodie",
+      "colors": [
+        "Taupe",
+        "Sand"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "zip",
+        "hoodie"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0175",
+      "name": "Arc Marin Sweatshirt",
+      "brand": "Rue Atelier",
+      "description": "Crew sweatshirt with a soft, refined texture. Colorway in Moss / Stone.",
+      "imageUrl": "https://rueatelier.example/images/ra-0175-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0175-main.jpg",
+        "https://rueatelier.example/images/ra-0175-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0175",
+      "price": 150,
+      "currency": "USD",
+      "categoryPath": "Women > Sweatshirt",
+      "colors": [
+        "Moss",
+        "Stone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0176",
+      "name": "Vale Linea Sweatshirt",
+      "brand": "Rue Atelier",
+      "description": "Minimal sweatshirt with a modern, clean line. Colorway in Cedar / Linen.",
+      "imageUrl": "https://rueatelier.example/images/ra-0176-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0176",
+      "price": 163,
+      "currency": "USD",
+      "categoryPath": "Unisex > Sweatshirt",
+      "colors": [
+        "Cedar",
+        "Linen"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0177",
+      "name": "Marin Lineage Trouser",
+      "brand": "Rue Atelier",
+      "description": "Tailored trouser with sharp pleats and soft drape. Colorway in Ink / Steel.",
+      "imageUrl": "https://rueatelier.example/images/ra-0177-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0177",
+      "price": 224,
+      "originalPrice": 244,
+      "currency": "USD",
+      "categoryPath": "Women > Trousers",
+      "colors": [
+        "Ink",
+        "Steel"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "trouser",
+        "tailored"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0178",
+      "name": "Noir Loft Tailored Pant",
+      "brand": "Rue Atelier",
+      "description": "Tailored pant with a relaxed, premium drape. Colorway in Clay / Driftwood.",
+      "imageUrl": "https://rueatelier.example/images/ra-0178-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0178",
+      "price": 218,
+      "currency": "USD",
+      "categoryPath": "Unisex > Pants",
+      "colors": [
+        "Clay",
+        "Driftwood"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "pant",
+        "tailored"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0179",
+      "name": "Cusp Arc Wool Coat",
+      "brand": "Rue Atelier",
+      "description": "Wool coat with a sharp, minimalist profile. Colorway in Ecru / Graphite.",
+      "imageUrl": "https://rueatelier.example/images/ra-0179-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0179",
+      "price": 332,
+      "currency": "USD",
+      "categoryPath": "Women > Coat",
+      "colors": [
+        "Ecru",
+        "Graphite"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "wool"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0180",
+      "name": "Lumen Vale Long Coat",
+      "brand": "Rue Atelier",
+      "description": "Long coat with a flowing, elevated silhouette. Colorway in Sable / Pearl.",
+      "imageUrl": "https://rueatelier.example/images/ra-0180-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0180",
+      "price": 358,
+      "currency": "USD",
+      "categoryPath": "Unisex > Coat",
+      "colors": [
+        "Sable",
+        "Pearl"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "long"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0181",
+      "name": "Rue Studio Minimal Jacket",
+      "brand": "Rue Atelier",
+      "description": "Minimal jacket with refined structure and clean lines. Colorway in Black / Ivory.",
+      "imageUrl": "https://rueatelier.example/images/ra-0181-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0181-main.jpg",
+        "https://rueatelier.example/images/ra-0181-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0181",
+      "price": 280,
+      "originalPrice": 302,
+      "currency": "USD",
+      "categoryPath": "Women > Jacket",
+      "colors": [
+        "Black",
+        "Ivory"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": false
+    },
+    {
+      "id": "ra-0182",
+      "name": "Atelier Field Utility Jacket",
+      "brand": "Rue Atelier",
+      "description": "Utility jacket with a sleek, modern finish. Colorway in Bone / Oat.",
+      "imageUrl": "https://rueatelier.example/images/ra-0182-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0182",
+      "price": 265,
+      "currency": "USD",
+      "categoryPath": "Unisex > Jacket",
+      "colors": [
+        "Bone",
+        "Oat"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "utility"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0183",
+      "name": "Maison Atelier Oversized Tee",
+      "brand": "Rue Atelier",
+      "description": "Oversized tee with a clean, sculpted drape. Colorway in Slate / Fog.",
+      "imageUrl": "https://rueatelier.example/images/ra-0183-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0183",
+      "price": 102,
+      "originalPrice": 114,
+      "currency": "USD",
+      "categoryPath": "Women > Oversized Tee",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0184",
+      "name": "Studio Studio Minimal Tee",
+      "brand": "Rue Atelier",
+      "description": "Minimal tee with a smooth, elevated hand feel. Colorway in Taupe / Sand.",
+      "imageUrl": "https://rueatelier.example/images/ra-0184-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0184",
+      "price": 94,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Taupe",
+        "Sand"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0185",
+      "name": "Gallery Gallery Boxy Tee",
+      "brand": "Rue Atelier",
+      "description": "Boxy tee with crisp seams and a premium finish. Colorway in Moss / Stone.",
+      "imageUrl": "https://rueatelier.example/images/ra-0185-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0185",
+      "price": 100,
+      "currency": "USD",
+      "categoryPath": "Unisex > Tee",
+      "colors": [
+        "Moss",
+        "Stone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "boxy"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0186",
+      "name": "Linea Contour Hoodie",
+      "brand": "Rue Atelier",
+      "description": "Minimal hoodie with a structured silhouette. Colorway in Cedar / Linen.",
+      "imageUrl": "https://rueatelier.example/images/ra-0186-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0186",
+      "price": 185,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Cedar",
+        "Linen"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0187",
+      "name": "Arc Harbor Zip Hoodie",
+      "brand": "Rue Atelier",
+      "description": "Zip hoodie with a streamlined, premium finish. Colorway in Ink / Steel.",
+      "imageUrl": "https://rueatelier.example/images/ra-0187-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0187-main.jpg",
+        "https://rueatelier.example/images/ra-0187-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0187",
+      "price": 180,
+      "currency": "USD",
+      "categoryPath": "Women > Zip Hoodie",
+      "colors": [
+        "Ink",
+        "Steel"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "zip",
+        "hoodie"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0188",
+      "name": "Vale Marin Sweatshirt",
+      "brand": "Rue Atelier",
+      "description": "Crew sweatshirt with a soft, refined texture. Colorway in Clay / Driftwood.",
+      "imageUrl": "https://rueatelier.example/images/ra-0188-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0188",
+      "price": 153,
+      "currency": "USD",
+      "categoryPath": "Women > Sweatshirt",
+      "colors": [
+        "Clay",
+        "Driftwood"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0189",
+      "name": "Marin Linea Sweatshirt",
+      "brand": "Rue Atelier",
+      "description": "Minimal sweatshirt with a modern, clean line. Colorway in Ecru / Graphite.",
+      "imageUrl": "https://rueatelier.example/images/ra-0189-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0189",
+      "price": 166,
+      "currency": "USD",
+      "categoryPath": "Unisex > Sweatshirt",
+      "colors": [
+        "Ecru",
+        "Graphite"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0190",
+      "name": "Noir Lineage Trouser",
+      "brand": "Rue Atelier",
+      "description": "Tailored trouser with sharp pleats and soft drape. Colorway in Sable / Pearl.",
+      "imageUrl": "https://rueatelier.example/images/ra-0190-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0190",
+      "price": 236,
+      "currency": "USD",
+      "categoryPath": "Women > Trousers",
+      "colors": [
+        "Sable",
+        "Pearl"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "trouser",
+        "tailored"
+      ],
+      "gender": "Women",
+      "inStock": false
+    },
+    {
+      "id": "ra-0191",
+      "name": "Cusp Loft Tailored Pant",
+      "brand": "Rue Atelier",
+      "description": "Tailored pant with a relaxed, premium drape. Colorway in Black / Ivory.",
+      "imageUrl": "https://rueatelier.example/images/ra-0191-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0191",
+      "price": 210,
+      "originalPrice": 228,
+      "currency": "USD",
+      "categoryPath": "Unisex > Pants",
+      "colors": [
+        "Black",
+        "Ivory"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "pant",
+        "tailored"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0192",
+      "name": "Lumen Arc Wool Coat",
+      "brand": "Rue Atelier",
+      "description": "Wool coat with a sharp, minimalist profile. Colorway in Bone / Oat.",
+      "imageUrl": "https://rueatelier.example/images/ra-0192-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0192",
+      "price": 338,
+      "currency": "USD",
+      "categoryPath": "Women > Coat",
+      "colors": [
+        "Bone",
+        "Oat"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "wool"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0193",
+      "name": "Rue Vale Long Coat",
+      "brand": "Rue Atelier",
+      "description": "Long coat with a flowing, elevated silhouette. Colorway in Slate / Fog.",
+      "imageUrl": "https://rueatelier.example/images/ra-0193-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0193-main.jpg",
+        "https://rueatelier.example/images/ra-0193-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0193",
+      "price": 340,
+      "currency": "USD",
+      "categoryPath": "Unisex > Coat",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "long"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0194",
+      "name": "Atelier Studio Minimal Jacket",
+      "brand": "Rue Atelier",
+      "description": "Minimal jacket with refined structure and clean lines. Colorway in Taupe / Sand.",
+      "imageUrl": "https://rueatelier.example/images/ra-0194-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0194",
+      "price": 285,
+      "currency": "USD",
+      "categoryPath": "Women > Jacket",
+      "colors": [
+        "Taupe",
+        "Sand"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0195",
+      "name": "Maison Field Utility Jacket",
+      "brand": "Rue Atelier",
+      "description": "Utility jacket with a sleek, modern finish. Colorway in Moss / Stone.",
+      "imageUrl": "https://rueatelier.example/images/ra-0195-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0195",
+      "price": 270,
+      "currency": "USD",
+      "categoryPath": "Unisex > Jacket",
+      "colors": [
+        "Moss",
+        "Stone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "utility"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0196",
+      "name": "Studio Atelier Oversized Tee",
+      "brand": "Rue Atelier",
+      "description": "Oversized tee with a clean, sculpted drape. Colorway in Cedar / Linen.",
+      "imageUrl": "https://rueatelier.example/images/ra-0196-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0196",
+      "price": 104,
+      "currency": "USD",
+      "categoryPath": "Women > Oversized Tee",
+      "colors": [
+        "Cedar",
+        "Linen"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0197",
+      "name": "Gallery Studio Minimal Tee",
+      "brand": "Rue Atelier",
+      "description": "Minimal tee with a smooth, elevated hand feel. Colorway in Ink / Steel.",
+      "imageUrl": "https://rueatelier.example/images/ra-0197-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0197",
+      "price": 96,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Ink",
+        "Steel"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0198",
+      "name": "Linea Gallery Boxy Tee",
+      "brand": "Rue Atelier",
+      "description": "Boxy tee with crisp seams and a premium finish. Colorway in Clay / Driftwood.",
+      "imageUrl": "https://rueatelier.example/images/ra-0198-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0198",
+      "price": 102,
+      "currency": "USD",
+      "categoryPath": "Unisex > Tee",
+      "colors": [
+        "Clay",
+        "Driftwood"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "boxy"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0199",
+      "name": "Arc Contour Hoodie",
+      "brand": "Rue Atelier",
+      "description": "Minimal hoodie with a structured silhouette. Colorway in Ecru / Graphite.",
+      "imageUrl": "https://rueatelier.example/images/ra-0199-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0199-main.jpg",
+        "https://rueatelier.example/images/ra-0199-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0199",
+      "price": 170,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Ecru",
+        "Graphite"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": false
+    },
+    {
+      "id": "ra-0200",
+      "name": "Vale Harbor Zip Hoodie",
+      "brand": "Rue Atelier",
+      "description": "Zip hoodie with a streamlined, premium finish. Colorway in Sable / Pearl.",
+      "imageUrl": "https://rueatelier.example/images/ra-0200-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0200",
+      "price": 183,
+      "currency": "USD",
+      "categoryPath": "Women > Zip Hoodie",
+      "colors": [
+        "Sable",
+        "Pearl"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "zip",
+        "hoodie"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0201",
+      "name": "Marin Marin Sweatshirt",
+      "brand": "Rue Atelier",
+      "description": "Crew sweatshirt with a soft, refined texture. Colorway in Black / Ivory.",
+      "imageUrl": "https://rueatelier.example/images/ra-0201-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0201",
+      "price": 156,
+      "currency": "USD",
+      "categoryPath": "Women > Sweatshirt",
+      "colors": [
+        "Black",
+        "Ivory"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0202",
+      "name": "Noir Linea Sweatshirt",
+      "brand": "Rue Atelier",
+      "description": "Minimal sweatshirt with a modern, clean line. Colorway in Bone / Oat.",
+      "imageUrl": "https://rueatelier.example/images/ra-0202-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0202",
+      "price": 169,
+      "currency": "USD",
+      "categoryPath": "Unisex > Sweatshirt",
+      "colors": [
+        "Bone",
+        "Oat"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0203",
+      "name": "Cusp Lineage Trouser",
+      "brand": "Rue Atelier",
+      "description": "Tailored trouser with sharp pleats and soft drape. Colorway in Slate / Fog.",
+      "imageUrl": "https://rueatelier.example/images/ra-0203-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0203",
+      "price": 228,
+      "currency": "USD",
+      "categoryPath": "Women > Trousers",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "trouser",
+        "tailored"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0204",
+      "name": "Lumen Loft Tailored Pant",
+      "brand": "Rue Atelier",
+      "description": "Tailored pant with a relaxed, premium drape. Colorway in Taupe / Sand.",
+      "imageUrl": "https://rueatelier.example/images/ra-0204-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0204",
+      "price": 222,
+      "currency": "USD",
+      "categoryPath": "Unisex > Pants",
+      "colors": [
+        "Taupe",
+        "Sand"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "pant",
+        "tailored"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0205",
+      "name": "Rue Arc Wool Coat",
+      "brand": "Rue Atelier",
+      "description": "Wool coat with a sharp, minimalist profile. Colorway in Moss / Stone.",
+      "imageUrl": "https://rueatelier.example/images/ra-0205-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0205-main.jpg",
+        "https://rueatelier.example/images/ra-0205-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0205",
+      "price": 320,
+      "currency": "USD",
+      "categoryPath": "Women > Coat",
+      "colors": [
+        "Moss",
+        "Stone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "wool"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0206",
+      "name": "Atelier Vale Long Coat",
+      "brand": "Rue Atelier",
+      "description": "Long coat with a flowing, elevated silhouette. Colorway in Cedar / Linen.",
+      "imageUrl": "https://rueatelier.example/images/ra-0206-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0206",
+      "price": 346,
+      "currency": "USD",
+      "categoryPath": "Unisex > Coat",
+      "colors": [
+        "Cedar",
+        "Linen"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "long"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0207",
+      "name": "Maison Studio Minimal Jacket",
+      "brand": "Rue Atelier",
+      "description": "Minimal jacket with refined structure and clean lines. Colorway in Ink / Steel.",
+      "imageUrl": "https://rueatelier.example/images/ra-0207-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0207",
+      "price": 290,
+      "currency": "USD",
+      "categoryPath": "Women > Jacket",
+      "colors": [
+        "Ink",
+        "Steel"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0208",
+      "name": "Studio Field Utility Jacket",
+      "brand": "Rue Atelier",
+      "description": "Utility jacket with a sleek, modern finish. Colorway in Clay / Driftwood.",
+      "imageUrl": "https://rueatelier.example/images/ra-0208-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0208",
+      "price": 275,
+      "currency": "USD",
+      "categoryPath": "Unisex > Jacket",
+      "colors": [
+        "Clay",
+        "Driftwood"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "utility"
+      ],
+      "gender": "Unisex",
+      "inStock": false
+    },
+    {
+      "id": "ra-0209",
+      "name": "Gallery Atelier Oversized Tee",
+      "brand": "Rue Atelier",
+      "description": "Oversized tee with a clean, sculpted drape. Colorway in Ecru / Graphite.",
+      "imageUrl": "https://rueatelier.example/images/ra-0209-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0209",
+      "price": 106,
+      "currency": "USD",
+      "categoryPath": "Women > Oversized Tee",
+      "colors": [
+        "Ecru",
+        "Graphite"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "oversized",
+        "tee"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0210",
+      "name": "Linea Studio Minimal Tee",
+      "brand": "Rue Atelier",
+      "description": "Minimal tee with a smooth, elevated hand feel. Colorway in Sable / Pearl.",
+      "imageUrl": "https://rueatelier.example/images/ra-0210-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0210",
+      "price": 98,
+      "currency": "USD",
+      "categoryPath": "Women > Tee",
+      "colors": [
+        "Sable",
+        "Pearl"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0211",
+      "name": "Arc Gallery Boxy Tee",
+      "brand": "Rue Atelier",
+      "description": "Boxy tee with crisp seams and a premium finish. Colorway in Black / Ivory.",
+      "imageUrl": "https://rueatelier.example/images/ra-0211-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0211-main.jpg",
+        "https://rueatelier.example/images/ra-0211-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0211",
+      "price": 92,
+      "currency": "USD",
+      "categoryPath": "Unisex > Tee",
+      "colors": [
+        "Black",
+        "Ivory"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "tee",
+        "boxy"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0212",
+      "name": "Vale Contour Hoodie",
+      "brand": "Rue Atelier",
+      "description": "Minimal hoodie with a structured silhouette. Colorway in Bone / Oat.",
+      "imageUrl": "https://rueatelier.example/images/ra-0212-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0212",
+      "price": 173,
+      "currency": "USD",
+      "categoryPath": "Unisex > Hoodies & Sweatshirts",
+      "colors": [
+        "Bone",
+        "Oat"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "hoodie",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0213",
+      "name": "Marin Harbor Zip Hoodie",
+      "brand": "Rue Atelier",
+      "description": "Zip hoodie with a streamlined, premium finish. Colorway in Slate / Fog.",
+      "imageUrl": "https://rueatelier.example/images/ra-0213-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0213",
+      "price": 186,
+      "currency": "USD",
+      "categoryPath": "Women > Zip Hoodie",
+      "colors": [
+        "Slate",
+        "Fog"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "zip",
+        "hoodie"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0214",
+      "name": "Noir Marin Sweatshirt",
+      "brand": "Rue Atelier",
+      "description": "Crew sweatshirt with a soft, refined texture. Colorway in Taupe / Sand.",
+      "imageUrl": "https://rueatelier.example/images/ra-0214-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0214",
+      "price": 159,
+      "currency": "USD",
+      "categoryPath": "Women > Sweatshirt",
+      "colors": [
+        "Taupe",
+        "Sand"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "crew"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0215",
+      "name": "Cusp Linea Sweatshirt",
+      "brand": "Rue Atelier",
+      "description": "Minimal sweatshirt with a modern, clean line. Colorway in Moss / Stone.",
+      "imageUrl": "https://rueatelier.example/images/ra-0215-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0215",
+      "price": 172,
+      "currency": "USD",
+      "categoryPath": "Unisex > Sweatshirt",
+      "colors": [
+        "Moss",
+        "Stone"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "tags": [
+        "sweatshirt",
+        "minimal"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0216",
+      "name": "Lumen Lineage Trouser",
+      "brand": "Rue Atelier",
+      "description": "Tailored trouser with sharp pleats and soft drape. Colorway in Cedar / Linen.",
+      "imageUrl": "https://rueatelier.example/images/ra-0216-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0216",
+      "price": 220,
+      "currency": "USD",
+      "categoryPath": "Women > Trousers",
+      "colors": [
+        "Cedar",
+        "Linen"
+      ],
+      "sizes": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "tags": [
+        "trouser",
+        "tailored"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0217",
+      "name": "Rue Loft Tailored Pant",
+      "brand": "Rue Atelier",
+      "description": "Tailored pant with a relaxed, premium drape. Colorway in Ink / Steel.",
+      "imageUrl": "https://rueatelier.example/images/ra-0217-main.jpg",
+      "imageUrls": [
+        "https://rueatelier.example/images/ra-0217-main.jpg",
+        "https://rueatelier.example/images/ra-0217-alt1.jpg"
+      ],
+      "productUrl": "https://rueatelier.example/products/ra-0217",
+      "price": 214,
+      "currency": "USD",
+      "categoryPath": "Unisex > Pants",
+      "colors": [
+        "Ink",
+        "Steel"
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "tags": [
+        "pant",
+        "tailored"
+      ],
+      "gender": "Unisex",
+      "inStock": false
+    },
+    {
+      "id": "ra-0218",
+      "name": "Atelier Arc Wool Coat",
+      "brand": "Rue Atelier",
+      "description": "Wool coat with a sharp, minimalist profile. Colorway in Clay / Driftwood.",
+      "imageUrl": "https://rueatelier.example/images/ra-0218-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0218",
+      "price": 326,
+      "currency": "USD",
+      "categoryPath": "Women > Coat",
+      "colors": [
+        "Clay",
+        "Driftwood"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "wool"
+      ],
+      "gender": "Women",
+      "inStock": true
+    },
+    {
+      "id": "ra-0219",
+      "name": "Maison Vale Long Coat",
+      "brand": "Rue Atelier",
+      "description": "Long coat with a flowing, elevated silhouette. Colorway in Ecru / Graphite.",
+      "imageUrl": "https://rueatelier.example/images/ra-0219-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0219",
+      "price": 352,
+      "currency": "USD",
+      "categoryPath": "Unisex > Coat",
+      "colors": [
+        "Ecru",
+        "Graphite"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "coat",
+        "long"
+      ],
+      "gender": "Unisex",
+      "inStock": true
+    },
+    {
+      "id": "ra-0220",
+      "name": "Studio Studio Minimal Jacket",
+      "brand": "Rue Atelier",
+      "description": "Minimal jacket with refined structure and clean lines. Colorway in Sable / Pearl.",
+      "imageUrl": "https://rueatelier.example/images/ra-0220-main.jpg",
+      "productUrl": "https://rueatelier.example/products/ra-0220",
+      "price": 295,
+      "currency": "USD",
+      "categoryPath": "Women > Jacket",
+      "colors": [
+        "Sable",
+        "Pearl"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "tags": [
+        "jacket",
+        "minimal"
+      ],
+      "gender": "Women",
+      "inStock": true
+    }
+  ]
+}

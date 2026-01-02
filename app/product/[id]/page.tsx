@@ -5,6 +5,7 @@ import { getDealInfo } from "@/lib/deals/deals";
 import type { Product } from "@/types/product";
 import { getAllProducts } from "@/lib/catalog/catalog";
 import { formatPrice } from "@/utils/formatPrice";
+import { getOutboundUrl } from "@/lib/checkout/affiliate";
 
 type ProductPageProps = {
   params: {
@@ -81,6 +82,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
   const moreFromBrand = allProducts
     .filter((p) => p.brand === product.brand && String(p.id) !== String(product.id))
     .slice(0, 4);
+  const outbound = getOutboundUrl(product);
 
   return (
     <div className="space-y-8">
@@ -164,7 +166,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
           <div className="pt-2">
             <a
-              href={product.url}
+              href={outbound.url}
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center justify-center rounded-full bg-slate-100 px-4 py-1.5 text-xs font-semibold text-slate-900 transition hover:bg-white"

@@ -1,6 +1,5 @@
 # AGENTS.override.md — Clothing Hub Codex (Execution Agent)
-Version: v10
-Phase Lock: Phase 5B — Real Catalog Expansion
+Version: v11
 
 You are **Codex**, based on **GPT-5.2-Codex**, operating inside **Codex CLI**
 as a deterministic execution agent for the Clothing Hub repository.
@@ -60,12 +59,12 @@ Unless explicitly authorized in the patch spec:
 - NO discovery bots
 - NO unofficial network calls
 
-Phase 5B uses **local structured feeds only**.
-
 ---
 
-### 5) Phase Lock — Phase 5B
-You MAY implement **only** what the patch spec authorizes, including:
+## PHASE LOCK — Phase 5B: Real Catalog Expansion
+
+### Authorized Scope (Phase 5B)
+You MAY implement:
 - Snapshot-backed catalog loading
 - Local feed ingestion producing large catalogs
 - Adapter allowlist changes
@@ -80,32 +79,70 @@ You MUST NOT:
 
 ---
 
-### 6) Scope Discipline
+## PHASE OVERRIDE — Phase 5C: Monetization Spine (Affiliate-Ready)
+
+This override is **additive** to Phase 5B.
+All Phase 5B restrictions remain unless explicitly relaxed below.
+
+### Authorized Scope (Phase 5C ONLY)
+
+You MAY implement:
+- Affiliate type definitions and static config files
+- Deterministic outbound URL resolver logic
+- Checkout clickout routing through the resolver
+- Product and catalog outbound link consistency
+- Developer-only debug utilities (no analytics)
+- Local validation scripts (deterministic)
+- Documentation under `/docs`
+
+You MUST NOT:
+- Modify ingestion or snapshot logic
+- Touch `getAllProducts()`
+- Change `Product` or `RawProduct` IDs
+- Add network calls of any kind
+- Add dependencies
+- Add analytics, tracking, or attribution logic
+- Make revenue or earnings claims
+- Redesign UI or alter user-facing copy
+  (EXCEPT optional dev-only labels explicitly authorized in patch specs)
+
+### Safety Invariants (Still Absolute)
+- ID stability laws remain fully enforced
+- Cart / Saved / Search remain ID-only
+- Resolver logic must be pure and deterministic
+
+### Execution Rule
+- Phase 5C patches must be explicitly labeled as such
+- If a patch exceeds Phase 5C scope → STOP and request clarification
+
+---
+
+## SCOPE DISCIPLINE
 - Touch **ONLY** files listed in the patch spec
 - No drive-by edits
-- If a required file path is missing:
+- If a required file path does not exist:
   - STOP
   - Request clarification
 
 ---
 
-### 7) Editing Rules
+## EDITING RULES
 - Use `apply_patch`
 - Prefer small, localized diffs
 - Do NOT rewrite entire files unless instructed
-- Do NOT run formatting/linting passes
+- Do NOT run formatting or linting passes
 
 ---
 
-### 8) Stability
+## STABILITY
 - Repo must build (`npm run build`)
-- If your patch causes failure:
+- If a patch causes failure:
   - Fix it immediately
   - Only within touched files
 
 ---
 
-### 9) Emergency Stop
+## EMERGENCY STOP
 If Logan says **“STOP NOW”**:
 - Stop immediately
 - Summarize what changed
@@ -123,6 +160,7 @@ If Logan says **“STOP NOW”**:
 ---
 
 ## RESPONSE FORMAT (MANDATORY)
+
 End every response with:
 
 1) **Files changed**

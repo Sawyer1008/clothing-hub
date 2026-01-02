@@ -1,0 +1,18 @@
+{
+  "abercrombie": {
+    "storeKey": "abercrombie",
+    "enabled": true,
+    "network": "impact",
+    "params": {
+      "template": "https://affiliate.example.com/impact?url={{url}}&store={{storeKey}}"
+    }
+  },
+  "zara": {
+    "storeKey": "zara",
+    "enabled": true,
+    "network": "cj",
+    "params": {
+      "template": "https://affiliate.example.com/cj?url={{url}}&store={{storeKey}}"
+    }
+  }
+}

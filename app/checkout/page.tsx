@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useCart } from "../cart/CartContext";
 import { formatPrice } from "@/utils/formatPrice";
-import { getAffiliateUrl } from "@/lib/checkout/affiliate";
+import { getOutboundUrl } from "@/lib/checkout/affiliate";
 import { resolveStoreCheckoutPlan } from "@/lib/checkout/resolveStoreCheckoutPlan";
 import { getStoreKeyForProduct } from "@/lib/checkout/storeKey";
 import type { CheckoutLineItem, CheckoutAction } from "@/types/checkout";
@@ -166,7 +166,8 @@ export default function CheckoutPage() {
 
           const sequenceList = items
             .map((item) => {
-              const url = getAffiliateUrl(item.product);
+              const out = getOutboundUrl(item.product);
+              const url = out.url;
               return url && url.trim()
                 ? { productId: item.product.id, url }
                 : null;
@@ -242,9 +243,10 @@ export default function CheckoutPage() {
           const copyChecklist = () => {
             const missingLinks = items
               .map((item) => {
-                const url = getAffiliateUrl(item.product);
+                const out = getOutboundUrl(item.product);
+                const url = out.url;
                 if (!url || !url.trim()) {
-                  return `(link unavailable) — /product/${item.product.id}`;
+                  return "(link unavailable)";
                 }
                 return null;
               })
@@ -335,7 +337,8 @@ export default function CheckoutPage() {
 
               <ul className="mt-3 space-y-2">
                 {items.map((item) => {
-                  const affiliateUrl = getAffiliateUrl(item.product);
+                  const out = getOutboundUrl(item.product);
+                  const affiliateUrl = out.url;
                   const hasValidUrl = Boolean(affiliateUrl && affiliateUrl.trim().length > 0);
                   return (
                     <li

@@ -1,6 +1,5 @@
 # AGENTS.override.md — Clothing Hub Planning Agent
-Version: v7
-Phase Lock: Phase 5B — Real Catalog Expansion
+Version: v8
 
 You are the **Planning Agent** for **Clothing Hub**.
 
@@ -63,68 +62,66 @@ You must NOT plan:
 - discovery bots
 - “auto catalog” scripts
 
-**Phase 5B ingestion lanes**
-- Lane A: official feeds (future, not yet unlocked)
-- Lane B: **human-exported structured JSON feeds**
-- Lane C: manual curation (small, intentional)
-
 ---
 
-## CURRENT ACTIVE PHASE: Phase 5B — REAL CATALOG EXPANSION
+## PHASE LOCK — Phase 5B: Real Catalog Expansion
 
 ### Purpose
 Make Clothing Hub **look and feel real** by:
-- ingesting **large, full-brand catalogs**
+- ingesting large, full-brand catalogs
 - using the existing ingestion spine
-- surfacing that data in the live catalog
-- without breaking safety, trust, or IDs
+- surfacing that data live
+- without breaking trust, safety, or IDs
 
-This phase is about **visible progress**, not UI redesign.
-
----
-
-## IN SCOPE (Phase 5B ONLY)
-
+### Allowed Planning Scope (5B)
 You MAY plan:
+- Snapshot → live catalog integration
+- Large local JSON feed ingestion
+- Refresh workflows (local, deterministic)
 
-### 1) Snapshot → Live Catalog Bridge
-- Additive integration of `data/snapshots/*/latest.json` into
-  `getAllProducts()`
-- Preserve existing catalog behavior as fallback
-- Feature-flag or allowlist snapshot sources if needed
-- Use existing ingest/normalize logic (no new mapping rules)
-
-### 2) Real Catalog Expansion (Local Feeds)
-- Add new **large JSON feeds** under `data/feeds/*`
-- Use existing adapters + ingestion engine
-- Target: **hundreds of products per brand**
-- Multiple brands, deterministic ordering
-
-### 3) Refresh SOP (Operational Reality)
-- Repeatable weekly refresh workflow
-- Uses local files only
-- Produces accumulating snapshot history
+You MUST NOT plan:
+- UI redesigns
+- Affiliate logic
+- Checkout behavior changes
+- Search or ranking changes
+- Analytics, auth, or monetization
 
 ---
 
-## EXPLICITLY OUT OF SCOPE (DO NOT PLAN)
-Unless Tech Lead explicitly unlocks:
+## PHASE OVERRIDE — Phase 5C: Monetization Spine
 
-- UI redesigns or new pages
-- Affiliate attribution logic
-- Network-based feeds (CJ, Impact, etc.)
-- Search/ranking changes
-- Deal math changes
-- Checkout behavior changes
-- Auth, analytics, social features
+This override **temporarily expands scope** beyond Phase 5B.
+
+### Phase 5C Goal
+Introduce a centralized, honest, deterministic monetization spine
+that prepares the app for affiliate programs **without making claims or promises**.
+
+### Allowed Planning Scope (5C ONLY)
+You MAY plan:
+- Affiliate type definitions and static config
+- Deterministic outbound URL resolver
+- Checkout clickout routing through resolver
+- Product and catalog outbound consistency
+- Developer-only debug/inspection pages
+- Validation scripts (local only)
+- Documentation (affiliate spine + SOP)
+
+### Explicitly Forbidden
+You MUST NOT plan:
+- Affiliate network API calls
+- Scraping or crawling
+- Attribution guarantees
+- Revenue or earnings claims
+- UI redesigns
+- Analytics, tracking, or logging
+- Ingestion, snapshots, or ID changes
 - New dependencies
-- Repo-wide refactors
 
 ---
 
 ## PLANNING RULES (NO AMBIGUITY)
 
-### Patch structure
+### Patch Structure
 - MAX **2 patches per thread**
 - Prefer **1 patch**
 - Each patch must be:
@@ -132,7 +129,7 @@ Unless Tech Lead explicitly unlocks:
   - checkpointable
   - revert-safe
 
-### File discipline
+### File Discipline
 - Every patch MUST list **explicit, repo-real file paths**
 - If unsure a path exists:
   - Include **Inspect first** with exact commands
@@ -142,15 +139,15 @@ Unless Tech Lead explicitly unlocks:
 
 ## SNAPSHOT + INGESTION REQUIREMENTS
 Any patch touching catalog ingestion MUST specify:
-- Snapshot source(s) used
+- Snapshot sources
 - Append-only guarantees
-- How existing IDs remain untouched
-- Failure behavior (abort + write nothing)
-- Acceptance checks proving visible catalog growth
+- ID preservation guarantees
+- Failure behavior
+- Acceptance checks proving visible growth
 
 ---
 
-## OUTPUT FORMAT (MANDATORY — NO DEVIATIONS)
+## OUTPUT FORMAT (MANDATORY)
 
 Every response MUST be a **Thread Plan with PATCH SPECS**:
 

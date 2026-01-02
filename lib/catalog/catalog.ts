@@ -28,10 +28,20 @@ import { reformationRaw } from "@/data/raw/reformation";
 import mockRetailerSnapshot from "@/data/snapshots/mock-retailer/latest.json";
 import mockRetailer2Snapshot from "@/data/snapshots/mock-retailer-2/latest.json";
 import cedarLoomSnapshot from "@/data/snapshots/cedar-loom/latest.json";
+import driftwoodDenimSnapshot from "@/data/snapshots/driftwood-denim/latest.json";
+import solsticeActiveSnapshot from "@/data/snapshots/solstice-active/latest.json";
+import rueAtelierSnapshot from "@/data/snapshots/rue-atelier/latest.json";
 import { buildOverrideMap, overridesBySource } from "@/data/overrides";
 import { ingestRawProducts } from "./ingest";
 
-const SNAPSHOT_SOURCES = ["mock-retailer", "mock-retailer-2", "cedar-loom"] as const;
+const SNAPSHOT_SOURCES = [
+  "mock-retailer",
+  "mock-retailer-2",
+  "cedar-loom",
+  "driftwood-denim",
+  "solstice-active",
+  "rue-atelier",
+] as const;
 type SnapshotSourceSlug = (typeof SNAPSHOT_SOURCES)[number];
 
 type SnapshotPayload = {
@@ -43,6 +53,9 @@ const SNAPSHOT_PAYLOADS: Record<SnapshotSourceSlug, unknown> = {
   "mock-retailer": mockRetailerSnapshot,
   "mock-retailer-2": mockRetailer2Snapshot,
   "cedar-loom": cedarLoomSnapshot,
+  "driftwood-denim": driftwoodDenimSnapshot,
+  "solstice-active": solsticeActiveSnapshot,
+  "rue-atelier": rueAtelierSnapshot,
 };
 
 // Define all raw sources here so it's easy to add new brands later.
@@ -226,7 +239,19 @@ const allProductsInternal: Product[] = [
   ...ingestedProducts,
 ];
 
+let didLogCatalogCounts = false;
+
 export function getAllProducts(): Product[] {
+  if (!didLogCatalogCounts && process.env.NODE_ENV !== "production") {
+    didLogCatalogCounts = true;
+    const cedarCount = allProductsInternal.filter(
+      (product) =>
+        product.sourceName === "Cedar Loom" || product.brand === "Cedar Loom"
+    ).length;
+    console.log(
+      `[catalog] getAllProducts total=${allProductsInternal.length} cedar=${cedarCount}`
+    );
+  }
   return allProductsInternal;
 }
 

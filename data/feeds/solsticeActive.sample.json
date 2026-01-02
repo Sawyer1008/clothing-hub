@@ -1,0 +1,6946 @@
+[
+  {
+    "externalId": "sa-0001",
+    "title": "Sol Pulse Hoodie",
+    "brand": "Solstice Active",
+    "description": "Performance hoodie with breathable brushed fleece. Colorway in Black / Slate.",
+    "productUrl": "https://solstice.example/products/sa-0001",
+    "imageUrl": "https://solstice.example/images/sa-0001-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0001-main.jpg",
+      "https://solstice.example/images/sa-0001-alt1.jpg"
+    ],
+    "price": 120,
+    "originalPrice": 136,
+    "currency": "USD",
+    "categoryPath": "Men > Hoodies & Sweatshirts",
+    "colors": [
+      "Black",
+      "Slate"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "tags": [
+      "hoodie",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": false
+  },
+  {
+    "externalId": "sa-0002",
+    "title": "Apex Cloud Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Soft sweatshirt built for warmups and recovery. Colorway in Navy / Ice.",
+    "productUrl": "https://solstice.example/products/sa-0002",
+    "imageUrl": "https://solstice.example/images/sa-0002-main.jpg",
+    "price": 70,
+    "currency": "USD",
+    "categoryPath": "Women > Sweatshirt",
+    "colors": [
+      "Navy",
+      "Ice"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "warmup"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0003",
+    "title": "Pulse Stride Performance Tee",
+    "brand": "Solstice Active",
+    "description": "Moisture-wicking tee with quick-dry finish. Colorway in Graphite / Silver.",
+    "productUrl": "https://solstice.example/products/sa-0003",
+    "imageUrl": "https://solstice.example/images/sa-0003-main.jpg",
+    "price": 38,
+    "currency": "USD",
+    "categoryPath": "Men > Performance Tee",
+    "colors": [
+      "Graphite",
+      "Silver"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "performance"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0004",
+    "title": "Zenith Core Tech Tee",
+    "brand": "Solstice Active",
+    "description": "Lightweight tech tee with smooth, airy feel. Colorway in Cobalt / White.",
+    "productUrl": "https://solstice.example/products/sa-0004",
+    "imageUrl": "https://solstice.example/images/sa-0004-main.jpg",
+    "price": 35,
+    "currency": "USD",
+    "categoryPath": "Women > Tee",
+    "colors": [
+      "Cobalt",
+      "White"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "training"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0005",
+    "title": "Nova Zen Oversized Tee",
+    "brand": "Solstice Active",
+    "description": "Oversized tee with a relaxed, breathable fit. Colorway in Moss / Stone.",
+    "productUrl": "https://solstice.example/products/sa-0005",
+    "imageUrl": "https://solstice.example/images/sa-0005-main.jpg",
+    "price": 38,
+    "currency": "USD",
+    "categoryPath": "Unisex > Oversized Tee",
+    "colors": [
+      "Moss",
+      "Stone"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "oversized",
+      "tee"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0006",
+    "title": "Core Orbit Sneaker",
+    "brand": "Solstice Active",
+    "description": "Training sneaker with responsive cushioning. Colorway in Coral / Sand.",
+    "productUrl": "https://solstice.example/products/sa-0006",
+    "imageUrl": "https://solstice.example/images/sa-0006-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0006-main.jpg",
+      "https://solstice.example/images/sa-0006-alt1.jpg"
+    ],
+    "price": 120,
+    "currency": "USD",
+    "categoryPath": "Men > Sneakers",
+    "colors": [
+      "Coral",
+      "Sand"
+    ],
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "tags": [
+      "sneaker",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0007",
+    "title": "Strive Nova Running Shoe",
+    "brand": "Solstice Active",
+    "description": "Running shoe with energy-return foam. Colorway in Forest / Fog.",
+    "productUrl": "https://solstice.example/products/sa-0007",
+    "imageUrl": "https://solstice.example/images/sa-0007-main.jpg",
+    "price": 110,
+    "currency": "USD",
+    "categoryPath": "Women > Running Shoes",
+    "colors": [
+      "Forest",
+      "Fog"
+    ],
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "tags": [
+      "shoe",
+      "running"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0008",
+    "title": "Orbit Altitude Zip Hoodie",
+    "brand": "Solstice Active",
+    "description": "Zip hoodie with mesh-lined hood. Colorway in Crimson / Smoke.",
+    "productUrl": "https://solstice.example/products/sa-0008",
+    "imageUrl": "https://solstice.example/images/sa-0008-main.jpg",
+    "price": 84,
+    "originalPrice": 100,
+    "currency": "USD",
+    "categoryPath": "Unisex > Zip Hoodie",
+    "colors": [
+      "Crimson",
+      "Smoke"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "zip",
+      "hoodie"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0009",
+    "title": "Range Sunrise Training Short",
+    "brand": "Solstice Active",
+    "description": "Light training short with four-way stretch. Colorway in Sage / Ivory.",
+    "productUrl": "https://solstice.example/products/sa-0009",
+    "imageUrl": "https://solstice.example/images/sa-0009-main.jpg",
+    "price": 44,
+    "currency": "USD",
+    "categoryPath": "Men > Training Shorts",
+    "colors": [
+      "Sage",
+      "Ivory"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "training",
+      "short"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0010",
+    "title": "Shift Horizon Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Sweatshirt built for warmups and cool downs. Colorway in Charcoal / Ash.",
+    "productUrl": "https://solstice.example/products/sa-0010",
+    "imageUrl": "https://solstice.example/images/sa-0010-main.jpg",
+    "price": 70,
+    "currency": "USD",
+    "categoryPath": "Unisex > Sweatshirt",
+    "colors": [
+      "Charcoal",
+      "Ash"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "recovery"
+    ],
+    "gender": "Unisex",
+    "inStock": false
+  },
+  {
+    "externalId": "sa-0011",
+    "title": "Glide Pulse Hoodie",
+    "brand": "Solstice Active",
+    "description": "Performance hoodie with breathable brushed fleece. Colorway in Black / Slate.",
+    "productUrl": "https://solstice.example/products/sa-0011",
+    "imageUrl": "https://solstice.example/images/sa-0011-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0011-main.jpg",
+      "https://solstice.example/images/sa-0011-alt1.jpg"
+    ],
+    "price": 86,
+    "currency": "USD",
+    "categoryPath": "Men > Hoodies & Sweatshirts",
+    "colors": [
+      "Black",
+      "Slate"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "tags": [
+      "hoodie",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0012",
+    "title": "Flow Cloud Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Soft sweatshirt built for warmups and recovery. Colorway in Navy / Ice.",
+    "productUrl": "https://solstice.example/products/sa-0012",
+    "imageUrl": "https://solstice.example/images/sa-0012-main.jpg",
+    "price": 78,
+    "currency": "USD",
+    "categoryPath": "Women > Sweatshirt",
+    "colors": [
+      "Navy",
+      "Ice"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "warmup"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0013",
+    "title": "Sol Stride Performance Tee",
+    "brand": "Solstice Active",
+    "description": "Moisture-wicking tee with quick-dry finish. Colorway in Graphite / Silver.",
+    "productUrl": "https://solstice.example/products/sa-0013",
+    "imageUrl": "https://solstice.example/images/sa-0013-main.jpg",
+    "price": 36,
+    "originalPrice": 44,
+    "currency": "USD",
+    "categoryPath": "Men > Performance Tee",
+    "colors": [
+      "Graphite",
+      "Silver"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "performance"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0014",
+    "title": "Apex Core Tech Tee",
+    "brand": "Solstice Active",
+    "description": "Lightweight tech tee with smooth, airy feel. Colorway in Cobalt / White.",
+    "productUrl": "https://solstice.example/products/sa-0014",
+    "imageUrl": "https://solstice.example/images/sa-0014-main.jpg",
+    "price": 33,
+    "currency": "USD",
+    "categoryPath": "Women > Tee",
+    "colors": [
+      "Cobalt",
+      "White"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "training"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0015",
+    "title": "Pulse Zen Oversized Tee",
+    "brand": "Solstice Active",
+    "description": "Oversized tee with a relaxed, breathable fit. Colorway in Moss / Stone.",
+    "productUrl": "https://solstice.example/products/sa-0015",
+    "imageUrl": "https://solstice.example/images/sa-0015-main.jpg",
+    "price": 36,
+    "currency": "USD",
+    "categoryPath": "Unisex > Oversized Tee",
+    "colors": [
+      "Moss",
+      "Stone"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "oversized",
+      "tee"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0016",
+    "title": "Zenith Orbit Sneaker",
+    "brand": "Solstice Active",
+    "description": "Training sneaker with responsive cushioning. Colorway in Coral / Sand.",
+    "productUrl": "https://solstice.example/products/sa-0016",
+    "imageUrl": "https://solstice.example/images/sa-0016-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0016-main.jpg",
+      "https://solstice.example/images/sa-0016-alt1.jpg"
+    ],
+    "price": 120,
+    "currency": "USD",
+    "categoryPath": "Men > Sneakers",
+    "colors": [
+      "Coral",
+      "Sand"
+    ],
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "tags": [
+      "sneaker",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0017",
+    "title": "Nova Nova Running Shoe",
+    "brand": "Solstice Active",
+    "description": "Running shoe with energy-return foam. Colorway in Forest / Fog.",
+    "productUrl": "https://solstice.example/products/sa-0017",
+    "imageUrl": "https://solstice.example/images/sa-0017-main.jpg",
+    "price": 126,
+    "currency": "USD",
+    "categoryPath": "Women > Running Shoes",
+    "colors": [
+      "Forest",
+      "Fog"
+    ],
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "tags": [
+      "shoe",
+      "running"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0018",
+    "title": "Core Altitude Zip Hoodie",
+    "brand": "Solstice Active",
+    "description": "Zip hoodie with mesh-lined hood. Colorway in Crimson / Smoke.",
+    "productUrl": "https://solstice.example/products/sa-0018",
+    "imageUrl": "https://solstice.example/images/sa-0018-main.jpg",
+    "price": 92,
+    "currency": "USD",
+    "categoryPath": "Unisex > Zip Hoodie",
+    "colors": [
+      "Crimson",
+      "Smoke"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "zip",
+      "hoodie"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0019",
+    "title": "Strive Sunrise Training Short",
+    "brand": "Solstice Active",
+    "description": "Light training short with four-way stretch. Colorway in Sage / Ivory.",
+    "productUrl": "https://solstice.example/products/sa-0019",
+    "imageUrl": "https://solstice.example/images/sa-0019-main.jpg",
+    "price": 42,
+    "currency": "USD",
+    "categoryPath": "Men > Training Shorts",
+    "colors": [
+      "Sage",
+      "Ivory"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "training",
+      "short"
+    ],
+    "gender": "Men",
+    "inStock": false
+  },
+  {
+    "externalId": "sa-0020",
+    "title": "Orbit Horizon Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Sweatshirt built for warmups and cool downs. Colorway in Charcoal / Ash.",
+    "productUrl": "https://solstice.example/products/sa-0020",
+    "imageUrl": "https://solstice.example/images/sa-0020-main.jpg",
+    "price": 66,
+    "currency": "USD",
+    "categoryPath": "Unisex > Sweatshirt",
+    "colors": [
+      "Charcoal",
+      "Ash"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "recovery"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0021",
+    "title": "Range Pulse Hoodie",
+    "brand": "Solstice Active",
+    "description": "Performance hoodie with breathable brushed fleece. Colorway in Black / Slate.",
+    "productUrl": "https://solstice.example/products/sa-0021",
+    "imageUrl": "https://solstice.example/images/sa-0021-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0021-main.jpg",
+      "https://solstice.example/images/sa-0021-alt1.jpg"
+    ],
+    "price": 82,
+    "currency": "USD",
+    "categoryPath": "Men > Hoodies & Sweatshirts",
+    "colors": [
+      "Black",
+      "Slate"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "tags": [
+      "hoodie",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0022",
+    "title": "Shift Cloud Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Soft sweatshirt built for warmups and recovery. Colorway in Navy / Ice.",
+    "productUrl": "https://solstice.example/products/sa-0022",
+    "imageUrl": "https://solstice.example/images/sa-0022-main.jpg",
+    "price": 74,
+    "currency": "USD",
+    "categoryPath": "Women > Sweatshirt",
+    "colors": [
+      "Navy",
+      "Ice"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "warmup"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0023",
+    "title": "Glide Stride Performance Tee",
+    "brand": "Solstice Active",
+    "description": "Moisture-wicking tee with quick-dry finish. Colorway in Graphite / Silver.",
+    "productUrl": "https://solstice.example/products/sa-0023",
+    "imageUrl": "https://solstice.example/images/sa-0023-main.jpg",
+    "price": 40,
+    "currency": "USD",
+    "categoryPath": "Men > Performance Tee",
+    "colors": [
+      "Graphite",
+      "Silver"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "performance"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0024",
+    "title": "Flow Core Tech Tee",
+    "brand": "Solstice Active",
+    "description": "Lightweight tech tee with smooth, airy feel. Colorway in Cobalt / White.",
+    "productUrl": "https://solstice.example/products/sa-0024",
+    "imageUrl": "https://solstice.example/images/sa-0024-main.jpg",
+    "price": 37,
+    "currency": "USD",
+    "categoryPath": "Women > Tee",
+    "colors": [
+      "Cobalt",
+      "White"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "training"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0025",
+    "title": "Sol Zen Oversized Tee",
+    "brand": "Solstice Active",
+    "description": "Oversized tee with a relaxed, breathable fit. Colorway in Moss / Stone.",
+    "productUrl": "https://solstice.example/products/sa-0025",
+    "imageUrl": "https://solstice.example/images/sa-0025-main.jpg",
+    "price": 34,
+    "originalPrice": 42,
+    "currency": "USD",
+    "categoryPath": "Unisex > Oversized Tee",
+    "colors": [
+      "Moss",
+      "Stone"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "oversized",
+      "tee"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0026",
+    "title": "Apex Orbit Sneaker",
+    "brand": "Solstice Active",
+    "description": "Training sneaker with responsive cushioning. Colorway in Coral / Sand.",
+    "productUrl": "https://solstice.example/products/sa-0026",
+    "imageUrl": "https://solstice.example/images/sa-0026-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0026-main.jpg",
+      "https://solstice.example/images/sa-0026-alt1.jpg"
+    ],
+    "price": 120,
+    "currency": "USD",
+    "categoryPath": "Men > Sneakers",
+    "colors": [
+      "Coral",
+      "Sand"
+    ],
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "tags": [
+      "sneaker",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0027",
+    "title": "Pulse Nova Running Shoe",
+    "brand": "Solstice Active",
+    "description": "Running shoe with energy-return foam. Colorway in Forest / Fog.",
+    "productUrl": "https://solstice.example/products/sa-0027",
+    "imageUrl": "https://solstice.example/images/sa-0027-main.jpg",
+    "price": 118,
+    "currency": "USD",
+    "categoryPath": "Women > Running Shoes",
+    "colors": [
+      "Forest",
+      "Fog"
+    ],
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "tags": [
+      "shoe",
+      "running"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0028",
+    "title": "Zenith Altitude Zip Hoodie",
+    "brand": "Solstice Active",
+    "description": "Zip hoodie with mesh-lined hood. Colorway in Crimson / Smoke.",
+    "productUrl": "https://solstice.example/products/sa-0028",
+    "imageUrl": "https://solstice.example/images/sa-0028-main.jpg",
+    "price": 88,
+    "currency": "USD",
+    "categoryPath": "Unisex > Zip Hoodie",
+    "colors": [
+      "Crimson",
+      "Smoke"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "zip",
+      "hoodie"
+    ],
+    "gender": "Unisex",
+    "inStock": false
+  },
+  {
+    "externalId": "sa-0029",
+    "title": "Nova Sunrise Training Short",
+    "brand": "Solstice Active",
+    "description": "Light training short with four-way stretch. Colorway in Sage / Ivory.",
+    "productUrl": "https://solstice.example/products/sa-0029",
+    "imageUrl": "https://solstice.example/images/sa-0029-main.jpg",
+    "price": 46,
+    "originalPrice": 54,
+    "currency": "USD",
+    "categoryPath": "Men > Training Shorts",
+    "colors": [
+      "Sage",
+      "Ivory"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "training",
+      "short"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0030",
+    "title": "Core Horizon Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Sweatshirt built for warmups and cool downs. Colorway in Charcoal / Ash.",
+    "productUrl": "https://solstice.example/products/sa-0030",
+    "imageUrl": "https://solstice.example/images/sa-0030-main.jpg",
+    "price": 74,
+    "currency": "USD",
+    "categoryPath": "Unisex > Sweatshirt",
+    "colors": [
+      "Charcoal",
+      "Ash"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "recovery"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0031",
+    "title": "Strive Pulse Hoodie",
+    "brand": "Solstice Active",
+    "description": "Performance hoodie with breathable brushed fleece. Colorway in Black / Slate.",
+    "productUrl": "https://solstice.example/products/sa-0031",
+    "imageUrl": "https://solstice.example/images/sa-0031-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0031-main.jpg",
+      "https://solstice.example/images/sa-0031-alt1.jpg"
+    ],
+    "price": 78,
+    "currency": "USD",
+    "categoryPath": "Men > Hoodies & Sweatshirts",
+    "colors": [
+      "Black",
+      "Slate"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "tags": [
+      "hoodie",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0032",
+    "title": "Orbit Cloud Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Soft sweatshirt built for warmups and recovery. Colorway in Navy / Ice.",
+    "productUrl": "https://solstice.example/products/sa-0032",
+    "imageUrl": "https://solstice.example/images/sa-0032-main.jpg",
+    "price": 112,
+    "currency": "USD",
+    "categoryPath": "Women > Sweatshirt",
+    "colors": [
+      "Navy",
+      "Ice"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "warmup"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0033",
+    "title": "Range Stride Performance Tee",
+    "brand": "Solstice Active",
+    "description": "Moisture-wicking tee with quick-dry finish. Colorway in Graphite / Silver.",
+    "productUrl": "https://solstice.example/products/sa-0033",
+    "imageUrl": "https://solstice.example/images/sa-0033-main.jpg",
+    "price": 38,
+    "currency": "USD",
+    "categoryPath": "Men > Performance Tee",
+    "colors": [
+      "Graphite",
+      "Silver"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "performance"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0034",
+    "title": "Shift Core Tech Tee",
+    "brand": "Solstice Active",
+    "description": "Lightweight tech tee with smooth, airy feel. Colorway in Cobalt / White.",
+    "productUrl": "https://solstice.example/products/sa-0034",
+    "imageUrl": "https://solstice.example/images/sa-0034-main.jpg",
+    "price": 35,
+    "currency": "USD",
+    "categoryPath": "Women > Tee",
+    "colors": [
+      "Cobalt",
+      "White"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "training"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0035",
+    "title": "Glide Zen Oversized Tee",
+    "brand": "Solstice Active",
+    "description": "Oversized tee with a relaxed, breathable fit. Colorway in Moss / Stone.",
+    "productUrl": "https://solstice.example/products/sa-0035",
+    "imageUrl": "https://solstice.example/images/sa-0035-main.jpg",
+    "price": 38,
+    "currency": "USD",
+    "categoryPath": "Unisex > Oversized Tee",
+    "colors": [
+      "Moss",
+      "Stone"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "oversized",
+      "tee"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0036",
+    "title": "Flow Orbit Sneaker",
+    "brand": "Solstice Active",
+    "description": "Training sneaker with responsive cushioning. Colorway in Coral / Sand.",
+    "productUrl": "https://solstice.example/products/sa-0036",
+    "imageUrl": "https://solstice.example/images/sa-0036-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0036-main.jpg",
+      "https://solstice.example/images/sa-0036-alt1.jpg"
+    ],
+    "price": 120,
+    "currency": "USD",
+    "categoryPath": "Men > Sneakers",
+    "colors": [
+      "Coral",
+      "Sand"
+    ],
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "tags": [
+      "sneaker",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0037",
+    "title": "Sol Nova Running Shoe",
+    "brand": "Solstice Active",
+    "description": "Running shoe with energy-return foam. Colorway in Forest / Fog.",
+    "productUrl": "https://solstice.example/products/sa-0037",
+    "imageUrl": "https://solstice.example/images/sa-0037-main.jpg",
+    "price": 110,
+    "currency": "USD",
+    "categoryPath": "Women > Running Shoes",
+    "colors": [
+      "Forest",
+      "Fog"
+    ],
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "tags": [
+      "shoe",
+      "running"
+    ],
+    "gender": "Women",
+    "inStock": false
+  },
+  {
+    "externalId": "sa-0038",
+    "title": "Apex Altitude Zip Hoodie",
+    "brand": "Solstice Active",
+    "description": "Zip hoodie with mesh-lined hood. Colorway in Crimson / Smoke.",
+    "productUrl": "https://solstice.example/products/sa-0038",
+    "imageUrl": "https://solstice.example/images/sa-0038-main.jpg",
+    "price": 84,
+    "currency": "USD",
+    "categoryPath": "Unisex > Zip Hoodie",
+    "colors": [
+      "Crimson",
+      "Smoke"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "zip",
+      "hoodie"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0039",
+    "title": "Pulse Sunrise Training Short",
+    "brand": "Solstice Active",
+    "description": "Light training short with four-way stretch. Colorway in Sage / Ivory.",
+    "productUrl": "https://solstice.example/products/sa-0039",
+    "imageUrl": "https://solstice.example/images/sa-0039-main.jpg",
+    "price": 44,
+    "currency": "USD",
+    "categoryPath": "Men > Training Shorts",
+    "colors": [
+      "Sage",
+      "Ivory"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "training",
+      "short"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0040",
+    "title": "Zenith Horizon Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Sweatshirt built for warmups and cool downs. Colorway in Charcoal / Ash.",
+    "productUrl": "https://solstice.example/products/sa-0040",
+    "imageUrl": "https://solstice.example/images/sa-0040-main.jpg",
+    "price": 70,
+    "currency": "USD",
+    "categoryPath": "Unisex > Sweatshirt",
+    "colors": [
+      "Charcoal",
+      "Ash"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "recovery"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0041",
+    "title": "Nova Pulse Hoodie",
+    "brand": "Solstice Active",
+    "description": "Performance hoodie with breathable brushed fleece. Colorway in Black / Slate.",
+    "productUrl": "https://solstice.example/products/sa-0041",
+    "imageUrl": "https://solstice.example/images/sa-0041-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0041-main.jpg",
+      "https://solstice.example/images/sa-0041-alt1.jpg"
+    ],
+    "price": 86,
+    "currency": "USD",
+    "categoryPath": "Men > Hoodies & Sweatshirts",
+    "colors": [
+      "Black",
+      "Slate"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "tags": [
+      "hoodie",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0042",
+    "title": "Core Cloud Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Soft sweatshirt built for warmups and recovery. Colorway in Navy / Ice.",
+    "productUrl": "https://solstice.example/products/sa-0042",
+    "imageUrl": "https://solstice.example/images/sa-0042-main.jpg",
+    "price": 78,
+    "currency": "USD",
+    "categoryPath": "Women > Sweatshirt",
+    "colors": [
+      "Navy",
+      "Ice"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "warmup"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0043",
+    "title": "Strive Stride Performance Tee",
+    "brand": "Solstice Active",
+    "description": "Moisture-wicking tee with quick-dry finish. Colorway in Graphite / Silver.",
+    "productUrl": "https://solstice.example/products/sa-0043",
+    "imageUrl": "https://solstice.example/images/sa-0043-main.jpg",
+    "price": 36,
+    "originalPrice": 44,
+    "currency": "USD",
+    "categoryPath": "Men > Performance Tee",
+    "colors": [
+      "Graphite",
+      "Silver"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "performance"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0044",
+    "title": "Orbit Core Tech Tee",
+    "brand": "Solstice Active",
+    "description": "Lightweight tech tee with smooth, airy feel. Colorway in Cobalt / White.",
+    "productUrl": "https://solstice.example/products/sa-0044",
+    "imageUrl": "https://solstice.example/images/sa-0044-main.jpg",
+    "price": 33,
+    "currency": "USD",
+    "categoryPath": "Women > Tee",
+    "colors": [
+      "Cobalt",
+      "White"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "training"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0045",
+    "title": "Range Zen Oversized Tee",
+    "brand": "Solstice Active",
+    "description": "Oversized tee with a relaxed, breathable fit. Colorway in Moss / Stone.",
+    "productUrl": "https://solstice.example/products/sa-0045",
+    "imageUrl": "https://solstice.example/images/sa-0045-main.jpg",
+    "price": 36,
+    "currency": "USD",
+    "categoryPath": "Unisex > Oversized Tee",
+    "colors": [
+      "Moss",
+      "Stone"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "oversized",
+      "tee"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0046",
+    "title": "Shift Orbit Sneaker",
+    "brand": "Solstice Active",
+    "description": "Training sneaker with responsive cushioning. Colorway in Coral / Sand.",
+    "productUrl": "https://solstice.example/products/sa-0046",
+    "imageUrl": "https://solstice.example/images/sa-0046-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0046-main.jpg",
+      "https://solstice.example/images/sa-0046-alt1.jpg"
+    ],
+    "price": 120,
+    "originalPrice": 140,
+    "currency": "USD",
+    "categoryPath": "Men > Sneakers",
+    "colors": [
+      "Coral",
+      "Sand"
+    ],
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "tags": [
+      "sneaker",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": false
+  },
+  {
+    "externalId": "sa-0047",
+    "title": "Glide Nova Running Shoe",
+    "brand": "Solstice Active",
+    "description": "Running shoe with energy-return foam. Colorway in Forest / Fog.",
+    "productUrl": "https://solstice.example/products/sa-0047",
+    "imageUrl": "https://solstice.example/images/sa-0047-main.jpg",
+    "price": 154,
+    "currency": "USD",
+    "categoryPath": "Women > Running Shoes",
+    "colors": [
+      "Forest",
+      "Fog"
+    ],
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "tags": [
+      "shoe",
+      "running"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0048",
+    "title": "Flow Altitude Zip Hoodie",
+    "brand": "Solstice Active",
+    "description": "Zip hoodie with mesh-lined hood. Colorway in Crimson / Smoke.",
+    "productUrl": "https://solstice.example/products/sa-0048",
+    "imageUrl": "https://solstice.example/images/sa-0048-main.jpg",
+    "price": 92,
+    "currency": "USD",
+    "categoryPath": "Unisex > Zip Hoodie",
+    "colors": [
+      "Crimson",
+      "Smoke"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "zip",
+      "hoodie"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0049",
+    "title": "Sol Sunrise Training Short",
+    "brand": "Solstice Active",
+    "description": "Light training short with four-way stretch. Colorway in Sage / Ivory.",
+    "productUrl": "https://solstice.example/products/sa-0049",
+    "imageUrl": "https://solstice.example/images/sa-0049-main.jpg",
+    "price": 42,
+    "currency": "USD",
+    "categoryPath": "Men > Training Shorts",
+    "colors": [
+      "Sage",
+      "Ivory"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "training",
+      "short"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0050",
+    "title": "Apex Horizon Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Sweatshirt built for warmups and cool downs. Colorway in Charcoal / Ash.",
+    "productUrl": "https://solstice.example/products/sa-0050",
+    "imageUrl": "https://solstice.example/images/sa-0050-main.jpg",
+    "price": 66,
+    "currency": "USD",
+    "categoryPath": "Unisex > Sweatshirt",
+    "colors": [
+      "Charcoal",
+      "Ash"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "recovery"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0051",
+    "title": "Pulse Pulse Hoodie",
+    "brand": "Solstice Active",
+    "description": "Performance hoodie with breathable brushed fleece. Colorway in Black / Slate.",
+    "productUrl": "https://solstice.example/products/sa-0051",
+    "imageUrl": "https://solstice.example/images/sa-0051-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0051-main.jpg",
+      "https://solstice.example/images/sa-0051-alt1.jpg"
+    ],
+    "price": 82,
+    "currency": "USD",
+    "categoryPath": "Men > Hoodies & Sweatshirts",
+    "colors": [
+      "Black",
+      "Slate"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "tags": [
+      "hoodie",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0052",
+    "title": "Zenith Cloud Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Soft sweatshirt built for warmups and recovery. Colorway in Navy / Ice.",
+    "productUrl": "https://solstice.example/products/sa-0052",
+    "imageUrl": "https://solstice.example/images/sa-0052-main.jpg",
+    "price": 74,
+    "currency": "USD",
+    "categoryPath": "Women > Sweatshirt",
+    "colors": [
+      "Navy",
+      "Ice"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "warmup"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0053",
+    "title": "Nova Stride Performance Tee",
+    "brand": "Solstice Active",
+    "description": "Moisture-wicking tee with quick-dry finish. Colorway in Graphite / Silver.",
+    "productUrl": "https://solstice.example/products/sa-0053",
+    "imageUrl": "https://solstice.example/images/sa-0053-main.jpg",
+    "price": 40,
+    "currency": "USD",
+    "categoryPath": "Men > Performance Tee",
+    "colors": [
+      "Graphite",
+      "Silver"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "performance"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0054",
+    "title": "Core Core Tech Tee",
+    "brand": "Solstice Active",
+    "description": "Lightweight tech tee with smooth, airy feel. Colorway in Cobalt / White.",
+    "productUrl": "https://solstice.example/products/sa-0054",
+    "imageUrl": "https://solstice.example/images/sa-0054-main.jpg",
+    "price": 37,
+    "currency": "USD",
+    "categoryPath": "Women > Tee",
+    "colors": [
+      "Cobalt",
+      "White"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "training"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0055",
+    "title": "Strive Zen Oversized Tee",
+    "brand": "Solstice Active",
+    "description": "Oversized tee with a relaxed, breathable fit. Colorway in Moss / Stone.",
+    "productUrl": "https://solstice.example/products/sa-0055",
+    "imageUrl": "https://solstice.example/images/sa-0055-main.jpg",
+    "price": 34,
+    "currency": "USD",
+    "categoryPath": "Unisex > Oversized Tee",
+    "colors": [
+      "Moss",
+      "Stone"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "oversized",
+      "tee"
+    ],
+    "gender": "Unisex",
+    "inStock": false
+  },
+  {
+    "externalId": "sa-0056",
+    "title": "Orbit Orbit Sneaker",
+    "brand": "Solstice Active",
+    "description": "Training sneaker with responsive cushioning. Colorway in Coral / Sand.",
+    "productUrl": "https://solstice.example/products/sa-0056",
+    "imageUrl": "https://solstice.example/images/sa-0056-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0056-main.jpg",
+      "https://solstice.example/images/sa-0056-alt1.jpg"
+    ],
+    "price": 120,
+    "currency": "USD",
+    "categoryPath": "Men > Sneakers",
+    "colors": [
+      "Coral",
+      "Sand"
+    ],
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "tags": [
+      "sneaker",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0057",
+    "title": "Range Nova Running Shoe",
+    "brand": "Solstice Active",
+    "description": "Running shoe with energy-return foam. Colorway in Forest / Fog.",
+    "productUrl": "https://solstice.example/products/sa-0057",
+    "imageUrl": "https://solstice.example/images/sa-0057-main.jpg",
+    "price": 118,
+    "currency": "USD",
+    "categoryPath": "Women > Running Shoes",
+    "colors": [
+      "Forest",
+      "Fog"
+    ],
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "tags": [
+      "shoe",
+      "running"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0058",
+    "title": "Shift Altitude Zip Hoodie",
+    "brand": "Solstice Active",
+    "description": "Zip hoodie with mesh-lined hood. Colorway in Crimson / Smoke.",
+    "productUrl": "https://solstice.example/products/sa-0058",
+    "imageUrl": "https://solstice.example/images/sa-0058-main.jpg",
+    "price": 88,
+    "currency": "USD",
+    "categoryPath": "Unisex > Zip Hoodie",
+    "colors": [
+      "Crimson",
+      "Smoke"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "zip",
+      "hoodie"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0059",
+    "title": "Glide Sunrise Training Short",
+    "brand": "Solstice Active",
+    "description": "Light training short with four-way stretch. Colorway in Sage / Ivory.",
+    "productUrl": "https://solstice.example/products/sa-0059",
+    "imageUrl": "https://solstice.example/images/sa-0059-main.jpg",
+    "price": 46,
+    "currency": "USD",
+    "categoryPath": "Men > Training Shorts",
+    "colors": [
+      "Sage",
+      "Ivory"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "training",
+      "short"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0060",
+    "title": "Flow Horizon Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Sweatshirt built for warmups and cool downs. Colorway in Charcoal / Ash.",
+    "productUrl": "https://solstice.example/products/sa-0060",
+    "imageUrl": "https://solstice.example/images/sa-0060-main.jpg",
+    "price": 74,
+    "currency": "USD",
+    "categoryPath": "Unisex > Sweatshirt",
+    "colors": [
+      "Charcoal",
+      "Ash"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "recovery"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0061",
+    "title": "Sol Pulse Hoodie",
+    "brand": "Solstice Active",
+    "description": "Performance hoodie with breathable brushed fleece. Colorway in Black / Slate.",
+    "productUrl": "https://solstice.example/products/sa-0061",
+    "imageUrl": "https://solstice.example/images/sa-0061-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0061-main.jpg",
+      "https://solstice.example/images/sa-0061-alt1.jpg"
+    ],
+    "price": 78,
+    "currency": "USD",
+    "categoryPath": "Men > Hoodies & Sweatshirts",
+    "colors": [
+      "Black",
+      "Slate"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "tags": [
+      "hoodie",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0062",
+    "title": "Apex Cloud Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Soft sweatshirt built for warmups and recovery. Colorway in Navy / Ice.",
+    "productUrl": "https://solstice.example/products/sa-0062",
+    "imageUrl": "https://solstice.example/images/sa-0062-main.jpg",
+    "price": 70,
+    "currency": "USD",
+    "categoryPath": "Women > Sweatshirt",
+    "colors": [
+      "Navy",
+      "Ice"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "warmup"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0063",
+    "title": "Pulse Stride Performance Tee",
+    "brand": "Solstice Active",
+    "description": "Moisture-wicking tee with quick-dry finish. Colorway in Graphite / Silver.",
+    "productUrl": "https://solstice.example/products/sa-0063",
+    "imageUrl": "https://solstice.example/images/sa-0063-main.jpg",
+    "price": 38,
+    "currency": "USD",
+    "categoryPath": "Men > Performance Tee",
+    "colors": [
+      "Graphite",
+      "Silver"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "performance"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0064",
+    "title": "Zenith Core Tech Tee",
+    "brand": "Solstice Active",
+    "description": "Lightweight tech tee with smooth, airy feel. Colorway in Cobalt / White.",
+    "productUrl": "https://solstice.example/products/sa-0064",
+    "imageUrl": "https://solstice.example/images/sa-0064-main.jpg",
+    "price": 35,
+    "originalPrice": 43,
+    "currency": "USD",
+    "categoryPath": "Women > Tee",
+    "colors": [
+      "Cobalt",
+      "White"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "training"
+    ],
+    "gender": "Women",
+    "inStock": false
+  },
+  {
+    "externalId": "sa-0065",
+    "title": "Nova Zen Oversized Tee",
+    "brand": "Solstice Active",
+    "description": "Oversized tee with a relaxed, breathable fit. Colorway in Moss / Stone.",
+    "productUrl": "https://solstice.example/products/sa-0065",
+    "imageUrl": "https://solstice.example/images/sa-0065-main.jpg",
+    "price": 38,
+    "originalPrice": 46,
+    "currency": "USD",
+    "categoryPath": "Unisex > Oversized Tee",
+    "colors": [
+      "Moss",
+      "Stone"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "oversized",
+      "tee"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0066",
+    "title": "Core Orbit Sneaker",
+    "brand": "Solstice Active",
+    "description": "Training sneaker with responsive cushioning. Colorway in Coral / Sand.",
+    "productUrl": "https://solstice.example/products/sa-0066",
+    "imageUrl": "https://solstice.example/images/sa-0066-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0066-main.jpg",
+      "https://solstice.example/images/sa-0066-alt1.jpg"
+    ],
+    "price": 120,
+    "currency": "USD",
+    "categoryPath": "Men > Sneakers",
+    "colors": [
+      "Coral",
+      "Sand"
+    ],
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "tags": [
+      "sneaker",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0067",
+    "title": "Strive Nova Running Shoe",
+    "brand": "Solstice Active",
+    "description": "Running shoe with energy-return foam. Colorway in Forest / Fog.",
+    "productUrl": "https://solstice.example/products/sa-0067",
+    "imageUrl": "https://solstice.example/images/sa-0067-main.jpg",
+    "price": 110,
+    "currency": "USD",
+    "categoryPath": "Women > Running Shoes",
+    "colors": [
+      "Forest",
+      "Fog"
+    ],
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "tags": [
+      "shoe",
+      "running"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0068",
+    "title": "Orbit Altitude Zip Hoodie",
+    "brand": "Solstice Active",
+    "description": "Zip hoodie with mesh-lined hood. Colorway in Crimson / Smoke.",
+    "productUrl": "https://solstice.example/products/sa-0068",
+    "imageUrl": "https://solstice.example/images/sa-0068-main.jpg",
+    "price": 84,
+    "currency": "USD",
+    "categoryPath": "Unisex > Zip Hoodie",
+    "colors": [
+      "Crimson",
+      "Smoke"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "zip",
+      "hoodie"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0069",
+    "title": "Range Sunrise Training Short",
+    "brand": "Solstice Active",
+    "description": "Light training short with four-way stretch. Colorway in Sage / Ivory.",
+    "productUrl": "https://solstice.example/products/sa-0069",
+    "imageUrl": "https://solstice.example/images/sa-0069-main.jpg",
+    "price": 44,
+    "currency": "USD",
+    "categoryPath": "Men > Training Shorts",
+    "colors": [
+      "Sage",
+      "Ivory"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "training",
+      "short"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0070",
+    "title": "Shift Horizon Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Sweatshirt built for warmups and cool downs. Colorway in Charcoal / Ash.",
+    "productUrl": "https://solstice.example/products/sa-0070",
+    "imageUrl": "https://solstice.example/images/sa-0070-main.jpg",
+    "price": 70,
+    "currency": "USD",
+    "categoryPath": "Unisex > Sweatshirt",
+    "colors": [
+      "Charcoal",
+      "Ash"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "recovery"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0071",
+    "title": "Glide Pulse Hoodie",
+    "brand": "Solstice Active",
+    "description": "Performance hoodie with breathable brushed fleece. Colorway in Black / Slate.",
+    "productUrl": "https://solstice.example/products/sa-0071",
+    "imageUrl": "https://solstice.example/images/sa-0071-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0071-main.jpg",
+      "https://solstice.example/images/sa-0071-alt1.jpg"
+    ],
+    "price": 86,
+    "originalPrice": 102,
+    "currency": "USD",
+    "categoryPath": "Men > Hoodies & Sweatshirts",
+    "colors": [
+      "Black",
+      "Slate"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "tags": [
+      "hoodie",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0072",
+    "title": "Flow Cloud Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Soft sweatshirt built for warmups and recovery. Colorway in Navy / Ice.",
+    "productUrl": "https://solstice.example/products/sa-0072",
+    "imageUrl": "https://solstice.example/images/sa-0072-main.jpg",
+    "price": 78,
+    "currency": "USD",
+    "categoryPath": "Women > Sweatshirt",
+    "colors": [
+      "Navy",
+      "Ice"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "warmup"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0073",
+    "title": "Sol Stride Performance Tee",
+    "brand": "Solstice Active",
+    "description": "Moisture-wicking tee with quick-dry finish. Colorway in Graphite / Silver.",
+    "productUrl": "https://solstice.example/products/sa-0073",
+    "imageUrl": "https://solstice.example/images/sa-0073-main.jpg",
+    "price": 36,
+    "originalPrice": 44,
+    "currency": "USD",
+    "categoryPath": "Men > Performance Tee",
+    "colors": [
+      "Graphite",
+      "Silver"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "performance"
+    ],
+    "gender": "Men",
+    "inStock": false
+  },
+  {
+    "externalId": "sa-0074",
+    "title": "Apex Core Tech Tee",
+    "brand": "Solstice Active",
+    "description": "Lightweight tech tee with smooth, airy feel. Colorway in Cobalt / White.",
+    "productUrl": "https://solstice.example/products/sa-0074",
+    "imageUrl": "https://solstice.example/images/sa-0074-main.jpg",
+    "price": 33,
+    "currency": "USD",
+    "categoryPath": "Women > Tee",
+    "colors": [
+      "Cobalt",
+      "White"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "training"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0075",
+    "title": "Pulse Zen Oversized Tee",
+    "brand": "Solstice Active",
+    "description": "Oversized tee with a relaxed, breathable fit. Colorway in Moss / Stone.",
+    "productUrl": "https://solstice.example/products/sa-0075",
+    "imageUrl": "https://solstice.example/images/sa-0075-main.jpg",
+    "price": 36,
+    "currency": "USD",
+    "categoryPath": "Unisex > Oversized Tee",
+    "colors": [
+      "Moss",
+      "Stone"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "oversized",
+      "tee"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0076",
+    "title": "Zenith Orbit Sneaker",
+    "brand": "Solstice Active",
+    "description": "Training sneaker with responsive cushioning. Colorway in Coral / Sand.",
+    "productUrl": "https://solstice.example/products/sa-0076",
+    "imageUrl": "https://solstice.example/images/sa-0076-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0076-main.jpg",
+      "https://solstice.example/images/sa-0076-alt1.jpg"
+    ],
+    "price": 120,
+    "currency": "USD",
+    "categoryPath": "Men > Sneakers",
+    "colors": [
+      "Coral",
+      "Sand"
+    ],
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "tags": [
+      "sneaker",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0077",
+    "title": "Nova Nova Running Shoe",
+    "brand": "Solstice Active",
+    "description": "Running shoe with energy-return foam. Colorway in Forest / Fog.",
+    "productUrl": "https://solstice.example/products/sa-0077",
+    "imageUrl": "https://solstice.example/images/sa-0077-main.jpg",
+    "price": 126,
+    "currency": "USD",
+    "categoryPath": "Women > Running Shoes",
+    "colors": [
+      "Forest",
+      "Fog"
+    ],
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "tags": [
+      "shoe",
+      "running"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0078",
+    "title": "Core Altitude Zip Hoodie",
+    "brand": "Solstice Active",
+    "description": "Zip hoodie with mesh-lined hood. Colorway in Crimson / Smoke.",
+    "productUrl": "https://solstice.example/products/sa-0078",
+    "imageUrl": "https://solstice.example/images/sa-0078-main.jpg",
+    "price": 92,
+    "originalPrice": 108,
+    "currency": "USD",
+    "categoryPath": "Unisex > Zip Hoodie",
+    "colors": [
+      "Crimson",
+      "Smoke"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "zip",
+      "hoodie"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0079",
+    "title": "Strive Sunrise Training Short",
+    "brand": "Solstice Active",
+    "description": "Light training short with four-way stretch. Colorway in Sage / Ivory.",
+    "productUrl": "https://solstice.example/products/sa-0079",
+    "imageUrl": "https://solstice.example/images/sa-0079-main.jpg",
+    "price": 42,
+    "currency": "USD",
+    "categoryPath": "Men > Training Shorts",
+    "colors": [
+      "Sage",
+      "Ivory"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "training",
+      "short"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0080",
+    "title": "Orbit Horizon Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Sweatshirt built for warmups and cool downs. Colorway in Charcoal / Ash.",
+    "productUrl": "https://solstice.example/products/sa-0080",
+    "imageUrl": "https://solstice.example/images/sa-0080-main.jpg",
+    "price": 66,
+    "currency": "USD",
+    "categoryPath": "Unisex > Sweatshirt",
+    "colors": [
+      "Charcoal",
+      "Ash"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "recovery"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0081",
+    "title": "Range Pulse Hoodie",
+    "brand": "Solstice Active",
+    "description": "Performance hoodie with breathable brushed fleece. Colorway in Black / Slate.",
+    "productUrl": "https://solstice.example/products/sa-0081",
+    "imageUrl": "https://solstice.example/images/sa-0081-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0081-main.jpg",
+      "https://solstice.example/images/sa-0081-alt1.jpg"
+    ],
+    "price": 82,
+    "currency": "USD",
+    "categoryPath": "Men > Hoodies & Sweatshirts",
+    "colors": [
+      "Black",
+      "Slate"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "tags": [
+      "hoodie",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0082",
+    "title": "Shift Cloud Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Soft sweatshirt built for warmups and recovery. Colorway in Navy / Ice.",
+    "productUrl": "https://solstice.example/products/sa-0082",
+    "imageUrl": "https://solstice.example/images/sa-0082-main.jpg",
+    "price": 74,
+    "currency": "USD",
+    "categoryPath": "Women > Sweatshirt",
+    "colors": [
+      "Navy",
+      "Ice"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "warmup"
+    ],
+    "gender": "Women",
+    "inStock": false
+  },
+  {
+    "externalId": "sa-0083",
+    "title": "Glide Stride Performance Tee",
+    "brand": "Solstice Active",
+    "description": "Moisture-wicking tee with quick-dry finish. Colorway in Graphite / Silver.",
+    "productUrl": "https://solstice.example/products/sa-0083",
+    "imageUrl": "https://solstice.example/images/sa-0083-main.jpg",
+    "price": 40,
+    "currency": "USD",
+    "categoryPath": "Men > Performance Tee",
+    "colors": [
+      "Graphite",
+      "Silver"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "performance"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0084",
+    "title": "Flow Core Tech Tee",
+    "brand": "Solstice Active",
+    "description": "Lightweight tech tee with smooth, airy feel. Colorway in Cobalt / White.",
+    "productUrl": "https://solstice.example/products/sa-0084",
+    "imageUrl": "https://solstice.example/images/sa-0084-main.jpg",
+    "price": 37,
+    "currency": "USD",
+    "categoryPath": "Women > Tee",
+    "colors": [
+      "Cobalt",
+      "White"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "training"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0085",
+    "title": "Sol Zen Oversized Tee",
+    "brand": "Solstice Active",
+    "description": "Oversized tee with a relaxed, breathable fit. Colorway in Moss / Stone.",
+    "productUrl": "https://solstice.example/products/sa-0085",
+    "imageUrl": "https://solstice.example/images/sa-0085-main.jpg",
+    "price": 34,
+    "currency": "USD",
+    "categoryPath": "Unisex > Oversized Tee",
+    "colors": [
+      "Moss",
+      "Stone"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "oversized",
+      "tee"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0086",
+    "title": "Apex Orbit Sneaker",
+    "brand": "Solstice Active",
+    "description": "Training sneaker with responsive cushioning. Colorway in Coral / Sand.",
+    "productUrl": "https://solstice.example/products/sa-0086",
+    "imageUrl": "https://solstice.example/images/sa-0086-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0086-main.jpg",
+      "https://solstice.example/images/sa-0086-alt1.jpg"
+    ],
+    "price": 120,
+    "currency": "USD",
+    "categoryPath": "Men > Sneakers",
+    "colors": [
+      "Coral",
+      "Sand"
+    ],
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "tags": [
+      "sneaker",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0087",
+    "title": "Pulse Nova Running Shoe",
+    "brand": "Solstice Active",
+    "description": "Running shoe with energy-return foam. Colorway in Forest / Fog.",
+    "productUrl": "https://solstice.example/products/sa-0087",
+    "imageUrl": "https://solstice.example/images/sa-0087-main.jpg",
+    "price": 118,
+    "currency": "USD",
+    "categoryPath": "Women > Running Shoes",
+    "colors": [
+      "Forest",
+      "Fog"
+    ],
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "tags": [
+      "shoe",
+      "running"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0088",
+    "title": "Zenith Altitude Zip Hoodie",
+    "brand": "Solstice Active",
+    "description": "Zip hoodie with mesh-lined hood. Colorway in Crimson / Smoke.",
+    "productUrl": "https://solstice.example/products/sa-0088",
+    "imageUrl": "https://solstice.example/images/sa-0088-main.jpg",
+    "price": 88,
+    "currency": "USD",
+    "categoryPath": "Unisex > Zip Hoodie",
+    "colors": [
+      "Crimson",
+      "Smoke"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "zip",
+      "hoodie"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0089",
+    "title": "Nova Sunrise Training Short",
+    "brand": "Solstice Active",
+    "description": "Light training short with four-way stretch. Colorway in Sage / Ivory.",
+    "productUrl": "https://solstice.example/products/sa-0089",
+    "imageUrl": "https://solstice.example/images/sa-0089-main.jpg",
+    "price": 46,
+    "currency": "USD",
+    "categoryPath": "Men > Training Shorts",
+    "colors": [
+      "Sage",
+      "Ivory"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "training",
+      "short"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0090",
+    "title": "Core Horizon Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Sweatshirt built for warmups and cool downs. Colorway in Charcoal / Ash.",
+    "productUrl": "https://solstice.example/products/sa-0090",
+    "imageUrl": "https://solstice.example/images/sa-0090-main.jpg",
+    "price": 74,
+    "currency": "USD",
+    "categoryPath": "Unisex > Sweatshirt",
+    "colors": [
+      "Charcoal",
+      "Ash"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "recovery"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0091",
+    "title": "Strive Pulse Hoodie",
+    "brand": "Solstice Active",
+    "description": "Performance hoodie with breathable brushed fleece. Colorway in Black / Slate.",
+    "productUrl": "https://solstice.example/products/sa-0091",
+    "imageUrl": "https://solstice.example/images/sa-0091-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0091-main.jpg",
+      "https://solstice.example/images/sa-0091-alt1.jpg"
+    ],
+    "price": 78,
+    "currency": "USD",
+    "categoryPath": "Men > Hoodies & Sweatshirts",
+    "colors": [
+      "Black",
+      "Slate"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "tags": [
+      "hoodie",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": false
+  },
+  {
+    "externalId": "sa-0092",
+    "title": "Orbit Cloud Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Soft sweatshirt built for warmups and recovery. Colorway in Navy / Ice.",
+    "productUrl": "https://solstice.example/products/sa-0092",
+    "imageUrl": "https://solstice.example/images/sa-0092-main.jpg",
+    "price": 70,
+    "currency": "USD",
+    "categoryPath": "Women > Sweatshirt",
+    "colors": [
+      "Navy",
+      "Ice"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "warmup"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0093",
+    "title": "Range Stride Performance Tee",
+    "brand": "Solstice Active",
+    "description": "Moisture-wicking tee with quick-dry finish. Colorway in Graphite / Silver.",
+    "productUrl": "https://solstice.example/products/sa-0093",
+    "imageUrl": "https://solstice.example/images/sa-0093-main.jpg",
+    "price": 38,
+    "currency": "USD",
+    "categoryPath": "Men > Performance Tee",
+    "colors": [
+      "Graphite",
+      "Silver"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "performance"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0094",
+    "title": "Shift Core Tech Tee",
+    "brand": "Solstice Active",
+    "description": "Lightweight tech tee with smooth, airy feel. Colorway in Cobalt / White.",
+    "productUrl": "https://solstice.example/products/sa-0094",
+    "imageUrl": "https://solstice.example/images/sa-0094-main.jpg",
+    "price": 35,
+    "currency": "USD",
+    "categoryPath": "Women > Tee",
+    "colors": [
+      "Cobalt",
+      "White"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "training"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0095",
+    "title": "Glide Zen Oversized Tee",
+    "brand": "Solstice Active",
+    "description": "Oversized tee with a relaxed, breathable fit. Colorway in Moss / Stone.",
+    "productUrl": "https://solstice.example/products/sa-0095",
+    "imageUrl": "https://solstice.example/images/sa-0095-main.jpg",
+    "price": 38,
+    "currency": "USD",
+    "categoryPath": "Unisex > Oversized Tee",
+    "colors": [
+      "Moss",
+      "Stone"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "oversized",
+      "tee"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0096",
+    "title": "Flow Orbit Sneaker",
+    "brand": "Solstice Active",
+    "description": "Training sneaker with responsive cushioning. Colorway in Coral / Sand.",
+    "productUrl": "https://solstice.example/products/sa-0096",
+    "imageUrl": "https://solstice.example/images/sa-0096-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0096-main.jpg",
+      "https://solstice.example/images/sa-0096-alt1.jpg"
+    ],
+    "price": 170,
+    "currency": "USD",
+    "categoryPath": "Men > Sneakers",
+    "colors": [
+      "Coral",
+      "Sand"
+    ],
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "tags": [
+      "sneaker",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0097",
+    "title": "Sol Nova Running Shoe",
+    "brand": "Solstice Active",
+    "description": "Running shoe with energy-return foam. Colorway in Forest / Fog.",
+    "productUrl": "https://solstice.example/products/sa-0097",
+    "imageUrl": "https://solstice.example/images/sa-0097-main.jpg",
+    "price": 110,
+    "currency": "USD",
+    "categoryPath": "Women > Running Shoes",
+    "colors": [
+      "Forest",
+      "Fog"
+    ],
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "tags": [
+      "shoe",
+      "running"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0098",
+    "title": "Apex Altitude Zip Hoodie",
+    "brand": "Solstice Active",
+    "description": "Zip hoodie with mesh-lined hood. Colorway in Crimson / Smoke.",
+    "productUrl": "https://solstice.example/products/sa-0098",
+    "imageUrl": "https://solstice.example/images/sa-0098-main.jpg",
+    "price": 84,
+    "currency": "USD",
+    "categoryPath": "Unisex > Zip Hoodie",
+    "colors": [
+      "Crimson",
+      "Smoke"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "zip",
+      "hoodie"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0099",
+    "title": "Pulse Sunrise Training Short",
+    "brand": "Solstice Active",
+    "description": "Light training short with four-way stretch. Colorway in Sage / Ivory.",
+    "productUrl": "https://solstice.example/products/sa-0099",
+    "imageUrl": "https://solstice.example/images/sa-0099-main.jpg",
+    "price": 44,
+    "originalPrice": 52,
+    "currency": "USD",
+    "categoryPath": "Men > Training Shorts",
+    "colors": [
+      "Sage",
+      "Ivory"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "training",
+      "short"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0100",
+    "title": "Zenith Horizon Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Sweatshirt built for warmups and cool downs. Colorway in Charcoal / Ash.",
+    "productUrl": "https://solstice.example/products/sa-0100",
+    "imageUrl": "https://solstice.example/images/sa-0100-main.jpg",
+    "price": 70,
+    "currency": "USD",
+    "categoryPath": "Unisex > Sweatshirt",
+    "colors": [
+      "Charcoal",
+      "Ash"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "recovery"
+    ],
+    "gender": "Unisex",
+    "inStock": false
+  },
+  {
+    "externalId": "sa-0101",
+    "title": "Nova Pulse Hoodie",
+    "brand": "Solstice Active",
+    "description": "Performance hoodie with breathable brushed fleece. Colorway in Black / Slate.",
+    "productUrl": "https://solstice.example/products/sa-0101",
+    "imageUrl": "https://solstice.example/images/sa-0101-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0101-main.jpg",
+      "https://solstice.example/images/sa-0101-alt1.jpg"
+    ],
+    "price": 86,
+    "currency": "USD",
+    "categoryPath": "Men > Hoodies & Sweatshirts",
+    "colors": [
+      "Black",
+      "Slate"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "tags": [
+      "hoodie",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0102",
+    "title": "Core Cloud Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Soft sweatshirt built for warmups and recovery. Colorway in Navy / Ice.",
+    "productUrl": "https://solstice.example/products/sa-0102",
+    "imageUrl": "https://solstice.example/images/sa-0102-main.jpg",
+    "price": 78,
+    "currency": "USD",
+    "categoryPath": "Women > Sweatshirt",
+    "colors": [
+      "Navy",
+      "Ice"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "warmup"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0103",
+    "title": "Strive Stride Performance Tee",
+    "brand": "Solstice Active",
+    "description": "Moisture-wicking tee with quick-dry finish. Colorway in Graphite / Silver.",
+    "productUrl": "https://solstice.example/products/sa-0103",
+    "imageUrl": "https://solstice.example/images/sa-0103-main.jpg",
+    "price": 36,
+    "originalPrice": 44,
+    "currency": "USD",
+    "categoryPath": "Men > Performance Tee",
+    "colors": [
+      "Graphite",
+      "Silver"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "performance"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0104",
+    "title": "Orbit Core Tech Tee",
+    "brand": "Solstice Active",
+    "description": "Lightweight tech tee with smooth, airy feel. Colorway in Cobalt / White.",
+    "productUrl": "https://solstice.example/products/sa-0104",
+    "imageUrl": "https://solstice.example/images/sa-0104-main.jpg",
+    "price": 33,
+    "currency": "USD",
+    "categoryPath": "Women > Tee",
+    "colors": [
+      "Cobalt",
+      "White"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "training"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0105",
+    "title": "Range Zen Oversized Tee",
+    "brand": "Solstice Active",
+    "description": "Oversized tee with a relaxed, breathable fit. Colorway in Moss / Stone.",
+    "productUrl": "https://solstice.example/products/sa-0105",
+    "imageUrl": "https://solstice.example/images/sa-0105-main.jpg",
+    "price": 36,
+    "originalPrice": 44,
+    "currency": "USD",
+    "categoryPath": "Unisex > Oversized Tee",
+    "colors": [
+      "Moss",
+      "Stone"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "oversized",
+      "tee"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0106",
+    "title": "Shift Orbit Sneaker",
+    "brand": "Solstice Active",
+    "description": "Training sneaker with responsive cushioning. Colorway in Coral / Sand.",
+    "productUrl": "https://solstice.example/products/sa-0106",
+    "imageUrl": "https://solstice.example/images/sa-0106-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0106-main.jpg",
+      "https://solstice.example/images/sa-0106-alt1.jpg"
+    ],
+    "price": 120,
+    "currency": "USD",
+    "categoryPath": "Men > Sneakers",
+    "colors": [
+      "Coral",
+      "Sand"
+    ],
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "tags": [
+      "sneaker",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0107",
+    "title": "Glide Nova Running Shoe",
+    "brand": "Solstice Active",
+    "description": "Running shoe with energy-return foam. Colorway in Forest / Fog.",
+    "productUrl": "https://solstice.example/products/sa-0107",
+    "imageUrl": "https://solstice.example/images/sa-0107-main.jpg",
+    "price": 126,
+    "currency": "USD",
+    "categoryPath": "Women > Running Shoes",
+    "colors": [
+      "Forest",
+      "Fog"
+    ],
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "tags": [
+      "shoe",
+      "running"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0108",
+    "title": "Flow Altitude Zip Hoodie",
+    "brand": "Solstice Active",
+    "description": "Zip hoodie with mesh-lined hood. Colorway in Crimson / Smoke.",
+    "productUrl": "https://solstice.example/products/sa-0108",
+    "imageUrl": "https://solstice.example/images/sa-0108-main.jpg",
+    "price": 92,
+    "currency": "USD",
+    "categoryPath": "Unisex > Zip Hoodie",
+    "colors": [
+      "Crimson",
+      "Smoke"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "zip",
+      "hoodie"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0109",
+    "title": "Sol Sunrise Training Short",
+    "brand": "Solstice Active",
+    "description": "Light training short with four-way stretch. Colorway in Sage / Ivory.",
+    "productUrl": "https://solstice.example/products/sa-0109",
+    "imageUrl": "https://solstice.example/images/sa-0109-main.jpg",
+    "price": 42,
+    "currency": "USD",
+    "categoryPath": "Men > Training Shorts",
+    "colors": [
+      "Sage",
+      "Ivory"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "training",
+      "short"
+    ],
+    "gender": "Men",
+    "inStock": false
+  },
+  {
+    "externalId": "sa-0110",
+    "title": "Apex Horizon Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Sweatshirt built for warmups and cool downs. Colorway in Charcoal / Ash.",
+    "productUrl": "https://solstice.example/products/sa-0110",
+    "imageUrl": "https://solstice.example/images/sa-0110-main.jpg",
+    "price": 66,
+    "currency": "USD",
+    "categoryPath": "Unisex > Sweatshirt",
+    "colors": [
+      "Charcoal",
+      "Ash"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "recovery"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0111",
+    "title": "Pulse Pulse Hoodie",
+    "brand": "Solstice Active",
+    "description": "Performance hoodie with breathable brushed fleece. Colorway in Black / Slate.",
+    "productUrl": "https://solstice.example/products/sa-0111",
+    "imageUrl": "https://solstice.example/images/sa-0111-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0111-main.jpg",
+      "https://solstice.example/images/sa-0111-alt1.jpg"
+    ],
+    "price": 82,
+    "currency": "USD",
+    "categoryPath": "Men > Hoodies & Sweatshirts",
+    "colors": [
+      "Black",
+      "Slate"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "tags": [
+      "hoodie",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0112",
+    "title": "Zenith Cloud Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Soft sweatshirt built for warmups and recovery. Colorway in Navy / Ice.",
+    "productUrl": "https://solstice.example/products/sa-0112",
+    "imageUrl": "https://solstice.example/images/sa-0112-main.jpg",
+    "price": 74,
+    "currency": "USD",
+    "categoryPath": "Women > Sweatshirt",
+    "colors": [
+      "Navy",
+      "Ice"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "warmup"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0113",
+    "title": "Nova Stride Performance Tee",
+    "brand": "Solstice Active",
+    "description": "Moisture-wicking tee with quick-dry finish. Colorway in Graphite / Silver.",
+    "productUrl": "https://solstice.example/products/sa-0113",
+    "imageUrl": "https://solstice.example/images/sa-0113-main.jpg",
+    "price": 40,
+    "currency": "USD",
+    "categoryPath": "Men > Performance Tee",
+    "colors": [
+      "Graphite",
+      "Silver"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "performance"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0114",
+    "title": "Core Core Tech Tee",
+    "brand": "Solstice Active",
+    "description": "Lightweight tech tee with smooth, airy feel. Colorway in Cobalt / White.",
+    "productUrl": "https://solstice.example/products/sa-0114",
+    "imageUrl": "https://solstice.example/images/sa-0114-main.jpg",
+    "price": 37,
+    "currency": "USD",
+    "categoryPath": "Women > Tee",
+    "colors": [
+      "Cobalt",
+      "White"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "training"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0115",
+    "title": "Strive Zen Oversized Tee",
+    "brand": "Solstice Active",
+    "description": "Oversized tee with a relaxed, breathable fit. Colorway in Moss / Stone.",
+    "productUrl": "https://solstice.example/products/sa-0115",
+    "imageUrl": "https://solstice.example/images/sa-0115-main.jpg",
+    "price": 34,
+    "currency": "USD",
+    "categoryPath": "Unisex > Oversized Tee",
+    "colors": [
+      "Moss",
+      "Stone"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "oversized",
+      "tee"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0116",
+    "title": "Orbit Orbit Sneaker",
+    "brand": "Solstice Active",
+    "description": "Training sneaker with responsive cushioning. Colorway in Coral / Sand.",
+    "productUrl": "https://solstice.example/products/sa-0116",
+    "imageUrl": "https://solstice.example/images/sa-0116-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0116-main.jpg",
+      "https://solstice.example/images/sa-0116-alt1.jpg"
+    ],
+    "price": 120,
+    "currency": "USD",
+    "categoryPath": "Men > Sneakers",
+    "colors": [
+      "Coral",
+      "Sand"
+    ],
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "tags": [
+      "sneaker",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0117",
+    "title": "Range Nova Running Shoe",
+    "brand": "Solstice Active",
+    "description": "Running shoe with energy-return foam. Colorway in Forest / Fog.",
+    "productUrl": "https://solstice.example/products/sa-0117",
+    "imageUrl": "https://solstice.example/images/sa-0117-main.jpg",
+    "price": 118,
+    "currency": "USD",
+    "categoryPath": "Women > Running Shoes",
+    "colors": [
+      "Forest",
+      "Fog"
+    ],
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "tags": [
+      "shoe",
+      "running"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0118",
+    "title": "Shift Altitude Zip Hoodie",
+    "brand": "Solstice Active",
+    "description": "Zip hoodie with mesh-lined hood. Colorway in Crimson / Smoke.",
+    "productUrl": "https://solstice.example/products/sa-0118",
+    "imageUrl": "https://solstice.example/images/sa-0118-main.jpg",
+    "price": 88,
+    "currency": "USD",
+    "categoryPath": "Unisex > Zip Hoodie",
+    "colors": [
+      "Crimson",
+      "Smoke"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "zip",
+      "hoodie"
+    ],
+    "gender": "Unisex",
+    "inStock": false
+  },
+  {
+    "externalId": "sa-0119",
+    "title": "Glide Sunrise Training Short",
+    "brand": "Solstice Active",
+    "description": "Light training short with four-way stretch. Colorway in Sage / Ivory.",
+    "productUrl": "https://solstice.example/products/sa-0119",
+    "imageUrl": "https://solstice.example/images/sa-0119-main.jpg",
+    "price": 46,
+    "currency": "USD",
+    "categoryPath": "Men > Training Shorts",
+    "colors": [
+      "Sage",
+      "Ivory"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "training",
+      "short"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0120",
+    "title": "Flow Horizon Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Sweatshirt built for warmups and cool downs. Colorway in Charcoal / Ash.",
+    "productUrl": "https://solstice.example/products/sa-0120",
+    "imageUrl": "https://solstice.example/images/sa-0120-main.jpg",
+    "price": 74,
+    "currency": "USD",
+    "categoryPath": "Unisex > Sweatshirt",
+    "colors": [
+      "Charcoal",
+      "Ash"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "recovery"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0121",
+    "title": "Sol Pulse Hoodie",
+    "brand": "Solstice Active",
+    "description": "Performance hoodie with breathable brushed fleece. Colorway in Black / Slate.",
+    "productUrl": "https://solstice.example/products/sa-0121",
+    "imageUrl": "https://solstice.example/images/sa-0121-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0121-main.jpg",
+      "https://solstice.example/images/sa-0121-alt1.jpg"
+    ],
+    "price": 78,
+    "currency": "USD",
+    "categoryPath": "Men > Hoodies & Sweatshirts",
+    "colors": [
+      "Black",
+      "Slate"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "tags": [
+      "hoodie",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0122",
+    "title": "Apex Cloud Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Soft sweatshirt built for warmups and recovery. Colorway in Navy / Ice.",
+    "productUrl": "https://solstice.example/products/sa-0122",
+    "imageUrl": "https://solstice.example/images/sa-0122-main.jpg",
+    "price": 70,
+    "currency": "USD",
+    "categoryPath": "Women > Sweatshirt",
+    "colors": [
+      "Navy",
+      "Ice"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "warmup"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0123",
+    "title": "Pulse Stride Performance Tee",
+    "brand": "Solstice Active",
+    "description": "Moisture-wicking tee with quick-dry finish. Colorway in Graphite / Silver.",
+    "productUrl": "https://solstice.example/products/sa-0123",
+    "imageUrl": "https://solstice.example/images/sa-0123-main.jpg",
+    "price": 38,
+    "currency": "USD",
+    "categoryPath": "Men > Performance Tee",
+    "colors": [
+      "Graphite",
+      "Silver"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "performance"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0124",
+    "title": "Zenith Core Tech Tee",
+    "brand": "Solstice Active",
+    "description": "Lightweight tech tee with smooth, airy feel. Colorway in Cobalt / White.",
+    "productUrl": "https://solstice.example/products/sa-0124",
+    "imageUrl": "https://solstice.example/images/sa-0124-main.jpg",
+    "price": 35,
+    "currency": "USD",
+    "categoryPath": "Women > Tee",
+    "colors": [
+      "Cobalt",
+      "White"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "training"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0125",
+    "title": "Nova Zen Oversized Tee",
+    "brand": "Solstice Active",
+    "description": "Oversized tee with a relaxed, breathable fit. Colorway in Moss / Stone.",
+    "productUrl": "https://solstice.example/products/sa-0125",
+    "imageUrl": "https://solstice.example/images/sa-0125-main.jpg",
+    "price": 38,
+    "currency": "USD",
+    "categoryPath": "Unisex > Oversized Tee",
+    "colors": [
+      "Moss",
+      "Stone"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "oversized",
+      "tee"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0126",
+    "title": "Core Orbit Sneaker",
+    "brand": "Solstice Active",
+    "description": "Training sneaker with responsive cushioning. Colorway in Coral / Sand.",
+    "productUrl": "https://solstice.example/products/sa-0126",
+    "imageUrl": "https://solstice.example/images/sa-0126-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0126-main.jpg",
+      "https://solstice.example/images/sa-0126-alt1.jpg"
+    ],
+    "price": 120,
+    "currency": "USD",
+    "categoryPath": "Men > Sneakers",
+    "colors": [
+      "Coral",
+      "Sand"
+    ],
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "tags": [
+      "sneaker",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0127",
+    "title": "Strive Nova Running Shoe",
+    "brand": "Solstice Active",
+    "description": "Running shoe with energy-return foam. Colorway in Forest / Fog.",
+    "productUrl": "https://solstice.example/products/sa-0127",
+    "imageUrl": "https://solstice.example/images/sa-0127-main.jpg",
+    "price": 110,
+    "currency": "USD",
+    "categoryPath": "Women > Running Shoes",
+    "colors": [
+      "Forest",
+      "Fog"
+    ],
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "tags": [
+      "shoe",
+      "running"
+    ],
+    "gender": "Women",
+    "inStock": false
+  },
+  {
+    "externalId": "sa-0128",
+    "title": "Orbit Altitude Zip Hoodie",
+    "brand": "Solstice Active",
+    "description": "Zip hoodie with mesh-lined hood. Colorway in Crimson / Smoke.",
+    "productUrl": "https://solstice.example/products/sa-0128",
+    "imageUrl": "https://solstice.example/images/sa-0128-main.jpg",
+    "price": 84,
+    "currency": "USD",
+    "categoryPath": "Unisex > Zip Hoodie",
+    "colors": [
+      "Crimson",
+      "Smoke"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "zip",
+      "hoodie"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0129",
+    "title": "Range Sunrise Training Short",
+    "brand": "Solstice Active",
+    "description": "Light training short with four-way stretch. Colorway in Sage / Ivory.",
+    "productUrl": "https://solstice.example/products/sa-0129",
+    "imageUrl": "https://solstice.example/images/sa-0129-main.jpg",
+    "price": 44,
+    "currency": "USD",
+    "categoryPath": "Men > Training Shorts",
+    "colors": [
+      "Sage",
+      "Ivory"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "training",
+      "short"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0130",
+    "title": "Shift Horizon Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Sweatshirt built for warmups and cool downs. Colorway in Charcoal / Ash.",
+    "productUrl": "https://solstice.example/products/sa-0130",
+    "imageUrl": "https://solstice.example/images/sa-0130-main.jpg",
+    "price": 70,
+    "currency": "USD",
+    "categoryPath": "Unisex > Sweatshirt",
+    "colors": [
+      "Charcoal",
+      "Ash"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "recovery"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0131",
+    "title": "Glide Pulse Hoodie",
+    "brand": "Solstice Active",
+    "description": "Performance hoodie with breathable brushed fleece. Colorway in Black / Slate.",
+    "productUrl": "https://solstice.example/products/sa-0131",
+    "imageUrl": "https://solstice.example/images/sa-0131-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0131-main.jpg",
+      "https://solstice.example/images/sa-0131-alt1.jpg"
+    ],
+    "price": 86,
+    "currency": "USD",
+    "categoryPath": "Men > Hoodies & Sweatshirts",
+    "colors": [
+      "Black",
+      "Slate"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "tags": [
+      "hoodie",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0132",
+    "title": "Flow Cloud Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Soft sweatshirt built for warmups and recovery. Colorway in Navy / Ice.",
+    "productUrl": "https://solstice.example/products/sa-0132",
+    "imageUrl": "https://solstice.example/images/sa-0132-main.jpg",
+    "price": 78,
+    "currency": "USD",
+    "categoryPath": "Women > Sweatshirt",
+    "colors": [
+      "Navy",
+      "Ice"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "warmup"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0133",
+    "title": "Sol Stride Performance Tee",
+    "brand": "Solstice Active",
+    "description": "Moisture-wicking tee with quick-dry finish. Colorway in Graphite / Silver.",
+    "productUrl": "https://solstice.example/products/sa-0133",
+    "imageUrl": "https://solstice.example/images/sa-0133-main.jpg",
+    "price": 36,
+    "originalPrice": 44,
+    "currency": "USD",
+    "categoryPath": "Men > Performance Tee",
+    "colors": [
+      "Graphite",
+      "Silver"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "performance"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0134",
+    "title": "Apex Core Tech Tee",
+    "brand": "Solstice Active",
+    "description": "Lightweight tech tee with smooth, airy feel. Colorway in Cobalt / White.",
+    "productUrl": "https://solstice.example/products/sa-0134",
+    "imageUrl": "https://solstice.example/images/sa-0134-main.jpg",
+    "price": 33,
+    "originalPrice": 41,
+    "currency": "USD",
+    "categoryPath": "Women > Tee",
+    "colors": [
+      "Cobalt",
+      "White"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "training"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0135",
+    "title": "Pulse Zen Oversized Tee",
+    "brand": "Solstice Active",
+    "description": "Oversized tee with a relaxed, breathable fit. Colorway in Moss / Stone.",
+    "productUrl": "https://solstice.example/products/sa-0135",
+    "imageUrl": "https://solstice.example/images/sa-0135-main.jpg",
+    "price": 36,
+    "currency": "USD",
+    "categoryPath": "Unisex > Oversized Tee",
+    "colors": [
+      "Moss",
+      "Stone"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "oversized",
+      "tee"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0136",
+    "title": "Zenith Orbit Sneaker",
+    "brand": "Solstice Active",
+    "description": "Training sneaker with responsive cushioning. Colorway in Coral / Sand.",
+    "productUrl": "https://solstice.example/products/sa-0136",
+    "imageUrl": "https://solstice.example/images/sa-0136-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0136-main.jpg",
+      "https://solstice.example/images/sa-0136-alt1.jpg"
+    ],
+    "price": 120,
+    "originalPrice": 140,
+    "currency": "USD",
+    "categoryPath": "Men > Sneakers",
+    "colors": [
+      "Coral",
+      "Sand"
+    ],
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "tags": [
+      "sneaker",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": false
+  },
+  {
+    "externalId": "sa-0137",
+    "title": "Nova Nova Running Shoe",
+    "brand": "Solstice Active",
+    "description": "Running shoe with energy-return foam. Colorway in Forest / Fog.",
+    "productUrl": "https://solstice.example/products/sa-0137",
+    "imageUrl": "https://solstice.example/images/sa-0137-main.jpg",
+    "price": 126,
+    "currency": "USD",
+    "categoryPath": "Women > Running Shoes",
+    "colors": [
+      "Forest",
+      "Fog"
+    ],
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "tags": [
+      "shoe",
+      "running"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0138",
+    "title": "Core Altitude Zip Hoodie",
+    "brand": "Solstice Active",
+    "description": "Zip hoodie with mesh-lined hood. Colorway in Crimson / Smoke.",
+    "productUrl": "https://solstice.example/products/sa-0138",
+    "imageUrl": "https://solstice.example/images/sa-0138-main.jpg",
+    "price": 92,
+    "currency": "USD",
+    "categoryPath": "Unisex > Zip Hoodie",
+    "colors": [
+      "Crimson",
+      "Smoke"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "zip",
+      "hoodie"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0139",
+    "title": "Strive Sunrise Training Short",
+    "brand": "Solstice Active",
+    "description": "Light training short with four-way stretch. Colorway in Sage / Ivory.",
+    "productUrl": "https://solstice.example/products/sa-0139",
+    "imageUrl": "https://solstice.example/images/sa-0139-main.jpg",
+    "price": 42,
+    "currency": "USD",
+    "categoryPath": "Men > Training Shorts",
+    "colors": [
+      "Sage",
+      "Ivory"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "training",
+      "short"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0140",
+    "title": "Orbit Horizon Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Sweatshirt built for warmups and cool downs. Colorway in Charcoal / Ash.",
+    "productUrl": "https://solstice.example/products/sa-0140",
+    "imageUrl": "https://solstice.example/images/sa-0140-main.jpg",
+    "price": 66,
+    "currency": "USD",
+    "categoryPath": "Unisex > Sweatshirt",
+    "colors": [
+      "Charcoal",
+      "Ash"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "recovery"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0141",
+    "title": "Range Pulse Hoodie",
+    "brand": "Solstice Active",
+    "description": "Performance hoodie with breathable brushed fleece. Colorway in Black / Slate.",
+    "productUrl": "https://solstice.example/products/sa-0141",
+    "imageUrl": "https://solstice.example/images/sa-0141-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0141-main.jpg",
+      "https://solstice.example/images/sa-0141-alt1.jpg"
+    ],
+    "price": 82,
+    "originalPrice": 98,
+    "currency": "USD",
+    "categoryPath": "Men > Hoodies & Sweatshirts",
+    "colors": [
+      "Black",
+      "Slate"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "tags": [
+      "hoodie",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0142",
+    "title": "Shift Cloud Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Soft sweatshirt built for warmups and recovery. Colorway in Navy / Ice.",
+    "productUrl": "https://solstice.example/products/sa-0142",
+    "imageUrl": "https://solstice.example/images/sa-0142-main.jpg",
+    "price": 74,
+    "currency": "USD",
+    "categoryPath": "Women > Sweatshirt",
+    "colors": [
+      "Navy",
+      "Ice"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "warmup"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0143",
+    "title": "Glide Stride Performance Tee",
+    "brand": "Solstice Active",
+    "description": "Moisture-wicking tee with quick-dry finish. Colorway in Graphite / Silver.",
+    "productUrl": "https://solstice.example/products/sa-0143",
+    "imageUrl": "https://solstice.example/images/sa-0143-main.jpg",
+    "price": 40,
+    "currency": "USD",
+    "categoryPath": "Men > Performance Tee",
+    "colors": [
+      "Graphite",
+      "Silver"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "performance"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0144",
+    "title": "Flow Core Tech Tee",
+    "brand": "Solstice Active",
+    "description": "Lightweight tech tee with smooth, airy feel. Colorway in Cobalt / White.",
+    "productUrl": "https://solstice.example/products/sa-0144",
+    "imageUrl": "https://solstice.example/images/sa-0144-main.jpg",
+    "price": 37,
+    "currency": "USD",
+    "categoryPath": "Women > Tee",
+    "colors": [
+      "Cobalt",
+      "White"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "training"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0145",
+    "title": "Sol Zen Oversized Tee",
+    "brand": "Solstice Active",
+    "description": "Oversized tee with a relaxed, breathable fit. Colorway in Moss / Stone.",
+    "productUrl": "https://solstice.example/products/sa-0145",
+    "imageUrl": "https://solstice.example/images/sa-0145-main.jpg",
+    "price": 34,
+    "originalPrice": 42,
+    "currency": "USD",
+    "categoryPath": "Unisex > Oversized Tee",
+    "colors": [
+      "Moss",
+      "Stone"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "oversized",
+      "tee"
+    ],
+    "gender": "Unisex",
+    "inStock": false
+  },
+  {
+    "externalId": "sa-0146",
+    "title": "Apex Orbit Sneaker",
+    "brand": "Solstice Active",
+    "description": "Training sneaker with responsive cushioning. Colorway in Coral / Sand.",
+    "productUrl": "https://solstice.example/products/sa-0146",
+    "imageUrl": "https://solstice.example/images/sa-0146-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0146-main.jpg",
+      "https://solstice.example/images/sa-0146-alt1.jpg"
+    ],
+    "price": 120,
+    "currency": "USD",
+    "categoryPath": "Men > Sneakers",
+    "colors": [
+      "Coral",
+      "Sand"
+    ],
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "tags": [
+      "sneaker",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0147",
+    "title": "Pulse Nova Running Shoe",
+    "brand": "Solstice Active",
+    "description": "Running shoe with energy-return foam. Colorway in Forest / Fog.",
+    "productUrl": "https://solstice.example/products/sa-0147",
+    "imageUrl": "https://solstice.example/images/sa-0147-main.jpg",
+    "price": 118,
+    "currency": "USD",
+    "categoryPath": "Women > Running Shoes",
+    "colors": [
+      "Forest",
+      "Fog"
+    ],
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "tags": [
+      "shoe",
+      "running"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0148",
+    "title": "Zenith Altitude Zip Hoodie",
+    "brand": "Solstice Active",
+    "description": "Zip hoodie with mesh-lined hood. Colorway in Crimson / Smoke.",
+    "productUrl": "https://solstice.example/products/sa-0148",
+    "imageUrl": "https://solstice.example/images/sa-0148-main.jpg",
+    "price": 88,
+    "originalPrice": 104,
+    "currency": "USD",
+    "categoryPath": "Unisex > Zip Hoodie",
+    "colors": [
+      "Crimson",
+      "Smoke"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "zip",
+      "hoodie"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0149",
+    "title": "Nova Sunrise Training Short",
+    "brand": "Solstice Active",
+    "description": "Light training short with four-way stretch. Colorway in Sage / Ivory.",
+    "productUrl": "https://solstice.example/products/sa-0149",
+    "imageUrl": "https://solstice.example/images/sa-0149-main.jpg",
+    "price": 46,
+    "currency": "USD",
+    "categoryPath": "Men > Training Shorts",
+    "colors": [
+      "Sage",
+      "Ivory"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "training",
+      "short"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0150",
+    "title": "Core Horizon Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Sweatshirt built for warmups and cool downs. Colorway in Charcoal / Ash.",
+    "productUrl": "https://solstice.example/products/sa-0150",
+    "imageUrl": "https://solstice.example/images/sa-0150-main.jpg",
+    "price": 74,
+    "currency": "USD",
+    "categoryPath": "Unisex > Sweatshirt",
+    "colors": [
+      "Charcoal",
+      "Ash"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "recovery"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0151",
+    "title": "Strive Pulse Hoodie",
+    "brand": "Solstice Active",
+    "description": "Performance hoodie with breathable brushed fleece. Colorway in Black / Slate.",
+    "productUrl": "https://solstice.example/products/sa-0151",
+    "imageUrl": "https://solstice.example/images/sa-0151-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0151-main.jpg",
+      "https://solstice.example/images/sa-0151-alt1.jpg"
+    ],
+    "price": 78,
+    "currency": "USD",
+    "categoryPath": "Men > Hoodies & Sweatshirts",
+    "colors": [
+      "Black",
+      "Slate"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "tags": [
+      "hoodie",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0152",
+    "title": "Orbit Cloud Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Soft sweatshirt built for warmups and recovery. Colorway in Navy / Ice.",
+    "productUrl": "https://solstice.example/products/sa-0152",
+    "imageUrl": "https://solstice.example/images/sa-0152-main.jpg",
+    "price": 70,
+    "currency": "USD",
+    "categoryPath": "Women > Sweatshirt",
+    "colors": [
+      "Navy",
+      "Ice"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "warmup"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0153",
+    "title": "Range Stride Performance Tee",
+    "brand": "Solstice Active",
+    "description": "Moisture-wicking tee with quick-dry finish. Colorway in Graphite / Silver.",
+    "productUrl": "https://solstice.example/products/sa-0153",
+    "imageUrl": "https://solstice.example/images/sa-0153-main.jpg",
+    "price": 38,
+    "currency": "USD",
+    "categoryPath": "Men > Performance Tee",
+    "colors": [
+      "Graphite",
+      "Silver"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "performance"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0154",
+    "title": "Shift Core Tech Tee",
+    "brand": "Solstice Active",
+    "description": "Lightweight tech tee with smooth, airy feel. Colorway in Cobalt / White.",
+    "productUrl": "https://solstice.example/products/sa-0154",
+    "imageUrl": "https://solstice.example/images/sa-0154-main.jpg",
+    "price": 35,
+    "currency": "USD",
+    "categoryPath": "Women > Tee",
+    "colors": [
+      "Cobalt",
+      "White"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "training"
+    ],
+    "gender": "Women",
+    "inStock": false
+  },
+  {
+    "externalId": "sa-0155",
+    "title": "Glide Zen Oversized Tee",
+    "brand": "Solstice Active",
+    "description": "Oversized tee with a relaxed, breathable fit. Colorway in Moss / Stone.",
+    "productUrl": "https://solstice.example/products/sa-0155",
+    "imageUrl": "https://solstice.example/images/sa-0155-main.jpg",
+    "price": 38,
+    "currency": "USD",
+    "categoryPath": "Unisex > Oversized Tee",
+    "colors": [
+      "Moss",
+      "Stone"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "oversized",
+      "tee"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0156",
+    "title": "Flow Orbit Sneaker",
+    "brand": "Solstice Active",
+    "description": "Training sneaker with responsive cushioning. Colorway in Coral / Sand.",
+    "productUrl": "https://solstice.example/products/sa-0156",
+    "imageUrl": "https://solstice.example/images/sa-0156-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0156-main.jpg",
+      "https://solstice.example/images/sa-0156-alt1.jpg"
+    ],
+    "price": 120,
+    "currency": "USD",
+    "categoryPath": "Men > Sneakers",
+    "colors": [
+      "Coral",
+      "Sand"
+    ],
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "tags": [
+      "sneaker",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0157",
+    "title": "Sol Nova Running Shoe",
+    "brand": "Solstice Active",
+    "description": "Running shoe with energy-return foam. Colorway in Forest / Fog.",
+    "productUrl": "https://solstice.example/products/sa-0157",
+    "imageUrl": "https://solstice.example/images/sa-0157-main.jpg",
+    "price": 110,
+    "currency": "USD",
+    "categoryPath": "Women > Running Shoes",
+    "colors": [
+      "Forest",
+      "Fog"
+    ],
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "tags": [
+      "shoe",
+      "running"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0158",
+    "title": "Apex Altitude Zip Hoodie",
+    "brand": "Solstice Active",
+    "description": "Zip hoodie with mesh-lined hood. Colorway in Crimson / Smoke.",
+    "productUrl": "https://solstice.example/products/sa-0158",
+    "imageUrl": "https://solstice.example/images/sa-0158-main.jpg",
+    "price": 84,
+    "currency": "USD",
+    "categoryPath": "Unisex > Zip Hoodie",
+    "colors": [
+      "Crimson",
+      "Smoke"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "zip",
+      "hoodie"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0159",
+    "title": "Pulse Sunrise Training Short",
+    "brand": "Solstice Active",
+    "description": "Light training short with four-way stretch. Colorway in Sage / Ivory.",
+    "productUrl": "https://solstice.example/products/sa-0159",
+    "imageUrl": "https://solstice.example/images/sa-0159-main.jpg",
+    "price": 44,
+    "currency": "USD",
+    "categoryPath": "Men > Training Shorts",
+    "colors": [
+      "Sage",
+      "Ivory"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "training",
+      "short"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0160",
+    "title": "Zenith Horizon Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Sweatshirt built for warmups and cool downs. Colorway in Charcoal / Ash.",
+    "productUrl": "https://solstice.example/products/sa-0160",
+    "imageUrl": "https://solstice.example/images/sa-0160-main.jpg",
+    "price": 70,
+    "currency": "USD",
+    "categoryPath": "Unisex > Sweatshirt",
+    "colors": [
+      "Charcoal",
+      "Ash"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "recovery"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0161",
+    "title": "Nova Pulse Hoodie",
+    "brand": "Solstice Active",
+    "description": "Performance hoodie with breathable brushed fleece. Colorway in Black / Slate.",
+    "productUrl": "https://solstice.example/products/sa-0161",
+    "imageUrl": "https://solstice.example/images/sa-0161-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0161-main.jpg",
+      "https://solstice.example/images/sa-0161-alt1.jpg"
+    ],
+    "price": 86,
+    "currency": "USD",
+    "categoryPath": "Men > Hoodies & Sweatshirts",
+    "colors": [
+      "Black",
+      "Slate"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "tags": [
+      "hoodie",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0162",
+    "title": "Core Cloud Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Soft sweatshirt built for warmups and recovery. Colorway in Navy / Ice.",
+    "productUrl": "https://solstice.example/products/sa-0162",
+    "imageUrl": "https://solstice.example/images/sa-0162-main.jpg",
+    "price": 78,
+    "currency": "USD",
+    "categoryPath": "Women > Sweatshirt",
+    "colors": [
+      "Navy",
+      "Ice"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "warmup"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0163",
+    "title": "Strive Stride Performance Tee",
+    "brand": "Solstice Active",
+    "description": "Moisture-wicking tee with quick-dry finish. Colorway in Graphite / Silver.",
+    "productUrl": "https://solstice.example/products/sa-0163",
+    "imageUrl": "https://solstice.example/images/sa-0163-main.jpg",
+    "price": 36,
+    "originalPrice": 44,
+    "currency": "USD",
+    "categoryPath": "Men > Performance Tee",
+    "colors": [
+      "Graphite",
+      "Silver"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "performance"
+    ],
+    "gender": "Men",
+    "inStock": false
+  },
+  {
+    "externalId": "sa-0164",
+    "title": "Orbit Core Tech Tee",
+    "brand": "Solstice Active",
+    "description": "Lightweight tech tee with smooth, airy feel. Colorway in Cobalt / White.",
+    "productUrl": "https://solstice.example/products/sa-0164",
+    "imageUrl": "https://solstice.example/images/sa-0164-main.jpg",
+    "price": 33,
+    "currency": "USD",
+    "categoryPath": "Women > Tee",
+    "colors": [
+      "Cobalt",
+      "White"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "training"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0165",
+    "title": "Range Zen Oversized Tee",
+    "brand": "Solstice Active",
+    "description": "Oversized tee with a relaxed, breathable fit. Colorway in Moss / Stone.",
+    "productUrl": "https://solstice.example/products/sa-0165",
+    "imageUrl": "https://solstice.example/images/sa-0165-main.jpg",
+    "price": 36,
+    "currency": "USD",
+    "categoryPath": "Unisex > Oversized Tee",
+    "colors": [
+      "Moss",
+      "Stone"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "oversized",
+      "tee"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0166",
+    "title": "Shift Orbit Sneaker",
+    "brand": "Solstice Active",
+    "description": "Training sneaker with responsive cushioning. Colorway in Coral / Sand.",
+    "productUrl": "https://solstice.example/products/sa-0166",
+    "imageUrl": "https://solstice.example/images/sa-0166-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0166-main.jpg",
+      "https://solstice.example/images/sa-0166-alt1.jpg"
+    ],
+    "price": 120,
+    "currency": "USD",
+    "categoryPath": "Men > Sneakers",
+    "colors": [
+      "Coral",
+      "Sand"
+    ],
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "tags": [
+      "sneaker",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0167",
+    "title": "Glide Nova Running Shoe",
+    "brand": "Solstice Active",
+    "description": "Running shoe with energy-return foam. Colorway in Forest / Fog.",
+    "productUrl": "https://solstice.example/products/sa-0167",
+    "imageUrl": "https://solstice.example/images/sa-0167-main.jpg",
+    "price": 126,
+    "currency": "USD",
+    "categoryPath": "Women > Running Shoes",
+    "colors": [
+      "Forest",
+      "Fog"
+    ],
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "tags": [
+      "shoe",
+      "running"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0168",
+    "title": "Flow Altitude Zip Hoodie",
+    "brand": "Solstice Active",
+    "description": "Zip hoodie with mesh-lined hood. Colorway in Crimson / Smoke.",
+    "productUrl": "https://solstice.example/products/sa-0168",
+    "imageUrl": "https://solstice.example/images/sa-0168-main.jpg",
+    "price": 92,
+    "currency": "USD",
+    "categoryPath": "Unisex > Zip Hoodie",
+    "colors": [
+      "Crimson",
+      "Smoke"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "zip",
+      "hoodie"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0169",
+    "title": "Sol Sunrise Training Short",
+    "brand": "Solstice Active",
+    "description": "Light training short with four-way stretch. Colorway in Sage / Ivory.",
+    "productUrl": "https://solstice.example/products/sa-0169",
+    "imageUrl": "https://solstice.example/images/sa-0169-main.jpg",
+    "price": 42,
+    "originalPrice": 50,
+    "currency": "USD",
+    "categoryPath": "Men > Training Shorts",
+    "colors": [
+      "Sage",
+      "Ivory"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "training",
+      "short"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0170",
+    "title": "Apex Horizon Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Sweatshirt built for warmups and cool downs. Colorway in Charcoal / Ash.",
+    "productUrl": "https://solstice.example/products/sa-0170",
+    "imageUrl": "https://solstice.example/images/sa-0170-main.jpg",
+    "price": 66,
+    "currency": "USD",
+    "categoryPath": "Unisex > Sweatshirt",
+    "colors": [
+      "Charcoal",
+      "Ash"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "recovery"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0171",
+    "title": "Pulse Pulse Hoodie",
+    "brand": "Solstice Active",
+    "description": "Performance hoodie with breathable brushed fleece. Colorway in Black / Slate.",
+    "productUrl": "https://solstice.example/products/sa-0171",
+    "imageUrl": "https://solstice.example/images/sa-0171-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0171-main.jpg",
+      "https://solstice.example/images/sa-0171-alt1.jpg"
+    ],
+    "price": 82,
+    "currency": "USD",
+    "categoryPath": "Men > Hoodies & Sweatshirts",
+    "colors": [
+      "Black",
+      "Slate"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "tags": [
+      "hoodie",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0172",
+    "title": "Zenith Cloud Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Soft sweatshirt built for warmups and recovery. Colorway in Navy / Ice.",
+    "productUrl": "https://solstice.example/products/sa-0172",
+    "imageUrl": "https://solstice.example/images/sa-0172-main.jpg",
+    "price": 74,
+    "currency": "USD",
+    "categoryPath": "Women > Sweatshirt",
+    "colors": [
+      "Navy",
+      "Ice"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "warmup"
+    ],
+    "gender": "Women",
+    "inStock": false
+  },
+  {
+    "externalId": "sa-0173",
+    "title": "Nova Stride Performance Tee",
+    "brand": "Solstice Active",
+    "description": "Moisture-wicking tee with quick-dry finish. Colorway in Graphite / Silver.",
+    "productUrl": "https://solstice.example/products/sa-0173",
+    "imageUrl": "https://solstice.example/images/sa-0173-main.jpg",
+    "price": 40,
+    "currency": "USD",
+    "categoryPath": "Men > Performance Tee",
+    "colors": [
+      "Graphite",
+      "Silver"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "performance"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0174",
+    "title": "Core Core Tech Tee",
+    "brand": "Solstice Active",
+    "description": "Lightweight tech tee with smooth, airy feel. Colorway in Cobalt / White.",
+    "productUrl": "https://solstice.example/products/sa-0174",
+    "imageUrl": "https://solstice.example/images/sa-0174-main.jpg",
+    "price": 37,
+    "currency": "USD",
+    "categoryPath": "Women > Tee",
+    "colors": [
+      "Cobalt",
+      "White"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "training"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0175",
+    "title": "Strive Zen Oversized Tee",
+    "brand": "Solstice Active",
+    "description": "Oversized tee with a relaxed, breathable fit. Colorway in Moss / Stone.",
+    "productUrl": "https://solstice.example/products/sa-0175",
+    "imageUrl": "https://solstice.example/images/sa-0175-main.jpg",
+    "price": 34,
+    "currency": "USD",
+    "categoryPath": "Unisex > Oversized Tee",
+    "colors": [
+      "Moss",
+      "Stone"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "oversized",
+      "tee"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0176",
+    "title": "Orbit Orbit Sneaker",
+    "brand": "Solstice Active",
+    "description": "Training sneaker with responsive cushioning. Colorway in Coral / Sand.",
+    "productUrl": "https://solstice.example/products/sa-0176",
+    "imageUrl": "https://solstice.example/images/sa-0176-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0176-main.jpg",
+      "https://solstice.example/images/sa-0176-alt1.jpg"
+    ],
+    "price": 120,
+    "currency": "USD",
+    "categoryPath": "Men > Sneakers",
+    "colors": [
+      "Coral",
+      "Sand"
+    ],
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "tags": [
+      "sneaker",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0177",
+    "title": "Range Nova Running Shoe",
+    "brand": "Solstice Active",
+    "description": "Running shoe with energy-return foam. Colorway in Forest / Fog.",
+    "productUrl": "https://solstice.example/products/sa-0177",
+    "imageUrl": "https://solstice.example/images/sa-0177-main.jpg",
+    "price": 118,
+    "currency": "USD",
+    "categoryPath": "Women > Running Shoes",
+    "colors": [
+      "Forest",
+      "Fog"
+    ],
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "tags": [
+      "shoe",
+      "running"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0178",
+    "title": "Shift Altitude Zip Hoodie",
+    "brand": "Solstice Active",
+    "description": "Zip hoodie with mesh-lined hood. Colorway in Crimson / Smoke.",
+    "productUrl": "https://solstice.example/products/sa-0178",
+    "imageUrl": "https://solstice.example/images/sa-0178-main.jpg",
+    "price": 88,
+    "currency": "USD",
+    "categoryPath": "Unisex > Zip Hoodie",
+    "colors": [
+      "Crimson",
+      "Smoke"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "zip",
+      "hoodie"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0179",
+    "title": "Glide Sunrise Training Short",
+    "brand": "Solstice Active",
+    "description": "Light training short with four-way stretch. Colorway in Sage / Ivory.",
+    "productUrl": "https://solstice.example/products/sa-0179",
+    "imageUrl": "https://solstice.example/images/sa-0179-main.jpg",
+    "price": 46,
+    "currency": "USD",
+    "categoryPath": "Men > Training Shorts",
+    "colors": [
+      "Sage",
+      "Ivory"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "training",
+      "short"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0180",
+    "title": "Flow Horizon Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Sweatshirt built for warmups and cool downs. Colorway in Charcoal / Ash.",
+    "productUrl": "https://solstice.example/products/sa-0180",
+    "imageUrl": "https://solstice.example/images/sa-0180-main.jpg",
+    "price": 74,
+    "currency": "USD",
+    "categoryPath": "Unisex > Sweatshirt",
+    "colors": [
+      "Charcoal",
+      "Ash"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "recovery"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0181",
+    "title": "Sol Pulse Hoodie",
+    "brand": "Solstice Active",
+    "description": "Performance hoodie with breathable brushed fleece. Colorway in Black / Slate.",
+    "productUrl": "https://solstice.example/products/sa-0181",
+    "imageUrl": "https://solstice.example/images/sa-0181-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0181-main.jpg",
+      "https://solstice.example/images/sa-0181-alt1.jpg"
+    ],
+    "price": 78,
+    "currency": "USD",
+    "categoryPath": "Men > Hoodies & Sweatshirts",
+    "colors": [
+      "Black",
+      "Slate"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "tags": [
+      "hoodie",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": false
+  },
+  {
+    "externalId": "sa-0182",
+    "title": "Apex Cloud Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Soft sweatshirt built for warmups and recovery. Colorway in Navy / Ice.",
+    "productUrl": "https://solstice.example/products/sa-0182",
+    "imageUrl": "https://solstice.example/images/sa-0182-main.jpg",
+    "price": 70,
+    "currency": "USD",
+    "categoryPath": "Women > Sweatshirt",
+    "colors": [
+      "Navy",
+      "Ice"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "warmup"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0183",
+    "title": "Pulse Stride Performance Tee",
+    "brand": "Solstice Active",
+    "description": "Moisture-wicking tee with quick-dry finish. Colorway in Graphite / Silver.",
+    "productUrl": "https://solstice.example/products/sa-0183",
+    "imageUrl": "https://solstice.example/images/sa-0183-main.jpg",
+    "price": 38,
+    "currency": "USD",
+    "categoryPath": "Men > Performance Tee",
+    "colors": [
+      "Graphite",
+      "Silver"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "performance"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0184",
+    "title": "Zenith Core Tech Tee",
+    "brand": "Solstice Active",
+    "description": "Lightweight tech tee with smooth, airy feel. Colorway in Cobalt / White.",
+    "productUrl": "https://solstice.example/products/sa-0184",
+    "imageUrl": "https://solstice.example/images/sa-0184-main.jpg",
+    "price": 35,
+    "currency": "USD",
+    "categoryPath": "Women > Tee",
+    "colors": [
+      "Cobalt",
+      "White"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "training"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0185",
+    "title": "Nova Zen Oversized Tee",
+    "brand": "Solstice Active",
+    "description": "Oversized tee with a relaxed, breathable fit. Colorway in Moss / Stone.",
+    "productUrl": "https://solstice.example/products/sa-0185",
+    "imageUrl": "https://solstice.example/images/sa-0185-main.jpg",
+    "price": 38,
+    "originalPrice": 46,
+    "currency": "USD",
+    "categoryPath": "Unisex > Oversized Tee",
+    "colors": [
+      "Moss",
+      "Stone"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "oversized",
+      "tee"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0186",
+    "title": "Core Orbit Sneaker",
+    "brand": "Solstice Active",
+    "description": "Training sneaker with responsive cushioning. Colorway in Coral / Sand.",
+    "productUrl": "https://solstice.example/products/sa-0186",
+    "imageUrl": "https://solstice.example/images/sa-0186-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0186-main.jpg",
+      "https://solstice.example/images/sa-0186-alt1.jpg"
+    ],
+    "price": 120,
+    "currency": "USD",
+    "categoryPath": "Men > Sneakers",
+    "colors": [
+      "Coral",
+      "Sand"
+    ],
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "tags": [
+      "sneaker",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0187",
+    "title": "Strive Nova Running Shoe",
+    "brand": "Solstice Active",
+    "description": "Running shoe with energy-return foam. Colorway in Forest / Fog.",
+    "productUrl": "https://solstice.example/products/sa-0187",
+    "imageUrl": "https://solstice.example/images/sa-0187-main.jpg",
+    "price": 110,
+    "currency": "USD",
+    "categoryPath": "Women > Running Shoes",
+    "colors": [
+      "Forest",
+      "Fog"
+    ],
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "tags": [
+      "shoe",
+      "running"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0188",
+    "title": "Orbit Altitude Zip Hoodie",
+    "brand": "Solstice Active",
+    "description": "Zip hoodie with mesh-lined hood. Colorway in Crimson / Smoke.",
+    "productUrl": "https://solstice.example/products/sa-0188",
+    "imageUrl": "https://solstice.example/images/sa-0188-main.jpg",
+    "price": 84,
+    "currency": "USD",
+    "categoryPath": "Unisex > Zip Hoodie",
+    "colors": [
+      "Crimson",
+      "Smoke"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "zip",
+      "hoodie"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0189",
+    "title": "Range Sunrise Training Short",
+    "brand": "Solstice Active",
+    "description": "Light training short with four-way stretch. Colorway in Sage / Ivory.",
+    "productUrl": "https://solstice.example/products/sa-0189",
+    "imageUrl": "https://solstice.example/images/sa-0189-main.jpg",
+    "price": 44,
+    "currency": "USD",
+    "categoryPath": "Men > Training Shorts",
+    "colors": [
+      "Sage",
+      "Ivory"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "training",
+      "short"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0190",
+    "title": "Shift Horizon Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Sweatshirt built for warmups and cool downs. Colorway in Charcoal / Ash.",
+    "productUrl": "https://solstice.example/products/sa-0190",
+    "imageUrl": "https://solstice.example/images/sa-0190-main.jpg",
+    "price": 70,
+    "currency": "USD",
+    "categoryPath": "Unisex > Sweatshirt",
+    "colors": [
+      "Charcoal",
+      "Ash"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "recovery"
+    ],
+    "gender": "Unisex",
+    "inStock": false
+  },
+  {
+    "externalId": "sa-0191",
+    "title": "Glide Pulse Hoodie",
+    "brand": "Solstice Active",
+    "description": "Performance hoodie with breathable brushed fleece. Colorway in Black / Slate.",
+    "productUrl": "https://solstice.example/products/sa-0191",
+    "imageUrl": "https://solstice.example/images/sa-0191-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0191-main.jpg",
+      "https://solstice.example/images/sa-0191-alt1.jpg"
+    ],
+    "price": 86,
+    "currency": "USD",
+    "categoryPath": "Men > Hoodies & Sweatshirts",
+    "colors": [
+      "Black",
+      "Slate"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "tags": [
+      "hoodie",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0192",
+    "title": "Flow Cloud Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Soft sweatshirt built for warmups and recovery. Colorway in Navy / Ice.",
+    "productUrl": "https://solstice.example/products/sa-0192",
+    "imageUrl": "https://solstice.example/images/sa-0192-main.jpg",
+    "price": 78,
+    "currency": "USD",
+    "categoryPath": "Women > Sweatshirt",
+    "colors": [
+      "Navy",
+      "Ice"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "warmup"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0193",
+    "title": "Sol Stride Performance Tee",
+    "brand": "Solstice Active",
+    "description": "Moisture-wicking tee with quick-dry finish. Colorway in Graphite / Silver.",
+    "productUrl": "https://solstice.example/products/sa-0193",
+    "imageUrl": "https://solstice.example/images/sa-0193-main.jpg",
+    "price": 36,
+    "originalPrice": 44,
+    "currency": "USD",
+    "categoryPath": "Men > Performance Tee",
+    "colors": [
+      "Graphite",
+      "Silver"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "performance"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0194",
+    "title": "Apex Core Tech Tee",
+    "brand": "Solstice Active",
+    "description": "Lightweight tech tee with smooth, airy feel. Colorway in Cobalt / White.",
+    "productUrl": "https://solstice.example/products/sa-0194",
+    "imageUrl": "https://solstice.example/images/sa-0194-main.jpg",
+    "price": 33,
+    "currency": "USD",
+    "categoryPath": "Women > Tee",
+    "colors": [
+      "Cobalt",
+      "White"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "training"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0195",
+    "title": "Pulse Zen Oversized Tee",
+    "brand": "Solstice Active",
+    "description": "Oversized tee with a relaxed, breathable fit. Colorway in Moss / Stone.",
+    "productUrl": "https://solstice.example/products/sa-0195",
+    "imageUrl": "https://solstice.example/images/sa-0195-main.jpg",
+    "price": 36,
+    "currency": "USD",
+    "categoryPath": "Unisex > Oversized Tee",
+    "colors": [
+      "Moss",
+      "Stone"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "oversized",
+      "tee"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0196",
+    "title": "Zenith Orbit Sneaker",
+    "brand": "Solstice Active",
+    "description": "Training sneaker with responsive cushioning. Colorway in Coral / Sand.",
+    "productUrl": "https://solstice.example/products/sa-0196",
+    "imageUrl": "https://solstice.example/images/sa-0196-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0196-main.jpg",
+      "https://solstice.example/images/sa-0196-alt1.jpg"
+    ],
+    "price": 120,
+    "currency": "USD",
+    "categoryPath": "Men > Sneakers",
+    "colors": [
+      "Coral",
+      "Sand"
+    ],
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "tags": [
+      "sneaker",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0197",
+    "title": "Nova Nova Running Shoe",
+    "brand": "Solstice Active",
+    "description": "Running shoe with energy-return foam. Colorway in Forest / Fog.",
+    "productUrl": "https://solstice.example/products/sa-0197",
+    "imageUrl": "https://solstice.example/images/sa-0197-main.jpg",
+    "price": 126,
+    "currency": "USD",
+    "categoryPath": "Women > Running Shoes",
+    "colors": [
+      "Forest",
+      "Fog"
+    ],
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "tags": [
+      "shoe",
+      "running"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0198",
+    "title": "Core Altitude Zip Hoodie",
+    "brand": "Solstice Active",
+    "description": "Zip hoodie with mesh-lined hood. Colorway in Crimson / Smoke.",
+    "productUrl": "https://solstice.example/products/sa-0198",
+    "imageUrl": "https://solstice.example/images/sa-0198-main.jpg",
+    "price": 92,
+    "currency": "USD",
+    "categoryPath": "Unisex > Zip Hoodie",
+    "colors": [
+      "Crimson",
+      "Smoke"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "zip",
+      "hoodie"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0199",
+    "title": "Strive Sunrise Training Short",
+    "brand": "Solstice Active",
+    "description": "Light training short with four-way stretch. Colorway in Sage / Ivory.",
+    "productUrl": "https://solstice.example/products/sa-0199",
+    "imageUrl": "https://solstice.example/images/sa-0199-main.jpg",
+    "price": 42,
+    "currency": "USD",
+    "categoryPath": "Men > Training Shorts",
+    "colors": [
+      "Sage",
+      "Ivory"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "training",
+      "short"
+    ],
+    "gender": "Men",
+    "inStock": false
+  },
+  {
+    "externalId": "sa-0200",
+    "title": "Orbit Horizon Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Sweatshirt built for warmups and cool downs. Colorway in Charcoal / Ash.",
+    "productUrl": "https://solstice.example/products/sa-0200",
+    "imageUrl": "https://solstice.example/images/sa-0200-main.jpg",
+    "price": 66,
+    "currency": "USD",
+    "categoryPath": "Unisex > Sweatshirt",
+    "colors": [
+      "Charcoal",
+      "Ash"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "recovery"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0201",
+    "title": "Range Pulse Hoodie",
+    "brand": "Solstice Active",
+    "description": "Performance hoodie with breathable brushed fleece. Colorway in Black / Slate.",
+    "productUrl": "https://solstice.example/products/sa-0201",
+    "imageUrl": "https://solstice.example/images/sa-0201-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0201-main.jpg",
+      "https://solstice.example/images/sa-0201-alt1.jpg"
+    ],
+    "price": 82,
+    "currency": "USD",
+    "categoryPath": "Men > Hoodies & Sweatshirts",
+    "colors": [
+      "Black",
+      "Slate"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "tags": [
+      "hoodie",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0202",
+    "title": "Shift Cloud Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Soft sweatshirt built for warmups and recovery. Colorway in Navy / Ice.",
+    "productUrl": "https://solstice.example/products/sa-0202",
+    "imageUrl": "https://solstice.example/images/sa-0202-main.jpg",
+    "price": 74,
+    "currency": "USD",
+    "categoryPath": "Women > Sweatshirt",
+    "colors": [
+      "Navy",
+      "Ice"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "warmup"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0203",
+    "title": "Glide Stride Performance Tee",
+    "brand": "Solstice Active",
+    "description": "Moisture-wicking tee with quick-dry finish. Colorway in Graphite / Silver.",
+    "productUrl": "https://solstice.example/products/sa-0203",
+    "imageUrl": "https://solstice.example/images/sa-0203-main.jpg",
+    "price": 40,
+    "currency": "USD",
+    "categoryPath": "Men > Performance Tee",
+    "colors": [
+      "Graphite",
+      "Silver"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "performance"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0204",
+    "title": "Flow Core Tech Tee",
+    "brand": "Solstice Active",
+    "description": "Lightweight tech tee with smooth, airy feel. Colorway in Cobalt / White.",
+    "productUrl": "https://solstice.example/products/sa-0204",
+    "imageUrl": "https://solstice.example/images/sa-0204-main.jpg",
+    "price": 37,
+    "originalPrice": 45,
+    "currency": "USD",
+    "categoryPath": "Women > Tee",
+    "colors": [
+      "Cobalt",
+      "White"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "training"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0205",
+    "title": "Sol Zen Oversized Tee",
+    "brand": "Solstice Active",
+    "description": "Oversized tee with a relaxed, breathable fit. Colorway in Moss / Stone.",
+    "productUrl": "https://solstice.example/products/sa-0205",
+    "imageUrl": "https://solstice.example/images/sa-0205-main.jpg",
+    "price": 34,
+    "currency": "USD",
+    "categoryPath": "Unisex > Oversized Tee",
+    "colors": [
+      "Moss",
+      "Stone"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "oversized",
+      "tee"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0206",
+    "title": "Apex Orbit Sneaker",
+    "brand": "Solstice Active",
+    "description": "Training sneaker with responsive cushioning. Colorway in Coral / Sand.",
+    "productUrl": "https://solstice.example/products/sa-0206",
+    "imageUrl": "https://solstice.example/images/sa-0206-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0206-main.jpg",
+      "https://solstice.example/images/sa-0206-alt1.jpg"
+    ],
+    "price": 120,
+    "currency": "USD",
+    "categoryPath": "Men > Sneakers",
+    "colors": [
+      "Coral",
+      "Sand"
+    ],
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "tags": [
+      "sneaker",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0207",
+    "title": "Pulse Nova Running Shoe",
+    "brand": "Solstice Active",
+    "description": "Running shoe with energy-return foam. Colorway in Forest / Fog.",
+    "productUrl": "https://solstice.example/products/sa-0207",
+    "imageUrl": "https://solstice.example/images/sa-0207-main.jpg",
+    "price": 118,
+    "currency": "USD",
+    "categoryPath": "Women > Running Shoes",
+    "colors": [
+      "Forest",
+      "Fog"
+    ],
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "tags": [
+      "shoe",
+      "running"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0208",
+    "title": "Zenith Altitude Zip Hoodie",
+    "brand": "Solstice Active",
+    "description": "Zip hoodie with mesh-lined hood. Colorway in Crimson / Smoke.",
+    "productUrl": "https://solstice.example/products/sa-0208",
+    "imageUrl": "https://solstice.example/images/sa-0208-main.jpg",
+    "price": 88,
+    "currency": "USD",
+    "categoryPath": "Unisex > Zip Hoodie",
+    "colors": [
+      "Crimson",
+      "Smoke"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "zip",
+      "hoodie"
+    ],
+    "gender": "Unisex",
+    "inStock": false
+  },
+  {
+    "externalId": "sa-0209",
+    "title": "Nova Sunrise Training Short",
+    "brand": "Solstice Active",
+    "description": "Light training short with four-way stretch. Colorway in Sage / Ivory.",
+    "productUrl": "https://solstice.example/products/sa-0209",
+    "imageUrl": "https://solstice.example/images/sa-0209-main.jpg",
+    "price": 46,
+    "currency": "USD",
+    "categoryPath": "Men > Training Shorts",
+    "colors": [
+      "Sage",
+      "Ivory"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "training",
+      "short"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0210",
+    "title": "Core Horizon Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Sweatshirt built for warmups and cool downs. Colorway in Charcoal / Ash.",
+    "productUrl": "https://solstice.example/products/sa-0210",
+    "imageUrl": "https://solstice.example/images/sa-0210-main.jpg",
+    "price": 74,
+    "currency": "USD",
+    "categoryPath": "Unisex > Sweatshirt",
+    "colors": [
+      "Charcoal",
+      "Ash"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "recovery"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0211",
+    "title": "Strive Pulse Hoodie",
+    "brand": "Solstice Active",
+    "description": "Performance hoodie with breathable brushed fleece. Colorway in Black / Slate.",
+    "productUrl": "https://solstice.example/products/sa-0211",
+    "imageUrl": "https://solstice.example/images/sa-0211-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0211-main.jpg",
+      "https://solstice.example/images/sa-0211-alt1.jpg"
+    ],
+    "price": 78,
+    "originalPrice": 94,
+    "currency": "USD",
+    "categoryPath": "Men > Hoodies & Sweatshirts",
+    "colors": [
+      "Black",
+      "Slate"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "tags": [
+      "hoodie",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0212",
+    "title": "Orbit Cloud Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Soft sweatshirt built for warmups and recovery. Colorway in Navy / Ice.",
+    "productUrl": "https://solstice.example/products/sa-0212",
+    "imageUrl": "https://solstice.example/images/sa-0212-main.jpg",
+    "price": 70,
+    "currency": "USD",
+    "categoryPath": "Women > Sweatshirt",
+    "colors": [
+      "Navy",
+      "Ice"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "warmup"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0213",
+    "title": "Range Stride Performance Tee",
+    "brand": "Solstice Active",
+    "description": "Moisture-wicking tee with quick-dry finish. Colorway in Graphite / Silver.",
+    "productUrl": "https://solstice.example/products/sa-0213",
+    "imageUrl": "https://solstice.example/images/sa-0213-main.jpg",
+    "price": 38,
+    "currency": "USD",
+    "categoryPath": "Men > Performance Tee",
+    "colors": [
+      "Graphite",
+      "Silver"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "performance"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0214",
+    "title": "Shift Core Tech Tee",
+    "brand": "Solstice Active",
+    "description": "Lightweight tech tee with smooth, airy feel. Colorway in Cobalt / White.",
+    "productUrl": "https://solstice.example/products/sa-0214",
+    "imageUrl": "https://solstice.example/images/sa-0214-main.jpg",
+    "price": 35,
+    "currency": "USD",
+    "categoryPath": "Women > Tee",
+    "colors": [
+      "Cobalt",
+      "White"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "training"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0215",
+    "title": "Glide Zen Oversized Tee",
+    "brand": "Solstice Active",
+    "description": "Oversized tee with a relaxed, breathable fit. Colorway in Moss / Stone.",
+    "productUrl": "https://solstice.example/products/sa-0215",
+    "imageUrl": "https://solstice.example/images/sa-0215-main.jpg",
+    "price": 38,
+    "currency": "USD",
+    "categoryPath": "Unisex > Oversized Tee",
+    "colors": [
+      "Moss",
+      "Stone"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "oversized",
+      "tee"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0216",
+    "title": "Flow Orbit Sneaker",
+    "brand": "Solstice Active",
+    "description": "Training sneaker with responsive cushioning. Colorway in Coral / Sand.",
+    "productUrl": "https://solstice.example/products/sa-0216",
+    "imageUrl": "https://solstice.example/images/sa-0216-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0216-main.jpg",
+      "https://solstice.example/images/sa-0216-alt1.jpg"
+    ],
+    "price": 120,
+    "currency": "USD",
+    "categoryPath": "Men > Sneakers",
+    "colors": [
+      "Coral",
+      "Sand"
+    ],
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "tags": [
+      "sneaker",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0217",
+    "title": "Sol Nova Running Shoe",
+    "brand": "Solstice Active",
+    "description": "Running shoe with energy-return foam. Colorway in Forest / Fog.",
+    "productUrl": "https://solstice.example/products/sa-0217",
+    "imageUrl": "https://solstice.example/images/sa-0217-main.jpg",
+    "price": 110,
+    "currency": "USD",
+    "categoryPath": "Women > Running Shoes",
+    "colors": [
+      "Forest",
+      "Fog"
+    ],
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "tags": [
+      "shoe",
+      "running"
+    ],
+    "gender": "Women",
+    "inStock": false
+  },
+  {
+    "externalId": "sa-0218",
+    "title": "Apex Altitude Zip Hoodie",
+    "brand": "Solstice Active",
+    "description": "Zip hoodie with mesh-lined hood. Colorway in Crimson / Smoke.",
+    "productUrl": "https://solstice.example/products/sa-0218",
+    "imageUrl": "https://solstice.example/images/sa-0218-main.jpg",
+    "price": 84,
+    "originalPrice": 100,
+    "currency": "USD",
+    "categoryPath": "Unisex > Zip Hoodie",
+    "colors": [
+      "Crimson",
+      "Smoke"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "zip",
+      "hoodie"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0219",
+    "title": "Pulse Sunrise Training Short",
+    "brand": "Solstice Active",
+    "description": "Light training short with four-way stretch. Colorway in Sage / Ivory.",
+    "productUrl": "https://solstice.example/products/sa-0219",
+    "imageUrl": "https://solstice.example/images/sa-0219-main.jpg",
+    "price": 44,
+    "currency": "USD",
+    "categoryPath": "Men > Training Shorts",
+    "colors": [
+      "Sage",
+      "Ivory"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "training",
+      "short"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0220",
+    "title": "Zenith Horizon Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Sweatshirt built for warmups and cool downs. Colorway in Charcoal / Ash.",
+    "productUrl": "https://solstice.example/products/sa-0220",
+    "imageUrl": "https://solstice.example/images/sa-0220-main.jpg",
+    "price": 70,
+    "currency": "USD",
+    "categoryPath": "Unisex > Sweatshirt",
+    "colors": [
+      "Charcoal",
+      "Ash"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "recovery"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0221",
+    "title": "Nova Pulse Hoodie",
+    "brand": "Solstice Active",
+    "description": "Performance hoodie with breathable brushed fleece. Colorway in Black / Slate.",
+    "productUrl": "https://solstice.example/products/sa-0221",
+    "imageUrl": "https://solstice.example/images/sa-0221-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0221-main.jpg",
+      "https://solstice.example/images/sa-0221-alt1.jpg"
+    ],
+    "price": 86,
+    "currency": "USD",
+    "categoryPath": "Men > Hoodies & Sweatshirts",
+    "colors": [
+      "Black",
+      "Slate"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "tags": [
+      "hoodie",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0222",
+    "title": "Core Cloud Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Soft sweatshirt built for warmups and recovery. Colorway in Navy / Ice.",
+    "productUrl": "https://solstice.example/products/sa-0222",
+    "imageUrl": "https://solstice.example/images/sa-0222-main.jpg",
+    "price": 78,
+    "currency": "USD",
+    "categoryPath": "Women > Sweatshirt",
+    "colors": [
+      "Navy",
+      "Ice"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "warmup"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0223",
+    "title": "Strive Stride Performance Tee",
+    "brand": "Solstice Active",
+    "description": "Moisture-wicking tee with quick-dry finish. Colorway in Graphite / Silver.",
+    "productUrl": "https://solstice.example/products/sa-0223",
+    "imageUrl": "https://solstice.example/images/sa-0223-main.jpg",
+    "price": 36,
+    "originalPrice": 44,
+    "currency": "USD",
+    "categoryPath": "Men > Performance Tee",
+    "colors": [
+      "Graphite",
+      "Silver"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "performance"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0224",
+    "title": "Orbit Core Tech Tee",
+    "brand": "Solstice Active",
+    "description": "Lightweight tech tee with smooth, airy feel. Colorway in Cobalt / White.",
+    "productUrl": "https://solstice.example/products/sa-0224",
+    "imageUrl": "https://solstice.example/images/sa-0224-main.jpg",
+    "price": 33,
+    "currency": "USD",
+    "categoryPath": "Women > Tee",
+    "colors": [
+      "Cobalt",
+      "White"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "training"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0225",
+    "title": "Range Zen Oversized Tee",
+    "brand": "Solstice Active",
+    "description": "Oversized tee with a relaxed, breathable fit. Colorway in Moss / Stone.",
+    "productUrl": "https://solstice.example/products/sa-0225",
+    "imageUrl": "https://solstice.example/images/sa-0225-main.jpg",
+    "price": 36,
+    "originalPrice": 44,
+    "currency": "USD",
+    "categoryPath": "Unisex > Oversized Tee",
+    "colors": [
+      "Moss",
+      "Stone"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "oversized",
+      "tee"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0226",
+    "title": "Shift Orbit Sneaker",
+    "brand": "Solstice Active",
+    "description": "Training sneaker with responsive cushioning. Colorway in Coral / Sand.",
+    "productUrl": "https://solstice.example/products/sa-0226",
+    "imageUrl": "https://solstice.example/images/sa-0226-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0226-main.jpg",
+      "https://solstice.example/images/sa-0226-alt1.jpg"
+    ],
+    "price": 120,
+    "originalPrice": 140,
+    "currency": "USD",
+    "categoryPath": "Men > Sneakers",
+    "colors": [
+      "Coral",
+      "Sand"
+    ],
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "tags": [
+      "sneaker",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": false
+  },
+  {
+    "externalId": "sa-0227",
+    "title": "Glide Nova Running Shoe",
+    "brand": "Solstice Active",
+    "description": "Running shoe with energy-return foam. Colorway in Forest / Fog.",
+    "productUrl": "https://solstice.example/products/sa-0227",
+    "imageUrl": "https://solstice.example/images/sa-0227-main.jpg",
+    "price": 126,
+    "currency": "USD",
+    "categoryPath": "Women > Running Shoes",
+    "colors": [
+      "Forest",
+      "Fog"
+    ],
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "tags": [
+      "shoe",
+      "running"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0228",
+    "title": "Flow Altitude Zip Hoodie",
+    "brand": "Solstice Active",
+    "description": "Zip hoodie with mesh-lined hood. Colorway in Crimson / Smoke.",
+    "productUrl": "https://solstice.example/products/sa-0228",
+    "imageUrl": "https://solstice.example/images/sa-0228-main.jpg",
+    "price": 92,
+    "currency": "USD",
+    "categoryPath": "Unisex > Zip Hoodie",
+    "colors": [
+      "Crimson",
+      "Smoke"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "zip",
+      "hoodie"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0229",
+    "title": "Sol Sunrise Training Short",
+    "brand": "Solstice Active",
+    "description": "Light training short with four-way stretch. Colorway in Sage / Ivory.",
+    "productUrl": "https://solstice.example/products/sa-0229",
+    "imageUrl": "https://solstice.example/images/sa-0229-main.jpg",
+    "price": 42,
+    "currency": "USD",
+    "categoryPath": "Men > Training Shorts",
+    "colors": [
+      "Sage",
+      "Ivory"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "training",
+      "short"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0230",
+    "title": "Apex Horizon Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Sweatshirt built for warmups and cool downs. Colorway in Charcoal / Ash.",
+    "productUrl": "https://solstice.example/products/sa-0230",
+    "imageUrl": "https://solstice.example/images/sa-0230-main.jpg",
+    "price": 66,
+    "currency": "USD",
+    "categoryPath": "Unisex > Sweatshirt",
+    "colors": [
+      "Charcoal",
+      "Ash"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "recovery"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0231",
+    "title": "Pulse Pulse Hoodie",
+    "brand": "Solstice Active",
+    "description": "Performance hoodie with breathable brushed fleece. Colorway in Black / Slate.",
+    "productUrl": "https://solstice.example/products/sa-0231",
+    "imageUrl": "https://solstice.example/images/sa-0231-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0231-main.jpg",
+      "https://solstice.example/images/sa-0231-alt1.jpg"
+    ],
+    "price": 82,
+    "currency": "USD",
+    "categoryPath": "Men > Hoodies & Sweatshirts",
+    "colors": [
+      "Black",
+      "Slate"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "tags": [
+      "hoodie",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0232",
+    "title": "Zenith Cloud Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Soft sweatshirt built for warmups and recovery. Colorway in Navy / Ice.",
+    "productUrl": "https://solstice.example/products/sa-0232",
+    "imageUrl": "https://solstice.example/images/sa-0232-main.jpg",
+    "price": 74,
+    "currency": "USD",
+    "categoryPath": "Women > Sweatshirt",
+    "colors": [
+      "Navy",
+      "Ice"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "warmup"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0233",
+    "title": "Nova Stride Performance Tee",
+    "brand": "Solstice Active",
+    "description": "Moisture-wicking tee with quick-dry finish. Colorway in Graphite / Silver.",
+    "productUrl": "https://solstice.example/products/sa-0233",
+    "imageUrl": "https://solstice.example/images/sa-0233-main.jpg",
+    "price": 40,
+    "currency": "USD",
+    "categoryPath": "Men > Performance Tee",
+    "colors": [
+      "Graphite",
+      "Silver"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "performance"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0234",
+    "title": "Core Core Tech Tee",
+    "brand": "Solstice Active",
+    "description": "Lightweight tech tee with smooth, airy feel. Colorway in Cobalt / White.",
+    "productUrl": "https://solstice.example/products/sa-0234",
+    "imageUrl": "https://solstice.example/images/sa-0234-main.jpg",
+    "price": 37,
+    "currency": "USD",
+    "categoryPath": "Women > Tee",
+    "colors": [
+      "Cobalt",
+      "White"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "tee",
+      "training"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0235",
+    "title": "Strive Zen Oversized Tee",
+    "brand": "Solstice Active",
+    "description": "Oversized tee with a relaxed, breathable fit. Colorway in Moss / Stone.",
+    "productUrl": "https://solstice.example/products/sa-0235",
+    "imageUrl": "https://solstice.example/images/sa-0235-main.jpg",
+    "price": 34,
+    "currency": "USD",
+    "categoryPath": "Unisex > Oversized Tee",
+    "colors": [
+      "Moss",
+      "Stone"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "oversized",
+      "tee"
+    ],
+    "gender": "Unisex",
+    "inStock": false
+  },
+  {
+    "externalId": "sa-0236",
+    "title": "Orbit Orbit Sneaker",
+    "brand": "Solstice Active",
+    "description": "Training sneaker with responsive cushioning. Colorway in Coral / Sand.",
+    "productUrl": "https://solstice.example/products/sa-0236",
+    "imageUrl": "https://solstice.example/images/sa-0236-main.jpg",
+    "imageUrls": [
+      "https://solstice.example/images/sa-0236-main.jpg",
+      "https://solstice.example/images/sa-0236-alt1.jpg"
+    ],
+    "price": 120,
+    "currency": "USD",
+    "categoryPath": "Men > Sneakers",
+    "colors": [
+      "Coral",
+      "Sand"
+    ],
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "tags": [
+      "sneaker",
+      "training"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0237",
+    "title": "Range Nova Running Shoe",
+    "brand": "Solstice Active",
+    "description": "Running shoe with energy-return foam. Colorway in Forest / Fog.",
+    "productUrl": "https://solstice.example/products/sa-0237",
+    "imageUrl": "https://solstice.example/images/sa-0237-main.jpg",
+    "price": 118,
+    "currency": "USD",
+    "categoryPath": "Women > Running Shoes",
+    "colors": [
+      "Forest",
+      "Fog"
+    ],
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "tags": [
+      "shoe",
+      "running"
+    ],
+    "gender": "Women",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0238",
+    "title": "Shift Altitude Zip Hoodie",
+    "brand": "Solstice Active",
+    "description": "Zip hoodie with mesh-lined hood. Colorway in Crimson / Smoke.",
+    "productUrl": "https://solstice.example/products/sa-0238",
+    "imageUrl": "https://solstice.example/images/sa-0238-main.jpg",
+    "price": 88,
+    "currency": "USD",
+    "categoryPath": "Unisex > Zip Hoodie",
+    "colors": [
+      "Crimson",
+      "Smoke"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "zip",
+      "hoodie"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0239",
+    "title": "Glide Sunrise Training Short",
+    "brand": "Solstice Active",
+    "description": "Light training short with four-way stretch. Colorway in Sage / Ivory.",
+    "productUrl": "https://solstice.example/products/sa-0239",
+    "imageUrl": "https://solstice.example/images/sa-0239-main.jpg",
+    "price": 46,
+    "originalPrice": 54,
+    "currency": "USD",
+    "categoryPath": "Men > Training Shorts",
+    "colors": [
+      "Sage",
+      "Ivory"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "training",
+      "short"
+    ],
+    "gender": "Men",
+    "inStock": true
+  },
+  {
+    "externalId": "sa-0240",
+    "title": "Flow Horizon Sweatshirt",
+    "brand": "Solstice Active",
+    "description": "Sweatshirt built for warmups and cool downs. Colorway in Charcoal / Ash.",
+    "productUrl": "https://solstice.example/products/sa-0240",
+    "imageUrl": "https://solstice.example/images/sa-0240-main.jpg",
+    "price": 74,
+    "currency": "USD",
+    "categoryPath": "Unisex > Sweatshirt",
+    "colors": [
+      "Charcoal",
+      "Ash"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "tags": [
+      "sweatshirt",
+      "recovery"
+    ],
+    "gender": "Unisex",
+    "inStock": true
+  }
+]

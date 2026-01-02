@@ -129,6 +129,94 @@ const STORE_CONFIGS: StoreConfig[] = [
     }),
   },
   {
+    storeKey: "levis" as StoreKey,
+    displayName: "Levi's",
+    capabilities: { ...defaultCapabilities },
+    urlBuilders: withDefaultBuilders({
+      buildStorefrontUrl: () => "https://www.levi.com",
+    }),
+  },
+  {
+    storeKey: "madewell" as StoreKey,
+    displayName: "Madewell",
+    capabilities: { ...defaultCapabilities },
+    urlBuilders: withDefaultBuilders({
+      buildStorefrontUrl: () => "https://www.madewell.com",
+    }),
+  },
+  {
+    storeKey: "jcrew" as StoreKey,
+    displayName: "J.Crew",
+    capabilities: { ...defaultCapabilities },
+    urlBuilders: withDefaultBuilders({
+      buildStorefrontUrl: () => "https://www.jcrew.com",
+    }),
+  },
+  {
+    storeKey: "newbalance" as StoreKey,
+    displayName: "New Balance",
+    capabilities: { ...defaultCapabilities },
+    urlBuilders: withDefaultBuilders({
+      buildStorefrontUrl: () => "https://www.newbalance.com",
+    }),
+  },
+  {
+    storeKey: "reformation" as StoreKey,
+    displayName: "Reformation",
+    capabilities: { ...defaultCapabilities },
+    urlBuilders: withDefaultBuilders({
+      buildStorefrontUrl: () => "https://www.thereformation.com",
+    }),
+  },
+  {
+    storeKey: "cedarloom" as StoreKey,
+    displayName: "Cedar Loom",
+    capabilities: { ...defaultCapabilities },
+    urlBuilders: withDefaultBuilders({
+      buildStorefrontUrl: () => "https://cedarloom.example",
+    }),
+  },
+  {
+    storeKey: "driftwooddenim" as StoreKey,
+    displayName: "Driftwood Denim",
+    capabilities: { ...defaultCapabilities },
+    urlBuilders: withDefaultBuilders({
+      buildStorefrontUrl: () => "https://driftwood.example",
+    }),
+  },
+  {
+    storeKey: "solsticeactive" as StoreKey,
+    displayName: "Solstice Active",
+    capabilities: { ...defaultCapabilities },
+    urlBuilders: withDefaultBuilders({
+      buildStorefrontUrl: () => "https://solstice.example",
+    }),
+  },
+  {
+    storeKey: "rueatelier" as StoreKey,
+    displayName: "Rue Atelier",
+    capabilities: { ...defaultCapabilities },
+    urlBuilders: withDefaultBuilders({
+      buildStorefrontUrl: () => "https://rueatelier.example",
+    }),
+  },
+  {
+    storeKey: "mockretailer" as StoreKey,
+    displayName: "Mock Retailer",
+    capabilities: { ...defaultCapabilities },
+    urlBuilders: withDefaultBuilders({
+      buildStorefrontUrl: () => "https://mockretailer.example",
+    }),
+  },
+  {
+    storeKey: "mockretailer2" as StoreKey,
+    displayName: "Mock Retailer 2",
+    capabilities: { ...defaultCapabilities },
+    urlBuilders: withDefaultBuilders({
+      buildStorefrontUrl: () => "https://mockretailer2.example",
+    }),
+  },
+  {
     storeKey: "unknown",
     displayName: "Unknown Store",
     capabilities: { ...defaultCapabilities, supportsProductDeepLink: false },
@@ -151,4 +239,3 @@ export function getStoreRegistry(): Map<StoreKey, StoreConfig> {
 
   return registryCache;
 }
-

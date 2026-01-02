@@ -24,6 +24,7 @@ type StoredCatalogState = {
   currentPage: number;
   productIds: string[];
   appliedFilters: SearchFilters | null;
+  catalogSize?: number;
 };
 
 export default function CatalogPage() {
@@ -231,6 +232,10 @@ export default function CatalogPage() {
     if (!raw) return;
     try {
       const parsed = JSON.parse(raw) as Partial<StoredCatalogState>;
+      if (parsed.catalogSize !== allProducts.length) {
+        window.localStorage.removeItem(STORAGE_KEY);
+        return;
+      }
       if (parsed.query) setQuery(parsed.query);
       if (parsed.selectedBrands) setSelectedBrands(parsed.selectedBrands);
       if (parsed.selectedCategories) setSelectedCategories(parsed.selectedCategories);
@@ -280,6 +285,7 @@ export default function CatalogPage() {
       currentPage,
       productIds: products.map((p) => p.id),
       appliedFilters,
+      catalogSize: allProducts.length,
     };
     window.localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
   }, [

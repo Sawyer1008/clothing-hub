@@ -19,6 +19,17 @@ const STORE_KEY_ALIASES: Record<string, StoreKey> = {
   hm: "hm",
   handm: "hm",
   hnm: "hm",
+  levis: "levis" as StoreKey,
+  madewell: "madewell" as StoreKey,
+  jcrew: "jcrew" as StoreKey,
+  newbalance: "newbalance" as StoreKey,
+  reformation: "reformation" as StoreKey,
+  cedarloom: "cedarloom" as StoreKey,
+  driftwooddenim: "driftwooddenim" as StoreKey,
+  solsticeactive: "solsticeactive" as StoreKey,
+  rueatelier: "rueatelier" as StoreKey,
+  mockretailer: "mockretailer" as StoreKey,
+  mockretailer2: "mockretailer2" as StoreKey,
   uniqlo: "uniqlo",
   pacsun: "pacsun",
   pacificsunwear: "pacsun",
@@ -50,4 +61,3 @@ export function getStoreKeyForProduct(product: Product): StoreKey {
 
   return toStoreKey(candidate);
 }
-

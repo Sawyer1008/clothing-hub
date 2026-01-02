@@ -4,7 +4,7 @@ import type {
   CheckoutPlan,
   StoreKey,
 } from "@/types/checkout";
-import { getAffiliateUrl } from "./affiliate";
+import { getOutboundUrl } from "./affiliate";
 import { getStoreRegistry } from "./storeRegistry";
 
 type ResolveInput = {
@@ -35,7 +35,8 @@ export function resolveStoreCheckoutPlan(input: ResolveInput): CheckoutPlan {
   }
 
   const buildProductUrl =
-    storeConfig.urlBuilders?.buildProductUrl ?? getAffiliateUrl;
+    storeConfig.urlBuilders?.buildProductUrl ??
+    ((product) => getOutboundUrl(product).url);
   const storefrontUrl = storeConfig.urlBuilders?.buildStorefrontUrl?.();
 
   const primaryItem = input.items[0];

@@ -49,9 +49,9 @@ export default function Navbar() {
     <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
       <Link href="/" className="text-sm font-semibold tracking-tight">
         <span className="rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-bold text-slate-900">
-          CH
+          SH
         </span>{" "}
-        <span className="ml-1 text-slate-100">Clothing Hub</span>
+        <span className="ml-1 text-slate-100">Style Hub</span>
       </Link>
 
       <div className="flex items-center gap-4">

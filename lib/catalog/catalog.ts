@@ -25,12 +25,15 @@ import { madewellRaw } from "@/data/raw/madewell";
 import { jcrewRaw } from "@/data/raw/jcrew";
 import { newBalanceRaw } from "@/data/raw/newBalance";
 import { reformationRaw } from "@/data/raw/reformation";
-import mockRetailerSnapshot from "@/data/snapshots/mock-retailer/latest.json";
-import mockRetailer2Snapshot from "@/data/snapshots/mock-retailer-2/latest.json";
-import cedarLoomSnapshot from "@/data/snapshots/cedar-loom/latest.json";
-import driftwoodDenimSnapshot from "@/data/snapshots/driftwood-denim/latest.json";
-import solsticeActiveSnapshot from "@/data/snapshots/solstice-active/latest.json";
-import rueAtelierSnapshot from "@/data/snapshots/rue-atelier/latest.json";
+
+// ✅ CHANGED: use relative paths so Vercel/Turbopack resolves deterministically
+import mockRetailerSnapshot from "../../data/snapshots/mock-retailer/latest.json";
+import mockRetailer2Snapshot from "../../data/snapshots/mock-retailer-2/latest.json";
+import cedarLoomSnapshot from "../../data/snapshots/cedar-loom/latest.json";
+import driftwoodDenimSnapshot from "../../data/snapshots/driftwood-denim/latest.json";
+import solsticeActiveSnapshot from "../../data/snapshots/solstice-active/latest.json";
+import rueAtelierSnapshot from "../../data/snapshots/rue-atelier/latest.json";
+
 import { buildOverrideMap, overridesBySource } from "@/data/overrides";
 import { ingestRawProducts } from "./ingest";
 

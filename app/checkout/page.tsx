@@ -58,7 +58,7 @@ export default function CheckoutPage() {
       <div className="mx-auto max-w-6xl space-y-4 px-4 py-10 fade-in-up">
         <h1 className="text-2xl font-semibold tracking-tight">Checkout</h1>
         <p className="text-sm text-slate-300">
-          Your cart is empty. Add items from the catalog to start checkout. Clothing Hub routes you to
+          Your cart is empty. Add items from the catalog to start checkout. Style Hub routes you to
           each store to pay; we don&apos;t process or verify payments.
         </p>
         <div className="flex flex-wrap gap-2">
@@ -135,9 +135,9 @@ export default function CheckoutPage() {
       <section className="rounded-xl border border-slate-800 bg-slate-900/70 p-4">
         <h2 className="text-sm font-semibold text-slate-100">How checkout works</h2>
         <ul className="mt-2 space-y-1.5 text-sm text-slate-300">
-          <li>Clothing Hub organizes your list; purchasing happens on each store site.</li>
+          <li>Style Hub organizes your list; purchasing happens on each store site.</li>
           <li>Final totals, shipping, and returns are determined by each store.</li>
-          <li>Clothing Hub does not process payments.</li>
+          <li>Style Hub does not process payments.</li>
         </ul>
       </section>
 
@@ -491,7 +491,7 @@ export default function CheckoutPage() {
                 I finished on {brand} — remove these from my cart
               </button>
               <p className="mt-1 text-[11px] text-slate-400">
-                This only updates your Clothing Hub cart; it doesn&apos;t confirm purchase.
+                This only updates your Style Hub cart; it doesn&apos;t confirm purchase.
               </p>
             </section>
           );

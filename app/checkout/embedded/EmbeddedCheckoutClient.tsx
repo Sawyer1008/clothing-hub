@@ -121,7 +121,7 @@ export default function EmbeddedCheckoutClient() {
           </button>
         </div>
         <p className="text-xs text-slate-400">
-          This only updates your Clothing Hub cart; it doesn&apos;t verify or process a purchase.
+          This only updates your Style Hub cart; it doesn&apos;t verify or process a purchase.
         </p>
       </header>
 

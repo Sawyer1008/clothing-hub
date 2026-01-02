@@ -43,10 +43,10 @@ export default function HomePage() {
           {/* Left: text */}
           <div className="flex-1 space-y-7">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
-              Clothing Hub · Shopping OS
+              Style Hub · Shopping OS
             </p>
             <h1 className="text-4xl font-semibold leading-tight tracking-tight sm:text-5xl lg:text-6xl">
-              Clothing Hub is the Shopping OS for multi-brand fashion.
+              Style Hub is the Shopping OS for multi-brand fashion.
             </h1>
             <p className="max-w-xl text-base text-slate-300 sm:text-lg">
               A unified catalog to save across brands and get stylist-led discovery in one place.

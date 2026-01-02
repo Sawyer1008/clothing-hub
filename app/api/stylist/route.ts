@@ -32,7 +32,7 @@ export async function POST(req: NextRequest) {
           {
             role: "system",
             content:
-              "You are a friendly fashion stylist for an app called Clothing Hub. " +
+              "You are a friendly fashion stylist for an app called Style Hub. " +
               "The user can shop Abercrombie, H&M, and PacSun. " +
               "Suggest complete outfits based on their request. " +
               "Mention brands and item types (hoodies, cargos, jeans, tees) and keep it concise.",

@@ -10,9 +10,12 @@ import { CartProvider } from "./cart/CartContext";
 import { SavedProductsProvider } from "@/context/SavedProductsContext";
 
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Style Hub",
-  description: "Unified fashion shopping demo",
+  description: "Style Hub is the Shopping OS for multi-brand fashion.",
+  other: {
+    "impact-site-verification": "9765ade4-a7f1-49b6-8a10-8b03b6a5533c",
+  },
 };
 
 export default function RootLayout({
